@@ -1,0 +1,19 @@
+{
+    "name": "2022 - Questoris Household",
+    "game": "",
+    "genre": "generic",
+    "publisher": "",
+    "url": "",
+    "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+    "manifest": {
+        "assetTaxonomy": {
+            "Force": {}
+        },
+        "assetCatalog": {
+            "Force§Questoris Household Force Organisation Chart": {},
+            "Roster§Roster": {
+                "classification": "Roster"
+            }
+        }
+    }
+}
