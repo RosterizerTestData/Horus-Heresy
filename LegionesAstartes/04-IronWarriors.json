@@ -1,0 +1,778 @@
+{
+    "name": "LA -   IV: Iron Warriors",
+    "game": "",
+    "genre": "generic",
+    "publisher": "",
+    "url": "",
+    "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+    "manifest": {
+        "assetTaxonomy": {
+            "Model": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Profile": {
+                "stats": {
+                    "A": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Access Points": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "AP": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "BS": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Front": {
+                        "statType": "numeric",
+                        "value": null
+                    },
+                    "HP": {
+                        "statType": "numeric",
+                        "value": null
+                    },
+                    "I": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Ld": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Move": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Range": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Rear": {
+                        "statType": "numeric",
+                        "value": null
+                    },
+                    "S": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Save": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Side": {
+                        "statType": "numeric",
+                        "value": null
+                    },
+                    "Strength": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "T": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Transport Capacity": {
+                        "statType": "numeric",
+                        "value": null
+                    },
+                    "Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Unit Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "W": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "WS": {
+                        "statType": "term",
+                        "value": null
+                    }
+                }
+            },
+            "Rule": {},
+            "SelectionEntry": {},
+            "SelectionEntryGroup": {},
+            "Unit": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Upgrade": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            }
+        },
+        "assetCatalog": {
+            "Model§Dominator": {
+                "stats": {
+                    "Pts": {
+                        "value": 40
+                    }
+                }
+            },
+            "Model§Domitar-ferrum": {
+                "stats": {
+                    "Pts": {
+                        "value": 135
+                    }
+                }
+            },
+            "Model§Erasmus Golg": {
+                "stats": {
+                    "Pts": {
+                        "value": 175
+                    }
+                }
+            },
+            "Model§Iron Havoc": {
+                "stats": {
+                    "Pts": {
+                        "value": 20
+                    }
+                }
+            },
+            "Model§Iron Havoc Sgt": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Kyr Vhalen": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Nârik Dreygur": {
+                "stats": {
+                    "Pts": {
+                        "value": 135
+                    }
+                }
+            },
+            "Model§Perturabo": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Siege Master": {
+                "keywords": {
+                    "Keywords": [
+                        "Character"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§The Tormentor": {
+                "stats": {
+                    "Pts": {
+                        "value": 900
+                    }
+                }
+            },
+            "Model§Tyrant": {
+                "stats": {
+                    "Pts": {
+                        "value": 55
+                    }
+                }
+            },
+            "Profile§Aegeas": {
+                "stats": {
+                    "AP": {
+                        "value": 3
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 2
+                    },
+                    "Type": {
+                        "value": "Melee, Breaching (4+), Blind, Master-crafted"
+                    }
+                }
+            },
+            "Profile§Dominator": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": "6\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Domitar-ferrum": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 3
+                    },
+                    "I": {
+                        "value": 3
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "8\""
+                    },
+                    "S": {
+                        "value": 7
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 7
+                    },
+                    "Unit Type": {
+                        "value": "Automata (Cybernetica, Heavy)"
+                    },
+                    "W": {
+                        "value": 5
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Erasmus Golg": {
+                "stats": {
+                    "A": {
+                        "value": 4
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "6\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy, Character, Unique)"
+                    },
+                    "W": {
+                        "value": 4
+                    },
+                    "WS": {
+                        "value": 6
+                    }
+                }
+            },
+            "Profile§Extricator": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 10
+                    },
+                    "Type": {
+                        "value": "Melee, Armourbane (melee), Master-crafted, Unwieldy"
+                    }
+                }
+            },
+            "Profile§Ferrum Occularis": {
+                "text": "Shooting Attacks made using a weapon with the Heavy type by a model with a Ferrum Occularius gain the Precision Shots (6+) special rule, as long as the attack is not made as part of a Reaction or a Snap Shot."
+            },
+            "Profile§Forgebreaker Desecrated": {
+                "stats": {
+                    "AP": {
+                        "value": 1
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 12
+                    },
+                    "Type": {
+                        "value": "Melee, Unwieldy, Master-crafted, Exoshock (3+), Brutal (2)"
+                    }
+                }
+            },
+            "Profile§Graviton Gauntlet": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 8
+                    },
+                    "Type": {
+                        "value": "Melee, Unwieldy, Specialist Weapon, Haywire"
+                    }
+                }
+            },
+            "Profile§Iron Havoc": {
+                "stats": {
+                    "A": {
+                        "value": 1
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 7
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy)"
+                    },
+                    "W": {
+                        "value": 1
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Iron Havoc Sergeant": {
+                "stats": {
+                    "A": {
+                        "value": 1
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 7
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy, Character)"
+                    },
+                    "W": {
+                        "value": 1
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Karceri Battle Shield": {
+                "text": "A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers and unsaved wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat is always resolved as a Disordered Charge."
+            },
+            "Profile§Kyr Vhalen": {
+                "stats": {
+                    "A": {
+                        "value": 4
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character, Unique)"
+                    },
+                    "W": {
+                        "value": 4
+                    },
+                    "WS": {
+                        "value": 6
+                    }
+                }
+            },
+            "Profile§Omni-scope": {
+                "text": "A unit that includes at least one model with an omni-scope ignores all the effects of Night Fighting, and when a unit that includes one or more models with this special rule makes the Interceptor Advanced Reaction, the reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase."
+            },
+            "Profile§Perturabo": {
+                "stats": {
+                    "A": {
+                        "value": 6
+                    },
+                    "BS": {
+                        "value": 7
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 6
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 7
+                    },
+                    "Unit Type": {
+                        "value": "Primarch (Unique)"
+                    },
+                    "W": {
+                        "value": 6
+                    },
+                    "WS": {
+                        "value": 7
+                    }
+                }
+            },
+            "Profile§The Logos Array (Ranged)": {
+                "stats": {
+                    "AP": {
+                        "value": 3
+                    },
+                    "Range": {
+                        "value": "30\""
+                    },
+                    "Strength": {
+                        "value": 6
+                    },
+                    "Type": {
+                        "value": "Assault 6, Twin-linked, Shred, Pinning, Shell Shock (1)"
+                    }
+                }
+            },
+            "Profile§The Revenant's Pawn": {
+                "text": "When included in an Allied Detachment that is part of an army with a Primary Detachment whose Warlord is either Cassian Dracos Reborn or Xiaphas Jurr, the Allied Detachment that Nârik Dreygur is part of may include a unit of Legion Veterans with the Legiones Astartes (Iron Warriors) special rule that does not use up a Force Organisation choice and does not count for any minimum required units the army must select. In addition, Nârik Dreygur gains +1 Attack and the Stubborn special rule when within 12\" of Cassian Dracos Reborn."
+            },
+            "Profile§The Tormentor": {
+                "stats": {
+                    "Access Points": {
+                        "value": "One at the rear."
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "Front": {
+                        "value": 13
+                    },
+                    "HP": {
+                        "value": 12
+                    },
+                    "Move": {
+                        "value": "10\""
+                    },
+                    "Rear": {
+                        "value": 12
+                    },
+                    "Side": {
+                        "value": 13
+                    },
+                    "Transport Capacity": {
+                        "value": 24
+                    },
+                    "Unit Type": {
+                        "value": "Vehicle (Super-heavy, Transport, Unique)"
+                    }
+                }
+            },
+            "Roster§Roster": {
+                "classification": "Roster"
+            },
+            "Rule§Armourbane (X)": {},
+            "Rule§Battle-Hardened (X)": {},
+            "Rule§Battlesmith (X)": {},
+            "Rule§Blind": {},
+            "Rule§Breaching (X)": {},
+            "Rule§Brutal (X)": {},
+            "Rule§Bulky (X)": {},
+            "Rule§Chosen Warriors": {},
+            "Rule§Exoshock (X)": {},
+            "Rule§Feel No Pain (X)": {},
+            "Rule§Firing Protocols (X)": {},
+            "Rule§Hammer of Wrath (X)": {},
+            "Rule§Hatred (X)": {},
+            "Rule§Haywire": {},
+            "Rule§Inexorable": {},
+            "Rule§Legiones Astartes (Iron Warriors) ": {},
+            "Rule§Legiones Cybernetica": {},
+            "Rule§Loyalist": {},
+            "Rule§Master of Automata": {},
+            "Rule§Master-crafted": {},
+            "Rule§Pinning": {},
+            "Rule§Precision Shots (X)": {},
+            "Rule§Relentless": {},
+            "Rule§Shell Shock (X)": {},
+            "Rule§Shred": {},
+            "Rule§Specialist Weapon": {},
+            "Rule§Stubborn": {},
+            "Rule§Transport Bay": {},
+            "Rule§Twin-linked": {},
+            "Rule§Two-handed": {},
+            "Rule§Unwieldy": {},
+            "Rule§Void Shields": {},
+            "SelectionEntry§Artificer Armour": {},
+            "SelectionEntry§Augury Scanner": {},
+            "SelectionEntry§Bolt Pistol": {},
+            "SelectionEntry§Cataphractii Terminator Armour": {},
+            "SelectionEntry§Combi-Bolter": {},
+            "SelectionEntry§Cortex Controller": {},
+            "SelectionEntry§Frag Grenades": {},
+            "SelectionEntry§Graviton Maul": {},
+            "SelectionEntry§Grenade Harness": {},
+            "SelectionEntry§Iron Halo": {},
+            "SelectionEntry§Krak Grenades": {},
+            "SelectionEntry§Lascannon": {},
+            "SelectionEntry§Magna Combi-Weapon - Meltagun": {},
+            "SelectionEntry§Master of the Legion": {},
+            "SelectionEntry§Meltabombs": {},
+            "SelectionEntry§Nuncio-Vox": {},
+            "SelectionEntry§Power Armour": {},
+            "SelectionEntry§Refractor Field": {},
+            "SelectionEntry§Searchlights": {},
+            "SelectionEntry§Servo-Arm": {},
+            "SelectionEntry§Shrapnel Cannon": {},
+            "SelectionEntry§Smoke Launchers": {},
+            "SelectionEntry§Twin-linked Heavy Bolter": {},
+            "SelectionEntry§Tyrant Rocket Luncher": {},
+            "SelectionEntry§Volcano Cannon": {},
+            "SelectionEntry§Volkite Charger": {},
+            "SelectionEntry§Warlord": {},
+            "SelectionEntryGroup§Retinue": {},
+            "Unit§Dominator Cohort": {
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Unit§Iron Circle Maniple": {
+                "keywords": {
+                    "Keywords": [
+                        "Automata:",
+                        "Legiones Astartes",
+                        "Heavy"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 15
+                    }
+                }
+            },
+            "Unit§Iron Havocs": {
+                "stats": {
+                    "Pts": {
+                        "value": 55
+                    }
+                }
+            },
+            "Unit§Tyrant Siege Terminator Squad": {
+                "stats": {
+                    "Pts": {
+                        "value": 80
+                    }
+                }
+            },
+            "Upgrade§Aegeas": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Extricator": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Forgebreaker Desecrated": {
+                "stats": {
+                    "Pts": {
+                        "value": 35
+                    }
+                }
+            },
+            "Upgrade§Graviton Gauntlet": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Hull (Front) Mounted twin-linked heavy bolter": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Hull (Left) Mounted lascannon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Hull (Left) Mounted twin-linked heavy bolter": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Hull (Right) Mounted lascannon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Hull (Right) Mounted twin-linked heavy bolter": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Karceri Battle Shield": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Logos Array": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Turret Mounted volcano cannon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            }
+        }
+    }
+}

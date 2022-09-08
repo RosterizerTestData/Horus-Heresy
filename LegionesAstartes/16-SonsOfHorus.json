@@ -1,0 +1,808 @@
+{
+    "name": "LA -  XVI: Sons of Horus",
+    "game": "",
+    "genre": "generic",
+    "publisher": "",
+    "url": "",
+    "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+    "manifest": {
+        "assetTaxonomy": {
+            "Model": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Profile": {
+                "stats": {
+                    "A": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "AP": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "BS": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "I": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Ld": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Move": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Range": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "S": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Save": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Strength": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "T": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Unit Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "W": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "WS": {
+                        "statType": "term",
+                        "value": null
+                    }
+                }
+            },
+            "Rule": {},
+            "SelectionEntry": {},
+            "SelectionEntryGroup": {},
+            "Unit": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Upgrade": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            }
+        },
+        "assetCatalog": {
+            "Model§Chieftain": {
+                "stats": {
+                    "Pts": {
+                        "value": 20
+                    }
+                }
+            },
+            "Model§Ezekyle Abaddon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Garviel Loken": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Maloghurst the Twisted": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Reaver": {
+                "stats": {
+                    "Pts": {
+                        "value": 22
+                    }
+                }
+            },
+            "Model§Reaver Aggressor": {
+                "stats": {
+                    "Pts": {
+                        "value": 30
+                    }
+                }
+            },
+            "Model§Reaver Aggressor Chieftain": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Reaver Chieftain": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Standard Bearer": {
+                "stats": {
+                    "Pts": {
+                        "value": 20
+                    }
+                }
+            },
+            "Model§Tybalt Marr": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Profile§Chieftain": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Cthonic power claw": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": "x2"
+                    },
+                    "Type": {
+                        "value": "Melee, Unwieldy, Specialist Weapon, Shred, Master-crafted"
+                    }
+                }
+            },
+            "Profile§Ezekyle Abaddon (P3P ZW)": {
+                "stats": {
+                    "A": {
+                        "value": 5
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "6\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy, Character, Unique)"
+                    },
+                    "W": {
+                        "value": 4
+                    },
+                    "WS": {
+                        "value": 7
+                    }
+                }
+            },
+            "Profile§Garviel Loken": {
+                "stats": {
+                    "A": {
+                        "value": 5
+                    },
+                    "BS": {
+                        "value": 6
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "(Character, Unique)"
+                    },
+                    "W": {
+                        "value": 3
+                    },
+                    "WS": {
+                        "value": 6
+                    }
+                }
+            },
+            "Profile§Maloghurst the Twisted (P3P ZW)": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "(Character, Line, Unique)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Reaver": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Reaver Aggressor": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Reaver Aggressor Chieftain": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Reaver Chieftain": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Standard Bearer": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§The Culling Blade": {
+                "stats": {
+                    "AP": {
+                        "value": "-"
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 5
+                    },
+                    "Type": {
+                        "value": "Melee, Breaching (5+)., Murderous Strike (5+), Duellist's Edge (1), Master-crafted"
+                    }
+                }
+            },
+            "Profile§The Serpent's Scales": {
+                "text": "The Serpent's Scales provide 2+ Armour Save and a 3+ Invulnerable Save."
+            },
+            "Profile§The Warmaster's Talon (Melee)": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": "User"
+                    },
+                    "Type": {
+                        "value": "Melee, Shred, Deflagrate"
+                    }
+                }
+            },
+            "Profile§Tybalt Marr": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character, Unique)"
+                    },
+                    "W": {
+                        "value": 3
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Worldbreaker": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": 10
+                    },
+                    "Type": {
+                        "value": "Melee, Master-crafted, Brutal (2), Sunder, Unwieldy"
+                    }
+                }
+            },
+            "Roster§Roster": {
+                "classification": "Roster"
+            },
+            "Rule§Adamantium Will (X+)": {},
+            "Rule§Battle-Hardened (X)": {},
+            "Rule§Breaching (X)": {},
+            "Rule§Brutal (X)": {},
+            "Rule§Bulky (X)": {},
+            "Rule§Chosen Warriors": {},
+            "Rule§Counter-Attack (X)": {},
+            "Rule§Deep Strike": {},
+            "Rule§Deflagrate": {},
+            "Rule§Duellist’s Edge (X)": {},
+            "Rule§Fearless": {},
+            "Rule§Furious Charge (X)": {},
+            "Rule§Independent Character": {},
+            "Rule§It Will Not Die (X)": {},
+            "Rule§Legiones Astartes (Sons of Hours) ": {},
+            "Rule§Loyalist": {},
+            "Rule§Master of the Legion": {},
+            "Rule§Master-crafted": {},
+            "Rule§Murderous Strike (X)": {},
+            "Rule§Precision Shots (X)": {},
+            "Rule§Precision Strikes (X)": {},
+            "Rule§Relentless": {},
+            "Rule§Shred": {},
+            "Rule§Specialist Weapon": {},
+            "Rule§Stubborn": {},
+            "Rule§Sunder": {},
+            "Rule§Traitor": {},
+            "Rule§Twin-linked": {},
+            "Rule§Unwieldy": {},
+            "SelectionEntry§Artificer Armour": {},
+            "SelectionEntry§Banestrike Bolter": {},
+            "SelectionEntry§Boarding Shield": {},
+            "SelectionEntry§Bolt Pistol": {},
+            "SelectionEntry§Cataphractii Terminator Armour": {},
+            "SelectionEntry§Chainaxe": {},
+            "SelectionEntry§Cognis-Signum": {},
+            "SelectionEntry§Combi-Bolter": {},
+            "SelectionEntry§Frag Grenades": {},
+            "SelectionEntry§Grenade Harness": {},
+            "SelectionEntry§Iron Halo": {},
+            "SelectionEntry§Krak Grenades": {},
+            "SelectionEntry§Legion Standard": {},
+            "SelectionEntry§Master of the Legion": {},
+            "SelectionEntry§Paragon Blade": {},
+            "SelectionEntry§Power Armour": {},
+            "SelectionEntry§Power Sword": {},
+            "SelectionEntry§Refractor Field": {},
+            "SelectionEntry§Warhawk Jump Pack": {},
+            "SelectionEntry§Warlord": {},
+            "SelectionEntryGroup§Retinue": {},
+            "Unit§Chieftain Squad": {
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Unit§Ezekyle Abaddon": {
+                "keywords": {
+                    "Keywords": [
+                        "Infantry:",
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 250
+                    }
+                }
+            },
+            "Unit§Garviel Loken": {
+                "keywords": {
+                    "Keywords": [
+                        "Infantry:",
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 175
+                    }
+                }
+            },
+            "Unit§Horus Lupercal": {
+                "stats": {
+                    "Pts": {
+                        "value": 600
+                    }
+                }
+            },
+            "Unit§Justaerin Terminator Squad": {
+                "keywords": {
+                    "Keywords": [
+                        "Heavy",
+                        "Infantry:",
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Unit§Maloghurst the Twisted": {
+                "keywords": {
+                    "Keywords": [
+                        "Infantry:",
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 140
+                    }
+                }
+            },
+            "Unit§Reaver Aggressor Squad": {
+                "keywords": {
+                    "Keywords": [
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 45
+                    }
+                }
+            },
+            "Unit§Reaver Attack Squad": {
+                "keywords": {
+                    "Keywords": [
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 47
+                    }
+                }
+            },
+            "Unit§Tybalt Marr": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Cthonic power claw": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Justaerin": {
+                "stats": {
+                    "Pts": {
+                        "value": 50
+                    }
+                }
+            },
+            "Upgrade§The Culling Blade": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Serpent's Scales": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Warmaster's Talon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Worldbreaker": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            }
+        }
+    }
+}
