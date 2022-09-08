@@ -1,0 +1,723 @@
+{
+    "name": "LA - XIX: Raven Guard",
+    "game": "",
+    "genre": "generic",
+    "publisher": "",
+    "url": "",
+    "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+    "manifest": {
+        "assetTaxonomy": {
+            "Model": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Profile": {
+                "stats": {
+                    "A": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "AP": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "BS": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "I": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Ld": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Move": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Range": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "S": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Save": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Strength": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "T": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "Unit Type": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "W": {
+                        "statType": "term",
+                        "value": null
+                    },
+                    "WS": {
+                        "statType": "term",
+                        "value": null
+                    }
+                }
+            },
+            "Rule": {},
+            "SelectionEntry": {},
+            "SelectionEntryGroup": {},
+            "Unit": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            },
+            "Upgrade": {
+                "stats": {
+                    "Pts": {
+                        "statType": "numeric",
+                        "tracked": true,
+                        "value": null
+                    }
+                }
+            }
+        },
+        "assetCatalog": {
+            "Model§Chooser of the Slain": {
+                "stats": {
+                    "Pts": {
+                        "value": 40
+                    }
+                }
+            },
+            "Model§Corvus Corax": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Dark Furies": {
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Model§Deliverer": {
+                "stats": {
+                    "Pts": {
+                        "value": 40
+                    }
+                }
+            },
+            "Model§Deliverer Chieftan": {
+                "stats": {
+                    "Pts": {
+                        "value": 40
+                    }
+                }
+            },
+            "Model§Mor Deythan": {
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Model§Mor Deythan Shade": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Moritat-Prime Kaedes Nex": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Model§Strike Captain Alvarex Maun": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Profile§Chooser of the Slain": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Corvus Corax": {
+                "stats": {
+                    "A": {
+                        "value": 7
+                    },
+                    "BS": {
+                        "value": 6
+                    },
+                    "I": {
+                        "value": 7
+                    },
+                    "Ld": {
+                        "value": 10
+                    },
+                    "Move": {
+                        "value": 8
+                    },
+                    "S": {
+                        "value": 6
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 6
+                    },
+                    "Unit Type": {
+                        "value": "Primarch (Unique, Skirmish)"
+                    },
+                    "W": {
+                        "value": 6
+                    },
+                    "WS": {
+                        "value": 7
+                    }
+                }
+            },
+            "Profile§Dark Fury": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Deliverer": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": 6
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Heavy)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Deliverer Chieftan": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 4
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": 6
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character, Heavy)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Mor Deythan": {
+                "stats": {
+                    "A": {
+                        "value": 2
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 8
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Skrimish)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Mor Deythan Shade": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": "7\""
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Skirmish, Character)"
+                    },
+                    "W": {
+                        "value": 2
+                    },
+                    "WS": {
+                        "value": 4
+                    }
+                }
+            },
+            "Profile§Moritat-Prime Kaedes Nex": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 6
+                    },
+                    "I": {
+                        "value": 5
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": 8
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "3+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character, Light, Unique)"
+                    },
+                    "W": {
+                        "value": 3
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§Nightfall pattern strato-vox": {
+                "text": "While Strike Captain Alvarex Maun is present on the battlefield and not Embarked in a Vehicle or Building, the controlling player may reduce the distance of any Scatter rolls made (whether as part of a weapon attack or the deployment of a model or unit) by 5, as long as Strike Captain Alvarex Maun is within 12\" of the unit targeted by the attack or the point chosen as the target of the deployment. In addition, Strike Captain Alvarex Maun and any unit that he has joined ignores the -1 penalty to Leadership imposed by the Night Fighting rules."
+            },
+            "Profile§Pinpoint Strike": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "24\""
+                    },
+                    "Strength": {
+                        "value": 6
+                    },
+                    "Type": {
+                        "value": "Pistol 1, Brutal (2), Concussive (1), Pinning, Sniper"
+                    }
+                }
+            },
+            "Profile§Strike Captain Alvarex Maun": {
+                "stats": {
+                    "A": {
+                        "value": 3
+                    },
+                    "BS": {
+                        "value": 5
+                    },
+                    "I": {
+                        "value": 4
+                    },
+                    "Ld": {
+                        "value": 9
+                    },
+                    "Move": {
+                        "value": 7
+                    },
+                    "S": {
+                        "value": 4
+                    },
+                    "Save": {
+                        "value": "2+"
+                    },
+                    "T": {
+                        "value": 4
+                    },
+                    "Unit Type": {
+                        "value": "Infantry (Character, Unique)"
+                    },
+                    "W": {
+                        "value": 3
+                    },
+                    "WS": {
+                        "value": 5
+                    }
+                }
+            },
+            "Profile§The Korvidine Pinions": {
+                "text": "At the start of the controlling player's Movement phase, or when deployed as part of a Deep Strike Assault Corvus Corax’s Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn (referred to as ‘activating’ this special rule). This allows Corvus Corax to move up to 14\", regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge Distance). In addition, Corvus Corax may move over Impassable Terrain, vertical terrain or friendly and enemy models or units without penalty on any turn in which the Korvidine Pinions have been activated, but may not end his movement in Impassable Terrain or within 1\" of any model from a unit Corvus Corax is not part of. If Corvus Corax ends or begins his movement or a Charge in Dangerous Terrain during any turn in which the Korvidine Pinions have been activated, he automatically passes any Dangerous Terrain tests he is called upon to make.\n\t\t\t\t\nCorvus Corax may still Run on a turn when the Korvidine Pinions have been activated. When making a Run move after having activated the Korvidine Pinions, add Corvus Corax’s Initiative Characteristic to 14 to determine how far he may move – ignoring terrain and other models while making a Run move with the Korvidine Pinions activated as noted above, but may not make Shooting Attacks or declare a Charge in the same turn in which Corvus Corax has Run as per the normal rules for Running. The Korvidine Pinions may not be activated to gain any bonus to Corvus Corax's Movement Characteristic during a Reaction."
+            },
+            "Profile§The Panoply of the Raven Guard": {
+                "stats": {
+                    "AP": {
+                        "value": 2
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": "User"
+                    },
+                    "Type": {
+                        "value": "Melee, Shred, Blind, Fighting Style, Two-handed"
+                    }
+                }
+            },
+            "Profile§The Sable Armour": {
+                "text": "The Sable Armour provides a 2+ Armour Save, a 4+ Invulnerable Save and grants the Shrouded (4+) special rule."
+            },
+            "Profile§Tolaedus": {
+                "stats": {
+                    "AP": {
+                        "value": 3
+                    },
+                    "Range": {
+                        "value": "-"
+                    },
+                    "Strength": {
+                        "value": "User"
+                    },
+                    "Type": {
+                        "value": "Melee, Master-crafted, Breaching (5+)"
+                    }
+                }
+            },
+            "Profile§Wrath & Justice": {
+                "stats": {
+                    "AP": {
+                        "value": 4
+                    },
+                    "Range": {
+                        "value": "12\""
+                    },
+                    "Strength": {
+                        "value": 6
+                    },
+                    "Type": {
+                        "value": "Pistol 1, Rending (3+), Deflagerate, Master-crafted"
+                    }
+                }
+            },
+            "Roster§Roster": {
+                "classification": "Roster"
+            },
+            "Rule§Blind": {},
+            "Rule§Breaching (X)": {},
+            "Rule§Brutal (X)": {},
+            "Rule§Bulky (X)": {},
+            "Rule§Concussive (X)": {},
+            "Rule§Deep Strike": {},
+            "Rule§Deflagrate": {},
+            "Rule§Hit & Run": {},
+            "Rule§Legiones Astartes (Raven Guard) ": {},
+            "Rule§Loyalist": {},
+            "Rule§Master-crafted": {},
+            "Rule§Move Through Cover": {},
+            "Rule§Pathfinder": {},
+            "Rule§Pinning": {},
+            "Rule§Precision Strikes (X)": {},
+            "Rule§Rampage (X)": {},
+            "Rule§Relentless": {},
+            "Rule§Rending (X)": {},
+            "Rule§Scout": {},
+            "Rule§Shred": {},
+            "Rule§Shrouded (X)": {},
+            "Rule§Sniper": {},
+            "Rule§Specialist Weapon": {},
+            "Rule§Stubborn": {},
+            "Rule§Sudden Strike (X)": {},
+            "Rule§Two-handed": {},
+            "SelectionEntry§Artificer Armour": {},
+            "SelectionEntry§Bolt Pistol": {},
+            "SelectionEntry§Cataphractii Terminator Armour": {},
+            "SelectionEntry§Corvid Pattern Jump Pack": {},
+            "SelectionEntry§Frag Grenades": {},
+            "SelectionEntry§Infravisor": {},
+            "SelectionEntry§Krak Grenades": {},
+            "SelectionEntry§Master of the Legion": {},
+            "SelectionEntry§Meltabombs": {},
+            "SelectionEntry§Pair of Raven's Talons": {},
+            "SelectionEntry§Power Armour": {},
+            "SelectionEntry§Refractor Field": {},
+            "SelectionEntry§Shroud Bombs": {},
+            "SelectionEntry§Warlord": {},
+            "SelectionEntryGroup§Deliverer Heavy Weapons": {},
+            "SelectionEntryGroup§Deliverer Melee Weapon": {},
+            "SelectionEntryGroup§Deliverer Ranged Weapon": {},
+            "SelectionEntryGroup§Paired Melee Weapons:": {},
+            "SelectionEntryGroup§Retinue": {},
+            "Unit§Corvus Corax": {
+                "stats": {
+                    "Pts": {
+                        "value": 440
+                    }
+                }
+            },
+            "Unit§Dark Furies": {
+                "stats": {
+                    "Pts": {
+                        "value": 10
+                    }
+                }
+            },
+            "Unit§Deliverers Squad": {
+                "stats": {
+                    "Pts": {
+                        "value": 25
+                    }
+                }
+            },
+            "Unit§Mor Deythan Squad": {
+                "keywords": {
+                    "Keywords": [
+                        "Infantry:",
+                        "Skirmish:",
+                        "Legiones Astartes"
+                    ]
+                },
+                "stats": {
+                    "Pts": {
+                        "value": 50
+                    }
+                }
+            },
+            "Unit§Moritat-Prime Kaedes Nex": {
+                "stats": {
+                    "Pts": {
+                        "value": 165
+                    }
+                }
+            },
+            "Unit§Strike Captain Alvarex Maun": {
+                "stats": {
+                    "Pts": {
+                        "value": 140
+                    }
+                }
+            },
+            "Upgrade§Fulcrim Hand Cannon": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Nightfall pattern strato-vox": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Korvidine Pinions": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Panoply of the Raven Guard": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§The Sable Armour": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Tolaedus": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            },
+            "Upgrade§Wrath & Justice": {
+                "stats": {
+                    "Pts": {
+                        "value": 0
+                    }
+                }
+            }
+        }
+    }
+}
