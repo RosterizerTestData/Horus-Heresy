@@ -1,0 +1,1423 @@
+{
+  "name": "LA -   VII: Imperial Fists",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "Unit Type": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      " Vehicle": {
+        "stats": {
+          "BS": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Front": {
+            "statType": "numeric",
+            "value": null
+          },
+          "HP": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "Rear": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Side": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Transport Capacity": {
+            "statType": "numeric",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Alexis Polux": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Heavy, Unique)"
+      },
+      " Unit§Brethren": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "Unit Type": {
+            "value": "Infantry"
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      " Unit§Champion": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character)"
+      },
+      " Unit§Fafnir Rann": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Unique, Character, Heavy)"
+      },
+      " Unit§Huscarl-master": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy, Character)"
+      },
+      " Unit§Lord-Castellan Evander Garrius": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Heavy, Character, Unique)"
+      },
+      " Unit§Rogal Dorn": {
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "8\""
+          },
+          "S": {
+            "value": 6
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 7
+          },
+          "WS": {
+            "value": 8
+          }
+        },
+        "text": "Primarch (Unique)"
+      },
+      " Unit§Sigismund": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      " Unit§Warder Sergeant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Heavy)"
+      },
+      " Vehicle§Ætos Dios": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 12
+          },
+          "HP": {
+            "value": 9
+          },
+          "Move": {
+            "value": "18\""
+          },
+          "Rear": {
+            "value": 12
+          },
+          "Side": {
+            "value": 12
+          },
+          "Transport Capacity": {
+            "value": 32
+          }
+        },
+        "text": "One on each side and one via the front ramp."
+      },
+      "Model§Brethren": {
+        "assets": {
+          "traits": [
+            " Unit§Brethren"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Model§Champion": {
+        "assets": {
+          "traits": [
+            " Unit§Champion"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Bolt Pistol Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Plasma Pistol": {
+                "order": 2
+              },
+              "Archaeotech Pistol": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Power Sword Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Fist": {
+                "order": 1
+              },
+              "Solarite Power Gauntlet": {
+                "order": 2
+              },
+              "Thunder Hammer": {
+                "order": 3
+              },
+              "Power Sword": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          },
+          "Wargear": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combat Shield": {
+                "order": 1
+              },
+              "Master-craft a weapon": {
+                "order": 1
+              },
+              "Power Dagger": {
+                "order": 2
+              },
+              "Venom Spheres": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Model§Huscarl-master": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Vigil Storm Shield",
+            " Unit§Huscarl-master"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Melee Weapon Choice:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Sword": {
+                "order": 1
+              },
+              "Solarite Power Gauntlet": {
+                "order": 2
+              },
+              "Power Axe": {
+                "order": 3
+              },
+              "Power Maul": {
+                "order": 4
+              },
+              "Power Lance": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          },
+          "Wargear": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Grenade Harness": {
+                "order": 1
+              },
+              "Power Dagger": {
+                "order": 2
+              },
+              "Venom Spheres": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Model§Warder Sergeant": {
+        "assets": {
+          "traits": [
+            " Unit§Warder Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          " Weapon Options:": {
+            "ranks": {},
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          },
+          "Wargear": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificer Armour": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              },
+              "Venom Spheres": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Assault Vehicle": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Crusader": {},
+      "Rule§Deep Strike": {},
+      "Rule§Deflagrate": {},
+      "Rule§Eternal Warrior": {},
+      "Rule§Fearless": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Furious Charge (X)": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Instant Death": {},
+      "Rule§Legiones Astartes (Imperial Fists)": {},
+      "Rule§Loyalist": {},
+      "Rule§Master-crafted": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Power of the Machine Spirit": {},
+      "Rule§Precision Strikes (X)": {},
+      "Rule§Rad-Phage": {},
+      "Rule§Rampage (X)": {},
+      "Rule§Reaping Blow (X)": {},
+      "Rule§Relentless": {},
+      "Rule§Rending (X)": {},
+      "Rule§Shred": {},
+      "Rule§Specialist Weapon": {},
+      "Rule§Stubborn": {},
+      "Rule§Transport Bay": {},
+      "Rule§Two-handed": {},
+      "Rule§Unwieldy": {},
+      "Rule§Void Shields": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Boarding Shield": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Breacher Charge": {},
+      "SelectionEntry§Deepstike (Hammerfall Strike Force)": {},
+      "SelectionEntry§Flare Shield": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Heavy Bolter": {},
+      "SelectionEntry§Iron Halo": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Lascannon": {},
+      "SelectionEntry§Magna Combi-Weapon - Meltagun": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Power Sword": {},
+      "SelectionEntry§Ramjet Diffraction Grid": {},
+      "SelectionEntry§Solarite Power Gauntlet": {},
+      "SelectionEntry§Turbo-Laser Destructor": {},
+      "SelectionEntry§Vigil Storm Shield": {},
+      "SelectionEntry§Warlord": {},
+      "Unit§Ætos Dios": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "Rule§Power of the Machine Spirit",
+            "Rule§Assault Vehicle",
+            "Rule§Void Shields",
+            "Rule§Transport Bay",
+            "SelectionEntry§Lascannon",
+            "SelectionEntry§Turbo-Laser Destructor",
+            "SelectionEntry§Heavy Bolter",
+            "SelectionEntry§Ramjet Diffraction Grid",
+            "SelectionEntry§Flare Shield",
+            " Vehicle§Ætos Dios"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Legiones Astartes",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 800
+          },
+          "Wing Weapon Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Hellstrike Missile": {
+                "order": 1
+              },
+              "Macro-Bomb Cluster": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Unit§Alexis Polux ": {
+        "assets": {
+          "traits": [
+            "Rule§Deep Strike",
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Magna Combi-Weapon - Meltagun",
+            "SelectionEntry§Solarite Power Gauntlet",
+            "SelectionEntry§Vigil Storm Shield",
+            " Unit§Alexis Polux"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Heavy",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 185
+          }
+        }
+      },
+      "Unit§Fafnir Rann": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "Rule§Hammer of Wrath (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Boarding Shield",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Krak Grenades",
+            " Unit§Fafnir Rann",
+            "Upgrade§The Headsman and The Hunter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Heavy",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 175
+          }
+        }
+      },
+      "Unit§Lord-Castellan Evander Garrius": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            "Rule§Adamantium Will (X+)",
+            "Rule§Bulky (X)",
+            "Rule§Loyalist",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord",
+            " Unit§Lord-Castellan Evander Garrius",
+            "Upgrade§Subjugator",
+            "Upgrade§The Tyrant’s Regalia",
+            "Upgrade§Incineratus"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy Sub-type:",
+            "Infantry:",
+            "Independent Character",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 215
+          }
+        }
+      },
+      "Unit§Phalanx Warder Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Boarding Shield",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Breacher Charge",
+            "SelectionEntry§Deepstike (Hammerfall Strike Force)",
+            "Model§Warder Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Phalanx Warders": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Phalanx Warder": {
+                "order": 1
+              },
+              "Phalanx Warder w/Special Weapon (1 in 5)": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Phalanx Warder may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Legion Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) The entire squad may take:": {
+            "ranks": {
+              "Meltabombs": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Termite Assault Drill": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Rhino Transport": {
+                "order": 3
+              },
+              "Storm Eagle Gunship": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Unit§Rogal Dorn": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "Rule§Crusader",
+            "Rule§Deep Strike",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Rogal Dorn",
+            "Upgrade§Storm's Teeth",
+            "Upgrade§The Auric Armour",
+            "Upgrade§The Voice of Terra"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Legiones Astartes",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 435
+          }
+        }
+      },
+      "Unit§Sigismund": {
+        "assets": {
+          "traits": [
+            "Rule§Adamantium Will (X+)",
+            "Rule§Eternal Warrior",
+            "Rule§Fearless",
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "Rule§Precision Strikes (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Krak Grenades",
+            " Unit§Sigismund",
+            "Upgrade§Master-crafted bolt pistol",
+            "Upgrade§The Black Sword"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 230
+          }
+        }
+      },
+      "Unit§Templar Brethren": {
+        "assets": {
+          "traits": [
+            "Rule§Crusader",
+            "Rule§Legiones Astartes (Imperial Fists)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Power Sword",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Deepstike (Hammerfall Strike Force)",
+            "Model§Champion",
+            "Model§Brethren"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Any Brethren may take:": {
+            "ranks": {
+              "Combat Shield": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Any Brethren in the unit may exchange their Bolt Pistol for:": {
+            "ranks": {
+              "Plasma Pistol": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "3) One Brethren may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-vox": {
+                "order": 1
+              },
+              "Legion Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "4) The entire squad may take:": {
+            "ranks": {
+              "Meltabombs": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "5) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Rhino Transport": {
+                "order": 2
+              },
+              "Storm Eagle Gunship": {
+                "order": 3
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 4
+              },
+              "Drop Pod": {
+                "order": 5
+              },
+              "Termite Assault Drill": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Upgrade§Huscarl Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Stubborn",
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Deep Strike",
+            "SelectionEntry§Deepstike (Hammerfall Strike Force)",
+            "Model§Huscarl-master"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Terminators:",
+            "Infantry:",
+            "Legiones Astartes",
+            "Deep Strike:"
+          ]
+        },
+        "stats": {
+          "Huscarls": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Huscarl w/Power Sword": {
+                "order": 1
+              },
+              "Huscarl w/Solarite Power Gauntlet": {
+                "order": 2
+              },
+              "Huscarl w/Power Maul": {
+                "order": 3
+              },
+              "Huscarl w/Power Lance": {
+                "order": 4
+              },
+              "Huscarl w/Power Axe": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 75
+          }
+        }
+      },
+      "Upgrade§Incineratus": {
+        "assets": {
+          "traits": [
+            "Rule§Deflagrate",
+            "Rule§Rad-Phage",
+            "Weapon§Incineratus"
+          ]
+        }
+      },
+      "Upgrade§Master-crafted bolt pistol": {
+        "assets": {
+          "traits": [
+            "Rule§Master-crafted",
+            "Weapon§Master-Crafted bolt pistol"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Solarite Power Gauntlet": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Weapon§Solarite Power Gauntlet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Storm's Teeth": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Murderous Strike (X)",
+            "Rule§Shred",
+            "Rule§Reaping Blow (X)",
+            "Weapon§Storm's Teeth"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Subjugator": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Brutal (X)",
+            "Rule§Reaping Blow (X)",
+            "Weapon§Subjugator"
+          ]
+        }
+      },
+      "Upgrade§The Auric Armour": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Auric Armour"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Black Sword": {
+        "assets": {
+          "traits": [
+            "Rule§Instant Death",
+            "Rule§Two-handed",
+            "Rule§Master-crafted",
+            "Weapon§The Black Sword"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Headsman and The Hunter": {
+        "assets": {
+          "traits": [
+            "Rule§Rampage (X)",
+            "Rule§Specialist Weapon",
+            "Rule§Two-handed",
+            "Rule§Master-crafted",
+            "Weapon§Single axe",
+            "Weapon§Twinned axe"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Tyrant’s Regalia": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)",
+            "Wargear Item§The Tyrant’s Regalia"
+          ]
+        }
+      },
+      "Upgrade§The Voice of Terra": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Weapon§The Voice of Terra"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Vigil Storm Shield": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Vigil Storm Shield"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§The Auric Armour": {
+        "text": "The Auric Armour provides Rogal Dorn with 2+ Armour Save and 4+ Invulnable Save. In addition, no attack may wound Rogal Dorn on better than a 4+ regardless of its Strength or special rules."
+      },
+      "Wargear Item§The Tyrant’s Regalia": {
+        "text": "The Tyrant’s Regalia confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, Evander Garrius has the Feel No Pain (5+) special rule against wounds suffered during any Fight Sub-phase."
+      },
+      "Wargear Item§Vigil Storm Shield": {
+        "text": "Any model with both the Legiones Astartes (Imperial Fists) and Independent Character special rules that does not have the Unique unit Sub-type may take a Vigil storm shield for +20 points. Additionally, any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Tartaros Terminator Squad, or Legion Tartaros Command Squad may exchange a combi-bolter for a Vigil storm shield for +15 points each. Any models with the Legiones Astartes (Imperial Fists) special rule in a Legion Cataphractii Terminator Squad or Legion Cataphractii Command Squad may exchange a combi-bolter for a Vigil storm shield for +10 points each.\n\nA model with a Vigil storm shield gains a 3+ Invulnerable Save – Invulnerable Saves granted by a Vigil storm shield do not stack with other Invulnerable Saves and cannot be modified by any other special rule. If a model has another Invulnerable Save then the controlling player must choose one to use. A model with a Vigil storm shield may never gain an additional attack for being armed with two close combat weapons or make attacks using a weapon with the Two-handed special rule"
+      },
+      "Weapon§Incineratus": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "15\""
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Assault 5, Deflagrate, Rad-phage"
+      },
+      "Weapon§Master-Crafted bolt pistol": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Pistol 1, Master-crafted"
+      },
+      "Weapon§Single axe": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Shield Master*, Specialist Weapon, Master-crafted"
+      },
+      "Weapon§Solarite Power Gauntlet": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 10
+          },
+          "Type": {
+            "value": "Melee, Unwieldy"
+          }
+        }
+      },
+      "Weapon§Storm's Teeth": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Two-handed, Murderous Strike (6+), Shred, Reaping Blow (2)"
+      },
+      "Weapon§Subjugator": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 8
+          }
+        },
+        "text": "Melee, Unwieldy, Brutal (2), Reaping Blow (1)"
+      },
+      "Weapon§The Black Sword": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Two-handed, Instant Death, Master-crafted"
+      },
+      "Weapon§The Voice of Terra": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "24\""
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Assault 3, Rending (5+)"
+      },
+      "Weapon§Twinned axe": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Rampage (2), Specialist Weapon, Two-handed, Master-crafted"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

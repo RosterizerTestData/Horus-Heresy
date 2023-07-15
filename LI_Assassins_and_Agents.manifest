@@ -1,0 +1,1578 @@
+{
+  "name": "2022 - LI - Assassins and Agents",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Psychic Power": {},
+      "Psychic Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Reactions": {},
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Clade Adamus Assassin": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Clade Callidus Assassin": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Clade Culexus Assassin": {
+        "text": "Infantry (Character, Assassin, Light, Anathema)"
+      },
+      " Unit§Clade Eversor Assassin": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Clade Vanus Infocyte Assassin": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Clade Venenum Assassin": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Clade Vindicare Assassin": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 8
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Assassin, Light)"
+      },
+      " Unit§Davinite Lodge Priest": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "6+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Psyker, Character)"
+      },
+      " Unit§Expeditionary Navigator": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "6+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 2
+          }
+        },
+        "text": "Expeditionary Navigator: Infantry (Psyker, Character)"
+      },
+      " Unit§Infernus Abomination": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Abomination, Light)"
+      },
+      "Model§Davinite Lodge Priest": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "Rule§Traitor",
+            "Rule§Militaris Attaché",
+            "SelectionEntry§Refractor Field",
+            " Unit§Davinite Lodge Priest",
+            "Upgrade§Excoricare",
+            "Upgrade§Davinite blade",
+            "Upgrade§Psychic Discipline: Delphos Serpentis"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Model§Expeditionary Navigator": {
+        "assets": {
+          "traits": [
+            "Rule§Militaris Attaché",
+            "Rule§Support Squad",
+            "SelectionEntry§Laspistol",
+            "SelectionEntry§Refractor Field",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            " Unit§Expeditionary Navigator",
+            "Upgrade§Ætherlabe Staff",
+            "Upgrade§Psychic Discipline: Navis Astrologis"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Psychic Power§Psychic Discipline: Delphos Serpentis": {
+        "text": "Instead of making a Shooting Attack, the controlling player of a Psyker with this Psychic Power may take a Psychic check. If the Check is passed, the controlling player may select a single friendly model with the Infantry Unit Type within 6\" of the Psyker that has suffered at least one Wound but has not been removed as a casualty. The selected model regains one Wound, up to a maximum of its starting Wounds characteristic. If the Check is failed, the Psyker suffers Perils of the Warp."
+      },
+      "Psychic Weapon§Lidless Stare (Psychic Weapon)": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "Template"
+          },
+          "Strength": {
+            "value": 2
+          },
+          "Type": {
+            "value": "Pinning, Force"
+          }
+        }
+      },
+      "Reactions§Advanced Reaction: Empyreal Shift": {
+        "text": "This Advanced Reaction may be made either in the Movement phase whenever an enemy unit ends its move within 12\" of a unit that is composed entirely of models with the Abomination Unit Sub-type, in the Shooting phase whenever an enemy unit targets a unit that is composed entirely of models with the Abomination Unit Sub-type with a Shooting Attack, or in the Assault phase whenever an enemy unit declares a Charge against a unit that is composed entirely of models with the Abomination Unit Sub-type. \nThe controlling player of the Reacting unit must make a Leadership test using the Leadership Characteristic of the Reacting model. If the Leadership test is passed, the Reacting unit may immediately move up to 12\". This move may be made in any direction and ignores all terrain or other effects that would limit or modify the distance moved (including allowing models in the Reacting unit to move across Impassable Terrain), as long as the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. \nIf, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reaction, that unit may not select another target for the Shooting Attack or Charge that triggered the Reaction and no dice are rolled and no Surge moves are made (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended). \nIf the Leadership test is failed, both the unit making the Reaction and the unit that triggered the Reaction suffer D6 Wounds with no Armour Saves, Invulnerable Saves or Damage Mitigation rolls allowed."
+      },
+      "Reactions§Advanced Reaction: Tactical Displacement": {
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Roster§Roster": {},
+      "Rule§Abomination": {
+        "text": "Models with the Abomination Sub-type ignore all movement penalties when moving or Charging through terrain of any kind and automatically pass all Dangerous Terrain tests they are called upon to make.\nModels with the Abomination Sub-type may never join or be joined by a unit made up of models with any type.\nModels with the Abomination Sub-type may not Embark on any model with the Transport Sub-type.\nModels with the Abomination Sub-type may never be selected as an army’s Warlord."
+      },
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Breaching (X)": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Counter-Attack (X)": {},
+      "Rule§Deflagrate": {},
+      "Rule§Fear (X)": {},
+      "Rule§Fleshbane": {},
+      "Rule§Force": {},
+      "Rule§Haywire": {},
+      "Rule§Infiltrate": {},
+      "Rule§Loyalist": {},
+      "Rule§Militaris Attaché": {
+        "text": "A model with this special rule may be included in an army with any faction as a non-Compulsory HQ choice and may never be selected as the Warlord."
+      },
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Pinning": {},
+      "Rule§Poisoned (X)": {},
+      "Rule§Psy-shock": {},
+      "Rule§Rampage (X)": {},
+      "Rule§Reach (X)": {},
+      "Rule§Reaping Blow (X)": {},
+      "Rule§Rending (X)": {},
+      "Rule§Scout": {},
+      "Rule§Shred": {},
+      "Rule§Sniper": {},
+      "Rule§Specialist Weapon": {},
+      "Rule§Support Squad": {},
+      "Rule§Template Weapons": {},
+      "Rule§Traitor": {},
+      "Rule§Two-handed": {},
+      "Rule§Unwieldy": {},
+      "SelectionEntry§Laspistol": {},
+      "SelectionEntry§Liberation Force Allies Restriction": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Power Sword": {},
+      "SelectionEntry§Psyk-out Granades": {},
+      "SelectionEntry§Refractor Field": {},
+      "SelectionEntry§Vox Disruptor Array": {},
+      "SelectionEntryGroup§Clade Assassins (Loyalist)": {},
+      "SelectionEntryGroup§Cults Abominatio": {},
+      "Unit§Clade Adamus Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Upgrade§Panoply Of The Assassin",
+            " Unit§Clade Adamus Assassin",
+            "Upgrade§Nemesil Blade",
+            "Upgrade§Needlespine Blaster",
+            "Upgrade§Decapitation Strike"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Assassin Sub-Type",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Callidus Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Upgrade§Panoply Of The Assassin",
+            " Unit§Clade Callidus Assassin",
+            "Upgrade§Polymorphine",
+            "Upgrade§Neural Shredder",
+            "Upgrade§Phase Sword"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Assassin Sub-Type",
+            "Character",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Culexus Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Rule§Fear (X)",
+            "Rule§Adamantium Will (X+)",
+            "Upgrade§Panoply Of The Assassin",
+            "SelectionEntry§Psyk-out Granades",
+            " Unit§Clade Culexus Assassin",
+            "Upgrade§Life Drain",
+            "Upgrade§Animus Speculum",
+            "Upgrade§Etherium"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Assassin Sub-Type",
+            "Character",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Eversor Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Rule§Counter-Attack (X)",
+            "Upgrade§Panoply Of The Assassin",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Power Sword",
+            " Unit§Clade Eversor Assassin",
+            "Upgrade§Neuro-Gauntlet",
+            "Upgrade§Biological Overload",
+            "Upgrade§Executioner Pistol"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Assassin Sub-Type",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Vanus Infocyte Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "SelectionEntry§Laspistol",
+            "SelectionEntry§Vox Disruptor Array",
+            "Upgrade§Panoply Of The Assassin",
+            " Unit§Clade Vanus Infocyte Assassin",
+            "Upgrade§Auspectre",
+            "Upgrade§Sympatic Dataspikes",
+            "Upgrade§Autotomic Servo-limbs"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Assassin Sub-Type",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Venenum Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Upgrade§Panoply Of The Assassin",
+            " Unit§Clade Venenum Assassin",
+            "Upgrade§Hookfang",
+            "Upgrade§Toxin Ejector",
+            "Upgrade§Poison Globes"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Light Sub-type:",
+            "Assassin Sub-Type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Clade Vindicare Assassin": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Scout",
+            "Rule§Support Squad",
+            "Rule§Loyalist",
+            "Upgrade§Panoply Of The Assassin",
+            " Unit§Clade Vindicare Assassin",
+            "Upgrade§Exitus Rifle",
+            "Upgrade§Exitus Pistol",
+            "Upgrade§Trajector Auspex Array"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Assassin Sub-Type",
+            "Character",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        },
+        "text": "This Advanced Reaction may be made during the Shooting phase, whenever an enemy unit targets a unit that is composed entriely of models with the Assassin Unit Sub-type with a Shooting Attack. The Reaction unit may immediately move a distance in inches up to twice the majority Initiative Characteristic of the Reactive unit. This move may be made in any direction and ignores all Terrain or other effects that would limit or modify the distance moved (includeding allowing models in the Reacting unit to move across Impassable Terrain), as lon gas the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. If, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reacting, that unit may not select another target for the Shooting Attack that triggered the Reacting and no dice are rolled (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended)."
+      },
+      "Unit§Davinite Lodge Priest": {
+        "assets": {
+          "traits": [
+            "Model§Davinite Lodge Priest"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Independent Character",
+            "Psyker:",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Expeditionary Navigator": {
+        "assets": {
+          "traits": [
+            "Model§Expeditionary Navigator"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Independent Character",
+            "Infantry:",
+            "Psyker:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Infernus Abomination": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate",
+            "Rule§Traitor",
+            "Rule§Adamantium Will (X+)",
+            "Rule§Abomination",
+            "Rule§Fear (X)",
+            "Rule§Scout",
+            "Upgrade§Wraithskin",
+            " Unit§Infernus Abomination",
+            "Upgrade§Transmutative armaments",
+            "Upgrade§Boneshard spitter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Assassin Sub-Type",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 130
+          }
+        },
+        "text": "This Advanced Reaction may be made either in the Movement phase whenever an enemy unit ends its move within 12\" of a unit that is composed entirely of models with the Abomination Unit Sub-type, in the Shooting phase whenever an enemy unit targets a unit that is composed entirely of models with the Abomination Unit Sub-type with a Shooting Attack, or in the Assault phase whenever an enemy unit declares a Charge against a unit that is composed entirely of models with the Abomination Unit Sub-type. \nThe controlling player of the Reacting unit must make a Leadership test using the Leadership Characteristic of the Reacting model. If the Leadership test is passed, the Reacting unit may immediately move up to 12\". This move may be made in any direction and ignores all terrain or other effects that would limit or modify the distance moved (including allowing models in the Reacting unit to move across Impassable Terrain), as long as the final position of all models in the Reacting unit are at least 1\" away from any enemy model and not within an area of Impassable Terrain. \nIf, after moving, any models in the Reacting unit are positioned out of range or line of sight of the unit that caused the Reaction, that unit may not select another target for the Shooting Attack or Charge that triggered the Reaction and no dice are rolled and no Surge moves are made (weapons with the Gets Hot special rule do not need to roll to see if the weapon Gets Hot and weapons with the One Use special rule are not considered to have been expended). \nIf the Leadership test is failed, both the unit making the Reaction and the unit that triggered the Reaction suffer D6 Wounds with no Armour Saves, Invulnerable Saves or Damage Mitigation rolls allowed."
+      },
+      "Upgrade§Ætherlabe Staff": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Ætherlabe Staff"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Animus Speculum": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Template Weapons",
+            "Rule§Psy-shock",
+            "Weapon§Animus Speculum"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Auspectre": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Auspectre"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Autotomic Servo-limbs": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Autotomic Servo-limbs"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Biological Overload": {
+        "assets": {
+          "traits": [
+            "Rule§Fleshbane"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Bolt Blaster (Secondary)": {
+        "assets": {
+          "traits": [
+            "Weapon§Bolt Blaster (Secondary)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Boneshard spitter": {
+        "assets": {
+          "traits": [
+            "Rule§Fleshbane",
+            "Weapon§Boneshard spitter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Clade Assassins (Loyalist)": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§Clade Assassins (Loyalist)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Cults Abominatio": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§Cults Abominatio"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Davinite blade": {
+        "assets": {
+          "traits": [
+            "Rule§Poisoned (X)",
+            "Weapon§Davinite blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Decapitation Strike": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Unwieldy",
+            "Rule§Fleshbane",
+            "Rule§Murderous Strike (X)",
+            "Weapon§Decapitation Strike"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Etherium": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Etherium"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Excoricare": {
+        "assets": {
+          "traits": [
+            "Rule§Deflagrate",
+            "Weapon§Excoricare"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Executioner Pistol": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Exitus Pistol": {
+        "assets": {
+          "traits": [
+            "Rule§Breaching (X)",
+            "Rule§Sniper",
+            "Weapon§Exitus Pistol"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Exitus Rifle": {
+        "assets": {
+          "traits": [
+            "Rule§Murderous Strike (X)",
+            "Rule§Rending (X)",
+            "Rule§Sniper",
+            "Weapon§Exitus Rifle"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hookfang": {
+        "assets": {
+          "traits": [
+            "Rule§Poisoned (X)",
+            "Weapon§Hookfang"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Life Drain": {
+        "assets": {
+          "traits": [
+            "Rule§Fleshbane",
+            "Rule§Reaping Blow (X)",
+            "Weapon§Life Drain"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Needlespine Blaster": {
+        "assets": {
+          "traits": [
+            "Upgrade§Bolt Blaster (Secondary)",
+            "Upgrade§Needlespine Blaster (Primary)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Needlespine Blaster (Primary)": {
+        "assets": {
+          "traits": [
+            "Rule§Pinning",
+            "Rule§Poisoned (X)",
+            "Weapon§Needlespine Blaster (Primary)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Nemesil Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Weapon§Nemesil Blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Neural Shredder": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Template Weapons",
+            "Weapon§Neural Shredder"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Neuro-Gauntlet": {
+        "assets": {
+          "traits": [
+            "Rule§Fleshbane",
+            "Rule§Shred",
+            "Rule§Rending (X)",
+            "Weapon§Neuro-Gauntlet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Panoply Of The Assassin": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Panoply Of The Assassin"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Phase Sword": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Weapon§Phase Sword"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Poison Globes": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Poison Globes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Polymorphine": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Polymorphine"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Psychic Discipline: Delphos Serpentis": {
+        "assets": {
+          "traits": [
+            "Psychic Power§Psychic Discipline: Delphos Serpentis"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Psychic Discipline: Navis Astrologis": {
+        "assets": {
+          "traits": [
+            "Rule§Pinning",
+            "Rule§Force",
+            "Rule§Template Weapons",
+            "Psychic Weapon§Lidless Stare (Psychic Weapon)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Sympatic Dataspikes": {
+        "assets": {
+          "traits": [
+            "Rule§Haywire",
+            "Rule§Specialist Weapon",
+            "Rule§Rending (X)",
+            "Weapon§Sympatic Dataspikes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Toxin Ejector": {
+        "assets": {
+          "traits": [
+            "Rule§Template Weapons",
+            "Rule§Poisoned (X)",
+            "Rule§Rending (X)",
+            "Weapon§Toxin Ejector"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Trajector Auspex Array": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Trajector Auspex Array"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Transmutative armaments": {
+        "assets": {
+          "traits": [
+            "Rule§Murderous Strike (X)",
+            "Rule§Breaching (X)",
+            "Rule§Brutal (X)",
+            "Rule§Reach (X)",
+            "Rule§Rending (X)",
+            "Rule§Rampage (X)",
+            "Rule§Two-handed",
+            "Weapon§Transmutative armaments (Hammerblade)",
+            "Weapon§Transmutative armaments (Spinelash)",
+            "Weapon§Transmutative armaments (Talon-rakes)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Wraithskin": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Wraithskin"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Ætherlabe Staff": {
+        "text": "The controlling player of an enemy unit that arrives via Deep Strike Assault within 12\" of a model with this special rule must roll an additional D6 when rolling to Scatter that unit."
+      },
+      "Wargear Item§Auspectre": {
+        "text": "Enemy models cannot be deployed using the Infiltrate special rule within 18\" of a model with an auspectre. In addition, when any enemy unit is deployed to the battlefield from Reserves, a model with an auspectre may make the Interceptor Advanced Reaction (see page 309 of the Horus Heresy: Age of Darkness rulebook) without expending a point of the Reactive player's Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal threee Reaction limit in a given Phase. Instead of usin gthe profile of a weapon the model has, a model with the auspectre may instead make a Leadership test. If the Leadership test is passed, the controlling player may instead make a Shooting Attack with any Defensive weapon available to any model with the Vehicle Unit Type (both friendly or enemy within 12\", that is in range and line of sight of the targeted model. If the Leadership test is failed, the model may not make an Interceptor Advanced Reaction."
+      },
+      "Wargear Item§Autotomic Servo-limbs": {
+        "text": "Once per battle, at the start of any turn, the controlling player of the model with the autotomagic servo-limbs may choose to grant the model the Hit & Run special rule unitil the start of their next turn."
+      },
+      "Wargear Item§Etherium": {
+        "text": "Any Shooting Attacks that target a unit composed entirely of models with this special rule are made as Snap Shots. Any weapon that cannot fire Snap Shots cannot be used to make Shooting Attacks targeting a model with this special rule."
+      },
+      "Wargear Item§Panoply Of The Assassin": {
+        "text": "Models with the Panoply of the Assassin have a 4+ Armour Save and a 4+ Invulnerable Save."
+      },
+      "Wargear Item§Poison Globes": {
+        "text": "Any unit attempting to make a Charge against a unit with one of more models that has poison globes must re-roll the first successful roll when determining Charge distances."
+      },
+      "Wargear Item§Polymorphine": {
+        "text": "A unit composed entirely of models with polymorphine\nmay not be targeted for a Shooting Attack, Charge or\nReaction of any kind by an enemy unit as long as the unit\nwith polymorphine has not made an attack of any kind\nduring the battle. Once a unit or model with polymorphine has made a Shootin gAttack (including during a Reaction) then polymorphine has no futher effect."
+      },
+      "Wargear Item§Trajector Auspex Array": {
+        "text": "When making a Shooting Attack, a model with a trajector asuspex array ignores the effects of all special rules or Wargear that would modify or limit the range and To Hit rolls of any attack made by that model."
+      },
+      "Wargear Item§Wraithskin": {
+        "text": "Models with Wraithskin have a 4+ Armour Save and a 4+ Invulnerable Save."
+      },
+      "Weapon§Animus Speculum": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "Template"
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Assault 1, Rending (6+), Psy-shock"
+      },
+      "Weapon§Bolt Blaster (Secondary)": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 4
+          },
+          "Type": {
+            "value": "Pistol 3"
+          }
+        }
+      },
+      "Weapon§Boneshard spitter": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "6\""
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Assault 2D6, Fleshbane"
+      },
+      "Weapon§Davinite blade": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Poisoned (5+)"
+      },
+      "Weapon§Decapitation Strike": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Unwieldy, Fleshbane, Murderous Strike (2+)"
+      },
+      "Weapon§Excoricare": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "18\""
+          },
+          "Strength": {
+            "value": 3
+          }
+        },
+        "text": "Pistol, Deflagrate"
+      },
+      "Weapon§Exitus Pistol": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 6
+          }
+        },
+        "text": "Pistol 3, Breaching (6+), Sniper"
+      },
+      "Weapon§Exitus Rifle": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "100\""
+          },
+          "Strength": {
+            "value": 7
+          }
+        },
+        "text": "Heavy 1, Murderous Strike (5+), Rending (6+), Sniper"
+      },
+      "Weapon§Hookfang": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Poisoned (3+), The Venem"
+      },
+      "Weapon§Life Drain": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Fleshbane, Reaping Blow (1)"
+      },
+      "Weapon§Needlespine Blaster (Primary)": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Pistol 1, Poisoned (2+), Pinning"
+      },
+      "Weapon§Nemesil Blade": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Rending (5+)"
+      },
+      "Weapon§Neural Shredder": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "Template"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Pistol 1, Rending (5+), Synaptic Disruptor"
+      },
+      "Weapon§Neuro-Gauntlet": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Fleshbane, Shred, Rending (6+)"
+      },
+      "Weapon§Phase Sword": {},
+      "Weapon§Sympatic Dataspikes": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Rending (4+), Haywire, Specialist Weapon"
+      },
+      "Weapon§Toxin Ejector": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "Template"
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Assault 1, Poison (3+), Rending (6+)"
+      },
+      "Weapon§Transmutative armaments (Hammerblade)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 8
+          }
+        },
+        "text": "Melee, Murderous Strike (6+), Brutal (2), Two-handed"
+      },
+      "Weapon§Transmutative armaments (Spinelash)": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Melee, Reach (2), Breaching (6+), Two-handed"
+      },
+      "Weapon§Transmutative armaments (Talon-rakes)": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Melee, Shred, Rending (6+), Rampage (2), Specialist Weapon"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

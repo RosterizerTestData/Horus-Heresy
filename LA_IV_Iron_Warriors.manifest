@@ -1,0 +1,1321 @@
+{
+  "name": "LA -   IV: Iron Warriors",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      " Vehicle": {
+        "stats": {
+          "BS": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Front": {
+            "statType": "numeric",
+            "value": null
+          },
+          "HP": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "Rear": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Side": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Transport Capacity": {
+            "statType": "numeric",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Domitar-ferrum": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "8\""
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Automata (Cybernetica, Heavy)"
+      },
+      " Unit§Erasmus Golg": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Heavy, Character, Unique)"
+      },
+      " Unit§Iron Havoc": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Iron Havoc Sergeant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy, Character)"
+      },
+      " Unit§Kyr Vhalen": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      " Unit§Nârik Dreygur": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      " Unit§Perturabo": {
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 7
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 6
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Primarch (Unique)"
+      },
+      " Vehicle§The Tormentor": {
+        "stats": {
+          "BS": {
+            "value": 5
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 12
+          },
+          "Move": {
+            "value": "10\""
+          },
+          "Rear": {
+            "value": 12
+          },
+          "Side": {
+            "value": 13
+          },
+          "Transport Capacity": {
+            "value": 24
+          }
+        },
+        "text": "One at the rear."
+      },
+      "Model§Domitar-ferrum": {
+        "assets": {
+          "traits": [
+            " Unit§Domitar-ferrum"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 135
+          }
+        }
+      },
+      "Model§Erasmus Golg": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            "Rule§Bulky (X)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "SelectionEntry§Magna Combi-Weapon - Meltagun",
+            "SelectionEntry§Nuncio-Vox",
+            "SelectionEntry§Augury Scanner",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Erasmus Golg",
+            "Upgrade§Extricator"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Terminators:",
+            "Infantry:",
+            "Independent Character",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 175
+          }
+        }
+      },
+      "Model§Iron Havoc": {
+        "assets": {
+          "traits": [
+            " Unit§Iron Havoc"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Model§Iron Havoc Sgt": {
+        "assets": {
+          "traits": [
+            " Unit§Iron Havoc Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "May exchange main weapon for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Weapon": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          },
+          "Wargear": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificer Armour": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Nuncio-Vox": {
+                "order": 3
+              },
+              "Power Dagger": {
+                "order": 4
+              },
+              "Venom Spheres": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Model§Kyr Vhalen": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            "Rule§Battle-Hardened (X)",
+            "Rule§Battlesmith (X)",
+            "Rule§Feel No Pain (X)",
+            "Rule§Master of Automata",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Volkite Charger",
+            "SelectionEntry§Servo-Arm",
+            " Unit§Kyr Vhalen",
+            "Upgrade§Aegeas",
+            "Model§Kyr Vhalen"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Nârik Dreygur": {
+        "assets": {
+          "traits": [
+            "Rule§Loyalist",
+            "Rule§Master of Automata",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "Rule§Legiones Cybernetica",
+            "SelectionEntry§Refractor Field",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Frag Grenades",
+            "Wargear Item§The Revenant's Pawn",
+            "Wargear Item§Cortex Designator",
+            " Unit§Nârik Dreygur",
+            "Upgrade§Graviton Gauntlet"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Infantry:",
+            "Heavy",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 135
+          }
+        }
+      },
+      "Model§Perturabo": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            "Upgrade§Forgebreaker Desecrated",
+            "Rule§Battlesmith (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "Rule§Master of Automata",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Frag Grenades",
+            " Unit§Perturabo",
+            "Wargear Item§The Logos",
+            "Upgrade§The Logos Array",
+            "Model§Perturabo"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Legiones Astartes",
+            "LoW & Primarchs"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport": {
+            "ranks": {
+              "The Tormentor": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§The Tormentor": {
+        "assets": {
+          "traits": [
+            "Rule§Void Shields",
+            "Rule§Transport Bay",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "SelectionEntry§Smoke Launchers",
+            "SelectionEntry§Searchlights",
+            " Vehicle§The Tormentor",
+            "Upgrade§Turret Mounted volcano cannon",
+            "Upgrade§Hull (Right) Mounted twin-linked heavy bolter",
+            "Upgrade§Hull (Front) Mounted twin-linked heavy bolter",
+            "Upgrade§Hull (Right) Mounted lascannon",
+            "Upgrade§Hull (Left) Mounted lascannon",
+            "Upgrade§Hull (Left) Mounted twin-linked heavy bolter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:",
+            "Vehicle:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 900
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Armourbane (X)": {},
+      "Rule§Battle-Hardened (X)": {},
+      "Rule§Battlesmith (X)": {},
+      "Rule§Blind": {},
+      "Rule§Breaching (X)": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Exoshock (X)": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Firing Protocols (X)": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Hatred (X)": {},
+      "Rule§Haywire": {},
+      "Rule§Inexorable": {},
+      "Rule§Legiones Astartes (Iron Warriors) ": {},
+      "Rule§Legiones Cybernetica": {},
+      "Rule§Loyalist": {},
+      "Rule§Master of Automata": {},
+      "Rule§Master-crafted": {},
+      "Rule§Pinning": {},
+      "Rule§Precision Shots (X)": {},
+      "Rule§Relentless": {},
+      "Rule§Shell Shock (X)": {},
+      "Rule§Shred": {},
+      "Rule§Skyfire": {},
+      "Rule§Specialist Weapon": {},
+      "Rule§Stubborn": {},
+      "Rule§Transport Bay": {},
+      "Rule§Twin-linked": {},
+      "Rule§Two-handed": {},
+      "Rule§Unwieldy": {},
+      "Rule§Void Shields": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Augury Scanner": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Cataphractii Terminator Armour": {},
+      "SelectionEntry§Cortex Controller": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Graviton Maul": {},
+      "SelectionEntry§Iron Halo": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Lascannon": {},
+      "SelectionEntry§Magna Combi-Weapon - Meltagun": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Nuncio-Vox": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Refractor Field": {},
+      "SelectionEntry§Searchlights": {},
+      "SelectionEntry§Servo-Arm": {},
+      "SelectionEntry§Shrapnel Cannon": {},
+      "SelectionEntry§Smoke Launchers": {},
+      "SelectionEntry§Twin-linked Heavy Bolter": {},
+      "SelectionEntry§Volcano Cannon": {},
+      "SelectionEntry§Volkite Charger": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Retinue": {},
+      "Unit§Dominator Cohort": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Chosen Warriors",
+            "Rule§Stubborn",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "Rule§Hatred (X)",
+            "Rule§Bulky (X)",
+            "Rule§Feel No Pain (X)"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:",
+            "Heavy",
+            "Terminators:"
+          ]
+        },
+        "stats": {
+          "1) Dominators": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Dominator": {
+                "order": 1
+              },
+              "Dominator w/Heavy Weapon": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Unit§Iron Circle Maniple": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "Rule§Relentless",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Feel No Pain (X)",
+            "SelectionEntry§Shrapnel Cannon",
+            "SelectionEntry§Graviton Maul",
+            "Model§Domitar-ferrum",
+            "Upgrade§Karceri Battle Shield"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Automata:",
+            "Legiones Astartes",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Iron Havocs": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "Rule§Precision Shots (X)",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Power Armour",
+            "Wargear Item§Ferrum Occularis",
+            "Model§Iron Havoc",
+            "Model§Iron Havoc Sgt"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Unit Weapon Option:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Shrapnel Cannon": {
+                "order": 1
+              },
+              "Lascannon": {
+                "order": 2
+              },
+              "Missile Launcher": {
+                "order": 3
+              },
+              "Autocannon": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Bolt Pistol Option:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Shrapnel Pistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) One Iron Havoc may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Legion Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rhino Transport": {
+                "order": 1
+              },
+              "Storm Eagle Gunship": {
+                "order": 2
+              },
+              "Termite Assault Drill": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 55
+          }
+        }
+      },
+      "Unit§Tyrant Siege Terminator Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Inexorable",
+            "Rule§Firing Protocols (X)",
+            "Rule§Relentless",
+            "Rule§Legiones Astartes (Iron Warriors) ",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "Upgrade§Tyrant Rocket Launcher"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Terminators:",
+            "Heavy",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          " Siege Master": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Siege Master": {
+                "order": 1
+              },
+              "Siege Master w/Pair of Lightning Claws": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          " Tyrants": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              " Tyrant w/Power Fist": {
+                "order": 1
+              },
+              "Tyrant w/Chainfist": {
+                "order": 2
+              },
+              "Tyrant w/Pair of Lightning Claws": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Spartan": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 80
+          }
+        }
+      },
+      "Upgrade§Aegeas": {
+        "assets": {
+          "traits": [
+            "Rule§Breaching (X)",
+            "Rule§Blind",
+            "Rule§Master-crafted",
+            "Weapon§Aegeas"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Extricator": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Armourbane (X)",
+            "Rule§Master-crafted",
+            "Weapon§Extricator"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Forgebreaker Desecrated": {
+        "assets": {
+          "traits": [
+            "Rule§Brutal (X)",
+            "Rule§Master-crafted",
+            "Rule§Unwieldy",
+            "Rule§Exoshock (X)",
+            "Weapon§Forgebreaker Desecrated"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 35
+          }
+        }
+      },
+      "Upgrade§Graviton Gauntlet": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Specialist Weapon",
+            "Rule§Haywire",
+            "Weapon§Graviton Gauntlet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hull (Front) Mounted twin-linked heavy bolter": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Twin-linked Heavy Bolter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hull (Left) Mounted lascannon": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Lascannon"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hull (Left) Mounted twin-linked heavy bolter": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Twin-linked Heavy Bolter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hull (Right) Mounted lascannon": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Lascannon"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Hull (Right) Mounted twin-linked heavy bolter": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Twin-linked Heavy Bolter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Karceri Battle Shield": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Karceri Battle Shield"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Power Fist": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Specialist Weapon",
+            "Weapon§Power Fist"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Logos Array": {
+        "assets": {
+          "traits": [
+            "Rule§Twin-linked",
+            "Rule§Shred",
+            "Rule§Two-handed",
+            "Rule§Shell Shock (X)",
+            "Rule§Pinning",
+            "Weapon§The Logos Array (Ranged)",
+            "Weapon§The Logos Array (Melee)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Turret Mounted volcano cannon": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Volcano Cannon"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Tyrant Rocket Launcher": {
+        "assets": {
+          "traits": [
+            "Rule§Pinning",
+            "Rule§Skyfire",
+            "Weapon§Tyrant Rocket Launcher (Frag) ",
+            "Weapon§Tyrant Rocket Launcher (Flak)",
+            "Weapon§Tyrant Rocket Launcher (Krak)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Cortex Designator": {
+        "text": "When rolling To Hit for a model with the Automata Unit Type, as part of a Shooting Attack, add +1 to the result of the roll if the enemy unit targeted by the attack has already been the target of another friendly model with this special rule in the same Shooting phase, and if the attacking model is within 6\" of that friendly model. This does not affect attacks made with the Blast or Barrage special rules."
+      },
+      "Wargear Item§Ferrum Occularis": {
+        "text": "Shooting Attacks made using a weapon with the Heavy type by a model with a Ferrum Occularis gain the Precision Shots (6+) special rule, as long as the attack is not made as part of a Reaction or a Snap Shot."
+      },
+      "Wargear Item§Karceri Battle Shield": {
+        "text": "A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers and unsaved wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat is always resolved as a Disordered Charge."
+      },
+      "Wargear Item§The Logos": {
+        "text": "The Logos provides a 2+ Armour Save and a 3+ Invulnerable Save, and allows Perturabo to ignore all the effects of Night Fighting, and when Perturabo or any unit he has joined makes the Interceptor Advanced Reaction, the Reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given turn."
+      },
+      "Wargear Item§The Revenant's Pawn": {
+        "text": "When included in an Allied Detachment that is part of an army with a Primary Detachment whose Warlord is either Cassian Dracos Reborn or Xiaphas Jurr, the Allied Detachment that Nârik Dreygur is part of may include a unit of Legion Veterans with the Legiones Astartes (Iron Warriors) special rule that does not use up a Force Organisation choice and does not count for any minimum required units the army must select. In addition, Nârik Dreygur gains +1 Attack and the Stubborn special rule when within 12\" of Cassian Dracos Reborn."
+      },
+      "Weapon§Aegeas": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Breaching (4+), Blind, Master-crafted"
+      },
+      "Weapon§Extricator": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 10
+          }
+        },
+        "text": "Melee, Armourbane (melee), Master-crafted, Unwieldy"
+      },
+      "Weapon§Forgebreaker Desecrated": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 12
+          }
+        },
+        "text": "Melee, Unwieldy, Master-crafted, Exoshock (3+), Brutal (2)"
+      },
+      "Weapon§Graviton Gauntlet": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 8
+          }
+        },
+        "text": "Melee, Unwieldy, Specialist Weapon, Haywire"
+      },
+      "Weapon§Power Fist": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "x2"
+          }
+        },
+        "text": "Melee, Unwieldy, Specialist Weapon"
+      },
+      "Weapon§The Logos Array (Melee)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Two-handed"
+      },
+      "Weapon§The Logos Array (Ranged)": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "30\""
+          },
+          "Strength": {
+            "value": 6
+          }
+        },
+        "text": "Assault 6, Twin-linked, Shred, Pinning, Shell Shock (1)"
+      },
+      "Weapon§Tyrant Rocket Launcher (Flak)": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "48\""
+          },
+          "Strength": {
+            "value": 7
+          }
+        },
+        "text": "Heavy 2, Skyfire"
+      },
+      "Weapon§Tyrant Rocket Launcher (Frag) ": {
+        "stats": {
+          "AP": {
+            "value": 6
+          },
+          "Range": {
+            "value": "48\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Heavy 4, Pinning"
+      },
+      "Weapon§Tyrant Rocket Launcher (Krak)": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "48\""
+          },
+          "Strength": {
+            "value": 8
+          },
+          "Type": {
+            "value": "Heavy 2"
+          }
+        }
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

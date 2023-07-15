@@ -1,0 +1,4180 @@
+{
+  "name": "2022 - Mechanicum",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "Unit Type": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      " Vehicle": {
+        "stats": {
+          "Access Points": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "Front": {
+            "statType": "term",
+            "value": null
+          },
+          "HP": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "Rear": {
+            "statType": "term",
+            "value": null
+          },
+          "Side": {
+            "statType": "term",
+            "value": null
+          },
+          "Transport Capacity": {
+            "statType": "term",
+            "value": null
+          },
+          "Unit Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Knights and Titans": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "Front": {
+            "statType": "term",
+            "value": null
+          },
+          "HP": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "Rear": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Side": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Reactions": {},
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Warlord Trait": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Archmagos Anacharis Scoria": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 9
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 7
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Monstrous, Heavy, Unique, Cybertheurgist)"
+      },
+      " Unit§Archmagos Prime": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Cybertheurgist, Character)"
+      },
+      " Unit§Archmagos Prime on Abeyant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Monstrous, Antigrav, Cybertheurgist, Character)"
+      },
+      " Unit§Arcuitor": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character)"
+      },
+      " Unit§Arlatax": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Automata (Cybernetica)"
+      },
+      " Unit§Calleb Decima Invictus": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Cybertheurgist, Unique)"
+      },
+      " Unit§Destructor Lord": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Heavy)"
+      },
+      " Unit§Inar Satarael": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Unique, Monsterous, Antigrav, Cybertheurgist, Character)"
+      },
+      " Unit§Knight Moirax": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 7
+          },
+          "Unit Type": {
+            "value": "Armiger"
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      " Unit§Magos Dominus": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Character, Cybertheurgist, Heavy)"
+      },
+      " Unit§Magos Dominus on Abeyant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Character, Monstrous, Antigrav, Cybertheurgist, Heavy)"
+      },
+      " Unit§Myrmidon Destructor": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Myrmidon Secutor": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Scyllax": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Automata (Guardian, Heavy, Line)"
+      },
+      " Unit§Secutor Lord": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Heavy)"
+      },
+      " Unit§Servo-Automata": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Automata (Guardian)"
+      },
+      " Unit§Tech-thralls": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "6+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 2
+          }
+        },
+        "text": "Infantry (Heavy, Line)"
+      },
+      " Unit§Ursarax": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 5
+          },
+          "Unit Type": {
+            "value": "Infantry"
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      " Unit§Vultarax": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Automata (Antigrav, Cybernetica)"
+      },
+      " Vehicle§Karacnos": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 5
+          },
+          "Move": {
+            "value": 12
+          },
+          "Rear": {
+            "value": 12
+          },
+          "Side": {
+            "value": 12
+          },
+          "Unit Type": {
+            "value": "Vehicle"
+          }
+        }
+      },
+      " Vehicle§Krios Battle Tank": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 4
+          },
+          "Move": {
+            "value": 16
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 12
+          },
+          "Unit Type": {
+            "value": "Vehicle (Fast)"
+          }
+        }
+      },
+      " Vehicle§Macrocarid Explorator": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 5
+          },
+          "Move": {
+            "value": 10
+          },
+          "Rear": {
+            "value": 14
+          },
+          "Side": {
+            "value": 14
+          },
+          "Transport Capacity": {
+            "value": 26
+          }
+        },
+        "text": "One Access Point on each side of the hull."
+      },
+      " Vehicle§Mechanicum Land Raider Phobos": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 5
+          },
+          "Move": {
+            "value": "12\""
+          },
+          "Rear": {
+            "value": 14
+          },
+          "Side": {
+            "value": 14
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "One on each side of the hull and one at the front"
+      },
+      " Vehicle§Ordinatus Aktaeus": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 14
+          },
+          "Move": {
+            "value": "-"
+          },
+          "Rear": {
+            "value": 13
+          },
+          "Side": {
+            "value": 13
+          },
+          "Transport Capacity": {
+            "value": 42
+          }
+        },
+        "text": "The Ordinatus Aktaeus has two Access Points, one on either side of the hull (in any orientation)."
+      },
+      " Vehicle§Ordinatus Ulator": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 14
+          },
+          "Move": {
+            "value": "-"
+          },
+          "Rear": {
+            "value": 13
+          },
+          "Side": {
+            "value": 13
+          }
+        },
+        "text": "Vehicle (Super-heavy)"
+      },
+      " Vehicle§Ordo Reductor Minotaur": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 4
+          },
+          "Move": {
+            "value": 8
+          },
+          "Rear": {
+            "value": 13
+          },
+          "Side": {
+            "value": 12
+          },
+          "Transport Capacity": {
+            "value": "-"
+          }
+        },
+        "text": "Vehicle (Slow, Reinforced)"
+      },
+      " Vehicle§Termite Assault Drill": {
+        "stats": {
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 12
+          },
+          "HP": {
+            "value": 3
+          },
+          "Move": {
+            "value": 8
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 12
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "A Legion Termite Assault Drill has two Access Points, one on each side of the hull."
+      },
+      "Knights and Titans§Mechanicum Acastus Knight Asterius": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 9
+          },
+          "I": {
+            "value": 3
+          },
+          "Move": {
+            "value": 12
+          },
+          "Rear": {
+            "value": 12
+          },
+          "S": {
+            "value": 10
+          },
+          "Side": {
+            "value": 13
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Vehicle (Knight)"
+      },
+      "Knights and Titans§Mechanicum Knight Atrapos": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 8
+          },
+          "I": {
+            "value": 4
+          },
+          "Move": {
+            "value": 14
+          },
+          "Rear": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          },
+          "Side": {
+            "value": 12
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Vehicle (Knight)"
+      },
+      "Knights and Titans§Mechanicum Knight Magaera": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 7
+          },
+          "I": {
+            "value": 2
+          },
+          "Move": {
+            "value": 10
+          },
+          "Rear": {
+            "value": 12
+          },
+          "S": {
+            "value": 8
+          },
+          "Side": {
+            "value": 12
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Vehicle (Knight)"
+      },
+      "Knights and Titans§Mechanicum Knight Styrix": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 7
+          },
+          "I": {
+            "value": 2
+          },
+          "Move": {
+            "value": 10
+          },
+          "Rear": {
+            "value": 12
+          },
+          "S": {
+            "value": 8
+          },
+          "Side": {
+            "value": 12
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Vehicle (Knight)"
+      },
+      "Model§Arcuitor": {
+        "assets": {
+          "traits": [
+            "Rule§Scout",
+            "Rule§Battlesmith (X)",
+            "Rule§Feel No Pain (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Loyalist",
+            "Rule§Monster Hunter",
+            "Rule§Precision Strikes (X)",
+            "SelectionEntry§Archaeotech Pistol",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            " Unit§Arcuitor"
+          ]
+        },
+        "stats": {
+          "May exchange their Corposant Stave for a:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Corposant Stave": {
+                "order": 1
+              },
+              "Paragon Blade": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following additional ranged weapons:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Phased Plasma-Fusil": {
+                "order": 1
+              },
+              "Photon Thruster": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Machinator Array": {
+                "order": 2
+              },
+              "Machinator Array with Prehensile Data-Spike": {
+                "order": 3
+              },
+              "Servo-Arm with Prehensile Data-Spike": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 110
+          }
+        }
+      },
+      "Model§Arlatax": {
+        "assets": {
+          "traits": [
+            "Rule§Hammer of Wrath (X)",
+            "SelectionEntry§Utan Jump Booster",
+            "SelectionEntry§Atomantic Deflector",
+            "SelectionEntry§Plasma Cannon",
+            "SelectionEntry§Paragon of Metal",
+            " Unit§Arlatax"
+          ]
+        },
+        "stats": {
+          "Melee Weapon": {
+            "ranks": {
+              "Arc Scourge": {
+                "order": 1
+              },
+              "Power Blade Arrays With In-Built Light Autocannon*": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 135
+          }
+        }
+      },
+      "Model§Destructor Lord": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            " Unit§Destructor Lord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Krios": {
+        "assets": {
+          "traits": [
+            "Rule§Galvanic Traction Drive",
+            "Rule§It Will Not Die (X)",
+            "SelectionEntry§Searchlights",
+            " Vehicle§Krios Battle Tank"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:"
+          ]
+        },
+        "stats": {
+          "Any Krios in the squadron may take any of the following options:": {
+            "ranks": {
+              "Hunter-Killer Missile": {
+                "order": 1
+              },
+              "Two Centreline Mounted Volkite Calivers": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Hull (Front) Mounted Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lightning Cannon ": {
+                "order": 1
+              },
+              "Pulsar-Fusil": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 125
+          }
+        }
+      },
+      "Model§Mechanicum Land Raider Phobos ": {
+        "assets": {
+          "traits": [
+            "Rule§Power of the Machine Spirit",
+            "Rule§Assault Vehicle",
+            "SelectionEntry§Smoke Launchers",
+            " Vehicle§Mechanicum Land Raider Phobos"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Reinforced Sub-type:",
+            "Vehicle:",
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "1) Hull Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Twin-linked Heavy Bolter": {
+                "order": 1
+              },
+              "Twin-linked Heavy Flamer": {
+                "order": 2
+              },
+              "Twin-linked Lascannon": {
+                "order": 3
+              },
+              "Phased Plasma-Fusil": {
+                "order": 4
+              },
+              "Graviton Gun": {
+                "order": 5
+              },
+              "Volkite Culverin": {
+                "order": 6
+              },
+              "Multi-Melta": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Pintle mounted Weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Twin-linked Bolter": {
+                "order": 1
+              },
+              "Heavy Bolter": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              },
+              "Multi-Melta": {
+                "order": 4
+              },
+              "Havoc Launcher": {
+                "order": 5
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 6
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 7
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 8
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 9
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Searchlights": {
+                "order": 1
+              },
+              "Hunter-Killer Missile": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange both its sponson mounted weapons for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lascannon": {
+                "order": 1
+              },
+              "Plasma Cannon": {
+                "order": 2
+              },
+              "Multi-Melta": {
+                "order": 3
+              },
+              "Twin-linked Heavy Bolter": {
+                "order": 4
+              },
+              "Flamestorm Cannon": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 220
+          }
+        }
+      },
+      "Model§Myrmidon Destructor": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            " Unit§Myrmidon Destructor"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 40
+          }
+        }
+      },
+      "Model§Myrmidon Secutors": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Hatred (X)",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            " Unit§Myrmidon Secutor"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Model§Scyllax": {
+        "assets": {
+          "traits": [
+            "Rule§Move Through Cover",
+            "Rule§Night Vision",
+            "Rule§Relentless",
+            "Rule§Support Squad",
+            "Rule§Guardian Unit Sub-type",
+            " Unit§Scyllax"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Model§Secutor Lord": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Hatred (X)",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            " Unit§Secutor Lord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Servo-Automata": {
+        "assets": {
+          "traits": [
+            "Rule§Guardian Unit Sub-type",
+            "Rule§Sunder",
+            "Rule§Wrecker",
+            " Unit§Servo-Automata"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Automata Unit-type:"
+          ]
+        },
+        "stats": {
+          "Any Servo-automata may take one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Las-lock": {
+                "order": 2
+              },
+              "Flamer": {
+                "order": 3
+              },
+              "Maxima Bolter": {
+                "order": 4
+              },
+              "Rotor Cannon": {
+                "order": 5
+              },
+              "Heavy Bolter": {
+                "order": 6
+              },
+              "Multi-Melta": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 5
+          }
+        }
+      },
+      "Model§Tech-Priest": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Stubborn",
+            "Rule§Sunder",
+            "Rule§Wrecker",
+            "SelectionEntry§Laspistol",
+            "SelectionEntry§Power Axe"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Any Tech-Priest or Magos Auxilia may take any of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Nuncio-Vox": {
+                "order": 2
+              },
+              "Volkite Charger": {
+                "order": 3
+              },
+              "Cortex Controller": {
+                "order": 4
+              },
+              "Graviton Gun": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Any Tech-Priest or Magos Auxilia may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Cyber-Familiar": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificia Machina": {
+                "order": 1
+              },
+              "Artificia Cybernetica": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          },
+          "Servo Arms and other options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Servo-Arm with Prehensile Data-Spike": {
+                "order": 2
+              },
+              "Conversion Beamer": {
+                "order": 3
+              },
+              "Graviton Imploder": {
+                "order": 4
+              },
+              "Prehensile Dataspike": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Tech-Priest or Magos Auxilia": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Magos Auxilia": {
+                "order": 1
+              },
+              "Tech-Priest": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Model§Tech-thralls": {
+        "assets": {
+          "traits": [
+            "Rule§Stubborn",
+            "Rule§Feel No Pain (X)",
+            "Rule§Hatred (X)",
+            " Unit§Tech-thralls",
+            "Rule§Stubborn",
+            "Rule§Feel No Pain (X)",
+            "Rule§Hatred (X)",
+            " Unit§Tech-thralls"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 3
+          }
+        }
+      },
+      "Model§Ursarax": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)",
+            "Rule§Stubborn",
+            "Rule§Bulky (X)",
+            " Unit§Ursarax"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Model§Vultarax": {
+        "assets": {
+          "traits": [
+            "Rule§It Will Not Die (X)",
+            "Rule§Night Vision",
+            "Rule§Djinn-Sight",
+            "SelectionEntry§Paragon of Metal",
+            "SelectionEntry§Arc Blaster",
+            "SelectionEntry§Havoc Launcher",
+            "SelectionEntry§Atomantic Deflector",
+            " Unit§Vultarax",
+            "Upgrade§Stratos Thrusters"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        }
+      },
+      "Reactions§Greuso Protocol": {
+        "text": "This Advanced Reaction may be made whenever an enemy unit declares a Charge targeting a friendly unit with the Automata Unit Type or Knight Unit Sub-type which is within 12\" of another friendly unit that includes at least one model with the Greuso Protocol special rule and is not itself locked in combat. The unit with the Greuso Protocol special rule may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. A unit that makes a Shooting Attack as part of a Greuso Protocol Reaction may not make any attacks indirectly (without line of sight) including weapons with the Barrage special rule or other weapons or special rules that otherwise ignore line of sight, and Vehicles may only fire Defensive Weapons. Template weapons used as part of a Greuso Protocol Reaction use the Wall of Death rule instead of firing normally. The unit targeted by the Greuso Protocol Reaction may not take Cover Saves against Wounds inflicted as part of that Reaction."
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Armiger and Moirax Talons": {},
+      "Rule§Armiger Unit-Type": {},
+      "Rule§Armourbane (X)": {},
+      "Rule§Assault Vehicle": {},
+      "Rule§Automated Artillery Sub-type": {},
+      "Rule§Battle-Hardened (X)": {},
+      "Rule§Battlesmith (X)": {},
+      "Rule§Blast": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Catastrophic Destruction": {},
+      "Rule§Catastrophic Explosion": {},
+      "Rule§Concussive (X)": {},
+      "Rule§Cumbersome": {},
+      "Rule§Deflagrate": {},
+      "Rule§Destroyer": {},
+      "Rule§Djinn-Sight": {},
+      "Rule§Eternal Warrior": {},
+      "Rule§Exoshock (X)": {},
+      "Rule§Fear (X)": {},
+      "Rule§Fearless": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Feudal Hierarchy": {},
+      "Rule§Firing Protocols (X)": {},
+      "Rule§Flank Speed": {},
+      "Rule§Fleet (X)": {},
+      "Rule§Galvanic Traction Drive": {},
+      "Rule§Graviton Singularity": {},
+      "Rule§Guardian Unit Sub-type": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Hatred (X)": {},
+      "Rule§Haywire": {},
+      "Rule§Ignores Cover": {},
+      "Rule§Infantry Transport": {},
+      "Rule§Instant Death": {},
+      "Rule§It Will Not Die (X)": {},
+      "Rule§Loyalist": {},
+      "Rule§Macro-extinction Targeting Protocols": {},
+      "Rule§Master-crafted": {},
+      "Rule§Monster Hunter": {},
+      "Rule§Move Through Cover": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Night Vision": {},
+      "Rule§Ordnance": {},
+      "Rule§Overtaxed Reactor": {},
+      "Rule§Patris Cybernetica": {},
+      "Rule§Pinning": {},
+      "Rule§Power of the Machine Spirit": {},
+      "Rule§Precision Strikes (X)": {},
+      "Rule§Pride of Place": {},
+      "Rule§Reactor Meltdown (X)": {},
+      "Rule§Reinforced Structure": {},
+      "Rule§Relentless": {},
+      "Rule§Rending (X)": {},
+      "Rule§Scout": {},
+      "Rule§Sentry Protocols": {},
+      "Rule§Shred": {},
+      "Rule§Slow Vehicles": {},
+      "Rule§Stubborn": {},
+      "Rule§Subterranean Assault": {},
+      "Rule§Sunder": {},
+      "Rule§Support Squad": {},
+      "Rule§Traitor": {},
+      "Rule§Twin-linked": {},
+      "Rule§Two-handed": {},
+      "Rule§Unwieldy": {},
+      "Rule§Vortex": {},
+      "Rule§Wrecker": {},
+      "SelectionEntry§Arc Blaster": {},
+      "SelectionEntry§Archaeotech Pistol": {},
+      "SelectionEntry§Archimandrite": {},
+      "SelectionEntry§Artificia Reductor": {},
+      "SelectionEntry§Atomantic Deflector": {},
+      "SelectionEntry§Close Combat Weapon": {},
+      "SelectionEntry§Cortex Controller": {},
+      "SelectionEntry§Cyber-Familiar": {},
+      "SelectionEntry§Flare Shield": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Graviton Imploder": {},
+      "SelectionEntry§Havoc Launcher": {},
+      "SelectionEntry§Ion Shield": {},
+      "SelectionEntry§Ionic Deflector": {},
+      "SelectionEntry§Karacnos Mortar Battery": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Las-lock": {},
+      "SelectionEntry§Laspistol": {},
+      "SelectionEntry§Lightning Lock": {},
+      "SelectionEntry§Lorica Thallax": {},
+      "SelectionEntry§Machinator Array": {},
+      "SelectionEntry§Mechanicum Protectiva": {},
+      "SelectionEntry§Melta Cutters": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Paragon of Metal": {},
+      "SelectionEntry§Photon Thruster": {},
+      "SelectionEntry§Plasma Cannon": {},
+      "SelectionEntry§Power Axe": {},
+      "SelectionEntry§Prehensile Dataspike": {},
+      "SelectionEntry§Rad Furnace": {},
+      "SelectionEntry§Refractor Field": {},
+      "SelectionEntry§Searchlights": {},
+      "SelectionEntry§Servo-Arm": {},
+      "SelectionEntry§Shock Charger": {},
+      "SelectionEntry§Shock Ram": {},
+      "SelectionEntry§Smoke Launchers": {},
+      "SelectionEntry§Twin-linked Earthshaker Cannon": {},
+      "SelectionEntry§Utan Jump Booster": {},
+      "SelectionEntry§Volkite Culverin": {},
+      "SelectionEntry§Volkite Incinerator": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Orders of High Techno-arcana": {},
+      "SelectionEntryGroup§Warlord Traits": {},
+      "Unit§Adsecularis Tech-thralls Certus Covenant": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Close Combat Weapon",
+            "Model§Tech-thralls"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Line Sub-type:",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Entire unit may exchange Mitra-locks for Chainswords:": {
+            "ranks": {
+              "Chainsword": {
+                "order": 1
+              },
+              "Mitra-lock": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Adsecularis Tech-thralls Covenant": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Close Combat Weapon",
+            "SelectionEntry§Las-lock",
+            "Model§Tech-thralls"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Line Sub-type:",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Archmagos Anacharis Scoria": {
+        "assets": {
+          "traits": [
+            "Rule§Adamantium Will (X+)",
+            "Rule§Battlesmith (X)",
+            "Rule§Eternal Warrior",
+            "Rule§Fear (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§It Will Not Die (X)",
+            "Rule§Move Through Cover",
+            "Rule§Patris Cybernetica",
+            "Rule§Pride of Place",
+            "Rule§Traitor",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Machinator Array",
+            "SelectionEntry§Archaeotech Pistol",
+            "SelectionEntry§Photon Thruster",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Cyber-Familiar",
+            " Unit§Archmagos Anacharis Scoria",
+            "Upgrade§The Vodian Sceptre",
+            "Upgrade§Warlord Trait: Forbidden Protocols"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Monstrous Sub-type:",
+            "Infantry:",
+            "Heavy",
+            "Feudal Hierarchy (On Abeyant)"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificia Machina": {
+                "order": 1
+              },
+              "Ephemera Incursus": {
+                "order": 2
+              },
+              "Artificia Cybernetica": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 365
+          }
+        }
+      },
+      "Unit§Archmagos Prime": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Orders of High Techno-arcana",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntryGroup§Warlord Traits",
+            " Unit§Archmagos Prime"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Infantry:",
+            "Cybertheurgist",
+            "Feudal Hierarchy (On Foot)"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 1
+              },
+              "Artificia Machina": {
+                "order": 2
+              },
+              "Ephemera Incursus": {
+                "order": 3
+              },
+              "Artificia Cybernetica": {
+                "order": 4
+              },
+              "Artificia Reductor": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange either their Volkite Serpenta and/or Power Weapon each for one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Volkite Serpenta": {
+                "order": 1
+              },
+              "Power Sword": {
+                "order": 2
+              },
+              "Power Maul": {
+                "order": 3
+              },
+              "Power Axe": {
+                "order": 4
+              },
+              "Power Lance": {
+                "order": 5
+              },
+              "Archaeotech Pistol": {
+                "order": 6
+              },
+              "Lucifex": {
+                "order": 7
+              },
+              "Maxima Bolter": {
+                "order": 8
+              },
+              "Photon Gauntlet": {
+                "order": 9
+              },
+              "Plasma Pistol": {
+                "order": 10
+              },
+              "Power Fist": {
+                "order": 11
+              },
+              "Corposant Stave": {
+                "order": 12
+              },
+              "Chainfist": {
+                "order": 13
+              },
+              "Paragon Blade": {
+                "order": 14
+              }
+            },
+            "statType": "rank"
+          },
+          "May take any of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Master-craft one weapon": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Rad Grenades": {
+                "order": 3
+              },
+              "Cyber-Familiar": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following additional weapon options (an Archmagos Prime with the Myrmidax Order of High Techno-arcana may takeup to two selections from the list instead, but may not select a rad furnace):": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rotor Cannon": {
+                "order": 1
+              },
+              "Graviton Gun": {
+                "order": 2
+              },
+              "Meltagun": {
+                "order": 3
+              },
+              "Irad-Cleanser": {
+                "order": 4
+              },
+              "Phased Plasma-Fusil": {
+                "order": 5
+              },
+              "Photon Thruster": {
+                "order": 6
+              },
+              "Rad Furnace": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Incunabulan Jet Pack": {
+                "order": 2
+              },
+              "Conversion Beamer": {
+                "order": 3
+              },
+              "Graviton Imploder": {
+                "order": 4
+              },
+              "Machinator Array": {
+                "order": 5
+              },
+              "Machinator Array with Prehensile Data-Spike": {
+                "order": 6
+              },
+              "Servo-Arm with Prehensile Data-Spike": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 155
+          }
+        }
+      },
+      "Unit§Archmagos Prime on Abeyant": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Pride of Place",
+            "Rule§Stubborn",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Orders of High Techno-arcana",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntryGroup§Warlord Traits",
+            " Unit§Archmagos Prime on Abeyant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Monstrous Sub-type:",
+            "Infantry:",
+            "Feudal Hierarchy (On Abeyant)"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Ephemera Lacyraemarta": {
+                "order": 1
+              },
+              "Artificia Machina": {
+                "order": 2
+              },
+              "Ephemera Incursus": {
+                "order": 3
+              },
+              "Artificia Cybernetica": {
+                "order": 4
+              },
+              "Artificia Reductor": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange either their Volkite Serpenta and/or Power Weapon each for one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Volkite Serpenta": {
+                "order": 1
+              },
+              "Power Sword": {
+                "order": 2
+              },
+              "Power Maul": {
+                "order": 3
+              },
+              "Power Axe": {
+                "order": 4
+              },
+              "Power Lance": {
+                "order": 5
+              },
+              "Archaeotech Pistol": {
+                "order": 6
+              },
+              "Lucifex": {
+                "order": 7
+              },
+              "Maxima Bolter": {
+                "order": 8
+              },
+              "Photon Gauntlet": {
+                "order": 9
+              },
+              "Plasma Pistol": {
+                "order": 10
+              },
+              "Power Fist": {
+                "order": 11
+              },
+              "Corposant Stave": {
+                "order": 12
+              },
+              "Chainfist": {
+                "order": 13
+              },
+              "Paragon Blade": {
+                "order": 14
+              }
+            },
+            "statType": "rank"
+          },
+          "May take any of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Master-craft one weapon": {
+                "order": 1
+              },
+              "Rad Grenades": {
+                "order": 2
+              },
+              "Cyber-Familiar": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following additional weapon options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rotor Cannon": {
+                "order": 1
+              },
+              "Graviton Gun": {
+                "order": 2
+              },
+              "Meltagun": {
+                "order": 3
+              },
+              "Irad-Cleanser": {
+                "order": 4
+              },
+              "Phased Plasma-Fusil": {
+                "order": 5
+              },
+              "Photon Thruster": {
+                "order": 6
+              },
+              "Rad Furnace": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Conversion Beamer": {
+                "order": 2
+              },
+              "Graviton Imploder": {
+                "order": 3
+              },
+              "Machinator Array": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 185
+          }
+        }
+      },
+      "Unit§Arcuitor Magisterium": {
+        "assets": {
+          "traits": [
+            "Model§Arcuitor"
+          ]
+        },
+        "stats": {
+          "Hunter Killer": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "12 Arlatax Battle-Automata Maniple": {
+                "order": 1
+              },
+              "Vorax Battle-automata Maniple": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": -25
+          }
+        }
+      },
+      "Unit§Arlatax Battle-Automata Maniple": {
+        "assets": {
+          "traits": [
+            "Model§Arlatax"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Automata Unit-type:",
+            "Cybernetica Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Calleb Decima Invictus": {
+        "assets": {
+          "traits": [
+            "Rule§Battle-Hardened (X)",
+            "Rule§Battlesmith (X)",
+            "Rule§Fearless",
+            "Rule§Hatred (X)",
+            "Rule§Ignores Cover",
+            "Rule§Loyalist",
+            "Rule§Precision Strikes (X)",
+            "Rule§Relentless",
+            "Rule§Sunder",
+            "Rule§Wrecker",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Artificia Reductor",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Machinator Array",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntryGroup§Warlord Traits",
+            " Unit§Calleb Decima Invictus",
+            "Upgrade§Master-crafted Power Axe",
+            "Upgrade§Master-crafted Bolt Pistol"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Feudal Hierarchy (On Foot)"
+          ]
+        },
+        "stats": {
+          "Guardian Retinue": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Tech-Priest Auxilia (Placeholder)": {
+                "order": 1
+              },
+              "Scyllax Guardian-Automata Maniple (Placeholder)": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 200
+          }
+        }
+      },
+      "Unit§Karacnos Assault Tank": {
+        "assets": {
+          "traits": [
+            "Rule§Galvanic Traction Drive",
+            "SelectionEntry§Flare Shield",
+            "SelectionEntry§Searchlights",
+            "SelectionEntry§Shock Ram",
+            "SelectionEntry§Karacnos Mortar Battery",
+            "SelectionEntry§Lightning Lock",
+            " Vehicle§Karacnos"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "Hull (Front) Mounted Hunter-Killer Missiles": {
+            "ranks": {
+              "Hunter-Killer Missile": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 225
+          }
+        }
+      },
+      "Unit§Knight Moirax Talon": {
+        "assets": {
+          "traits": [
+            "Upgrade§Knight Moirax"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Skirmish Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Krios Squadron": {
+        "assets": {
+          "traits": [
+            "Model§Krios"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Fast Vehicles",
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Macrocarid Explorator": {
+        "assets": {
+          "traits": [
+            "Rule§Power of the Machine Spirit",
+            "Rule§Assault Vehicle",
+            "SelectionEntry§Smoke Launchers",
+            " Vehicle§Macrocarid Explorator"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "May echange its Hull (Front) Mounted Mauler Bolt Cannon for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Mauler Bolt Cannon": {
+                "order": 1
+              },
+              "Volkite Culverin": {
+                "order": 2
+              },
+              "Multi-Melta": {
+                "order": 3
+              },
+              "Lascannon": {
+                "order": 4
+              },
+              "Conversion Beamer": {
+                "order": 5
+              },
+              "Graviton Imploder": {
+                "order": 6
+              },
+              "Twin-linked Phased Plasma-Fusil": {
+                "order": 7
+              },
+              "Twin-linked Irad-Cleanser": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "May exhange its Two Hull (Front) Mounted Lascannons for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lascannon": {
+                "order": 1
+              },
+              "Twin-linked Mauler Bolt Cannon": {
+                "order": 2
+              },
+              "Twin-linked Lascannon": {
+                "order": 3
+              },
+              "Irradiation Engine": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Hunter-Killer Missile": {
+                "order": 1
+              },
+              "Searchlights": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 320
+          }
+        }
+      },
+      "Unit§Magos Dominus": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Feel No Pain (X)",
+            "Rule§Firing Protocols (X)",
+            "Rule§Patris Cybernetica",
+            "Rule§Relentless",
+            "Rule§Stubborn",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Cortex Controller",
+            " Unit§Magos Dominus"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Infantry:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificia Machina": {
+                "order": 1
+              },
+              "Ephemera Incursus": {
+                "order": 2
+              },
+              "Artificia Cybernetica": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange their Laspistol for one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Volkite Serpenta": {
+                "order": 2
+              },
+              "Archaeotech Pistol": {
+                "order": 3
+              },
+              "Photon Gauntlet": {
+                "order": 4
+              },
+              "Plasma Pistol": {
+                "order": 5
+              },
+              "Laspistol": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "May take any of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Master-craft one weapon": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Cyber-Familiar": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following additional weapons:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rotor Cannon": {
+                "order": 1
+              },
+              "Graviton Gun": {
+                "order": 2
+              },
+              "Meltagun": {
+                "order": 3
+              },
+              "Irad-Cleanser": {
+                "order": 4
+              },
+              "Phased Plasma-Fusil": {
+                "order": 5
+              },
+              "Photon Thruster": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Conversion Beamer": {
+                "order": 2
+              },
+              "Machinator Array": {
+                "order": 3
+              },
+              "Machinator Array with Prehensile Data-Spike": {
+                "order": 4
+              },
+              "Servo-Arm with Prehensile Data-Spike": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Power Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Sword": {
+                "order": 1
+              },
+              "Power Maul": {
+                "order": 2
+              },
+              "Power Axe": {
+                "order": 3
+              },
+              "Power Lance": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 75
+          }
+        }
+      },
+      "Unit§Magos Dominus on Abeyant": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Feel No Pain (X)",
+            "Rule§Stubborn",
+            "Rule§Patris Cybernetica",
+            "Rule§Pride of Place",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            "SelectionEntry§Mechanicum Protectiva",
+            "SelectionEntry§Cortex Controller",
+            " Unit§Magos Dominus on Abeyant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Monstrous Sub-type:",
+            "Infantry:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificia Machina": {
+                "order": 1
+              },
+              "Ephemera Incursus": {
+                "order": 2
+              },
+              "Artificia Cybernetica": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange their Laspistol for one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Volkite Serpenta": {
+                "order": 2
+              },
+              "Archaeotech Pistol": {
+                "order": 3
+              },
+              "Photon Gauntlet": {
+                "order": 4
+              },
+              "Plasma Pistol": {
+                "order": 5
+              },
+              "Laspistol": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "May take any of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augury Scanner": {
+                "order": 1
+              },
+              "Master-craft one weapon": {
+                "order": 1
+              },
+              "Cyber-Familiar": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following additional weapons:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rotor Cannon": {
+                "order": 1
+              },
+              "Graviton Gun": {
+                "order": 2
+              },
+              "Meltagun": {
+                "order": 3
+              },
+              "Irad-Cleanser": {
+                "order": 4
+              },
+              "Phased Plasma-Fusil": {
+                "order": 5
+              },
+              "Photon Thruster": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "May take one of the following options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Servo-Arm": {
+                "order": 1
+              },
+              "Conversion Beamer": {
+                "order": 2
+              },
+              "Machinator Array": {
+                "order": 3
+              },
+              "Machinator Array with Prehensile Data-Spike": {
+                "order": 4
+              },
+              "Servo-Arm with Prehensile Data-Spike": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Power Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Sword": {
+                "order": 1
+              },
+              "Power Maul": {
+                "order": 2
+              },
+              "Power Axe": {
+                "order": 3
+              },
+              "Power Lance": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 105
+          }
+        }
+      },
+      "Unit§Mechanicum Acastus Knight Asterius": {
+        "assets": {
+          "traits": [
+            "Rule§Catastrophic Explosion",
+            "Rule§It Will Not Die (X)",
+            "Rule§Night Vision",
+            "Rule§Macro-extinction Targeting Protocols",
+            "SelectionEntry§Ion Shield",
+            "Knights and Titans§Mechanicum Acastus Knight Asterius"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Arm Mounted Twin-Linked Heavy Conversion Beam Cannon": {
+            "ranks": {
+              "Heavy Conversion Beam Cannon": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Hull (Front) Mounted Karacnos Mortar Battery": {
+            "ranks": {
+              "Karacnos Mortar Battery": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Hull (Front) Mounted Volkite Culverin": {
+            "ranks": {
+              "Volkite Culverin": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 625
+          }
+        }
+      },
+      "Unit§Mechanicum Knight Atrapos": {
+        "assets": {
+          "traits": [
+            "Rule§Night Vision",
+            "Rule§Flank Speed",
+            "Rule§Catastrophic Destruction",
+            "SelectionEntry§Ion Shield",
+            "SelectionEntry§Flare Shield",
+            "Knights and Titans§Mechanicum Knight Atrapos",
+            "Upgrade§Arm Mounted Atrapos Phasecutter",
+            "Upgrade§Arm Mounted Singularity Cannon"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 500
+          }
+        }
+      },
+      "Unit§Mechanicum Knight Magaera": {
+        "assets": {
+          "traits": [
+            "Rule§Night Vision",
+            "Rule§Overtaxed Reactor",
+            "Knights and Titans§Mechanicum Knight Magaera",
+            "Upgrade§Arm Mounted Lightning Cannon"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Hull (Front) Mounted Phased Plasma-Fusil": {
+            "ranks": {
+              "Phased Plasma-Fusil": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange its Arm Mounted Reaper Chainsword for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Reaper Chainsword": {
+                "order": 1
+              },
+              "Siege Claw with In-Built Irad-Cleanser": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 385
+          }
+        }
+      },
+      "Unit§Mechanicum Knight Styrix": {
+        "assets": {
+          "traits": [
+            "Rule§Night Vision",
+            "Rule§Overtaxed Reactor",
+            "SelectionEntry§Flare Shield",
+            "Knights and Titans§Mechanicum Knight Styrix",
+            "Upgrade§Arm Mounted Volkite Chieorovile"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Hull (Front) Mounted Graviton Gun": {
+            "ranks": {
+              "Graviton Gun": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange its Arm Mounted Reaper Chainsword for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Reaper Chainsword": {
+                "order": 1
+              },
+              "Siege Claw with In-Built Irad-Cleanser": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 410
+          }
+        }
+      },
+      "Unit§Mechanicum Tarantula Sentry Gun Battery": {
+        "assets": {
+          "traits": [
+            "Rule§Automated Artillery Sub-type",
+            "Rule§Bulky (X)",
+            "Rule§Sentry Protocols",
+            "Rule§Firing Protocols (X)"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Artillery Sub-type:"
+          ]
+        },
+        "stats": {
+          " Tarantula Sentry Guns": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Tarantula w/Heavy Bolters": {
+                "order": 1
+              },
+              "Tarantula w/Lascannons": {
+                "order": 2
+              },
+              "Tarantula w/Hyperios Missile Launcher": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "All Tarantula Sentry Guns in the unit may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Searchlights": {
+                "order": 1
+              },
+              "Augury Scanner": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Myrmidon Destructor Host": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Shock Charger",
+            "SelectionEntry§Refractor Field",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "Model§Destructor Lord",
+            "Model§Myrmidon Destructor"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Any model in the unit may exchange their volkite culverin for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Conversion Beamer": {
+                "order": 1
+              },
+              "Darkfire Cannon": {
+                "order": 2
+              },
+              "Graviton Imploder": {
+                "order": 3
+              },
+              "Irradiation Engine": {
+                "order": 4
+              },
+              "Volkite Culverin": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 65
+          }
+        }
+      },
+      "Unit§Myrmidon Secutor Host": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Refractor Field",
+            "SelectionEntry§Frag Grenades",
+            "Model§Myrmidon Secutors",
+            "Model§Secutor Lord",
+            "Upgrade§Myrmidon Axe"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Any model in the unit may exchange either or both of their Maxima bolters for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Maxima Bolter": {
+                "order": 1
+              },
+              "Volkite Charger": {
+                "order": 2
+              },
+              "Graviton Gun": {
+                "order": 3
+              },
+              "Irad-Cleanser": {
+                "order": 4
+              },
+              "Phased Plasma-Fusil": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 60
+          }
+        }
+      },
+      "Unit§Ordinatus Aktaeus": {
+        "assets": {
+          "traits": [
+            "Rule§It Will Not Die (X)",
+            "Rule§Reactor Meltdown (X)",
+            "Rule§Reinforced Structure",
+            "Rule§Subterranean Assault",
+            " Vehicle§Ordinatus Aktaeus",
+            "Upgrade§Centreline Mounted Terrebrax Rocket Battery",
+            "Upgrade§Aktaeus Class Seismic Excavator Macro-Drill"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 800
+          }
+        }
+      },
+      "Unit§Ordinatus Ulator": {
+        "assets": {
+          "traits": [
+            "Rule§It Will Not Die (X)",
+            "Rule§Reactor Meltdown (X)",
+            "Rule§Reinforced Structure",
+            "SelectionEntry§Volkite Culverin",
+            "SelectionEntry§Volkite Culverin",
+            " Vehicle§Ordinatus Ulator",
+            "Upgrade§Ordinatus Dispersion Shield",
+            "Upgrade§Sonic Destructor"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:",
+            "Vehicle:",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 1075
+          }
+        }
+      },
+      "Unit§Ordo Reductor Artillery Tank Battery": {
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "Ordo Reductor Artillery Tanks": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Demolisher Artillery Tank": {
+                "order": 1
+              },
+              "Earthshaker Artillery Tank": {
+                "order": 2
+              },
+              "Gravis Melta Array Artillery Tank": {
+                "order": 3
+              },
+              "Magna Laser Destroyer Artillery Tank": {
+                "order": 4
+              },
+              "Medusa Artillery Tank": {
+                "order": 5
+              },
+              "Mars-Colossus Artillery Tank": {
+                "order": 6
+              },
+              "Whirlwind Artillery Tank": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Ordo Reductor Minotaur Battery": {
+        "assets": {
+          "traits": [
+            "Upgrade§Ordo Reductor Minotaur"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Unit§Scyllax Guardian-Automata Maniple": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Rad Furnace",
+            "SelectionEntry§Frag Grenades",
+            "Model§Scyllax",
+            "Upgrade§Scyllax Combat Array"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Line Sub-type:",
+            "Automata Unit-type:"
+          ]
+        },
+        "stats": {
+          "Any Scyllax may exchange their Kraken Bolter for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Kraken Bolter": {
+                "order": 1
+              },
+              "Maxima Bolter": {
+                "order": 1
+              },
+              "Flamer": {
+                "order": 2
+              },
+              "Rotor Cannon": {
+                "order": 3
+              },
+              "Volkite Charger": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "For every four models in the unit, one Scyllax may exchange their Kraken Bolter for::": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Graviton Gun": {
+                "order": 1
+              },
+              "Plasma Gun": {
+                "order": 2
+              },
+              "Irad-Cleanser": {
+                "order": 3
+              },
+              "Meltagun": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Unit§Tech-Priest Auxilia": {
+        "assets": {
+          "traits": [
+            "Model§Tech-Priest",
+            "Model§Servo-Automata"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Line Sub-type:"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport": {
+            "ranks": {
+              "Triaros Armoured Conveyor ": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 25
+          },
+          "Techno-Arcana (for all Tech-Priests and Magos Auxilia in unit)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Enginseer": {
+                "order": 1
+              },
+              "Lachrimallus": {
+                "order": 2
+              },
+              "Reductor": {
+                "order": 3
+              },
+              "Interfector": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Unit§Ursarax Cohort": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Lorica Thallax",
+            "SelectionEntry§Utan Jump Booster",
+            "SelectionEntry§Volkite Incinerator",
+            "Model§Ursarax"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Melee Weapons": {
+            "ranks": {
+              "Pair of Lightning Claws": {
+                "order": 1
+              },
+              "Two Power Fists*": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 10
+          }
+        }
+      },
+      "Unit§Vultarax Stratos-Automata Squadron": {
+        "assets": {
+          "traits": [
+            "Model§Vultarax"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Automata Unit-type:",
+            "Cybernetica Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Aktaeus Class Seismic Excavator Macro-Drill": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Aktaeus Class Seismic Excavator Macro-Drill"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Arm Mounted Atrapos Phasecutter": {
+        "assets": {
+          "traits": [
+            "Rule§Ordnance",
+            "Rule§Cumbersome",
+            "Rule§Armourbane (X)",
+            "Rule§Instant Death"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Arm Mounted Lightning Cannon": {
+        "assets": {
+          "traits": [
+            "Rule§Blast",
+            "Rule§Exoshock (X)",
+            "Rule§Rending (X)",
+            "Rule§Shred"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Arm Mounted Singularity Cannon": {
+        "assets": {
+          "traits": [
+            "Rule§Blast",
+            "Rule§Haywire",
+            "Rule§Concussive (X)",
+            "Rule§Graviton Singularity",
+            "Rule§Vortex"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Arm Mounted Volkite Chieorovile": {
+        "assets": {
+          "traits": [
+            "Rule§Deflagrate"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Centreline Mounted Terrebrax Rocket Battery": {
+        "assets": {
+          "traits": [
+            "Weapon§Terrebrax Rocket Battery"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Haemonculite Cyber-corpus": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Haemonculite Cyber-corpus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Inar Satarael": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Pride of Place",
+            "Rule§Stubborn",
+            "Rule§Feel No Pain (X)",
+            "Rule§Traitor",
+            "Rule§Feudal Hierarchy",
+            "SelectionEntry§Archimandrite",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Cortex Controller",
+            "SelectionEntry§Power Axe",
+            "SelectionEntry§Servo-Arm",
+            "SelectionEntry§Graviton Imploder",
+            " Unit§Inar Satarael",
+            "Upgrade§Repulsion Shield",
+            "Upgrade§Haemonculite Cyber-corpus",
+            "Upgrade§Twin-linked Maxima Bolter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Monstrous Sub-type:",
+            "Cybertheurgist",
+            "Character",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Cybertheurgic Arcana": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificia Machina": {
+                "order": 1
+              },
+              "Ephemera Incursus": {
+                "order": 2
+              },
+              "Artificia Cybernetica": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 185
+          }
+        }
+      },
+      "Upgrade§Knight Moirax": {
+        "assets": {
+          "traits": [
+            "Rule§Armiger Unit-Type",
+            "Rule§Stubborn",
+            "Rule§Fleet (X)",
+            "Rule§Move Through Cover",
+            "Rule§Armiger and Moirax Talons",
+            "SelectionEntry§Ionic Deflector",
+            "SelectionEntry§Rad Furnace",
+            " Unit§Knight Moirax",
+            "Reactions§Greuso Protocol"
+          ]
+        },
+        "stats": {
+          "May exchange its Siege Claw with In-Built Irad-Cleanser for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Siege Claw with In-Built Irad-Cleanser": {
+                "order": 1
+              },
+              "Lightning Lock": {
+                "order": 2
+              },
+              "Conversion Beam Cannon": {
+                "order": 3
+              },
+              "Graviton Pulsar": {
+                "order": 4
+              },
+              "Volkite Veuglaire": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "May exchange its Volkite Veuglaire for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Siege Claw with In-Built Irad-Cleanser": {
+                "order": 1
+              },
+              "Lightning Lock": {
+                "order": 2
+              },
+              "Conversion Beam Cannon": {
+                "order": 3
+              },
+              "Graviton Pulsar": {
+                "order": 4
+              },
+              "Volkite Veuglaire": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 200
+          }
+        }
+      },
+      "Upgrade§Machinator Array with Prehensile Data-Spike": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Machinator Array",
+            "SelectionEntry§Prehensile Dataspike"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Master-crafted Bolt Pistol": {
+        "assets": {
+          "traits": [
+            "Rule§Master-crafted",
+            "Weapon§Master-crafted Bolt Pistol"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Master-crafted Power Axe": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Master-crafted",
+            "Weapon§Master-crafted Power Axe"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Mechanicum Termite Assault Drill": {
+        "assets": {
+          "traits": [
+            "Rule§Infantry Transport",
+            "SelectionEntry§Melta Cutters",
+            " Vehicle§Termite Assault Drill",
+            "Upgrade§Show Subterranean Assault rule (it's really long)"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:"
+          ]
+        },
+        "stats": {
+          "1) Pintle-mounted Weaponry": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Volkite Charger": {
+                "order": 1
+              },
+              "Twin-linked Bolter": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 80
+          }
+        }
+      },
+      "Upgrade§Myrmidon Axe": {
+        "assets": {
+          "traits": [
+            "Rule§Sunder",
+            "Rule§Two-handed",
+            "Rule§Unwieldy",
+            "Weapon§Myrmidon Axe"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Ordinatus Dispersion Shield": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Ordinatus Dispersion Shield"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Ordo Reductor Minotaur": {
+        "assets": {
+          "traits": [
+            "Rule§Slow Vehicles",
+            "SelectionEntry§Smoke Launchers",
+            "SelectionEntry§Twin-linked Earthshaker Cannon",
+            " Vehicle§Ordo Reductor Minotaur"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Reinforced Sub-type:"
+          ]
+        },
+        "stats": {
+          "May Take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Hunter-Killer Missile": {
+                "order": 1
+              },
+              "Searchlights": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 235
+          }
+        }
+      },
+      "Upgrade§Repulsion Shield": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Repulsion Shield"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Scyllax Combat Array": {
+        "assets": {
+          "traits": [
+            "Upgrade§Scyllax Combat Array - Dismember",
+            "Upgrade§Scyllax Combat Array - Standard"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Scyllax Combat Array - Dismember": {
+        "assets": {
+          "traits": [
+            "Rule§Cumbersome",
+            "Rule§Unwieldy",
+            "Weapon§Scyllax Combat Array - Dismember"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Scyllax Combat Array - Standard": {
+        "assets": {
+          "traits": [
+            "Rule§Shred",
+            "Weapon§Scyllax Combat Array - Standard"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Servo-Arm with Prehensile Data-Spike": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Prehensile Dataspike",
+            "SelectionEntry§Servo-Arm"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Show Subterranean Assault rule (it's really long)": {
+        "assets": {
+          "traits": [
+            "Rule§Subterranean Assault"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Sonic Destructor": {
+        "assets": {
+          "traits": [
+            "Rule§Destroyer",
+            "Rule§Blast",
+            "Rule§Murderous Strike (X)",
+            "Rule§Pinning",
+            "Rule§Armourbane (X)",
+            "Rule§Ignores Cover",
+            "Weapon§Sonic Destructor"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Stratos Thrusters": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Stratos Thrusters"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Vodian Sceptre": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Armourbane (X)",
+            "Rule§Exoshock (X)",
+            "Rule§Murderous Strike (X)",
+            "Weapon§The Vodian Sceptre"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Twin-linked Maxima Bolter": {
+        "assets": {
+          "traits": [
+            "Rule§Twin-linked",
+            "Weapon§Twin-linked Maxima Bolter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Warlord Trait: Forbidden Protocols": {
+        "assets": {
+          "traits": [
+            "Warlord Trait§Forbidden Protocols"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Aktaeus Class Seismic Excavator Macro-Drill": {
+        "text": "The Aktaeus class seismic excavator macro-drill grants the Ordinatus Aktaeus the Ordinatus Transport Bay special rule.\nIn addition, once per battle, at the end of the controlling player’s Movement phase, the Ordinatus Aktaeus may employ its seismic excavator macro-drill to cause a Seismic Shockwave. When this occurs, the Ordinatus Aktaeus cannot move for the rest of the battle and counts as a vehicle that has suffered an irreparable Immobilised result on the Vehicle Damage table (although no Hull Point loss is suffered). Units may not choose to Embark or Disembark from the Ordinatus Aktaeus in a turn in which the Seismic Shockwave ability is used, but may do so as normal in subsequent turns.\nAt the beginning of each of the controlling player’s Shooting phases for the rest of the battle after the Ordinatus Aktaeus has employed its seismic excavator macro-drill to cause a Seismic Shockwave, pick a point within 6\" of the front of the hull of the Ordinatus Aktaeus (for the purposes of determining this point you should use the Front arc of the unit). All units, friendly or enemy (excluding the Ordinatus Aktaeus itself), within a number of inches equal to the current Game Turn number multiplied by 6 of this point suffer D6 Str 7, AP 4 Hits with the Pinning special rule. Models with the Vehicle Unit Type are hit on their weakest Armour Facing. Should a model with the Vehicle Unit Type suffer a Penetrating Hit from this attack, it immediately suffers from Crew Shaken in addition to any other effect."
+      },
+      "Wargear Item§Haemonculite Cyber-corpus": {
+        "text": "When Inar Satarael lose his last Wound, but before he is removed as a casualty, all models both friendly and enemy within D6\", suffer an automatic Hit at Str 6, Ap -. In addition, in any battle in which Inar Satarael loses his last Wound, or is otherwise removed from play as a casualty, the controlling player must immediately roll a D6. On a result of a 4+, the opposing player scores no Victory points from destroying Inar Satarael in applicable mission objectives or secondary objectives."
+      },
+      "Wargear Item§Ordinatus Dispersion Shield": {
+        "text": "For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored."
+      },
+      "Wargear Item§Repulsion Shield": {
+        "text": "A model with a repulsion shield gains a 4+ Invulnerable Save.\nInvulnerable Saves granted by a resulsion shield do not stack with other Invulerable Saves, but can benefit from rules (such as cyber-familier) that specifically incerase existing Saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.\nAdditionally, each time Inar Satarael makes a successful Invulnable Save on a roll of a 6 against a Shooting Attack not made as part of a Reaction, the unit that made the Shooting Attack suffers a S6, Ap- wound."
+      },
+      "Wargear Item§Stratos Thrusters": {
+        "text": "A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16\" for the duration of the controlling player’s turn. This allows the unit to move up to 16\", regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16\" (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times."
+      },
+      "Warlord Trait§Forbidden Protocols": {
+        "text": "Any friendly units made up entirely of models with the Automata Unit Type that have at least one model within 6\" of this Warlord may make Reactions, ignoring the usual restriction in the Automata Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Anacharis Scoria has not been\nremoved as a casualty.�"
+      },
+      "Weapon§Master-crafted Bolt Pistol": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Pistol 1, Master-crafted"
+      },
+      "Weapon§Master-crafted Power Axe": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Unwieldy, Master-crafted"
+      },
+      "Weapon§Myrmidon Axe": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Sunder, Two-handed, Unwieldy"
+      },
+      "Weapon§Scyllax Combat Array - Dismember": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 3
+          }
+        },
+        "text": "Melee, Cumbersome, Unwieldy"
+      },
+      "Weapon§Scyllax Combat Array - Standard": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          },
+          "Type": {
+            "value": "Melee, Shred"
+          }
+        }
+      },
+      "Weapon§Sonic Destructor": {
+        "text": "Destroyer 1, Large Blast (5\"), Sonic Wave, Pinning, Armourbane (Ranged), Murderous Strike (5+), Ignores Cover"
+      },
+      "Weapon§Terrebrax Rocket Battery": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "48\""
+          },
+          "Strength": {
+            "value": 7
+          },
+          "Type": {
+            "value": "Heavy 12"
+          }
+        }
+      },
+      "Weapon§The Vodian Sceptre": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Two-handed, Armourbane (Melee), Exoshock (4+), Murderous Strike (5+)"
+      },
+      "Weapon§Twin-linked Maxima Bolter": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Assault 3, Twin-linked"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

@@ -1,0 +1,1319 @@
+{
+  "name": "LA -  XVII: Word Bearers",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Ability": {},
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Psychic Power": {},
+      "Psychic Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "numeric",
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Anaktis Kul Blade Slave": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 6
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Corrupted)"
+      },
+      " Unit§Argel Tal": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "8\""
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 5
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Unique, Corrupted)"
+      },
+      " Unit§High Chaplain Erebus": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Psyker, Corrupted, Unique)"
+      },
+      " Unit§Iconoclast": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy, Character)"
+      },
+      " Unit§Incendiary": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Kor Phaeron": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy, Character, Corrupted, Unique)"
+      },
+      " Unit§Mhara Gal ": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 8
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Dreadnought (Corrupted)"
+      },
+      " Unit§Zardu Layak": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Corrupted, Psyker, Character, Unique)"
+      },
+      "Ability§Patriarch's Claws": {
+        "text": "The Patriarch’s Claws are a pair of two weapons and as such Kor Phaeron gains a bonus attack when using them."
+      },
+      "Model§Anaktis Kul Blade Slave": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Chosen Warriors",
+            "Rule§Feel No Pain (X)",
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Rage (X)",
+            "Rule§Relentless",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            " Unit§Anaktis Kul Blade Slave",
+            "Upgrade§Anaktis Blade",
+            "Upgrade§The Panoply of Flame"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Corrupted Sub-type:",
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Plasma Pistol: ": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Plasma Pistol": {
+                "order": 1
+              },
+              "Warpfire Pistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Argel Tal": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Relentless",
+            "Rule§Feel No Pain (X)",
+            "Rule§Rage (X)",
+            "Rule§Bulky (X)",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            " Unit§Argel Tal",
+            "Upgrade§Two Daemonic Talons",
+            "Upgrade§Umbral Pinions"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Infantry:",
+            "Corrupted Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 240
+          }
+        }
+      },
+      "Model§High Chaplain Erebus": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Relentless",
+            "Rule§Hatred (X)",
+            "Rule§Fearless",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Plasma Pistol",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            " Unit§High Chaplain Erebus",
+            "Upgrade§Crux Malifica",
+            "Upgrade§Psychic Powers",
+            "Upgrade§Harbinger of Chaos"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Independent Character",
+            "Corrupted Sub-type:",
+            "Psyker:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 165
+          }
+        }
+      },
+      "Model§Iconoclast": {
+        "assets": {
+          "traits": [
+            " Unit§Iconoclast"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) Pistol Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Akkadic Hand Flamer": {
+                "order": 1
+              },
+              "Inferno Pistol": {
+                "order": 1
+              },
+              "Plasma Pistol": {
+                "order": 2
+              },
+              "Warpfire Pistol": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificer Armour": {
+                "order": 1
+              },
+              "Phosphex Bomb": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              },
+              "Venom Spheres": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Incendiary": {
+        "assets": {
+          "traits": [
+            " Unit§Incendiary"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Model§Kor Phaeron": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Feel No Pain (X)",
+            "Rule§It Will Not Die (X)",
+            "Rule§Hatred (X)",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Kor Phaeron",
+            "Upgrade§Patriarch's Claws",
+            "Upgrade§Digi-flamer",
+            "Upgrade§The Terminus Consolaris"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 125
+          }
+        }
+      },
+      "Model§Zardu Layak": {
+        "assets": {
+          "traits": [
+            "Rule§Fearless",
+            "Rule§Hatred (X)",
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Relentless",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Bolt Pistol",
+            "Model§Anaktis Kul Blade Slave",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            " Unit§Zardu Layak",
+            "Upgrade§The Azurda Char'is",
+            "Upgrade§Psychic Powers"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Independent Character",
+            "Legiones Astartes",
+            "Corrupted Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 300
+          }
+        }
+      },
+      "Psychic Power§Soul Binding": {
+        "text": "When an enemy unit declares it will make a Reaction to Zardu Layak or any unit he has joined, the controlling player may choose to have Zardu Layak immediately suffer Perils of the Warp, resolving all Wounds inflicted before any part of the Reaction is resolved. If Zardu Layak is not removed as a Casualty then that Reaction is cancelled (the Reactive player does not expend a point of their Reaction Allotment, and if the Reaction could only be used a limited number of times it is not considered to have been used in this instance) and the unit that declared the Reaction gains no benefit and takes no action."
+      },
+      "Psychic Weapon§Telepathetic Chains": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "36\""
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Assault 4, Pinning, Shell Shock (3), Psychic Focus"
+      },
+      "Roster§Roster": {},
+      "Rule§Bitter Duty": {},
+      "Rule§Blind": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Concussive (X)": {},
+      "Rule§Crusader": {},
+      "Rule§Fearless": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Force": {},
+      "Rule§Hatred (X)": {},
+      "Rule§It Will Not Die (X)": {},
+      "Rule§Legiones Astartes (Word Bearers) ": {},
+      "Rule§Move Through Cover": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Pathfinder": {},
+      "Rule§Pinning": {},
+      "Rule§Psychic Focus (?? Where is this?)": {},
+      "Rule§Rage (X)": {},
+      "Rule§Rampage (X)": {},
+      "Rule§Relentless": {},
+      "Rule§Rending (X)": {},
+      "Rule§Shell Shock (X)": {},
+      "Rule§Shred": {},
+      "Rule§Stubborn": {},
+      "Rule§Template Weapons": {},
+      "Rule§Unwieldy": {},
+      "SelectionEntry§Akkadic Hand Flamer": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Axe-Rake": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Bound Daemon Attendant": {},
+      "SelectionEntry§Bound Daemon Brute": {},
+      "SelectionEntry§Bound Daemon Regent": {},
+      "SelectionEntry§Dark Channeling": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Iron Halo": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Plasma Pistol": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Warhawk Jump Pack": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Retinue": {},
+      "SelectionEntryGroup§The Ætheric Dominion (X)": {},
+      "Unit§Ashen Circle": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Crusader",
+            "Rule§Bitter Duty",
+            "Rule§Stubborn",
+            "SelectionEntry§Axe-Rake",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Warhawk Jump Pack",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Akkadic Hand Flamer",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Dark Channeling",
+            "Model§Iconoclast",
+            "Model§Incendiary"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Heavy",
+            "Jump Infantry:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Unit§Bound Daemon Brutes (Lorgar/Erebus)": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§The Ætheric Dominion (X)",
+            "SelectionEntry§Bound Daemon Brute"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Daemon Unit-type:",
+            "Bound Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Bound Daemon Regent (Lorgar/Erebus)": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§The Ætheric Dominion (X)",
+            "SelectionEntry§Bound Daemon Attendant",
+            "SelectionEntry§Bound Daemon Regent"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Daemon Unit-type:",
+            "Bound Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 130
+          }
+        }
+      },
+      "Unit§Gal Vorbak Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Chosen Warriors",
+            "Rule§Feel No Pain (X)",
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Rage (X)",
+            "Rule§Relentless",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Frag Grenades"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Corrupted:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Dark Brethren:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Dark Brethren w/ Melee Options": {
+                "order": 1
+              },
+              "Dark Brethren": {
+                "order": 2
+              },
+              "Dark Brethren w/ Ranged Options": {
+                "order": 3
+              },
+              "Dark Brethren w/ Both Options": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport:": {
+            "ranks": {
+              "Dreadclaw Drop Pod": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Lorgar ": {
+        "assets": {
+          "traits": [
+            "Rule§Crusader",
+            "Rule§It Will Not Die (X)",
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Psyker:",
+            "Independent Character",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Lorgar Choice:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lorgar": {
+                "order": 1
+              },
+              "Lorgar Transfigured": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 415
+          }
+        }
+      },
+      "Unit§Mhara Gal Dreadnought": {
+        "assets": {
+          "traits": [
+            "Rule§It Will Not Die (X)",
+            "Rule§Move Through Cover",
+            "Rule§Legiones Astartes (Word Bearers) ",
+            "Rule§Pathfinder",
+            "Rule§Rampage (X)",
+            " Unit§Mhara Gal "
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Corrupted:",
+            "Legiones Astartes",
+            "Dreadnought:"
+          ]
+        },
+        "stats": {
+          "Exchange Tainted claw with in-built Boltspitter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Gravis Autocannon": {
+                "order": 1
+              },
+              "Tainted claw with in-built Boltspitter": {
+                "order": 1
+              },
+              "Gravis Lascannon": {
+                "order": 2
+              },
+              "Gravis Melta Cannon": {
+                "order": 3
+              },
+              "Greater Boltspitter": {
+                "order": 4
+              },
+              "Warpfire Cannon": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Exchange Warpfire cannon for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Gravis Autocannon": {
+                "order": 1
+              },
+              "Tainted claw with in-built Boltspitter": {
+                "order": 1
+              },
+              "Gravis Lascannon": {
+                "order": 2
+              },
+              "Gravis Melta Cannon": {
+                "order": 3
+              },
+              "Greater Boltspitter": {
+                "order": 4
+              },
+              "Warpfire Cannon": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 240
+          }
+        }
+      },
+      "Unit§Procurators": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Frag Grenades"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "1) Procurators (1 in 5)": {
+            "ranks": {
+              "Procurator": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Procurants": {
+            "ranks": {
+              "Procurant": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Squad may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Warhawk Jump Pack": {
+                "order": 1
+              },
+              "Dark Channeling": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Upgrade§Anaktis Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Murderous Strike (X)",
+            "Rule§Brutal (X)",
+            "Weapon§Anaktis Blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Boltspitter": {
+        "assets": {
+          "traits": [
+            "Rule§Blind",
+            "Weapon§Boltspitter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Crux Malifica": {
+        "assets": {
+          "traits": [
+            "Rule§Concussive (X)",
+            "Rule§Unwieldy",
+            "Weapon§Crux Malifica"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Digi-flamer": {
+        "assets": {
+          "traits": [
+            "Rule§Template Weapons",
+            "Weapon§Digi-flamer"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Harbinger of Chaos": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Narthecium": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Narthecium"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Patriarch's Claws": {
+        "assets": {
+          "traits": [
+            "Rule§Shred",
+            "Weapon§Patriarch's Claws",
+            "Ability§Patriarch's Claws"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Psychic Powers": {
+        "assets": {
+          "traits": [
+            "Rule§Force",
+            "Rule§Pinning",
+            "Rule§Shell Shock (X)",
+            "Rule§Psychic Focus (?? Where is this?)",
+            "Rule§Force",
+            "Psychic Power§Soul Binding",
+            "Psychic Weapon§Telepathetic Chains"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Tainted Talons": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Murderous Strike (X)",
+            "Weapon§Tainted Talons "
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Azurda Char'is": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Force",
+            "Weapon§The Azurda Char'is"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Panoply of Flame": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Panoply of Flame"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Terminus Consolaris": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Terminus Consolaris"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Two Daemonic Talons": {
+        "assets": {
+          "traits": [
+            "Weapon§Daemonic Talons"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Umbral Pinions": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Umbral Pinions"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Narthecium": {
+        "text": "All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with a narthecium gains the Feel No Pain (5+) special rule. Units that include more than one narthecium do not stack the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Sub-type are not affected by this special rule and do not gain the Feel No Pain (X) special rule."
+      },
+      "Wargear Item§The Panoply of Flame": {
+        "text": "All models with the Legiones Astartes (Word Bearers) special rule within 12\" of the Panoply of Flame add a +1 modifier to their score when determining victory in assaults and +1 to their Sweeping Advance rolls."
+      },
+      "Wargear Item§The Terminus Consolaris": {
+        "text": "The Terminus Consularis grants a 2+ Armour Save, and an Invulnerable Save of 3+ in the Shooting Phase and 5+ in the Assault Phase."
+      },
+      "Wargear Item§Umbral Pinions": {
+        "text": "At the start of the controlling player’s Movement phase, Argel Tal’s Movement Characteristic may be set to a value of 14 for the duration of the controlling player’s turn. This allows Argel Tal to move up to 14\", regardless of the Movement Characteristic shown on his profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, when moving in this fashion, Argel Tal ignores terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending his movement in Dangerous Terrain. On turns when this option is in use, Argel Tal may move over both friendly and enemy models or units without penalty – but must end his movement at least 1\" away from any model from another unit.\n\nArgel Tal may still Run while using this special rule, if he would normally be able to Run, moving up to 19\" and ignoring terrain and models from other units while doing so. If Argel Tal Runs while using this special rule, he may not make Shooting Attacks or Declare a Charge in the same turn. During a Reaction made in any Phase, a player may not choose to use this special rule to gain any bonus to their Movement Characteristic"
+      },
+      "Weapon§Anaktis Blade": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Murderous Strike (5+), Brutal (2)"
+      },
+      "Weapon§Boltspitter": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "24\""
+          },
+          "Strength": {
+            "value": 4
+          },
+          "Type": {
+            "value": "Rapid fire"
+          }
+        }
+      },
+      "Weapon§Crux Malifica": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 3
+          }
+        },
+        "text": "Melee, Concussive (2), Unwieldy"
+      },
+      "Weapon§Daemonic Talons": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Murderous Strike (5+), Rending (5+)"
+      },
+      "Weapon§Digi-flamer": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "Template"
+          },
+          "Strength": {
+            "value": 4
+          },
+          "Type": {
+            "value": "Pistol 1"
+          }
+        }
+      },
+      "Weapon§Patriarch's Claws": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          },
+          "Type": {
+            "value": "Melee, Shred"
+          }
+        }
+      },
+      "Weapon§Tainted Talons ": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Rending (6+), Murderous Strike (6+)"
+      },
+      "Weapon§The Azurda Char'is": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Unwieldy,  Force"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

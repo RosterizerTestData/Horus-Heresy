@@ -1,0 +1,4193 @@
+{
+  "name": "2022 - Imperialis Militia",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      " Vehicle": {
+        "stats": {
+          "Access Points": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "Front": {
+            "statType": "term",
+            "value": null
+          },
+          "HP": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "Rear": {
+            "statType": "term",
+            "value": null
+          },
+          "Side": {
+            "statType": "term",
+            "value": null
+          },
+          "Transport Capacity": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Provenance Options": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "numeric",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "numeric",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Discipline Master": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Militia, Character)"
+      },
+      " Unit§Force Commander": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Militia, Character)"
+      },
+      " Unit§Grenadier": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Line)"
+      },
+      " Unit§Grenadier Sergeant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Line, Character)"
+      },
+      " Unit§Gunners": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Heavy)"
+      },
+      " Unit§Militia Bodyguard": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia)"
+      },
+      " Unit§Militia Lieutenant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Militia, Character)"
+      },
+      " Unit§Militia Warden": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia)"
+      },
+      " Unit§Ogryn Boss": {
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 2
+          },
+          "I": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Militia, Monstrous, Character)"
+      },
+      " Unit§Outrider Sergeant": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 13
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Cavalry (Light, Militia, Character)"
+      },
+      " Unit§Rapier": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 1
+          },
+          "Ld": {
+            "value": "-"
+          },
+          "Move": {
+            "value": 4
+          },
+          "S": {
+            "value": 1
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 1
+          }
+        },
+        "text": "Infantry (Artillery, Heavy)"
+      },
+      " Unit§Rogue Psyker": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "-"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 2
+          }
+        },
+        "text": "Infantry (Militia, Psyker, Character)"
+      },
+      " Unit§Scout": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 5
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Light)"
+      },
+      " Unit§Scout Sergeant": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 3
+          },
+          "Save": {
+            "value": "5+"
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Light, Character)"
+      },
+      " Unit§Sentinel Squadron": {
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          }
+        },
+        "text": "Infantry (Militia, Skirmish, Mechanised)"
+      },
+      " Vehicle§Arvus Transport": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 11
+          },
+          "HP": {
+            "value": 2
+          },
+          "Move": {
+            "value": 20
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 11
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "One Access Point at the rear."
+      },
+      " Vehicle§Cargo-8 Hauler": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 12
+          },
+          "HP": {
+            "value": 3
+          },
+          "Move": {
+            "value": 10
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 11
+          },
+          "Transport Capacity": {
+            "value": 22
+          }
+        },
+        "text": "Cargo-8 Hauler has one Access Point on the rear."
+      },
+      " Vehicle§IM - Gorgon Heavy Transporter": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 15
+          },
+          "HP": {
+            "value": 9
+          },
+          "Move": {
+            "value": 8
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 14
+          },
+          "Transport Capacity": {
+            "value": 40
+          }
+        },
+        "text": "A Gorgon Heavy Transporter has one Access Point at the front."
+      },
+      " Vehicle§Legion Rhino Transport": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 11
+          },
+          "HP": {
+            "value": 3
+          },
+          "Move": {
+            "value": 14
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 11
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "A Legion Rhino Transport has one Access Point on each side of the hull and one at the rear."
+      },
+      " Vehicle§Malcador Heavy Tank": {
+        "stats": {
+          "Access Points": {
+            "value": "-"
+          },
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 13
+          },
+          "HP": {
+            "value": 5
+          },
+          "Move": {
+            "value": 14
+          },
+          "Rear": {
+            "value": 12
+          },
+          "Side": {
+            "value": 13
+          },
+          "Transport Capacity": {
+            "value": "-"
+          }
+        },
+        "text": "Vehicle (Third-line, Reinforced)"
+      },
+      " Vehicle§Militia Baneblade": {
+        "stats": {
+          "Access Points": {
+            "value": "-"
+          },
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 9
+          },
+          "Move": {
+            "value": "10\""
+          },
+          "Rear": {
+            "value": 12
+          },
+          "Side": {
+            "value": 13
+          },
+          "Transport Capacity": {
+            "value": "-"
+          }
+        },
+        "text": "Vehicle (Third-line, Super-heavy)"
+      },
+      " Vehicle§Militia Land Raider Proteus Carrier": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 5
+          },
+          "Move": {
+            "value": 12
+          },
+          "Rear": {
+            "value": 14
+          },
+          "Side": {
+            "value": 14
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "One on each side of the hull and one at the front."
+      },
+      " Vehicle§Militia Termite Assault Drill": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 12
+          },
+          "HP": {
+            "value": 3
+          },
+          "Move": {
+            "value": 8
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 12
+          },
+          "Transport Capacity": {
+            "value": 12
+          }
+        },
+        "text": "A Legion Termite Assault Drill has two Access Points, one on each side of the hull."
+      },
+      " Vehicle§Miltia Leman Russ": {
+        "stats": {
+          "Access Points": {
+            "value": "-"
+          },
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 14
+          },
+          "HP": {
+            "value": 4
+          },
+          "Move": {
+            "value": 10
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 13
+          },
+          "Transport Capacity": {
+            "value": "-"
+          }
+        },
+        "text": "Vehicle (Third-line)"
+      },
+      " Vehicle§Thunderbolt Fighter": {
+        "stats": {
+          "Access Points": {
+            "value": "-"
+          },
+          "BS": {
+            "value": 3
+          },
+          "Front": {
+            "value": 12
+          },
+          "HP": {
+            "value": 3
+          },
+          "Move": {
+            "value": "22\""
+          },
+          "Rear": {
+            "value": 10
+          },
+          "Side": {
+            "value": 11
+          },
+          "Transport Capacity": {
+            "value": "-"
+          }
+        },
+        "text": "Vehicle (Flyer, Third-line)"
+      },
+      "Model§ Scout Sergeant": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Hammer of Wrath (X)",
+            " Unit§Scout Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§1) Force Commander": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Battlesmith (X)",
+            "Rule§Bulky (X)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Provenance Options",
+            "SelectionEntryGroup§Warlord Traits",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            " Unit§Force Commander"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Independent Character",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Charnabal Glaive": {
+                "order": 2
+              },
+              "Charnabal Sabre": {
+                "order": 3
+              },
+              "Charnabal Tabar": {
+                "order": 4
+              },
+              "Blast Pistol": {
+                "order": 5
+              },
+              "Needle Pistol": {
+                "order": 6
+              },
+              "Hand Flamer": {
+                "order": 7
+              },
+              "Plasma Pistol": {
+                "order": 8
+              },
+              "Power Axe": {
+                "order": 9
+              },
+              "Power Maul": {
+                "order": 10
+              },
+              "Power Lance": {
+                "order": 11
+              },
+              "Power Sword": {
+                "order": 12
+              },
+              "Power Fist": {
+                "order": 13
+              },
+              "Autopistol": {
+                "order": 14
+              },
+              "Laspistol": {
+                "order": 15
+              },
+              "Chainsword": {
+                "order": 16
+              },
+              "Archaeotech Pistol": {
+                "order": 17
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Chainsword": {
+                "order": 2
+              },
+              "Charnabal Glaive": {
+                "order": 3
+              },
+              "Charnabal Sabre": {
+                "order": 4
+              },
+              "Charnabal Tabar": {
+                "order": 5
+              },
+              "Blast Pistol": {
+                "order": 6
+              },
+              "Needle Pistol": {
+                "order": 7
+              },
+              "Hand Flamer": {
+                "order": 8
+              },
+              "Plasma Pistol": {
+                "order": 9
+              },
+              "Power Axe": {
+                "order": 10
+              },
+              "Power Maul": {
+                "order": 11
+              },
+              "Power Lance": {
+                "order": 12
+              },
+              "Power Sword": {
+                "order": 13
+              },
+              "Power Fist": {
+                "order": 14
+              },
+              "Militia Lance": {
+                "order": 15
+              },
+              "Close Combat Weapon": {
+                "order": 16
+              },
+              "Chainaxe": {
+                "order": 17
+              },
+              "Paragon Blade": {
+                "order": 18
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Carapace Armour": {
+                "order": 1
+              },
+              "Power Armour": {
+                "order": 2
+              },
+              "Flak Armour": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May Take": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Meltabombs": {
+                "order": 1
+              },
+              "Cyber-Familiar": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Fields/Shields": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Refractor Field": {
+                "order": 1
+              },
+              "Iron Halo": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "5) On Foot / Mounted Force Commander*": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Mounted Force Commander*": {
+                "order": 1
+              },
+              "On Foot": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§1) Grenadier Sergeant": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Hammer of Wrath (X)",
+            " Unit§Grenadier Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1.1) Weapons (Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Autopistol": {
+                "order": 1
+              },
+              "Laspistol": {
+                "order": 2
+              },
+              "Bolt Pistol": {
+                "order": 3
+              },
+              "Blast Pistol": {
+                "order": 4
+              },
+              "Plasma Pistol": {
+                "order": 5
+              },
+              "Chainsword": {
+                "order": 6
+              },
+              "Power Axe": {
+                "order": 7
+              },
+              "Power Lance": {
+                "order": 8
+              },
+              "Power Maul": {
+                "order": 9
+              },
+              "Power Sword": {
+                "order": 10
+              },
+              "Power Fist": {
+                "order": 11
+              },
+              "Needle Pistol": {
+                "order": 12
+              },
+              "Volkite Serpenta": {
+                "order": 13
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Close Combat Weapon": {
+                "order": 1
+              },
+              "Chainaxe": {
+                "order": 2
+              },
+              "Blast Pistol": {
+                "order": 3
+              },
+              "Bolt Pistol": {
+                "order": 4
+              },
+              "Chainsword": {
+                "order": 5
+              },
+              "Plasma Pistol": {
+                "order": 6
+              },
+              "Power Axe": {
+                "order": 7
+              },
+              "Power Fist": {
+                "order": 8
+              },
+              "Power Lance": {
+                "order": 9
+              },
+              "Power Maul": {
+                "order": 10
+              },
+              "Power Sword": {
+                "order": 11
+              }
+            },
+            "statType": "rank"
+          },
+          "1.3) Weapon (Exchange Lasgun/Autorifle)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lasgun": {
+                "order": 1
+              },
+              "Autorifle": {
+                "order": 2
+              },
+              "Autorifle with Bayonet": {
+                "order": 3
+              },
+              "Lasgun with Bayonet": {
+                "order": 4
+              },
+              "Assault Needler": {
+                "order": 5
+              },
+              "Volkite Charger": {
+                "order": 6
+              },
+              "Lasrifle": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Grenadier Sergeant may take Melta Bombs": {
+            "ranks": {
+              "Meltabombs": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§1) Militia Lieutenant": {
+        "assets": {
+          "traits": [
+            "Rule§Battlesmith (X)",
+            "Rule§Hammer of Wrath (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            " Unit§Militia Lieutenant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Plasma Pistol": {
+                "order": 3
+              },
+              "Power Axe": {
+                "order": 4
+              },
+              "Power Maul": {
+                "order": 5
+              },
+              "Power Lance": {
+                "order": 6
+              },
+              "Power Sword": {
+                "order": 7
+              },
+              "Power Fist": {
+                "order": 8
+              },
+              "Autopistol": {
+                "order": 9
+              },
+              "Laspistol": {
+                "order": 10
+              },
+              "Chainsword": {
+                "order": 11
+              },
+              "Volkite Serpenta": {
+                "order": 12
+              },
+              "Needle Pistol": {
+                "order": 13
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Plasma Pistol": {
+                "order": 3
+              },
+              "Power Axe": {
+                "order": 4
+              },
+              "Power Maul": {
+                "order": 5
+              },
+              "Power Lance": {
+                "order": 6
+              },
+              "Power Sword": {
+                "order": 7
+              },
+              "Power Fist": {
+                "order": 8
+              },
+              "Close Combat Weapon": {
+                "order": 9
+              },
+              "Chainsword": {
+                "order": 10
+              },
+              "Chainaxe": {
+                "order": 11
+              }
+            },
+            "statType": "rank"
+          },
+          "1.3) Weapon (Exchange Lasgun/Autorifle)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lasgun": {
+                "order": 1
+              },
+              "Autorifle": {
+                "order": 2
+              },
+              "Autorifle with Bayonet": {
+                "order": 3
+              },
+              "Lasgun with Bayonet": {
+                "order": 4
+              },
+              "Assault Needler": {
+                "order": 5
+              },
+              "Volkite Charger": {
+                "order": 6
+              },
+              "Lasrifle": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May Take": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Meltabombs": {
+                "order": 1
+              },
+              "Refractor Field": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§1) Rapier Battery": {
+        "assets": {
+          "traits": [
+            "Upgrade§Rapier",
+            "Upgrade§Gunners"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 30
+          }
+        }
+      },
+      "Model§2) Grenadier": {
+        "assets": {
+          "traits": [
+            " Unit§Grenadier"
+          ]
+        },
+        "stats": {
+          "1.1) Weapons (Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Autopistol": {
+                "order": 1
+              },
+              "Laspistol": {
+                "order": 2
+              },
+              "Needle Pistol": {
+                "order": 3
+              },
+              "Volkite Serpenta": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Close Combat Weapon": {
+                "order": 1
+              },
+              "Chainaxe": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "1.3) Weapon (Exchange Lasgun/Autorifle)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lasgun": {
+                "order": 1
+              },
+              "Special Weapons (Submenu)": {
+                "order": 1
+              },
+              "Autorifle": {
+                "order": 2
+              },
+              "Autorifle with Bayonet": {
+                "order": 3
+              },
+              "Lasgun with Bayonet": {
+                "order": 4
+              },
+              "Stubcarbine": {
+                "order": 5
+              },
+              "Lascarbine": {
+                "order": 6
+              },
+              "Bolter": {
+                "order": 7
+              },
+              "Bolter with Bayonet": {
+                "order": 8
+              },
+              "Assault Needler": {
+                "order": 9
+              },
+              "Volkite Charger": {
+                "order": 10
+              },
+              "Lasrifle": {
+                "order": 11
+              },
+              "Shotgun": {
+                "order": 12
+              }
+            },
+            "statType": "rank"
+          },
+          "1.4) Two Grenadiers may exchange their Lasgun for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Stubber": {
+                "order": 1
+              },
+              "Grenade Launcher": {
+                "order": 2
+              },
+              "Longlas": {
+                "order": 3
+              },
+              "Sniper Rifle": {
+                "order": 4
+              },
+              "Flamer": {
+                "order": 5
+              },
+              "Meltagun": {
+                "order": 6
+              },
+              "Plasma Gun": {
+                "order": 7
+              },
+              "Needle Vulnus": {
+                "order": 8
+              },
+              "Volkite Culverin": {
+                "order": 9
+              },
+              "Needle Cannon": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May Take": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Militia Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 6
+          }
+        }
+      },
+      "Model§2) Militia Bodyguard": {
+        "assets": {
+          "traits": [
+            " Unit§Militia Bodyguard"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Autopistol": {
+                "order": 1
+              },
+              "Laspistol": {
+                "order": 2
+              },
+              "Needle Pistol": {
+                "order": 3
+              },
+              "Volkite Serpenta": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Exchange Combat Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Close Combat Weapon": {
+                "order": 1
+              },
+              "Chainaxe": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "1.3) Weapon (Exchange Lasgun/Autorifle)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Lasgun": {
+                "order": 1
+              },
+              "Special Weapons (Submenu)": {
+                "order": 1
+              },
+              "Autorifle": {
+                "order": 2
+              },
+              "Autorifle with Bayonet": {
+                "order": 3
+              },
+              "Lasgun with Bayonet": {
+                "order": 4
+              },
+              "Stubcarbine": {
+                "order": 5
+              },
+              "Lascarbine": {
+                "order": 6
+              },
+              "Bolter": {
+                "order": 7
+              },
+              "Bolter with Bayonet": {
+                "order": 8
+              },
+              "Volkite Charger": {
+                "order": 9
+              },
+              "Assault Needler": {
+                "order": 10
+              },
+              "Lasrifle": {
+                "order": 11
+              }
+            },
+            "statType": "rank"
+          },
+          "1.4) One Militia bodyguard Special Weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Stubber": {
+                "order": 1
+              },
+              "Grenade Launcher": {
+                "order": 2
+              },
+              "Longlas": {
+                "order": 3
+              },
+              "Sniper Rifle": {
+                "order": 4
+              },
+              "Flamer": {
+                "order": 5
+              },
+              "Meltagun": {
+                "order": 6
+              },
+              "Plasma Gun": {
+                "order": 7
+              },
+              "Needle Vulnus": {
+                "order": 8
+              },
+              "Volkite Culverin": {
+                "order": 9
+              },
+              "Needle Cannon": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May Take": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Militia Standard": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 8
+          }
+        }
+      },
+      "Model§Cargo-8 Hauler": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Searchlights",
+            " Vehicle§Cargo-8 Hauler"
+          ]
+        },
+        "stats": {
+          "1) Pintle-Mounted Weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Stubber": {
+                "order": 1
+              },
+              "Grenade Launcher": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May Take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Armoured Container": {
+                "order": 1
+              },
+              "Smoke Launchers": {
+                "order": 1
+              },
+              "Hunter-Killer Missile": {
+                "order": 2
+              },
+              "Dozer Blade": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 40
+          }
+        }
+      },
+      "Model§Discipline Master": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Battlesmith (X)",
+            "Rule§Bulky (X)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            "SelectionEntry§Frag Grenades",
+            " Unit§Discipline Master"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1.5) Melee Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainsword": {
+                "order": 1
+              },
+              "Power Maul": {
+                "order": 2
+              },
+              "Power Axe": {
+                "order": 3
+              },
+              "Power Sword": {
+                "order": 4
+              },
+              "Militia Lance": {
+                "order": 5
+              },
+              "Close Combat Weapon": {
+                "order": 6
+              },
+              "Power Lance": {
+                "order": 7
+              },
+              "Chainaxe": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "1) Ranged Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Needle Pistol": {
+                "order": 3
+              },
+              "Laspistol": {
+                "order": 4
+              },
+              "Autopistol": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Carapace Armour": {
+                "order": 1
+              },
+              "Flak Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May Take": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Refractor Field": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "4) On Foot / Mounted Discipline Master*": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "On Foot": {
+                "order": 1
+              },
+              "Mounted Discipline Master*": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Model§Militia Wardens": {
+        "assets": {
+          "traits": [
+            "Rule§Traitor",
+            "Rule§Support Squad",
+            " Unit§Militia Warden"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Autopistol": {
+                "order": 3
+              },
+              "Laspistol": {
+                "order": 4
+              },
+              "Chainsword": {
+                "order": 5
+              },
+              "Shotgun": {
+                "order": 6
+              },
+              "Stubcarbine": {
+                "order": 7
+              },
+              "Lascarbine": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainsword": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Close Combat Weapon": {
+                "order": 3
+              },
+              "Lascarbine": {
+                "order": 4
+              },
+              "Shotgun": {
+                "order": 5
+              },
+              "Stubcarbine": {
+                "order": 6
+              },
+              "Chainaxe": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 5
+          }
+        }
+      },
+      "Model§Ogryn Boss": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Stubborn",
+            "Rule§Battlesmith (X)",
+            " Unit§Ogryn Boss"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) Ogryn Boss may take one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Axe": {
+                "order": 1
+              },
+              "Thunder Hammer": {
+                "order": 2
+              },
+              "Heavy Bolter": {
+                "order": 3
+              },
+              "Heavy Flamer": {
+                "order": 4
+              },
+              "Autocannon": {
+                "order": 5
+              },
+              "Power Maul": {
+                "order": 6
+              },
+              "Power Lance": {
+                "order": 7
+              },
+              "Power Sword": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "2.1) Additional Boss Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Additional Basic Close Combat Weapon": {
+                "order": 1
+              },
+              "Ripper Gun": {
+                "order": 1
+              },
+              "Thunderstub": {
+                "order": 2
+              },
+              "Boarding Shield": {
+                "order": 3
+              },
+              "Chainaxe": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2.2) Repace CCW for Chainaxe (Feral Warriors)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainaxe": {
+                "order": 1
+              },
+              "Close Combat Weapon": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Model§Outrider Sergeant": {
+        "assets": {
+          "traits": [
+            "Rule§Militia Cavalry Mount",
+            "Rule§Battlesmith (X)",
+            "Rule§Hammer of Wrath (X)",
+            " Unit§Outrider Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Blast Pistol": {
+                "order": 2
+              },
+              "Plasma Pistol": {
+                "order": 3
+              },
+              "Power Maul": {
+                "order": 4
+              },
+              "Power Axe": {
+                "order": 5
+              },
+              "Power Sword": {
+                "order": 6
+              },
+              "Autopistol": {
+                "order": 7
+              },
+              "Laspistol": {
+                "order": 8
+              },
+              "Chainsword": {
+                "order": 9
+              },
+              "Power Lance": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Chainsword": {
+                "order": 2
+              },
+              "Blast Pistol": {
+                "order": 3
+              },
+              "Plasma Pistol": {
+                "order": 4
+              },
+              "Power Axe": {
+                "order": 5
+              },
+              "Power Maul": {
+                "order": 6
+              },
+              "Power Lance": {
+                "order": 7
+              },
+              "Power Sword": {
+                "order": 8
+              },
+              "Close Combat Weapon": {
+                "order": 9
+              },
+              "Chainaxe": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Rogue Psyker": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "Rule§Fear (X)",
+            "Rule§Traitor",
+            "Rule§Battlesmith (X)",
+            "Rule§Hammer of Wrath (X)",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Warlord Traits",
+            "SelectionEntry§Psychic Discipline: Anathemata",
+            " Unit§Rogue Psyker"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Psyker:",
+            "Character",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "1.1) Weapon (Exchange Laspistol/Autopistol)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Force Axe": {
+                "order": 1
+              },
+              "Force Staff": {
+                "order": 2
+              },
+              "Force Maul": {
+                "order": 3
+              },
+              "Force Sword": {
+                "order": 4
+              },
+              "Autopistol": {
+                "order": 5
+              },
+              "Laspistol": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2) Weapon (Exchange Close Combat Weapon)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Force Axe": {
+                "order": 1
+              },
+              "Force Staff": {
+                "order": 2
+              },
+              "Force Maul": {
+                "order": 3
+              },
+              "Force Sword": {
+                "order": 4
+              },
+              "Close Combat Weapon": {
+                "order": 5
+              },
+              "Chainaxe": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Model§Scout": {
+        "assets": {
+          "traits": [
+            " Unit§Scout"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 5
+          }
+        }
+      },
+      "Model§Sentinel": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Scout",
+            " Unit§Sentinel Squadron"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 60
+          }
+        }
+      },
+      "Model§Termite Assault Drill": {
+        "keywords": {
+          "Keywords": [
+            "Vehicle:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Provenance Options§Frenzon (A-J)": {
+        "assets": {
+          "traits": [
+            "Rule§Furious Charge (X)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Provenance Options§Militia Jet Pack (SotDA)": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Militia Jet Pack"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Provenance Options§Relic Arms (AoON)": {
+        "stats": {
+          "Pts": {
+            "value": 30
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Assault Vehicle": {},
+      "Rule§Barrage": {},
+      "Rule§Battlesmith (X)": {},
+      "Rule§Blast": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Crusader": {},
+      "Rule§Deep Strike": {},
+      "Rule§Emplaced": {
+        "text": "A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties."
+      },
+      "Rule§Fear (X)": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Furious Charge (X)": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Hatred (X)": {},
+      "Rule§Infantry Transport": {},
+      "Rule§Infiltrate": {},
+      "Rule§Militia Cavalry Mount": {},
+      "Rule§Move Through Cover": {},
+      "Rule§Pinning": {},
+      "Rule§Power of the Machine Spirit": {},
+      "Rule§Provenance": {
+        "text": "Provenance"
+      },
+      "Rule§Relentless": {},
+      "Rule§Repair": {},
+      "Rule§Scout": {},
+      "Rule§Slow and Purposeful": {},
+      "Rule§Strength in Numbers": {
+        "text": "When a unit that is composed entirely of models with this special rule is selected as a Troops choice, then up to three such units may be selected to fill that Troops choice slot instead of only one.\n\nAll units selected in this manner count as part of the same Troops choice for the purposes of Army Selection and Deployment only, when deployed onto the battlefield or into Reserves they are counted as a single unit and all units selected as part of the same Troops choice must be deployed at the same time (but are not required to deploy in proximity with each other) – and if placed into Reserves then all units in that choice must be placed into Reserves. Likewise,  when making Reserves rolls one roll is made for all units selected as part of the same choice. \n\nOnce deployed onto the battlefield, all units selected in this manner are treated as separate and distinct units or choices for any Primary or Secondary Objectives or other special rules and operate as separate units in all ways. Units selected as part of the same Troops choice may have different options selected for them, and are not required to be identical.\n\nWhen assigning additional models to units using the Among the Ranks and Militia Medicae Support special rules, each unit selected using the Strength in Numbers special rule is considered separate and may have models assigned to it as per the normal rules as the controlling player chooses."
+      },
+      "Rule§Stubborn": {},
+      "Rule§Subterranean Assault": {},
+      "Rule§Support Squad": {},
+      "Rule§Traitor": {},
+      "SelectionEntry§Autocannon": {},
+      "SelectionEntry§Autorifle": {},
+      "SelectionEntry§Baneblade Cannon": {},
+      "SelectionEntry§Bayonet": {},
+      "SelectionEntry§Bolter": {},
+      "SelectionEntry§Bound Daemon Brute": {},
+      "SelectionEntry§Demolisher Cannon": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Gravis Lascannon": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Lascannon": {},
+      "SelectionEntry§Lasgun": {},
+      "SelectionEntry§Liberation Force Allies Restriction": {},
+      "SelectionEntry§Melta Cutters": {},
+      "SelectionEntry§Psychic Discipline: Anathemata": {},
+      "SelectionEntry§Searchlights": {},
+      "SelectionEntry§Smoke Launchers": {},
+      "SelectionEntry§Twin-linked Bolter": {},
+      "SelectionEntry§Twin-linked Heavy Bolter": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Provenance Options": {},
+      "SelectionEntryGroup§Provenances of War": {},
+      "SelectionEntryGroup§The Ætheric Dominion (X)": {},
+      "SelectionEntryGroup§Warlord Traits": {},
+      "Unit§Bound Daemon Brutes (Rogue Psyker)": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§The Ætheric Dominion (X)",
+            "SelectionEntry§Bound Daemon Brute"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Daemon Unit-type:",
+            "Bound Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§IM - Arvus Transport": {
+        "assets": {
+          "traits": [
+            "Rule§Deep Strike",
+            "Rule§Infantry Transport",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntry§Smoke Launchers",
+            " Vehicle§Arvus Transport"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Flyer Sub-type:",
+            "Third-line Unit Sub-type",
+            "Hover Sub-type",
+            "Transport Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 40
+          }
+        }
+      },
+      "Unit§IM - Baneblade Super-heavy Battle Tank": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntry§Twin-linked Heavy Bolter",
+            "SelectionEntry§Demolisher Cannon",
+            "SelectionEntry§Baneblade Cannon",
+            "SelectionEntry§Autocannon",
+            " Vehicle§Militia Baneblade"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Third-line Unit Sub-type",
+            "Super-heavy Sub-type:"
+          ]
+        },
+        "stats": {
+          "1) Pintle mounted Weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Twin-linked Bolter": {
+                "order": 1
+              },
+              "Heavy Bolter": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              },
+              "Multi-Melta": {
+                "order": 4
+              },
+              "Havoc Launcher": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Sponson Mounted Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2x Sponson Mounted Heavy Flamers & Lascannons ": {
+                "order": 1
+              },
+              "2x Sponson Mounted twin-linked Heavy Bolters & Lascannons": {
+                "order": 2
+              },
+              "2x Sponson Mounted twin-linked Heavy Bolters": {
+                "order": 3
+              },
+              "2x Sponson Mounted Heavy Flamers": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Searchlights": {
+                "order": 1
+              },
+              "Hunter-Killer Missile": {
+                "order": 2
+              },
+              "Smoke Launchers": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 400
+          }
+        }
+      },
+      "Unit§IM - Beastmasters": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction"
+          ]
+        },
+        "stats": {
+          "1.1) Handlers": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Handler w/ Laspistol": {
+                "order": 1
+              },
+              "Provenance Options": {
+                "order": 1
+              },
+              "Handler w/ Autopistol": {
+                "order": 2
+              },
+              "Handler w/ Auitopistol & Chainaxe": {
+                "order": 3
+              },
+              "Handler w/ Laspistol & Chainaxe": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "1.2)  All Militia Handlers in the unit may take one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Shotgun": {
+                "order": 1
+              },
+              "Stubcarbine": {
+                "order": 2
+              },
+              "Lascarbine": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) War Beasts": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Mastiff": {
+                "order": 1
+              },
+              "Felidae": {
+                "order": 2
+              },
+              "Caiman": {
+                "order": 3
+              },
+              "Raptor": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 26
+          }
+        }
+      },
+      "Unit§IM - Cargo-8 Hauler Squadron": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "Model§Cargo-8 Hauler"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Third-line Unit Sub-type",
+            "Transport Sub-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 10
+          }
+        }
+      },
+      "Unit§IM - Cavalry Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Slow and Purposeful",
+            "Rule§Feel No Pain (X)",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§Outrider Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Cavalry Unit-type:",
+            "Light Sub-type:",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Outriders": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Outrider w/ Laspistol": {
+                "order": 1
+              },
+              "Outrider w/ Autopistol": {
+                "order": 2
+              },
+              "Outrider w/ Laspistol & Chainaxe": {
+                "order": 3
+              },
+              "Outrider w/ Autopistol & Chainaxe": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Militia Outrider in the unit may take one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Grenade Launcher": {
+                "order": 1
+              },
+              "Flamer": {
+                "order": 2
+              },
+              "Meltagun": {
+                "order": 3
+              },
+              "Plasma Gun": {
+                "order": 4
+              },
+              "Melta Lance": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Squad Weapon - All models in the unit may take one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Stubcarbine": {
+                "order": 1
+              },
+              "Lascarbine": {
+                "order": 2
+              },
+              "Militia Lance": {
+                "order": 3
+              },
+              "Shotgun": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Squad Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Flak Armour": {
+                "order": 1
+              },
+              "Carapace Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 18
+          }
+        }
+      },
+      "Unit§IM - Command Cadre": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§1) Militia Lieutenant",
+            "Model§2) Militia Bodyguard"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "3) Unit Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Carapace Armour": {
+                "order": 1
+              },
+              "Flak Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Militia Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Militia Rhino Transport": {
+                "order": 2
+              },
+              "Militia Termite Assault Drill": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 13
+          }
+        }
+      },
+      "Unit§IM - Discipline Master Cadre": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§Discipline Master"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Field Gun Battery": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Heavy Sub-type:",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Militia Field Guns": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Militia Field Gun w/ Heavy Lascannon": {
+                "order": 1
+              },
+              "Militia Field Gun w/ Kalliope Mortar": {
+                "order": 2
+              },
+              "Militia Field Gun w/ Thunderblast Cannon": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Flak Armour": {
+                "order": 1
+              },
+              "Carapace Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 5
+          }
+        }
+      },
+      "Unit§IM - Fire Support Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Feel No Pain (X)",
+            "Rule§Hatred (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Heavy Sub-type:",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Militia Fire Teams": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Militia Fire Team w/ Lascannon": {
+                "order": 1
+              },
+              "Militia Fire Team w/ Autocannon": {
+                "order": 2
+              },
+              "Militia Fire Team w/ Heavy Stubber": {
+                "order": 3
+              },
+              "Militia Fire Team w/ Missile Launcher Frag/Krak": {
+                "order": 4
+              },
+              "Militia Fire Team w/ Mortar": {
+                "order": 5
+              },
+              "Militia Fire Team w/ Multilaser": {
+                "order": 6
+              },
+              "Militia Fire Team w/ Heavy Bolter": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Force Commander": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "Model§1) Force Commander"
+          ]
+        },
+        "stats": {
+          "2) Retinue": {
+            "ranks": {
+              "04) IM - Command Cadre": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 100
+          }
+        }
+      },
+      "Unit§IM - Gorgon Heavy Transporter": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            " Vehicle§IM - Gorgon Heavy Transporter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Third-line Unit Sub-type",
+            "Super-heavy Sub-type:",
+            "Transport Sub-type:"
+          ]
+        },
+        "stats": {
+          "1) May replace both its Hull (Front) Mounted Gorgon Mortar Batteries with:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2x Sponson Mounted Multi-Lasers": {
+                "order": 1
+              },
+              "2x Hull (Front) Gorgon Mortar Batteries": {
+                "order": 2
+              },
+              "2x Sponson Mounted Heavy Bolters": {
+                "order": 3
+              },
+              "2x Sponson Mounted Heavy Flamers": {
+                "order": 4
+              },
+              "2x Sponson Mounted Autocannon": {
+                "order": 5
+              },
+              "2x Sponson Mounted Lascannons": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May replace both its Pintle Mounted heavy stubbers with:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Two Pintle Mounted Multi-Lasers": {
+                "order": 1
+              },
+              "Two Pintle Mounted Autocannon": {
+                "order": 2
+              },
+              "Two Pintle Mounted Lascannon": {
+                "order": 3
+              },
+              "Two Pintle Mounted Heavy Stubbers": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May take:": {
+            "ranks": {
+              "Hunter-Killer Missile": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 250
+          }
+        }
+      },
+      "Unit§IM - Grenadier Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "Upgrade§Carapace Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§2) Grenadier",
+            "Model§1) Grenadier Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type",
+            "Infantry:",
+            "Line Sub-type:"
+          ]
+        },
+        "stats": {
+          "4) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Militia Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Militia Rhino Transport": {
+                "order": 2
+              },
+              "Militia Termite Assault Drill": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 21
+          }
+        }
+      },
+      "Unit§IM - Heavy Ordnance Battery": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options"
+          ]
+        },
+        "stats": {
+          "Gun Carrages": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Earthshaker Gun Carriage": {
+                "order": 1
+              },
+              "Medusa Gun Carriage": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Gunners": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Gunners w/ Autopistol": {
+                "order": 1
+              },
+              "Gunners w/ Laspistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 2
+          }
+        }
+      },
+      "Unit§IM - Infantry Squad": {
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Infantry Squads": {
+            "ranks": {
+              "Infantry Squad": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Leman Russ": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            " Vehicle§Miltia Leman Russ"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Third-line Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) All models may exchange their Turret Mounted Battlecannon for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Turret Mounted Vanquisher Battle Cannon and Co-axial Mounted Autocannon": {
+                "order": 1
+              },
+              "Turret Mounted Gravis Autocannons": {
+                "order": 2
+              },
+              "Turret Mounted Gravis Lascannons": {
+                "order": 3
+              },
+              "Turret Mounted Battle Cannon": {
+                "order": 4
+              },
+              "Turret Mounted Executioner Plasma Destroyer": {
+                "order": 5
+              },
+              "Turret Mounted Demolisher Cannon": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange their Hull (Front) Mounted Heavy Bolter for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Multi-Laser": {
+                "order": 1
+              },
+              "Heavy Flamer": {
+                "order": 2
+              },
+              "Lascannon": {
+                "order": 3
+              },
+              "Heavy Bolter": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May take one of the following Pintle-mounted weapons:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Flamer": {
+                "order": 1
+              },
+              "Heavy Stubber": {
+                "order": 2
+              },
+              "Multi-Laser": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "4) May take any of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Searchlights": {
+                "order": 1
+              },
+              "Hunter-Killer Missile": {
+                "order": 2
+              },
+              "Smoke Launchers": {
+                "order": 3
+              },
+              "Dozer Blade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 120
+          }
+        }
+      },
+      "Unit§IM - Levy Squad": {
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Levy Squads": {
+            "ranks": {
+              "Levy Squad": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Malcador Heavy Tank": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            " Vehicle§Malcador Heavy Tank"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Third-line Unit Sub-type",
+            "Reinforced Sub-type:"
+          ]
+        },
+        "stats": {
+          "1) May exchange its Hull (Front) Mounted battlecannon for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Battle Cannon": {
+                "order": 1
+              },
+              "Vanquisher Battle Cannon": {
+                "order": 2
+              },
+              "Gravis Lascannon": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange its Hull (Front) Mounted heavy bolter for one of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Bolter": {
+                "order": 1
+              },
+              "Autocannon": {
+                "order": 2
+              },
+              "Multi-Laser": {
+                "order": 3
+              },
+              "Heavy Flamer": {
+                "order": 4
+              },
+              "Lascannon": {
+                "order": 5
+              },
+              "Demolisher Cannon": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May exchange its Hull (Left) & Hull (Right) Mounted heavy bolters for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Bolter": {
+                "order": 1
+              },
+              "Autocannon": {
+                "order": 2
+              },
+              "Multi-Laser": {
+                "order": 3
+              },
+              "Heavy Flamer": {
+                "order": 4
+              },
+              "Lascannon": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "4) May take one of the following Pintle-mounted weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Stubber": {
+                "order": 1
+              },
+              "Multi-Laser": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "5) May take any of the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Flare Shield": {
+                "order": 1
+              },
+              "Dozer Blade": {
+                "order": 2
+              },
+              "Hunter-Killer Missile": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 185
+          }
+        }
+      },
+      "Unit§IM - Medicae Detachment": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Militia Medicae": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Militia Medicae w/ Laspistol": {
+                "order": 1
+              },
+              "Militia Medicae w/ Autopistol": {
+                "order": 2
+              },
+              "Militia Medicae w/ Autopistol & Chainaxe": {
+                "order": 3
+              },
+              "Militia Medicae w/ Laspistol & Chainaxe": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 4
+          }
+        }
+      },
+      "Unit§IM - Ogryn Brute Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Slow and Purposeful",
+            "Rule§Feel No Pain (X)",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§Ogryn Boss",
+            "Upgrade§Ogryn Conscripts (Compulsory)"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Militia Unit Sub-type",
+            "Infantry:",
+            "Monstrous Sub-type:"
+          ]
+        },
+        "stats": {
+          "1) Ogryn Brutes": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Ogryn Brute w/ Close Combat Weapon": {
+                "order": 1
+              },
+              "Ogryn Brute w/ Chainaxe (Feral Warriors)": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Additional Brute Weapons (Not Boss)": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Additional Basic Close Combat Weapon": {
+                "order": 1
+              },
+              "Ripper Gun": {
+                "order": 1
+              },
+              "Additional Chainaxe (Feral Warriors)": {
+                "order": 2
+              },
+              "Thunderstub": {
+                "order": 2
+              },
+              "Boarding Shield": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Unit Armour": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Flak Armour": {
+                "order": 1
+              },
+              "Carapace Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 10
+          }
+        }
+      },
+      "Unit§IM - Rapier Battery": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§1) Rapier Battery"
+          ]
+        },
+        "stats": {
+          "2) Rapier Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Gravis Multi-Laser": {
+                "order": 1
+              },
+              "Gravis Heavy Bolter Battery": {
+                "order": 2
+              },
+              "Laser Destroyer": {
+                "order": 3
+              },
+              "Quad Launcher - Frag": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Gunner Weapons": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Autopistol": {
+                "order": 1
+              },
+              "Laspistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Reconnaissance Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Support Squad",
+            "Rule§Scout",
+            "Rule§Infiltrate",
+            "Rule§Move Through Cover",
+            "Rule§Feel No Pain (X)",
+            "Rule§Slow and Purposeful",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntry§Frag Grenades",
+            "Upgrade§Flak Armour",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§Scout",
+            "Model§ Scout Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Militia Unit Sub-type",
+            "Light Sub-type:"
+          ]
+        },
+        "stats": {
+          "3) All models in the unit may exchange their shotguns for one of the following": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Shotgun": {
+                "order": 1
+              },
+              "Two Laspistols": {
+                "order": 1
+              },
+              "Lascarbine": {
+                "order": 2
+              },
+              "Two Autopistols": {
+                "order": 2
+              },
+              "Stubcarbine": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Up to 5 models per unit may exchange their shotguns, lascarbines or stubcarbines for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Longlas": {
+                "order": 1
+              },
+              "Sniper Rifle": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "5) The Scout Sergeant may be given:": {
+            "ranks": {
+              "Meltabombs": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 30
+          }
+        }
+      },
+      "Unit§IM - Rogue Psyker": {
+        "assets": {
+          "traits": [
+            "Rule§Slow and Purposeful",
+            "Rule§Feel No Pain (X)",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntryGroup§Provenance Options",
+            "Model§Rogue Psyker",
+            "Model§Militia Wardens"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Militia Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§IM - Sentinel Squadron": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "Model§Sentinel"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Militia Unit Sub-type",
+            "Skirmish Sub-type:",
+            "Mechanised Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          },
+          "Sentinal Weapons:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Autocannon": {
+                "order": 1
+              },
+              "Heavy Flamer": {
+                "order": 2
+              },
+              "Lascannon": {
+                "order": 3
+              },
+              "Multi-Laser": {
+                "order": 4
+              },
+              "Multi-Melta": {
+                "order": 5
+              },
+              "Missile Launcher w/Frag & Krak Missiles": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Unit§IM - Thunderbolt Fighter": {
+        "assets": {
+          "traits": [
+            "Rule§Deep Strike",
+            "SelectionEntry§Liberation Force Allies Restriction",
+            "SelectionEntry§Autocannon",
+            "SelectionEntry§Lascannon",
+            " Vehicle§Thunderbolt Fighter"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Vehicle Unit:",
+            "Flyer Sub-type:",
+            "Third-line Unit Sub-type",
+            "Deep Strike:"
+          ]
+        },
+        "stats": {
+          "1) 4x Hull (Front) Mounted Rocket Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Heavy Frag Rocket": {
+                "order": 1
+              },
+              "Heavy Krak Rocket": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 120
+          }
+        }
+      },
+      "Unit§Militia Rhino Transport": {
+        "assets": {
+          "traits": [
+            "Rule§Repair",
+            "Rule§Infantry Transport",
+            "SelectionEntry§Twin-linked Bolter",
+            "SelectionEntry§Smoke Launchers",
+            " Vehicle§Legion Rhino Transport"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Transport",
+            "Third-line Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Pintle-weaponry": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 1
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 2
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 5
+              },
+              "Havoc Launcher": {
+                "order": 6
+              },
+              "Heavy Flamer": {
+                "order": 7
+              },
+              "Multi-Melta": {
+                "order": 8
+              },
+              "Twin-linked Bolter": {
+                "order": 9
+              },
+              "Heavy Bolter": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Searchlights": {
+                "order": 1
+              },
+              "Dozer Blade": {
+                "order": 2
+              },
+              "Hunter-Killer Missile": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 35
+          }
+        }
+      },
+      "Upgrade§Autorifle with Bayonet": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Autorifle",
+            "SelectionEntry§Bayonet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Bolter with Bayonet": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Bolter",
+            "SelectionEntry§Bayonet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Carapace Armour": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Carapace Armour"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Flak Armour": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Flak Armour"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        },
+        "text": "Flak armour confers a 5+ Armour Save."
+      },
+      "Upgrade§Gunners": {
+        "assets": {
+          "traits": [
+            "Rule§Slow and Purposeful",
+            "Rule§Feel No Pain (X)",
+            "Rule§Bulky (X)",
+            "Rule§Crusader",
+            "Rule§Hatred (X)",
+            "Rule§Fear (X)",
+            "Rule§Furious Charge (X)",
+            "Upgrade§Flak Armour",
+            " Unit§Gunners"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§IM - Leman Russ Squadron (Industrial Stronghold)": {
+        "assets": {
+          "traits": [
+            "Unit§IM - Leman Russ"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle Unit:",
+            "Industrial Stronghold - Leman Russ Squadron"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Lasgun with Bayonet": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Lasgun",
+            "SelectionEntry§Bayonet"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Militia Land Raider Proteus Carrier": {
+        "assets": {
+          "traits": [
+            "Rule§Assault Vehicle",
+            "Rule§Power of the Machine Spirit",
+            "SelectionEntry§Smoke Launchers",
+            "SelectionEntry§Gravis Lascannon",
+            " Vehicle§Militia Land Raider Proteus Carrier"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Transport",
+            "Reinforced Sub-type:",
+            "Third-line Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Hull Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Twin-linked Lascannon": {
+                "order": 1
+              },
+              "Twin-linked Heavy Flamer": {
+                "order": 2
+              },
+              "Twin-linked Heavy Bolter": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Pintle mounted Weapon:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Twin-linked Bolter": {
+                "order": 1
+              },
+              "Heavy Bolter": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              },
+              "Multi-Melta": {
+                "order": 4
+              },
+              "Havoc Launcher": {
+                "order": 5
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 6
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 7
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 8
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 9
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Hunter-Killer Missile": {
+                "order": 1
+              },
+              "Searchlights": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 220
+          }
+        }
+      },
+      "Upgrade§Militia Standard": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Militia Standard"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Militia Termite Assault Drill": {
+        "assets": {
+          "traits": [
+            "Rule§Infantry Transport",
+            "SelectionEntry§Melta Cutters",
+            " Vehicle§Militia Termite Assault Drill",
+            "Model§Termite Assault Drill",
+            "Upgrade§Show Subterranean Assault rule (it's really long)"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Vehicle:",
+            "Transport",
+            "Vehicle Unit:",
+            "Third-line Unit Sub-type"
+          ]
+        },
+        "stats": {
+          "1) Pintle-mounted Weaponry": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Volkite Charger": {
+                "order": 1
+              },
+              "Twin-linked Bolter": {
+                "order": 2
+              },
+              "Heavy Flamer": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 80
+          }
+        }
+      },
+      "Upgrade§Militia Vexilla": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Militia Vexilla"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Mortar": {
+        "assets": {
+          "traits": [
+            "Rule§Blast",
+            "Rule§Barrage",
+            "Rule§Pinning",
+            "Weapon§Mortar"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Ogryn Conscripts (Compulsory)": {
+        "keywords": {
+          "Keywords": [
+            "Ogryn Conscripts (Compulsory)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Provenances of War": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§Provenances of War"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "New CategoryLink"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Rapier": {
+        "assets": {
+          "traits": [
+            "Rule§Bulky (X)",
+            "Rule§Relentless",
+            " Unit§Rapier"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Show Subterranean Assault rule (it's really long)": {
+        "assets": {
+          "traits": [
+            "Rule§Subterranean Assault"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Carapace Armour": {
+        "text": "Carapace armour confers a 4+ Armour Save."
+      },
+      "Wargear Item§Flak Armour": {
+        "text": "Flak armour confers a 5+ Armour Save."
+      },
+      "Wargear Item§Militia Jet Pack": {
+        "text": "At the start of the controlling player’s Movement phase, a model with a Militia jet pack may set its Move Characteristic to a value of 12 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the jet pack). This allows a model with a Militia jet pack to move up to 12\", regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance). In addition, all models with a Militia jet pack that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with an activated Militia jet pack treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1\" away from any model from another unit.\n\nA model with a Militia jet pack may still Run, if it would normally be able to Run (this does not allow units that include any models with the Heavy Unit Sub-type to Run). When making a Run move for a model with an activated Militia jet pack, add the Initiative Characteristic of that model to 12 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with a Militia jet pack as noted above, but may not make Shooting Attacks or Declare a Charge in the same turn in which it has Run as per the normal rules for Running. During a Reaction made in any Phase, a player may not choose to activate a model’s Militia jet pack to gain any bonus to their Movement Characteristic."
+      },
+      "Wargear Item§Militia Standard": {
+        "text": "A unit that includes at least one model with a Militia standard adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase and gains the Stubborn special rule."
+      },
+      "Wargear Item§Militia Vexilla": {
+        "text": "A unit that includes at least one model with an Militia vexilla adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase."
+      },
+      "Weapon§Mortar": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "36\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Heavy 1, Blast (3\"), Barrage, Pinning"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}
