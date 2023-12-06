@@ -1,8 +1,8 @@
 # This script specific
 ref
 ref/*
-manifest_parser/30KYaml/
-manifest_parser/node_modules/
+rulebook_parser/30KYaml/
+rulebook_parser/node_modules/
 
 
 # Byte-compiled / optimized / DLL files
@@ -37,7 +37,7 @@ MANIFEST
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-# *.manifest
+# *.rulebook
 *.spec
 
 # Installer logs

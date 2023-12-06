@@ -1,0 +1,1305 @@
+{
+  "name": "LA -  XVI: Sons of Horus",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "rulebook": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Ability": {},
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Chieftain": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Ezekyle Abaddon": {
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Infantry (Heavy, Character, Unique)"
+      },
+      " Unit§Garviel Loken": {
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "(Character, Unique)"
+      },
+      " Unit§Maloghurst the Twisted": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Line, Unique)"
+      },
+      " Unit§Reaver Chieftain": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character)"
+      },
+      " Unit§Standard Bearer": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy)"
+      },
+      " Unit§Tybalt Marr": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      " Unit§Vheren Ashurhaddon": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      "Ability§Broken in Body": {
+        "text": "Maloghurst the Twisted and any unit he joins may not Run or make Sweeping Advances."
+      },
+      "Ability§Kingslayers": {
+        "text": "When any models with this special rule are used to make Melee Attacks against an enemy unit that includes any models with the Independent Character special rule or the Primarch Unit Type, all failed To Hit rolls of ‘1’ may be re-rolled. When a model with this special rule that is Engaged in a Challenge is used to make Melee  Attacks against a model with the Independent Character special rule or the Primarch Unit Type, all failed To Hit rolls may be re-rolled."
+      },
+      "Model§ Reaver Chieftain": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Power Dagger",
+            "SelectionEntry§Venom Spheres",
+            " Unit§Reaver Chieftain",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Power Dagger",
+            "SelectionEntry§Venom Spheres",
+            " Unit§Reaver Chieftain"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Character"
+          ]
+        },
+        "stats": {
+          "Bolt Pistol:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Hand Flamer": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Chainaxe:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainaxe": {
+                "order": 1
+              },
+              "Pair of Lightning Claws": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Melee Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Fist": {
+                "order": 1
+              },
+              "Charnabal Glaive": {
+                "order": 2
+              },
+              "Charnabal Sabre": {
+                "order": 3
+              },
+              "Charnabal Tabar": {
+                "order": 4
+              },
+              "Power Maul": {
+                "order": 5
+              },
+              "Power Sword": {
+                "order": 6
+              },
+              "Power Lance": {
+                "order": 7
+              },
+              "Power Axe": {
+                "order": 8
+              },
+              "Carsoran Power Axe": {
+                "order": 9
+              },
+              "Carsoran Power Tabar": {
+                "order": 10
+              }
+            },
+            "statType": "rank"
+          },
+          "Power Armor:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Armour": {
+                "order": 1
+              },
+              "Artificer Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Chieftain": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Banestrike Bolter",
+            " Unit§Chieftain"
+          ]
+        },
+        "stats": {
+          "Chainsword Option:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainsword": {
+                "order": 1
+              },
+              "Power Axe": {
+                "order": 2
+              },
+              "Power Fist": {
+                "order": 3
+              },
+              "Chainaxe": {
+                "order": 4
+              },
+              "Power Sword": {
+                "order": 5
+              },
+              "Power Lance": {
+                "order": 6
+              },
+              "Power Maul": {
+                "order": 7
+              },
+              "Carsoran Power Axe": {
+                "order": 8
+              },
+              "Carsoran Power Tabar": {
+                "order": 9
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Model§Maloghurst the Twisted": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Sons of Hours) ",
+            "Rule§Master of the Legion",
+            "Rule§Relentless",
+            "Rule§Adamantium Will (X+)",
+            "Rule§It Will Not Die (X)",
+            "Rule§Traitor",
+            " Unit§Maloghurst the Twisted",
+            "Ability§Broken in Body"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Standard Bearer": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Legion Standard",
+            " Unit§Standard Bearer"
+          ]
+        },
+        "stats": {
+          "Chainsword Option:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Chainsword": {
+                "order": 1
+              },
+              "Power Axe": {
+                "order": 2
+              },
+              "Power Fist": {
+                "order": 3
+              },
+              "Chainaxe": {
+                "order": 4
+              },
+              "Power Sword": {
+                "order": 5
+              },
+              "Power Lance": {
+                "order": 6
+              },
+              "Power Maul": {
+                "order": 7
+              },
+              "Carsoran Power Axe": {
+                "order": 8
+              },
+              "Carsoran Power Tabar": {
+                "order": 9
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Battle-Hardened (X)": {},
+      "Rule§Breaching (X)": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Counter-Attack (X)": {},
+      "Rule§Deep Strike": {},
+      "Rule§Deflagrate": {},
+      "Rule§Duellist’s Edge (X)": {},
+      "Rule§Fearless": {},
+      "Rule§Furious Charge (X)": {},
+      "Rule§It Will Not Die (X)": {},
+      "Rule§Legiones Astartes (Sons of Hours) ": {},
+      "Rule§Master of the Legion": {},
+      "Rule§Master-crafted": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Outflank": {},
+      "Rule§Precision Shots (X)": {},
+      "Rule§Precision Strikes (X)": {},
+      "Rule§Relentless": {},
+      "Rule§Shred": {},
+      "Rule§Specialist Weapon": {},
+      "Rule§Stubborn": {},
+      "Rule§Sudden Strike (X)": {},
+      "Rule§Sunder": {},
+      "Rule§Traitor": {},
+      "Rule§Twin-linked": {},
+      "Rule§Unwieldy": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Banestrike Bolter": {},
+      "SelectionEntry§Boarding Shield": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Cataphractii Terminator Armour": {},
+      "SelectionEntry§Close Combat Weapon": {},
+      "SelectionEntry§Cognis-Signum": {},
+      "SelectionEntry§Combi-Bolter": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Grenade Harness": {},
+      "SelectionEntry§Iron Halo": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Legion Standard": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Paragon Blade": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Power Dagger": {},
+      "SelectionEntry§Power Sword": {},
+      "SelectionEntry§Refractor Field": {},
+      "SelectionEntry§The Spreading Corruption": {},
+      "SelectionEntry§Venom Spheres": {},
+      "SelectionEntry§Warhawk Jump Pack": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Retinue": {},
+      "Unit§Chieftain Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Relentless",
+            "Rule§Legiones Astartes (Sons of Hours) ",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Boarding Shield",
+            "SelectionEntry§The Spreading Corruption",
+            "Ability§Kingslayers",
+            "Model§Chieftain",
+            "Model§Standard Bearer"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          },
+          "The entire unit may exchange its power armour for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificer Armour": {
+                "order": 1
+              },
+              "Power Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Unit§Ezekyle Abaddon": {
+        "assets": {
+          "traits": [
+            "Rule§Battle-Hardened (X)",
+            "Rule§Bulky (X)",
+            "Rule§Deep Strike",
+            "Rule§Fearless",
+            "Rule§Legiones Astartes (Sons of Hours) ",
+            "Rule§Precision Strikes (X)",
+            "Rule§Relentless",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "SelectionEntry§Grenade Harness",
+            "SelectionEntry§Combi-Bolter",
+            "SelectionEntry§Paragon Blade",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Ezekyle Abaddon",
+            "Upgrade§Cthonic power claw"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character",
+            "Terminators:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 250
+          }
+        }
+      },
+      "Unit§Garviel Loken": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Sons of Hours) ",
+            "Rule§Relentless",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Paragon Blade",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Garviel Loken"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 175
+          }
+        }
+      },
+      "Unit§Horus Lupercal": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Cognis-Signum",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Warlord",
+            "Upgrade§The Serpent's Scales",
+            "Upgrade§The Warmaster's Talon",
+            "Upgrade§Worldbreaker"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Legiones Astartes",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Horus": {
+            "ranks": {
+              "Horus Ascended": {
+                "order": 1
+              },
+              "Horus Lupercal": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 600
+          }
+        }
+      },
+      "Unit§Justaerin Terminator Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Legiones Astartes (Sons of Hours) ",
+            "Rule§Bulky (X)",
+            "Rule§Furious Charge (X)",
+            "Rule§Chosen Warriors",
+            "Rule§Stubborn",
+            "Rule§Deep Strike",
+            "Rule§Outflank",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "SelectionEntry§The Spreading Corruption"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Infantry:",
+            "Legiones Astartes",
+            "Terminators:"
+          ]
+        },
+        "stats": {
+          "1) Justaerin": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Justaerin": {
+                "order": 1
+              },
+              "Justaerin w/Heavy Weapon (1 in 5)": {
+                "order": 2
+              },
+              "Justaerin w/Pair of Lightning Claws": {
+                "order": 3
+              },
+              "Justaerin w/Pair of Lightning Claws, Grenade Harness": {
+                "order": 4
+              },
+              "Justaerin w/Legion Standard": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Unit§Maloghurst the Twisted": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Refractor Field",
+            "SelectionEntry§Banestrike Bolter",
+            "SelectionEntry§Power Sword",
+            "SelectionEntry§Legion Standard",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            "Model§Maloghurst the Twisted"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Line Sub-type:",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 140
+          }
+        }
+      },
+      "Unit§Reaver Aggressor Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Chosen Warriors",
+            "Rule§Counter-Attack (X)",
+            "Rule§Precision Shots (X)",
+            "Rule§Precision Strikes (X)",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Warhawk Jump Pack",
+            "SelectionEntry§The Spreading Corruption",
+            "Model§ Reaver Chieftain"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          " Reavers:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Reavers (Collective)": {
+                "order": 1
+              },
+              "Reaver w/ Options": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Unit§Reaver Attack Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Chosen Warriors",
+            "Rule§Counter-Attack (X)",
+            "Rule§Precision Shots (X)",
+            "Rule§Precision Strikes (X)",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§The Spreading Corruption",
+            "Model§ Reaver Chieftain"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          " Reavers:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Reavers (Collective)": {
+                "order": 1
+              },
+              "Reaver w/ Options": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rhino Transport": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              },
+              "Storm Eagle Gunship": {
+                "order": 3
+              },
+              "Drop Pod": {
+                "order": 4
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 5
+              },
+              "Termite Assault Drill": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 47
+          }
+        }
+      },
+      "Unit§Tybalt Marr": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "SelectionEntry§Banestrike Bolter",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Tybalt Marr",
+            "Upgrade§The Culling Blade"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Vheren Ashurhaddon": {
+        "assets": {
+          "traits": [
+            "Rule§Battle-Hardened (X)",
+            "Rule§Relentless",
+            "Rule§Precision Shots (X)",
+            "Rule§Precision Strikes (X)",
+            "Rule§Counter-Attack (X)",
+            "Rule§Traitor",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Close Combat Weapon",
+            " Unit§Vheren Ashurhaddon",
+            "Upgrade§The Axe Serpentis",
+            "Upgrade§Panoply of the Void",
+            "Upgrade§Banestrike Fusilade"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 205
+          }
+        }
+      },
+      "Upgrade§Banestrike Fusilade": {
+        "assets": {
+          "traits": [
+            "Rule§Breaching (X)",
+            "Weapon§Banestrike Fusilade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Cthonic power claw": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Specialist Weapon",
+            "Rule§Shred",
+            "Rule§Master-crafted",
+            "Weapon§Cthonic power claw"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Panoply of the Void": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Panoply of the Void"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Axe Serpentis": {
+        "assets": {
+          "traits": [
+            "Rule§Sudden Strike (X)",
+            "Rule§Murderous Strike (X)",
+            "Weapon§The Axe Serpentis"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Culling Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Master-crafted",
+            "Rule§Breaching (X)",
+            "Rule§Murderous Strike (X)",
+            "Rule§Duellist’s Edge (X)",
+            "Weapon§The Culling Blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Serpent's Scales": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Serpent's Scales"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Warmaster's Talon": {
+        "assets": {
+          "traits": [
+            "Rule§Shred",
+            "Rule§Deflagrate",
+            "Rule§Twin-linked",
+            "Weapon§The Warmaster's Talon (Melee)",
+            "Weapon§The Warmaster's Talon (Shooting)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Worldbreaker": {
+        "assets": {
+          "traits": [
+            "Rule§Master-crafted",
+            "Rule§Brutal (X)",
+            "Rule§Sunder",
+            "Rule§Unwieldy",
+            "Weapon§Worldbreaker"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Panoply of the Void": {
+        "text": "The Panoply of the Void grants Vheren Ashurhaddon a 2+ Armour Save and 4+ Invulnerable Save. In addition, any attacks made by enemy models as part of a Shooting Attack that target Vheren Ashurhaddon or the unit he has joined (as long as that unit is composed of no more than 6 models after Vheren Ashurhaddon has joined it), count the range to Vheren Ashurhaddon or his unit as 3\" further than the actual range between the two units. This special rule does not affect determining whether Vherren Ashurhaddon or models in the same unit are Hit by Blast markers or weapons with the Template special rule."
+      },
+      "Wargear Item§The Serpent's Scales": {
+        "text": "The Serpent's Scales provide 2+ Armour Save and a 3+ Invulnerable Save."
+      },
+      "Weapon§Banestrike Fusilade": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "10\""
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Pistol 4, Breaching (6+)"
+      },
+      "Weapon§Cthonic power claw": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "x2"
+          }
+        },
+        "text": "Melee, Unwieldy, Specialist Weapon, Shred, Master-crafted"
+      },
+      "Weapon§The Axe Serpentis": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Sudden Strike (1), Murderous Strike (6+)"
+      },
+      "Weapon§The Culling Blade": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Melee, Breaching (5+)., Murderous Strike (5+), Duellist's Edge (1), Master-crafted"
+      },
+      "Weapon§The Warmaster's Talon (Melee)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Shred, Deflagrate"
+      },
+      "Weapon§The Warmaster's Talon (Shooting)": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "24\""
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Assault 3, Twin-linked"
+      },
+      "Weapon§Worldbreaker": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 10
+          }
+        },
+        "text": "Melee, Master-crafted, Brutal (2), Sunder, Unwieldy"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

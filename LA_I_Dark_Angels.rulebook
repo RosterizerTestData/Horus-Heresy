@@ -1,0 +1,2532 @@
+{
+  "name": "LA -   I: Dark Angels",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "rulebook": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Warlord Trait": {
+        "stats": {
+          "Text": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Corswain": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Infantry (Unique, Character, Deathwing)"
+      },
+      " Unit§Deathwing Cataphractii Companion": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy, Deathwing)"
+      },
+      " Unit§Deathwing Cataphractii Oathbearer": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "6\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Heavy, Character, Deathwing)"
+      },
+      " Unit§Deathwing Companion": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Deathwing)"
+      },
+      " Unit§Deathwing Oathbearer": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Deathwing)"
+      },
+      " Unit§Deathwing Tartaros Companion": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Deathwing)"
+      },
+      " Unit§Deathwing Tartaros Oathbearer": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Deathwing)"
+      },
+      " Unit§Excindio Battle-automata": {
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Shackled Artificia (Cybertheurgist, Heavy)"
+      },
+      " Unit§Farith Redloss": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Unique, Dreadwing)"
+      },
+      " Unit§Firewing Enigmatii": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Firewing)"
+      },
+      " Unit§Holguin": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Unique, Heavy, Deathwing)"
+      },
+      " Unit§Interemptor": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": 3
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Dreadwing)"
+      },
+      " Unit§Interemptor Praefectus": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": 3
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character, Dreadwing)"
+      },
+      " Unit§Lion El'Jonson": {
+        "stats": {
+          "A": {
+            "value": 7
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 7
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "8\""
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 8
+          }
+        },
+        "text": "Primarch (Unique)"
+      },
+      " Unit§Marduk Sedras": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Unique, Character, Heavy, Dreadwing)"
+      },
+      " Unit§Order Cenobites": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": 2
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Heavy)"
+      },
+      " Unit§Order Preceptor": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": 2
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Infantry (Character, Heavy)"
+      },
+      "Model§ Deathwing Oathbearer": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Refractor Field",
+            " Unit§Deathwing Oathbearer"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "May exchange its Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Calibanite Warblade": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May exhange its bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Plasma Pistol": {
+                "order": 1
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 3
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 5
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 6
+              },
+              "Cytheron Pattern Aegis": {
+                "order": 7
+              },
+              "Bolter": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§ Order Preceptor": {
+        "assets": {
+          "traits": [
+            " Unit§Order Preceptor",
+            " Unit§Order Preceptor"
+          ]
+        },
+        "stats": {
+          " Melee Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Thunder Hammer": {
+                "order": 1
+              },
+              "Advex-mors Greatsword": {
+                "order": 2
+              },
+              "Terranic Greatsword": {
+                "order": 3
+              },
+              "Paragon Blade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "May take the following:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Grenade Harness": {
+                "order": 1
+              },
+              "Venom Spheres": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Grenade Harness": {
+                "order": 1
+              },
+              "Venom Spheres": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Corswain": {
+        "assets": {
+          "traits": [
+            "Rule§Deathwing",
+            "Rule§Legiones Astartes (Dark Angels)",
+            "Rule§Relentless",
+            "Rule§Precision Strikes (X)",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Corswain"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Deathwing Cataphractii Companion": {
+        "assets": {
+          "traits": [
+            " Unit§Deathwing Cataphractii Companion"
+          ]
+        },
+        "stats": {
+          "1) May exchange his Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Thunder Hammer": {
+                "order": 3
+              },
+              "Calibanite Warblade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange his combi-bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 1
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 5
+              },
+              "Combi-Bolter": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May exchange both for:": {
+            "ranks": {
+              "Pair of Lightning Claws": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Deathwing Cataphractii Oathbearer": {
+        "assets": {
+          "traits": [
+            " Unit§Deathwing Cataphractii Oathbearer"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) May exchange his Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Thunder Hammer": {
+                "order": 3
+              },
+              "Calibanite Warblade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange his combi-bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 1
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 5
+              },
+              "Combi-Bolter": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May exchange both for:": {
+            "ranks": {
+              "Pair of Lightning Claws": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "May take a:": {
+            "ranks": {
+              "Grenade Harness": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Deathwing Companion": {
+        "assets": {
+          "traits": [
+            " Unit§Deathwing Companion"
+          ]
+        },
+        "stats": {
+          "May exchange its Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Calibanite Warblade": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "May exhange its bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Plasma Pistol": {
+                "order": 1
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 5
+              },
+              "Cytheron Pattern Aegis": {
+                "order": 6
+              },
+              "Bolter": {
+                "order": 7
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Model§Deathwing Tartaros Companion": {
+        "assets": {
+          "traits": [
+            " Unit§Deathwing Tartaros Companion"
+          ]
+        },
+        "stats": {
+          "1) May exchange his Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Thunder Hammer": {
+                "order": 3
+              },
+              "Calibanite Warblade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange his combi-bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 1
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 5
+              },
+              "Combi-Bolter": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May exchange both for:": {
+            "ranks": {
+              "Pair of Lightning Claws": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Deathwing Tartaros Oathbearer": {
+        "assets": {
+          "traits": [
+            " Unit§Deathwing Tartaros Oathbearer"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) May exchange his Calibanite warblade for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Terranic Greatsword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Thunder Hammer": {
+                "order": 3
+              },
+              "Calibanite Warblade": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange his combi-bolter for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Minor Combi-Weapon - Flamer": {
+                "order": 1
+              },
+              "Magna Combi-Weapon - Meltagun": {
+                "order": 2
+              },
+              "Magna Combi-Weapon - Plasma Gun": {
+                "order": 3
+              },
+              "Minor Combi-Weapon - Volkite Charger": {
+                "order": 4
+              },
+              "Minor Combi-Weapon - Grenade Launcher": {
+                "order": 5
+              },
+              "Combi-Bolter": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May exchange both for:": {
+            "ranks": {
+              "Pair of Lightning Claws": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "May take a:": {
+            "ranks": {
+              "Grenade Harness": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Farith Redloss": {
+        "assets": {
+          "traits": [
+            "Rule§Battle-Hardened (X)",
+            "Rule§Dreadwing",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Rad Grenades",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Phosphex Bomb",
+            " Unit§Farith Redloss",
+            "Upgrade§The Axe of Castigation",
+            "Upgrade§The Dreadbringer’s Plate"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Firewing Enigmatii": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Marked For Death",
+            "Rule§Outflank",
+            "Rule§Firewing",
+            "Rule§Legion Warhawk Jump Pack",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Shroud Bombs",
+            " Unit§Firewing Enigmatii",
+            "Upgrade§Calibanite charge-blade",
+            "Upgrade§Needle Pistol",
+            "Upgrade§Enigmatus Exhaust Projector"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Model§Holguin": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Stubborn",
+            "Rule§Deathwing",
+            "SelectionEntry§Volkite Charger",
+            " Unit§Holguin",
+            "Upgrade§The Viridian Blade",
+            "Upgrade§The Deathbringer’s Aegis"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Interemptor Praefectus": {
+        "assets": {
+          "traits": [
+            " Unit§Interemptor Praefectus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Model§Interemptors": {
+        "assets": {
+          "traits": [
+            " Unit§Interemptor"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Model§Lion El'Jonson": {
+        "assets": {
+          "traits": [
+            "Rule§Adamantium Will (X+)",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Lion El'Jonson"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Order Cenobites": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Power Dagger",
+            " Unit§Order Cenobites",
+            "SelectionEntry§Power Dagger",
+            " Unit§Order Cenobites"
+          ]
+        },
+        "stats": {
+          "Melee Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Thunder Hammer": {
+                "order": 1
+              },
+              "Advex-mors Greatsword": {
+                "order": 2
+              },
+              "Terranic Greatsword": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Battle-Hardened (X)": {},
+      "Rule§Bitter Duty": {},
+      "Rule§Blind": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Counter-Attack (X)": {},
+      "Rule§Death-sworn Companions": {},
+      "Rule§Deathwing": {},
+      "Rule§Dreadwing": {},
+      "Rule§Duellist’s Edge (X)": {},
+      "Rule§Feel No Pain (X)": {},
+      "Rule§Firewing": {},
+      "Rule§Inexorable": {},
+      "Rule§Infiltrate": {},
+      "Rule§It Will Not Die (X)": {},
+      "Rule§Lance": {},
+      "Rule§Legion Warhawk Jump Pack": {},
+      "Rule§Legiones Astartes (Dark Angels)": {},
+      "Rule§Marked For Death": {},
+      "Rule§Master-crafted": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Outflank": {},
+      "Rule§Pinning": {},
+      "Rule§Poisoned (X)": {},
+      "Rule§Precision Strikes (X)": {},
+      "Rule§Reaping Blow (X)": {},
+      "Rule§Relentless": {},
+      "Rule§Rending (X)": {},
+      "Rule§Shrouded (X)": {},
+      "Rule§Stubborn": {},
+      "Rule§Twin-linked": {},
+      "Rule§Two-handed": {},
+      "Rule§Unwieldy": {},
+      "SelectionEntry§Animatus Excindor (Cybertheurgic Weapon)": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Bolter": {},
+      "SelectionEntry§Cataphractii Terminator Armour": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Legion Centurion": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Phosphex Bomb": {},
+      "SelectionEntry§Plasma Burner": {},
+      "SelectionEntry§Plasma-Caster": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Power Dagger": {},
+      "SelectionEntry§Rad Grenades": {},
+      "SelectionEntry§Refractor Field": {},
+      "SelectionEntry§Shackled Artificia": {},
+      "SelectionEntry§Shroud Bombs": {},
+      "SelectionEntry§Volkite Charger": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Hexagrammaton Choice:": {},
+      "SelectionEntryGroup§Retinue": {},
+      "Unit§Centurion (Storm of War)": {
+        "assets": {
+          "traits": [
+            "Rule§Stubborn",
+            "SelectionEntry§Legion Centurion",
+            "SelectionEntryGroup§Hexagrammaton Choice:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Corswain": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Bolter",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Warlord",
+            "Model§Corswain",
+            "Upgrade§Armour of the Forest and the Mantle of the Champion",
+            "Upgrade§The Blade"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Independent Character",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 200
+          }
+        }
+      },
+      "Unit§Deathwing Companion Detachment": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Relentless",
+            "Rule§Death-sworn Companions",
+            "Rule§Deathwing",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Krak Grenades",
+            "Model§ Deathwing Oathbearer",
+            "Model§Deathwing Companion"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "All models may take:": {
+            "ranks": {
+              "Meltabombs": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Any model with a Bolter may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bayonet": {
+                "order": 1
+              },
+              "Chain Bayonet": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rhino Transport": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Storm Eagle Gunship": {
+                "order": 3
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 4
+              },
+              "Drop Pod": {
+                "order": 5
+              },
+              "Termite Assault Drill": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Mobility Options (Mandatory if Leader has selected)": {
+            "ranks": {
+              "Warhawk Jump Pack": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "One Deathwing Companion may take:": {
+            "ranks": {
+              "Legion Vexilla": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Unit§Deathwing Terminator Cataphractii Companions": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Death-sworn Companions",
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Inexorable",
+            "Rule§Deathwing",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "Model§Deathwing Cataphractii Oathbearer",
+            "Model§Deathwing Cataphractii Companion"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Terminators:",
+            "Infantry:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 240
+          }
+        }
+      },
+      "Unit§Deathwing Terminator Tartaros Companions": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Death-sworn Companions",
+            "Rule§Inexorable",
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Deathwing",
+            "Model§Deathwing Tartaros Companion",
+            "Model§Deathwing Tartaros Oathbearer"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:",
+            "Terminators:"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 225
+          }
+        }
+      },
+      "Unit§Dreadwing Interemptor Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Stubborn",
+            "Rule§Counter-Attack (X)",
+            "Rule§Bitter Duty",
+            "Rule§Dreadwing",
+            "SelectionEntry§Plasma Burner",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Rad Grenades",
+            "Model§Interemptor Praefectus",
+            "Model§Interemptors"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "1) For every five models in the unit, one may exchange its plasma burner for a:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Plasma Incinerator": {
+                "order": 1
+              },
+              "Missile Launcher (With suspensor web and rad missiles only)": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Interemptor may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Augury Scanner": {
+                "order": 2
+              },
+              "Legion Vexilla": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "3) The Interemptor Praefectus may exchange his power armour for:": {
+            "ranks": {
+              "Artificer Armour": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "4) The Interemptor Praefectus may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Phosphex Bomb": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              },
+              "Venom Spheres": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "5) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rhino Transport": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Storm Eagle Gunship": {
+                "order": 3
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 4
+              },
+              "Drop Pod": {
+                "order": 5
+              },
+              "Termite Assault Drill": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 20
+          }
+        }
+      },
+      "Unit§Excindio Battle-automata": {
+        "assets": {
+          "traits": [
+            "Rule§It Will Not Die (X)",
+            "Upgrade§Extinctor power claw",
+            "Upgrade§Manipulator Arm",
+            "SelectionEntry§Animatus Excindor (Cybertheurgic Weapon)",
+            "SelectionEntry§Shackled Artificia",
+            " Unit§Excindio Battle-automata",
+            "Wargear Item§Internal Refractor Field"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Heavy",
+            "Cybertheurgist"
+          ]
+        },
+        "stats": {
+          "1) May exchange an Extinctor power claw and a manipulator arm for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Extinctor power claw and a manipulator arm": {
+                "order": 1
+              },
+              "Athanax pattern phosphex canister launcher": {
+                "order": 2
+              },
+              "Tyrhenius pattern nerve induction shredder": {
+                "order": 3
+              },
+              "Magaron pattern atomantic pulse cannon": {
+                "order": 4
+              },
+              "Cytheron pattern graviton flux projector": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May exchange both of its combi-bolters for:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-Bolter": {
+                "order": 1
+              },
+              "Plasma Repeater": {
+                "order": 2
+              },
+              "Graviton Gun": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "3) May take:": {
+            "ranks": {
+              "Hunter-Killer Missile": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "4) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Dreadnought Drop Pod": {
+                "order": 1
+              },
+              "Kharybdis Assault Claw": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 350
+          }
+        }
+      },
+      "Unit§Farith Redloss": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Warlord",
+            "Model§Farith Redloss"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Independant Character",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Master of the Arsenal": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Magaron pattern Atomantic Pulse Pistol": {
+                "order": 1
+              },
+              "Selenite Shard-bolt Pistol": {
+                "order": 2
+              },
+              "Tyrhenian pattern Neural Shredder Carbine": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 220
+          }
+        }
+      },
+      "Unit§Firewing Enigmatus Cabal": {
+        "assets": {
+          "traits": [
+            "Model§Firewing Enigmatii"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Jump Infantry:",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          " One Firewing Enigmatii in the unit may take:": {
+            "ranks": {
+              "Missile launcher (with suspensor web and frag, krak and stasis shells)": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Holguin": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Warlord",
+            "Model§Holguin"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Heavy",
+            "Infantry:",
+            "Terminators:",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 150
+          }
+        }
+      },
+      "Unit§Inner Circle Knights Cenobium": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Stubborn",
+            "Rule§Adamantium Will (X+)",
+            "Rule§Outflank",
+            "SelectionEntry§Plasma-Caster",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "SelectionEntryGroup§Hexagrammaton Choice:",
+            "Model§ Order Preceptor",
+            "Model§Order Cenobites"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Heavy",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "1) Orders of the Hekatonystika": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Augurs of Weakness": {
+                "order": 1
+              },
+              "Icons of Resolve": {
+                "order": 2
+              },
+              "Slayers of Kings": {
+                "order": 3
+              },
+              "Hunter of Beasts": {
+                "order": 4
+              },
+              "Reaper of Hosts": {
+                "order": 5
+              },
+              "Breaker of Witches": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Order Cenobite may take:": {
+            "ranks": {
+              "Legion Vexilla": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Spartan": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 75
+          }
+        }
+      },
+      "Unit§Inner Circle Knights Cenobium - Order of the Broken Claws": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Bulky (X)",
+            "Rule§Stubborn",
+            "Rule§Adamantium Will (X+)",
+            "Rule§Outflank",
+            "SelectionEntry§Plasma-Caster",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "SelectionEntryGroup§Hexagrammaton Choice:",
+            "Model§ Order Preceptor",
+            "Model§Order Cenobites"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Heavy",
+            "Infantry:"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Spartan": {
+                "order": 1
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 2
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "One Order Cenobite may take:": {
+            "ranks": {
+              "Legion Vexilla": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 75
+          }
+        }
+      },
+      "Unit§Lion El'Jonson ": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Warlord",
+            "Model§Lion El'Jonson",
+            "Upgrade§The Leonine Panoply",
+            "Upgrade§The Fusil Actinaeus",
+            "Upgrade§Stasis Grenades"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Independent Character",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 460
+          },
+          "Weapon": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "The Lion Sword ": {
+                "order": 1
+              },
+              "The Wolf Blade ": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      },
+      "Unit§Marduk Sedras": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Dark Angels)",
+            "Rule§Relentless",
+            "SelectionEntry§Phosphex Bomb",
+            "SelectionEntry§Plasma Burner",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Marduk Sedras",
+            "Upgrade§Regalia of the Shattered Sceptre",
+            "Upgrade§The Death of Worlds"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character",
+            "Terminators:",
+            "Heavy"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 220
+          }
+        }
+      },
+      "Upgrade§Armour of the Forest and the Mantle of the Champion": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Armour of the Forest and the Mantle of the Champion"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Calibanite charge-blade": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Weapon§Calibanite charge-blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Enigmatus Exhaust Projector": {
+        "assets": {
+          "traits": [
+            "Rule§Shrouded (X)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Extinctor power claw": {
+        "assets": {
+          "traits": [
+            "Rule§Brutal (X)",
+            "Weapon§Extinctor power claw"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Infiltrate (The Serpent's Bane)": {
+        "assets": {
+          "traits": [
+            "Rule§Infiltrate"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Manipulator Arm": {
+        "assets": {
+          "traits": [
+            "Rule§Lance",
+            "Weapon§Manipulator Arm"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Needle Pistol": {
+        "assets": {
+          "traits": [
+            "Rule§Poisoned (X)",
+            "Rule§Pinning",
+            "Weapon§Needle Pistol"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Regalia of the Shattered Sceptre": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Regalia of the Shattered Sceptre"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Stasis Grenades": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Stasis Grenades"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Axe of Castigation": {
+        "assets": {
+          "traits": [
+            "Upgrade§The Axe of Castigation (Overhead Strike)",
+            "Upgrade§The Axe of Castigation (Sweeping Strike)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Axe of Castigation (Overhead Strike)": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Master-crafted",
+            "Rule§Unwieldy",
+            "Weapon§The Axe of Castigation (Overhead Strike)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Axe of Castigation (Sweeping Strike)": {
+        "assets": {
+          "traits": [
+            "Rule§Reaping Blow (X)",
+            "Rule§Master-crafted",
+            "Weapon§The Axe of Castigation (Sweeping Strike)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Master-crafted",
+            "Rule§Duellist’s Edge (X)",
+            "Rule§Murderous Strike (X)",
+            "Weapon§The Blade*"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Death of Worlds": {
+        "assets": {
+          "traits": [
+            "Rule§Unwieldy",
+            "Rule§Two-handed",
+            "Weapon§The Death of Worlds"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Deathbringer’s Aegis": {
+        "assets": {
+          "traits": [
+            "Rule§Feel No Pain (X)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Dreadbringer’s Plate": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Dreadbringer’s Plate"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Fusil Actinaeus": {
+        "assets": {
+          "traits": [
+            "Rule§Twin-linked",
+            "Rule§Blind",
+            "Rule§Rending (X)",
+            "Weapon§The Fusil Actinaeus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Leonine Panoply": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Leonine Panoply"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Viridian Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Master-crafted",
+            "Rule§Reaping Blow (X)",
+            "Weapon§Viridian Blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Armour of the Forest and the Mantle of the Champion": {
+        "text": "The Armour of the Forest and the Mantle of the Champion grant Corswain a 2+ Armour Save and a 4+ Invulnerable Save, improved to 3+ against close combat attacks."
+      },
+      "Wargear Item§Internal Refractor Field": {
+        "text": "This model has a 5+ Invulnerable save. In addition, should the model lose its last wound then all models within D6+4\" suffer a Str 8 AP - hit."
+      },
+      "Wargear Item§Regalia of the Shattered Sceptre": {
+        "text": "The Regalia of the Shattered Sceptre confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, the Regalia of the Shattered Sceptre also allows its bearer to automatically pass any Dangerous Terrain tests that model is called upon to take."
+      },
+      "Wargear Item§Stasis Grenades": {
+        "text": "Once per battle, Lion El’Jonson’s controlling player may choose to use stasis grenades when a Charge is declared for Lion El’Jonson and any unit he has joined. If the Charge for which the stasis grenades are used is successful then the target enemy unit or units must take an Initiative test (using the majority Initiative value of the unit(s)). If the Initiative test is passed then there is no further effect. If the Test is failed then all enemy models in the target unit must reduce their Initiative by -1 for the duration of the Assault phase in which the Charge was made."
+      },
+      "Wargear Item§The Dreadbringer’s Plate": {
+        "text": "The Dreadbringer’s Plate grants a 2+ Armour Save and a 4+ Invulnerable Save. In addition, against any weapon with the Crawling Fire or Armourbane (Melta) special rules, this Invulnerable Save is increased to 2+ and any weapon with the Poisoned (X) special rule can only wound Farith Redloss on the roll of 6+."
+      },
+      "Wargear Item§The Leonine Panoply": {
+        "text": "The Leonine Panoply provides a 2+ Armour Save and a 4+ Invulnerable Save. The first failed Invulnerable Save made for Lion El’Jonson each turn may be re-rolled."
+      },
+      "Warlord Trait§Marshal of the Crown": {
+        "stats": {
+          "Text": {
+            "value": "A Warlord with this Trait must select one of the Hexagrammaton Unit Sub-types. All units that include at least one model with the corresponding Unit Sub-type and at least one model with line of sight to the Warlord gain +1 Leadership (to a maximum of 10). In addition, an army whose Warlord has this trait may make an additional Reaction in a Phase of the opponent's turn dictated by the Hexagrammaton Unit Sub-type possessed by the Warlord:\nDeathwing, Dreadwing - Assault phase\nStormwing, Ironwing - Shooting phase\nRavenwing, Firewing - Movement phase\nThis additional Reaction may on be made as long as the Warlord has not been removed as a casualty."
+          }
+        }
+      },
+      "Weapon§Calibanite charge-blade": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Rending (6+), Blade Charge"
+      },
+      "Weapon§Extinctor power claw": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 9
+          }
+        },
+        "text": "Melee, Brutal (2)"
+      },
+      "Weapon§Manipulator Arm": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          },
+          "Type": {
+            "value": "Melee, Lance"
+          }
+        }
+      },
+      "Weapon§Needle Pistol": {
+        "stats": {
+          "AP": {
+            "value": "-"
+          },
+          "Range": {
+            "value": "12\""
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Pistol 2, Poisoned (3+), Pinning"
+      },
+      "Weapon§The Axe of Castigation (Overhead Strike)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 3
+          }
+        },
+        "text": "Melee, Two-handed, Unwieldy, Master-crafted"
+      },
+      "Weapon§The Axe of Castigation (Sweeping Strike)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Reaping Blow (3), Master-crafted"
+      },
+      "Weapon§The Blade*": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Two-handed, Master-crafted, Duellist's Edge (2), Murderous Strike (4+)"
+      },
+      "Weapon§The Death of Worlds": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Melee, Unwieldy, Two-handed, Curse of Dead Worlds"
+      },
+      "Weapon§The Fusil Actinaeus": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "18\""
+          },
+          "Strength": {
+            "value": 7
+          }
+        },
+        "text": "Assult 2, Twin-linked, Blind, Rending (3+)"
+      },
+      "Weapon§Viridian Blade": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 2
+          }
+        },
+        "text": "Melee, Two-handed, Master-crafted, Reaping Blow (2)"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

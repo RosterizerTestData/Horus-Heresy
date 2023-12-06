@@ -5,7 +5,7 @@
     "publisher": "",
     "url": "",
     "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
-    "manifest": {
+    "rulebook": {
         "assetTaxonomy": {
             "Force": {}
         },

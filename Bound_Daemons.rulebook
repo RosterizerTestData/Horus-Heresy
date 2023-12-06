@@ -1,0 +1,788 @@
+{
+  "name": "2022 - Daemons - Bound Daemons",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "rulebook": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "Unit Type": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "The Ætheric Dominion (X)": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Warlord Trait": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Bound Daemon Attendant": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 5
+          },
+          "Unit Type": {
+            "value": "Daemon (Bound)"
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      " Unit§Bound Daemon Brute": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 7
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 5
+          },
+          "Unit Type": {
+            "value": "Daemon (Bound)"
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      " Unit§Bound Daemon Regent": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 5
+          },
+          "Save": {
+            "value": "4+"
+          },
+          "T": {
+            "value": 6
+          },
+          "Unit Type": {
+            "value": "Daemon (Bound)"
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      " Unit§Bound Ka’bandha": {
+        "stats": {
+          "A": {
+            "value": 7
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 8
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 8
+          },
+          "W": {
+            "value": 8
+          },
+          "WS": {
+            "value": 8
+          }
+        },
+        "text": "Daemon (Bound, Character, Gargantuan, Unique)"
+      },
+      " Unit§Bound Samus": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 7
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 8
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 7
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Daemon (Bound, Monstrous, Character, Unique)"
+      },
+      "Model§Bound Daemon Attendant": {
+        "assets": {
+          "traits": [
+            "Rule§Æthereal Invulnerability (X)",
+            "Rule§Bound Malefica",
+            "Rule§Bulky (X)",
+            "Rule§Traitor",
+            "Rule§Chosen Warriors",
+            "Rule§Hammer of Wrath (X)",
+            " Unit§Bound Daemon Attendant",
+            "Upgrade§Brute Armaments"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 45
+          }
+        }
+      },
+      "Model§Bound Daemon Brute": {
+        "assets": {
+          "traits": [
+            "Rule§Æthereal Invulnerability (X)",
+            "Rule§Bound Malefica",
+            "Rule§Bulky (X)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Traitor",
+            " Unit§Bound Daemon Brute"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 40
+          }
+        }
+      },
+      "Model§Bound Daemon Regent": {
+        "assets": {
+          "traits": [
+            "Rule§Æthereal Invulnerability (X)",
+            "Rule§Bound Malefica",
+            "Rule§Bulky (X)",
+            "Rule§Traitor",
+            "Rule§Hammer of Wrath (X)",
+            " Unit§Bound Daemon Regent",
+            "Upgrade§Regent Blade"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Æthereal Invulnerability (X)": {
+        "text": "A model with this special rule gains an Invulnerable Save equal to the value listed in brackets. This Invulnerable Save cannot be taken against attacks made with weapons with the Force special rule."
+      },
+      "Rule§Armourbane (X)": {},
+      "Rule§Bound Malefica": {
+        "text": "Units entirely composed of models with the Bound Malefica special rule are considered to be part of the Ruinstorm Daemon Army List for the purposes of any special rule which allows Ruinstorm Daemon units to be included in a Detachment drawn from a different Army List, or which grants Ruinstorm Daemon units an alternative method of deploying from Reserves, such as the Legion Esoterist’s Breach the Veil Psychic Power or High Chaplain Erebus’ Harbinger of Chaos special rule (see page 321 of the Liber Hereticus: Traitor Legiones Astartes Army Book). Units selected in this manner retain the Agents of the Warmaster Faction and Bound Daemons Sub-faction."
+      },
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Concussive (X)": {},
+      "Rule§Deflagrate": {},
+      "Rule§Fleet (X)": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Hatred (X)": {},
+      "Rule§It Will Not Die (X)": {},
+      "Rule§Lance": {},
+      "Rule§Move Through Cover": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Rage (X)": {},
+      "Rule§Rampage (X)": {},
+      "Rule§Reach (X)": {},
+      "Rule§Rending (X)": {},
+      "Rule§Shred": {},
+      "Rule§Sunder": {},
+      "Rule§Traitor": {},
+      "Rule§Two-handed": {},
+      "SelectionEntry§Samus or Ka’bandha Warlord stuff": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§The Ætheric Dominion (X)": {},
+      "The Ætheric Dominion (X)§Encroaching Ruin": {
+        "assets": {
+          "traits": [
+            "Rule§Move Through Cover"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Formless Distortion": {
+        "assets": {
+          "traits": [
+            "Rule§Concussive (X)",
+            "Rule§Lance",
+            "Rule§Reach (X)",
+            "Rule§Shred",
+            "Rule§Sunder"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Heedless Slaughter": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Infernal Tempest": {
+        "assets": {
+          "traits": [
+            "Rule§Deflagrate",
+            "Upgrade§Elemental Eruption"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Malevolent Artifice": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Putrid Corruption": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Rapturous Sensation": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "The Ætheric Dominion (X)§Ravenous Dissolution": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Unit§Bound Daemon Brutes": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§The Ætheric Dominion (X)",
+            "Model§Bound Daemon Brute"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Daemon Unit-type:",
+            "Bound Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 15
+          }
+        }
+      },
+      "Unit§Bound Daemon Regent": {
+        "assets": {
+          "traits": [
+            "SelectionEntryGroup§The Ætheric Dominion (X)",
+            "Model§Bound Daemon Attendant",
+            "Model§Bound Daemon Regent"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Daemon Unit-type:",
+            "Bound Sub-type"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 130
+          }
+        }
+      },
+      "Unit§Bound Ka’bandha": {
+        "assets": {
+          "traits": [
+            "Rule§Bound Malefica",
+            "Rule§Æthereal Invulnerability (X)",
+            "Rule§Adamantium Will (X+)",
+            "Rule§Hammer of Wrath (X)",
+            "Rule§Hatred (X)",
+            "Rule§It Will Not Die (X)",
+            "Rule§Rampage (X)",
+            "Rule§Traitor",
+            "SelectionEntry§Warlord",
+            "Upgrade§Heedless Slaughter",
+            " Unit§Bound Ka’bandha",
+            "Upgrade§Warlord Trait: Skull Keeper",
+            "Upgrade§The Armaments of Ka’bandha",
+            "Upgrade§Incarnadine Wings"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Bound Sub-type",
+            "Character",
+            "Gargantuan Unit Sub-type",
+            "Daemon Unit-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 525
+          }
+        }
+      },
+      "Unit§Bound Samus": {
+        "assets": {
+          "traits": [
+            "Rule§Bound Malefica",
+            "Rule§Fleet (X)",
+            "Rule§It Will Not Die (X)",
+            "Rule§Rage (X)",
+            "Rule§Bulky (X)",
+            "Rule§Move Through Cover",
+            "Rule§Traitor",
+            "Rule§Æthereal Invulnerability (X)",
+            "Upgrade§Encroaching Ruin",
+            "SelectionEntry§Warlord",
+            "SelectionEntry§Samus or Ka’bandha Warlord stuff",
+            " Unit§Bound Samus",
+            "Upgrade§Blades of Samus",
+            "Upgrade§Warlord Trait: The End and the Death"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Bound Sub-type",
+            "Character",
+            "Monstrous Sub-type:",
+            "Daemon Unit-type:"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 380
+          }
+        }
+      },
+      "Upgrade§Blades of Samus": {
+        "assets": {
+          "traits": [
+            "Rule§Armourbane (X)",
+            "Rule§Murderous Strike (X)",
+            "Weapon§Blades of Samus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Brute Armaments": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Murderous Strike (X)",
+            "Rule§Two-handed",
+            "Weapon§Brute Armaments"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Daemon": {
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Elemental Eruption": {
+        "assets": {
+          "traits": [
+            "Weapon§Elemental Eruption"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Encroaching Ruin": {},
+      "Upgrade§Heedless Slaughter": {},
+      "Upgrade§Incarnadine Wings": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Incarnadine Wings"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Regent Blade": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Weapon§Regent Blade"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Armaments of Ka’bandha": {
+        "assets": {
+          "traits": [
+            "Rule§Two-handed",
+            "Rule§Sunder",
+            "Weapon§Armaments of Ka’bandha (Melee)",
+            "Weapon§Armaments of Ka’bandha (Ranged)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Warlord Trait: Skull Keeper": {
+        "assets": {
+          "traits": [
+            "Warlord Trait§Warlord Trait: Skull Keeper"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Warlord Trait: The End and the Death": {
+        "assets": {
+          "traits": [
+            "Warlord Trait§Warlord Trait: The End and the Death"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Incarnadine Wings": {
+        "text": "At the start of the controlling player’s Movement phase, or when entering play from Reserves or via the Breach the Veil Psychic Power, a model with Incarnadine Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Incarnadine Wings to move up to 14\", regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Incarnadine Wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain. A model with Incarnadine Wings that has been activated treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1\" away from any model from another unit.\nA model with Incarnadine Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with activated Incarnadine Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Incarnadine Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.\nDuring a Reaction made in any Phase, a player may not choose to activate a model’s Incarnadine Wings to gain any bonus to its Movement Characteristic."
+      },
+      "Warlord Trait§Warlord Trait: Skull Keeper": {
+        "text": "Ka’bandha may always be selected as an Army’s Warlord even if it is not part of the Primary Detachment or an HQ choice. If chosen as the army’s Warlord, Ka'bandha automatically has Skull Keeper as its Warlord Trait and may not select any other.\n\nSkull Keeper – All models with the Daemon Unit Type and the Ætheric Dominion (Heedless Slaughter) special rule within 12\" of Ka'bandha gain the Rage (3) special rule. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Ka'bandha has not been removed as a casualty.\n\nKa’bandha may be selected as part of a Lords of War Detachment for any army with the Traitor Allegiance, subject to the restrictions on Lords of War and Primarch points totals. However, if selected as part of an Army List which does not include any models with both the Psyker Unit Sub-type and the Independent Character special rule, Ka’Bandha will be unable to be deployed on the battlefield or enter play from Reserves, as per the Bound Unit Sub-type."
+      },
+      "Warlord Trait§Warlord Trait: The End and the Death": {
+        "text": "Samus may always be selected as an Army’s Warlord even if it is not part of the Primary Detachment or a HQ choice. If chosen as the army’s Warlord, Bound Samus replaces the Empyrean Avatar special rule with the Eternal Warrior special rule and automatically has The End and the Death as its Warlord Trait and may not select any other.\n\nThe End and the Death – When fighting in a Challenge, successful Invulnerable Saves taken against Bound Samus’ attacks must be re-rolled. In addition, an army with Bound Samus as its Warlord may make an additional Reaction during the opponent’s Movement phase as long as Bound Samus has not been removed as a casualty."
+      },
+      "Weapon§Armaments of Ka’bandha (Melee)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User+4"
+          }
+        },
+        "text": "Melee, Two-handed, Sunder"
+      },
+      "Weapon§Armaments of Ka’bandha (Ranged)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "6\""
+          },
+          "Strength": {
+            "value": 6
+          },
+          "Type": {
+            "value": "Assault 7"
+          }
+        }
+      },
+      "Weapon§Blades of Samus": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Armourbane (Melee), Murderous Strike (5+)"
+      },
+      "Weapon§Brute Armaments": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Two-handed, Murderous Strike (5+), Rending (6+)"
+      },
+      "Weapon§Elemental Eruption": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "8\""
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Assault 2, Deflagrate, Retaliation"
+      },
+      "Weapon§Regent Blade": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Two-handed, Murderous Strike (5+)"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

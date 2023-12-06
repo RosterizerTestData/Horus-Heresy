@@ -1,0 +1,1430 @@
+{
+  "name": "LA -  XIII: Ultramarines",
+  "revision": "0.0.1",
+  "game": "",
+  "genre": "generic",
+  "publisher": "",
+  "url": "",
+  "notes": "This data was translated automatically from a battlescribe catalog. Only asset names and bare stats have been translated and considerable editing is required in order for it to become useful in Rosterizer.",
+  "wip": true,
+  "rulebook": {
+    "assetTaxonomy": {
+      " Unit": {
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": null
+          },
+          "BS": {
+            "statType": "term",
+            "value": null
+          },
+          "I": {
+            "statType": "term",
+            "value": null
+          },
+          "Ld": {
+            "statType": "term",
+            "value": null
+          },
+          "Move": {
+            "statType": "term",
+            "value": null
+          },
+          "S": {
+            "statType": "term",
+            "value": null
+          },
+          "Save": {
+            "statType": "term",
+            "value": null
+          },
+          "T": {
+            "statType": "term",
+            "value": null
+          },
+          "W": {
+            "statType": "term",
+            "value": null
+          },
+          "WS": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      },
+      "Ability": {},
+      "Model": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Rule": {},
+      "SelectionEntry": {},
+      "SelectionEntryGroup": {},
+      "Unit": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          }
+        }
+      },
+      "Wargear Item": {},
+      "Weapon": {
+        "stats": {
+          "AP": {
+            "statType": "term",
+            "value": null
+          },
+          "Range": {
+            "statType": "term",
+            "value": null
+          },
+          "Strength": {
+            "statType": "term",
+            "value": null
+          },
+          "Type": {
+            "statType": "term",
+            "value": null
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      " Unit§Fulmentarus Decurion": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 6
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Heavy, Character)"
+      },
+      " Unit§Honoured Telemechrus": {
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 7
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 7
+          },
+          "W": {
+            "value": 7
+          },
+          "WS": {
+            "value": 6
+          }
+        },
+        "text": "Dreadnought (Unique)"
+      },
+      " Unit§Locutarus Strike Leader": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 9
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character)"
+      },
+      " Unit§Nemesis Destroyer Sergeant": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          }
+        },
+        "text": "Infantry (Character)"
+      },
+      " Unit§Praetorian Primus": {
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "I": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 8
+          },
+          "Move": {
+            "value": 7
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "3+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Heavy, Line)"
+      },
+      " Unit§Remus Ventanus": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": "7\""
+          },
+          "S": {
+            "value": 4
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "text": "Infantry (Character, Unique)"
+      },
+      " Unit§Robute Gulliman": {
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 8
+          },
+          "S": {
+            "value": 6
+          },
+          "Save": {
+            "value": "2+"
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 7
+          }
+        },
+        "text": "Primarch (Unique)"
+      },
+      "Ability§Harrower": {
+        "text": "Any unit from which a model is removed as a casualty during the Shooting phase as a result of an attack from a weapon with this special rule, must take a Morale check as if they had suffered 25% casualties."
+      },
+      "Ability§Lords of Ultramar": {
+        "text": "Any friendly unit made up entirely of models with the Infantry or Cavalry Unit Type which is not Pinned or Falling Back and does not include any models with this special rule gains a +1 modifier to their Leadership Characteristic (to a maximum of 9) while it has at least one model within 6\" of a friendly unit that includes one or more models with this special rule."
+      },
+      "Model§Fulmentarus Decurion": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Combi-Bolter",
+            "SelectionEntry§Power Dagger",
+            "SelectionEntry§Venom Spheres",
+            " Unit§Fulmentarus Decurion"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Melee Options:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Axe": {
+                "order": 1
+              },
+              "Thunder Hammer": {
+                "order": 2
+              },
+              "Chainfist": {
+                "order": 3
+              },
+              "Power Fist": {
+                "order": 4
+              },
+              "Power Lance": {
+                "order": 5
+              },
+              "Power Maul": {
+                "order": 6
+              },
+              "Power Sword": {
+                "order": 7
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Honoured Telemechrus": {
+        "assets": {
+          "traits": [
+            " Unit§Honoured Telemechrus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Locutarus Strike Leader": {
+        "assets": {
+          "traits": [
+            " Unit§Locutarus Strike Leader"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) Melee Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Axe": {
+                "order": 1
+              },
+              "Lightning Claw": {
+                "order": 2
+              },
+              "Legatine Axe": {
+                "order": 3
+              },
+              "Power Fist": {
+                "order": 4
+              },
+              "Thunder Hammer": {
+                "order": 5
+              },
+              "Argean power sword": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Bolt Pistol Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Plasma Pistol": {
+                "order": 2
+              },
+              "Volkite Serpenta": {
+                "order": 3
+              },
+              "Hand Flamer": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Wargear": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combat Shield": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Power Dagger": {
+                "order": 3
+              },
+              "Venom Spheres": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Nemesis Destroyer Sergeant": {
+        "assets": {
+          "traits": [
+            "Upgrade§Mortifier Bolter",
+            "SelectionEntry§Bolt Pistol",
+            " Unit§Nemesis Destroyer Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "1) Chainsword Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Sword": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Lightning Claw": {
+                "order": 3
+              },
+              "Thunder Hammer": {
+                "order": 4
+              },
+              "Chainsword": {
+                "order": 5
+              },
+              "Power Axe": {
+                "order": 6
+              },
+              "Power Maul": {
+                "order": 7
+              },
+              "Power Lance": {
+                "order": 8
+              }
+            },
+            "statType": "rank"
+          },
+          "2) May take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Phosphex Bomb": {
+                "order": 1
+              },
+              "Meltabombs": {
+                "order": 2
+              },
+              "Artificer Armour": {
+                "order": 3
+              },
+              "Power Dagger": {
+                "order": 4
+              },
+              "Venom Spheres": {
+                "order": 5
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Praetorian Primus": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Power Dagger",
+            "SelectionEntry§Venom Spheres",
+            " Unit§Praetorian Primus"
+          ]
+        },
+        "stats": {
+          "1) Power Sword Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Legatine Axe": {
+                "order": 1
+              },
+              "Power Fist": {
+                "order": 2
+              },
+              "Power Sword": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Bolt Pistol Options": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Bolt Pistol": {
+                "order": 1
+              },
+              "Plasma Pistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Armor Choice": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Artificer Armour": {
+                "order": 1
+              },
+              "Power Armour": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Remus Ventanus": {
+        "assets": {
+          "traits": [
+            "Rule§Legiones Astartes (Ultramarines) ",
+            "Rule§Adamantium Will (X+)",
+            "SelectionEntry§Master of the Legion",
+            " Unit§Remus Ventanus"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Model§Roboute Guilliman": {
+        "assets": {
+          "traits": [
+            "Rule§Adamantium Will (X+)",
+            " Unit§Robute Gulliman"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Roster§Roster": {},
+      "Rule§Adamantium Will (X+)": {},
+      "Rule§Bitter Duty": {},
+      "Rule§Breaching (X)": {},
+      "Rule§Brutal (X)": {},
+      "Rule§Bulky (X)": {},
+      "Rule§Chosen Warriors": {},
+      "Rule§Counter-Attack (X)": {},
+      "Rule§Duellist’s Edge (X)": {},
+      "Rule§Firing Protocols (X)": {},
+      "Rule§Guided Fire": {},
+      "Rule§Hammer of Wrath (X)": {},
+      "Rule§Hatred (X)": {},
+      "Rule§Inexorable": {},
+      "Rule§Legiones Astartes (Ultramarines) ": {},
+      "Rule§Master-crafted": {},
+      "Rule§Murderous Strike (X)": {},
+      "Rule§Night Vision": {},
+      "Rule§Pinning": {},
+      "Rule§Relentless": {},
+      "Rule§Rending (X)": {},
+      "Rule§Shred": {},
+      "Rule§Specialist Weapon": {},
+      "Rule§Stubborn": {},
+      "Rule§Unwieldy": {},
+      "SelectionEntry§Artificer Armour": {},
+      "SelectionEntry§Atomantic Deflector": {},
+      "SelectionEntry§Boarding Shield": {},
+      "SelectionEntry§Bolt Pistol": {},
+      "SelectionEntry§Cataphractii Terminator Armour": {},
+      "SelectionEntry§Cognis-Signum": {},
+      "SelectionEntry§Combi-Bolter": {},
+      "SelectionEntry§Frag Grenades": {},
+      "SelectionEntry§Gravis Power Fist": {},
+      "SelectionEntry§Iron Halo": {},
+      "SelectionEntry§Kheres Assault Cannon": {},
+      "SelectionEntry§Krak Grenades": {},
+      "SelectionEntry§Legion Standard": {},
+      "SelectionEntry§Master of the Legion": {},
+      "SelectionEntry§Meltabombs": {},
+      "SelectionEntry§Nuncio-Vox": {},
+      "SelectionEntry§Power Armour": {},
+      "SelectionEntry§Power Dagger": {},
+      "SelectionEntry§Rad Grenades": {},
+      "SelectionEntry§Venom Spheres": {},
+      "SelectionEntry§Warhawk Jump Pack": {},
+      "SelectionEntry§Warlord": {},
+      "SelectionEntryGroup§Retinue": {},
+      "Unit§Fulmentarus Terminator Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Relentless",
+            "Rule§Inexorable",
+            "Rule§Bulky (X)",
+            "Rule§Firing Protocols (X)",
+            "SelectionEntry§Cataphractii Terminator Armour",
+            "Upgrade§Peritarch targeter",
+            "Upgrade§Fulmentarus missile array (with Splinter and Hellfire plasma missiles)",
+            "Model§Fulmentarus Decurion"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Terminators:",
+            "Heavy",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Fulmentarii": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Fulmentarus Terminator w/Power Sword": {
+                "order": 1
+              },
+              "Fulmentarus Terminator w/Power Axe": {
+                "order": 2
+              },
+              "Fulmentarus Terminator w/Power Lance": {
+                "order": 3
+              },
+              "Fulmentarus Terminator w/Power Maul": {
+                "order": 4
+              },
+              "Fulmentarus Terminator w/Power Fist": {
+                "order": 5
+              },
+              "Fulmentarus Terminator w/Chainfist": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Fulmentarus Terminator may take:": {
+            "ranks": {
+              "Legion Vexilla": {
+                "order": 1
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 1
+              },
+              "Land Raider Spartan": {
+                "order": 2
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 70
+          }
+        }
+      },
+      "Unit§Honoured Telemechrus": {
+        "assets": {
+          "traits": [
+            "Rule§Hatred (X)",
+            "SelectionEntry§Kheres Assault Cannon",
+            "SelectionEntry§Gravis Power Fist",
+            "SelectionEntry§Atomantic Deflector",
+            "SelectionEntry§Combi-Bolter",
+            "Model§Honoured Telemechrus"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Dreadnought Unit-type:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Dedicated Transport": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 1
+              },
+              "Dreadnought Drop Pod": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 240
+          }
+        }
+      },
+      "Unit§Invictarus Suzerain Squad": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Artificer Armour",
+            "Upgrade§Argyrum-pattern Boarding Shield",
+            "Ability§Lords of Ultramar"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Legiones Astartes",
+            "Infantry:",
+            "Heavy",
+            "Line Sub-type:"
+          ]
+        },
+        "stats": {
+          "1) Suzerains": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Suzerain w/Bolt Pistol & Legatine Axe": {
+                "order": 1
+              },
+              "Suzerain w/Bolt Pistol & Thunder Hammer": {
+                "order": 2
+              },
+              "Suzerain w/Plasma Pistol & Legatine Axe": {
+                "order": 3
+              },
+              "Suzerain w/Plasma Pistol & Thunder Hammer": {
+                "order": 4
+              }
+            },
+            "statType": "rank"
+          },
+          "2) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              },
+              "Drop Pod": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Any Alpha Legion Suzerain may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Power Dagger": {
+                "order": 1
+              },
+              "Venom Spheres": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 25
+          }
+        }
+      },
+      "Unit§Locutarus Storm Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Warhawk Jump Pack",
+            "SelectionEntry§Artificer Armour",
+            "Model§Locutarus Strike Leader"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Jump Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "Locutarii": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Locutarus": {
+                "order": 1
+              },
+              "Locutarus w/Special Pistol": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 50
+          }
+        }
+      },
+      "Unit§Nemesis Destroyer Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Stubborn",
+            "Rule§Counter-Attack (X)",
+            "Rule§Bitter Duty",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Rad Grenades",
+            "Model§Nemesis Destroyer Sergeant"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Nemesis Destroyers": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nemesis Destroyer": {
+                "order": 1
+              },
+              "Nemesis Destroyer w/Heavy Weapon": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Nemesis Destroyer may take may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Legion Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Rhino Transport": {
+                "order": 1
+              },
+              "Termite Assault Drill": {
+                "order": 2
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 3
+              },
+              "Storm Eagle Gunship": {
+                "order": 4
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 5
+              },
+              "Drop Pod": {
+                "order": 6
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 30
+          }
+        }
+      },
+      "Unit§Praetorian Breacher Squad": {
+        "assets": {
+          "traits": [
+            "Rule§Chosen Warriors",
+            "Rule§Hammer of Wrath (X)",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Power Armour",
+            "SelectionEntry§Boarding Shield",
+            "Model§Praetorian Primus"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Heavy",
+            "Infantry:",
+            "Line Sub-type:",
+            "Legiones Astartes"
+          ]
+        },
+        "stats": {
+          "1) Praetorians": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              " Praetorian w/Power Sword": {
+                "order": 1
+              },
+              "Praetorian w/Legatine Axe (1 in 5)": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "2) One Praetorian may take:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Nuncio-Vox": {
+                "order": 1
+              },
+              "Legion Vexilla": {
+                "order": 2
+              }
+            },
+            "statType": "rank"
+          },
+          "3) Dedicated Transport:": {
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Land Raider Proteus Carrier": {
+                "order": 1
+              },
+              "Dreadclaw Drop Pod": {
+                "order": 2
+              },
+              "Drop Pod": {
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Pts": {
+            "value": 47
+          }
+        }
+      },
+      "Unit§Remus Ventanus": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Krak Grenades",
+            "SelectionEntry§Artificer Armour",
+            "SelectionEntry§Iron Halo",
+            "SelectionEntry§Bolt Pistol",
+            "SelectionEntry§Nuncio-Vox",
+            "SelectionEntry§Meltabombs",
+            "SelectionEntry§Legion Standard",
+            "SelectionEntry§Warlord",
+            "SelectionEntryGroup§Retinue",
+            "Model§Remus Ventanus",
+            "Upgrade§Phaethon"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Infantry:",
+            "Legiones Astartes",
+            "Independent Character"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 175
+          }
+        }
+      },
+      "Unit§Roboute Guilliman": {
+        "assets": {
+          "traits": [
+            "SelectionEntry§Cognis-Signum",
+            "SelectionEntry§Frag Grenades",
+            "SelectionEntry§Master of the Legion",
+            "SelectionEntry§Warlord",
+            "Model§Roboute Guilliman",
+            "Upgrade§The Armour of Reason",
+            "Upgrade§The Gladius Incandor and the Hand of Dominion",
+            "Upgrade§The Arbitrator"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Independent Character",
+            "Legiones Astartes",
+            "LoW & Primarchs (25% Limit)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 465
+          }
+        }
+      },
+      "Upgrade§Argean Power Sword": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Duellist’s Edge (X)",
+            "Weapon§Argean power sword"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Argyrum-pattern Boarding Shield": {
+        "assets": {
+          "traits": [
+            "Wargear Item§Argyrum pattern boarding shield"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Fulmentarus missile array (with Splinter and Hellfire plasma missiles)": {
+        "assets": {
+          "traits": [
+            "Rule§Breaching (X)",
+            "Rule§Brutal (X)",
+            "Rule§Pinning",
+            "Weapon§Fulmentarus missile array (Splinter missiles)",
+            "Weapon§Fulmentarus missile array (Hellfire plasma missiles)"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Legatine Axe": {
+        "assets": {
+          "traits": [
+            "Weapon§Legatine Axe "
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Mortifier Bolter": {
+        "assets": {
+          "traits": [
+            "Weapon§Mortifier bolter",
+            "Ability§Harrower"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Peritarch targeter": {},
+      "Upgrade§Peritarch Targeter": {
+        "assets": {
+          "traits": [
+            "Rule§Guided Fire",
+            "Rule§Night Vision",
+            "Wargear Item§Peritarch Targeter"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§Phaethon": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Master-crafted",
+            "Weapon§Phaethon"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Arbitrator": {
+        "assets": {
+          "traits": [
+            "Rule§Rending (X)",
+            "Rule§Master-crafted",
+            "Weapon§The Arbitrator"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Armour of Reason": {
+        "assets": {
+          "traits": [
+            "Wargear Item§The Armour of Reason"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Upgrade§The Gladius Incandor and the Hand of Dominion": {
+        "assets": {
+          "traits": [
+            "Rule§Master-crafted",
+            "Rule§Shred",
+            "Rule§Murderous Strike (X)",
+            "Rule§Specialist Weapon",
+            "Rule§Unwieldy",
+            "Rule§Brutal (X)",
+            "Weapon§The Gladius Incandor",
+            "Weapon§The Hand of Dominion"
+          ]
+        },
+        "stats": {
+          "Pts": {
+            "value": 0
+          }
+        }
+      },
+      "Wargear Item§Argyrum pattern boarding shield": {
+        "text": "An Argyrum pattern boarding shield provides a 5+ Invulnerable Save against Shooting Attacks in any Phase that increases to 4+ against any attacks made while engaged in an assault. Invulnerable Saves granted by an Argyrum pattern boarding shield do not stack with other Invulnerable Saves and cannot be modified by any other special rule. If a model has another Invulnerable Save then the controlling player must choose which one to use. In addition, a model with has another Invulnerable Save then the controlling player must choose which one to use. In addition, a model with an Argyrum pattern boarding shield may not make attacks with any weapon that has the Two-handed special rule."
+      },
+      "Wargear Item§Peritarch Targeter": {
+        "text": "A unit that includes at least one model with a Peritarch Targeter may activate it at the start of any of their own turns before any models are moved. Once the Peritarch Targeter is activated, the unit affected may not move but gains the Guided Fire and Night Vision special rules until the start of the controlling player’s next turn. A unit that has activated a Peritarch Targeter may not make any Reactions other than the Interceptor or Overwatch Reaction, unless it can draw a line of sight to any models in the unit that triggered the Reaction. In addition, all models in a unit that has activated a Peritarch Targeter must use the same missile type for any attacks made for the duration of that player turn."
+      },
+      "Wargear Item§The Armour of Reason": {
+        "text": "The Armour of Reason provides a 2+ Armour Save and a 4+ Invulnerable Save and, in addition, the first Invulnerable Save failed by Roboute Guilliman in each separate Phase of the battle may be re-rolled."
+      },
+      "Weapon§Argean power sword": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Rending (5+), Duellist's Edge (1)"
+      },
+      "Weapon§Fulmentarus missile array (Hellfire plasma missiles)": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "24\""
+          },
+          "Strength": {
+            "value": 8
+          }
+        },
+        "text": "Heavy 1, Brutal (2)"
+      },
+      "Weapon§Fulmentarus missile array (Splinter missiles)": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "36\""
+          },
+          "Strength": {
+            "value": 5
+          }
+        },
+        "text": "Heavy 4, Breaching (6+), Pinning"
+      },
+      "Weapon§Legatine Axe ": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          },
+          "Type": {
+            "value": "Melee"
+          }
+        }
+      },
+      "Weapon§Mortifier bolter": {
+        "stats": {
+          "AP": {
+            "value": 5
+          },
+          "Range": {
+            "value": "18\""
+          },
+          "Strength": {
+            "value": 4
+          }
+        },
+        "text": "Assault 2, Harrower"
+      },
+      "Weapon§Phaethon": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": "User"
+          }
+        },
+        "text": "Melee, Rending (5+), Master-crafted"
+      },
+      "Weapon§The Arbitrator": {
+        "stats": {
+          "AP": {
+            "value": 3
+          },
+          "Range": {
+            "value": "18\""
+          },
+          "Strength": {
+            "value": 6
+          }
+        },
+        "text": "Assault 2, Rending (5+), Master-crafted"
+      },
+      "Weapon§The Gladius Incandor": {
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 1
+          }
+        },
+        "text": "Melee, Shred, Murderous Strike (5+), Master-crafted, Specialist Weapon"
+      },
+      "Weapon§The Hand of Dominion": {
+        "stats": {
+          "AP": {
+            "value": 1
+          },
+          "Range": {
+            "value": "-"
+          },
+          "Strength": {
+            "value": 10
+          }
+        },
+        "text": "Melee, Unwieldy, Brutal (2), Master-crafted, Specialist Weapon"
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}

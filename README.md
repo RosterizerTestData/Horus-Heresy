@@ -1,6 +1,6 @@
 # Horus-Heresy
 
-This is a test repository for the Horus Heresy Rosterizer Manifest.
+This is a test repository for the Horus Heresy Rosterizer Rulebook.
 
 Data on the main branch is currently drawn from the [BSData Horus Heresy team](https://github.com/BSData/horus-heresy).
 
