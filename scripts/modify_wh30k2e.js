@@ -16,34 +16,36 @@ async function processFiles() {
 
       Object.keys(rulebook.rulebook.assetCatalog).forEach(itemKey => {
         let [itemClass, itemDesignation] = itemKey.split('§');
-        assetLists[itemDesignation] = assetLists[itemDesignation] || [];
-        assetLists[itemDesignation].push(itemKey);
+        assetLists[itemDesignation.toLowerCase()] = assetLists[itemDesignation.toLowerCase()] || [];
+        assetLists[itemDesignation.toLowerCase()].push(itemKey);
       });
 
       console.log(assetLists);
+      Object.keys(assetLists).forEach(itemDesignation => {
+        if(assetLists[itemDesignation.toLowerCase()].length > 1){
+          let itemKey = assetLists[itemDesignation][0];
+          let itemClass = itemKey.split('§')[0];
+          let item = rulebook.rulebook.assetCatalog[itemKey];
+        }
+      });
 
       let removalList = new Set();
       Object.keys(rulebook.rulebook.assetCatalog).forEach(itemKey => {
         let [itemClass, itemDesignation] = itemKey.split('§');
         let item = rulebook.rulebook.assetCatalog[itemKey];
 
-        // traitify stat ranks
-        // Object.keys(item.stats || {}).forEach(statKey => {
-        //   let stat = item.stats[statKey];
-        //   Object.keys(stat.ranks || {}).forEach(statRankKey => {
-            
-        //   });
-        // });
+        // dedup traits
 
-        // what are selection entries? groups?
-        item.assets?.traits?.forEach((trait,i,a) => {
-          let [traitClass, traitDesignation] = typeof trait === 'string' ? trait.split('§') : trait.item.split('§');
-          if(traitClass.includes('SelectionEntry') && assetLists[traitDesignation]?.length){
-            console.log(itemKey, JSON.parse(JSON.stringify(item)));
-            a[i] = assetLists[traitDesignation][0];
-            console.log(itemKey, JSON.parse(JSON.stringify(item)));
-          }
-        });
+        // find missing traits and reassign or create new items
+        // item.assets?.traits?.forEach((trait,i,a) => {
+        //   let traitTest = typeof trait === 'string' ? trait : trait.item;
+        //   if(!rulebook.rulebook.assetCatalog[traitTest]){
+        //     let newTraitKey = assetLists[traitTest.toLowerCase()][0];
+        //     a[i] = typeof trait === 'string' ? newTraitKey : {...trait,item: newTraitKey};
+        //   }
+        // })
+
+        // add missing classes
 
       });
       removalList.forEach(itemKey => {
