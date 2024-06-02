@@ -30,24 +30,24 @@ async function processFiles() {
       });
 
       let removalList = new Set();
+      let classList = new Set();
       Object.keys(rulebook.rulebook.assetCatalog).forEach(itemKey => {
         let [itemClass, itemDesignation] = itemKey.split('§');
         let item = rulebook.rulebook.assetCatalog[itemKey];
 
         // dedup traits
-
-        // find missing traits and reassign or create new items
-        // item.assets?.traits?.forEach((trait,i,a) => {
-        //   let traitTest = typeof trait === 'string' ? trait : trait.item;
-        //   if(!rulebook.rulebook.assetCatalog[traitTest]){
-        //     let newTraitKey = assetLists[traitTest.toLowerCase()][0];
-        //     a[i] = typeof trait === 'string' ? newTraitKey : {...trait,item: newTraitKey};
-        //   }
-        // })
+        if(item.assets?.traits){
+          item.assets.traits = [...new Set(item.assets.traits)];
+        }
 
         // add missing classes
-
+        classList.add(itemClass);
+        
       });
+      classList.forEach(itemClass => {
+        rulebook.rulebook.assetTaxonomy[itemClass] = rulebook.rulebook.assetTaxonomy[itemClass] || {};
+      });
+
       removalList.forEach(itemKey => {
         delete rulebook.rulebook.assetCatalog[itemKey];
       });

@@ -7,7 +7,6 @@
   "url": "https://warhammer40000.com/",
   "notes": "This rulebook is provided for the purposes of testing Rosterizer and is not intended for distribution.",
   "wip": true,
-  "isModule": true,
   "dependencies": [],
   "rulebook": {
     "assetTaxonomy": {
@@ -34,10 +33,73 @@
             ],
             "evaluate": "AND",
             "failState": "error"
+          },
+          "putXInName": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "append": ")",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ],
+                "prepend": " (",
+                "value": [
+                  "{self}",
+                  "stats",
+                  "x",
+                  "value"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "x",
+                    "processed",
+                    "format",
+                    "current"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 100
+          }
+        },
+        "stats": {
+          "x": {
+            "statType": "numeric",
+            "value": 0
           }
         }
       },
+      "Cohort Doctrine": {},
       "Construct": {
+        "aspects": {
+          "Group Includes": true,
+          "Group Traits": true,
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Role": [],
+          "Source": [],
+          "Tags": [
+            "Units"
+          ],
+          "Faction": []
+        },
         "stats": {
           "Base": {
             "statOrder": 3,
@@ -104,17 +166,23 @@
           }
         }
       },
+      "Consul Additional Wargear and Option": {},
+      "Dark Blessing": {},
       "Detachment": {
+        "allowed": {
+          "classifications": [
+            "Unit",
+            "Vehicle"
+          ]
+        },
         "aspects": {
           "Describe": true,
-          "Group Includes": true,
-          "Group Traits": true,
           "Lock Qty": true,
           "Rename": true,
           "Unique": true
         },
         "stats": {
-          "Elite": {
+          "Elites": {
             "icons": [
               "pirate-flag"
             ],
@@ -164,7 +232,7 @@
             "value": null,
             "visibility": "active"
           },
-          "Lord of War": {
+          "Lords of War": {
             "icons": [
               "mailed-fist"
             ],
@@ -182,7 +250,7 @@
             "value": null,
             "visibility": "normal"
           },
-          "Troop": {
+          "Troops": {
             "icons": [
               "triangle-target"
             ],
@@ -194,48 +262,15 @@
           }
         }
       },
-      "Elite": {
-        "templateClass": "Unit"
-      },
-      "Fast Attack": {
-        "templateClass": "Unit"
-      },
       "Fortification": {
         "templateClass": "Construct"
       },
-      "Heavy Support": {
-        "templateClass": "Unit"
-      },
-      "HQ": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "stats": {
-          "Warlord": {
-            "dynamic": true,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "tracking": {
-                  "Warlord": 1
-                }
-              }
-            },
-            "statType": "rank",
-            "tracked": true,
-            "value": "-",
-            "visibility": "normal"
-          }
-        },
-        "templateClass": "Unit",
-        "text": ""
-      },
-      "Lord of War": {
-        "templateClass": "Unit"
-      },
+      "Hexagrammaton Choice": {},
+      "Household Rank": {},
+      "Knight/Titan": {},
+      "Legion": {},
+      "Legion Decurions": {},
+      "Legiones Consularis": {},
       "Melee Weapon": {
         "stats": {
           "Range": {
@@ -403,6 +438,11 @@
           }
         }
       },
+      "Order of High Techno-arcana": {},
+      "Prosperine Arcana": {},
+      "Provenance Options": {},
+      "Provenances of War": {},
+      "Psychic Fortitude": {},
       "Psychic Power": {
         "aspects": {
           "Lock Qty": true,
@@ -410,80 +450,22 @@
           "Visibility": "active"
         }
       },
+      "Psychic Weapon": {},
       "Ranged Weapon": {
         "templateClass": "Weapon"
       },
-      "Rule": {
-        "rules": {
-          "putXInName": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "append": ")",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "designation"
-                  ]
-                ],
-                "prepend": " (",
-                "value": [
-                  "{self}",
-                  "stats",
-                  "x",
-                  "value"
-                ]
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "min": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "x",
-                    "processed",
-                    "format",
-                    "current"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 100
-          }
-        },
-        "stats": {
-          "x": {
-            "statType": "numeric",
-            "value": 0
-          }
-        }
-      },
-      "Troop": {
-        "removed": {
-          "rules": {
-            "Too many of this unit type in the army.": {}
-          },
-          "keywords": {
-            "Tags": []
-          }
-        },
-        "templateClass": "Unit"
-      },
+      "Reaction": {},
+      "Rites of War": {},
+      "Stratagem": {},
+      "The Ætheric Dominion (X)": {},
       "Unit": {
         "allowed": {
-          "classifications": [
-            "Stratagem"
-          ]
+          "classifications": []
         },
         "aspects": {
+          "Group By": "Role",
+          "Group Includes": true,
+          "Group Traits": true,
           "Lock Qty": true,
           "Rename": true,
           "Type": "conceptual"
@@ -494,6 +476,7 @@
           ]
         },
         "keywords": {
+          "Role": [],
           "Source": [],
           "Tags": [
             "Units"
@@ -2074,44 +2057,44 @@
       "Ability§Wrecker": {
         "text": "Penetrating Hits caused by attacks made with weapons or models with this special rule add +1 to the result of any rolls on the Vehicle or Building Damage tables."
       },
-      "Cohort Doctrines§Armoured Fist Pattern Cohorts (Check Limitations manually)": {},
-      "Cohort Doctrines§Feral Pattern Cohorts": {},
-      "Cohort Doctrines§Iron Pattern Cohort": {},
-      "Cohort Doctrines§Penal Pattern Cohorts": {},
-      "Cohort Doctrines§Reborn Cohorts": {},
-      "Cohort Doctrines§Siege Pattern Cohorts": {},
-      "Cohort Doctrines§Solar Pattern Cohorts": {},
-      "Cohort Doctrines§Ultramar Pattern Cohorts": {},
-      "Consul Additional Wargear and Options§(Chaplain) Master craft one weapon to represent a Crozius Arcanum": {
+      "Cohort Doctrine§Armoured Fist Pattern Cohorts (Check Limitations manually)": {},
+      "Cohort Doctrine§Feral Pattern Cohorts": {},
+      "Cohort Doctrine§Iron Pattern Cohort": {},
+      "Cohort Doctrine§Penal Pattern Cohorts": {},
+      "Cohort Doctrine§Reborn Cohorts": {},
+      "Cohort Doctrine§Siege Pattern Cohorts": {},
+      "Cohort Doctrine§Solar Pattern Cohorts": {},
+      "Cohort Doctrine§Ultramar Pattern Cohorts": {},
+      "Consul Additional Wargear and Option§(Chaplain) Master craft one weapon to represent a Crozius Arcanum": {
         "assets": {
           "traits": [
             "Ability§Master-crafted"
           ]
         }
       },
-      "Consul Additional Wargear and Options§(Pack Thegn) Grant unit the Skirmish": {},
-      "Dark Blessings§Conqueror of Worlds (0-1)": {
+      "Consul Additional Wargear and Option§(Pack Thegn) Grant unit the Skirmish": {},
+      "Dark Blessing§Conqueror of Worlds (0-1)": {
         "stats": {
           "Points": {
             "value": 80
           }
         }
       },
-      "Dark Blessings§Encroaching Ruin (Dark Blessing)": {
+      "Dark Blessing§Encroaching Ruin (Dark Blessing)": {
         "stats": {
           "Points": {
             "value": 40
           }
         }
       },
-      "Dark Blessings§Formless Distortion (Dark Blessing)": {
+      "Dark Blessing§Formless Distortion (Dark Blessing)": {
         "stats": {
           "Points": {
             "value": 45
           }
         }
       },
-      "Dark Blessings§Infernal Tempest (Dark Blessing)": {
+      "Dark Blessing§Infernal Tempest (Dark Blessing)": {
         "assets": {
           "traits": [
             "Psychic Power§Infernal Warding (Psychic Power)",
@@ -2125,7 +2108,7 @@
           }
         }
       },
-      "Dark Blessings§Malevolent Artifice (Dark Blessing)": {
+      "Dark Blessing§Malevolent Artifice (Dark Blessing)": {
         "assets": {
           "traits": [
             "Ability§It Will Not Die"
@@ -2137,21 +2120,21 @@
           }
         }
       },
-      "Dark Blessings§Putrid Corruption (Dark Blessing)": {
+      "Dark Blessing§Putrid Corruption (Dark Blessing)": {
         "stats": {
           "Points": {
             "value": 45
           }
         }
       },
-      "Dark Blessings§Rapturous Sensation (Dark Blessing)": {
+      "Dark Blessing§Rapturous Sensation (Dark Blessing)": {
         "stats": {
           "Points": {
             "value": 65
           }
         }
       },
-      "Dark Blessings§Ravenous Dissolution (Dark Blessing)": {
+      "Dark Blessing§Ravenous Dissolution (Dark Blessing)": {
         "assets": {
           "traits": [
             "Ability§Marked For Death"
@@ -2160,6 +2143,160 @@
         "stats": {
           "Points": {
             "value": 50
+          }
+        }
+      },
+      "Detachment§Allied Detachment": {
+        "constraints": {
+          "any": [
+            "HQ",
+            "Troops",
+            "Elites",
+            "Fast Attack",
+            "Heavy Support"
+          ]
+        },
+        "stats": {
+          "Elites": {
+            "icons": [
+              "pirate-flag"
+            ],
+            "max": 2,
+            "min": 0,
+            "value": 0
+          },
+          "Fast Attack": {
+            "icons": [
+              "power-lightning"
+            ],
+            "max": 1,
+            "min": 0,
+            "value": 0
+          },
+          "Heavy Support": {
+            "icons": [
+              "mine-explosion"
+            ],
+            "max": 1,
+            "min": 0,
+            "value": 0
+          },
+          "HQ": {
+            "icons": [
+              "harry-potter-skull"
+            ],
+            "max": 1,
+            "min": 1,
+            "value": 0
+          },
+          "Troops": {
+            "icons": [
+              "triangle-target"
+            ],
+            "max": 4,
+            "min": 1,
+            "value": 0
+          }
+        }
+      },
+      "Detachment§Lords of War Detachment": {
+        "allowed": {
+          "classifications": [
+            "Knight/Titan"
+          ]
+        },
+        "constraints": {
+          "any": [
+            "Lords of War"
+          ]
+        },
+        "stats": {
+          "Lords of War": {
+            "max": 1,
+            "min": 1,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          }
+        }
+      },
+      "Detachment§Primary Detachment": {
+        "allowed": {
+          "classifications": [
+            "Fortification"
+          ]
+        },
+        "constraints": {
+          "any": [
+            "HQ",
+            "Troops",
+            "Elites",
+            "Fast Attack",
+            "Heavy Support",
+            "Fortification",
+            "Primarch"
+          ]
+        },
+        "stats": {
+          "Elites": {
+            "icons": [
+              "pirate-flag"
+            ],
+            "max": 4,
+            "min": 0,
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Fast Attack": {
+            "icons": [
+              "power-lightning"
+            ],
+            "max": 3,
+            "min": 0,
+            "value": 0
+          },
+          "Fortification": {
+            "icons": [
+              "military-fort"
+            ],
+            "max": 1,
+            "min": 0,
+            "value": 0
+          },
+          "Heavy Support": {
+            "icons": [
+              "mine-explosion"
+            ],
+            "max": 3,
+            "min": 0,
+            "value": 0
+          },
+          "HQ": {
+            "max": 3,
+            "min": 1,
+            "value": 0
+          },
+          "Lords of War": {
+            "max": 0,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Primarch": {
+            "icons": [
+              "crowned-skull"
+            ],
+            "max": 1,
+            "min": 0,
+            "value": 0
+          },
+          "Troops": {
+            "icons": [
+              "triangle-target"
+            ],
+            "max": 6,
+            "min": 2,
+            "value": 0
           }
         }
       },
@@ -2533,111 +2670,111 @@
         },
         "text": "Fortification (Emplacement)"
       },
-      "Hexagrammaton Choice:§Deathwing": {
+      "Hexagrammaton Choice§Deathwing": {
         "assets": {
           "traits": [
             "Ability§Deathwing"
           ]
         }
       },
-      "Hexagrammaton Choice:§Dreadwing": {
+      "Hexagrammaton Choice§Dreadwing": {
         "assets": {
           "traits": [
             "Ability§Dreadwing"
           ]
         }
       },
-      "Hexagrammaton Choice:§Firewing": {
+      "Hexagrammaton Choice§Firewing": {
         "assets": {
           "traits": [
             "Ability§Firewing"
           ]
         }
       },
-      "Hexagrammaton Choice:§Ironwing": {
+      "Hexagrammaton Choice§Ironwing": {
         "assets": {
           "traits": [
             "Ability§Ironwing"
           ]
         }
       },
-      "Hexagrammaton Choice:§Ravenwing": {
+      "Hexagrammaton Choice§Ravenwing": {
         "assets": {
           "traits": [
             "Ability§Ravenwing"
           ]
         }
       },
-      "Hexagrammaton Choice:§Stormwing": {
+      "Hexagrammaton Choice§Stormwing": {
         "assets": {
           "traits": [
             "Ability§Stormwing"
           ]
         }
       },
-      "Household Ranks§Arbalester": {
+      "Household Rank§Arbalester": {
         "stats": {
           "Points": {
             "value": 55
           }
         }
       },
-      "Household Ranks§Aspirant": {
+      "Household Rank§Aspirant": {
         "stats": {
           "Points": {
             "value": -30
           }
         }
       },
-      "Household Ranks§Aucteller": {
+      "Household Rank§Aucteller": {
         "stats": {
           "Points": {
             "value": 55
           }
         }
       },
-      "Household Ranks§Dolorous": {
+      "Household Rank§Dolorous": {
         "stats": {
           "Points": {
             "value": 35
           }
         }
       },
-      "Household Ranks§Implacable": {
+      "Household Rank§Implacable": {
         "stats": {
           "Points": {
             "value": 65
           }
         }
       },
-      "Household Ranks§Preceptor": {
+      "Household Rank§Preceptor": {
         "stats": {
           "Points": {
             "value": 45
           }
         }
       },
-      "Household Ranks§Seneschal (0-1)": {
+      "Household Rank§Seneschal (0-1)": {
         "stats": {
           "Points": {
             "value": 80
           }
         }
       },
-      "Household Ranks§Uhlan": {
+      "Household Rank§Uhlan": {
         "stats": {
           "Points": {
             "value": 30
           }
         }
       },
-      "Knights and Titans§Acastus Knight Porphyrion": {
+      "Knight/Titan§Acastus Knight Porphyrion": {
         "assets": {
           "traits": [
             "Ability§It Will Not Die",
             "Ability§Catastrophic Explosion",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings",
@@ -2689,7 +2826,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Greater Brass Scorpion": {
+      "Knight/Titan§Greater Brass Scorpion": {
         "assets": {
           "traits": [
             "Ability§Traitor",
@@ -2750,14 +2887,14 @@
         },
         "text": "Vehicle (Knight, Corrupted Engine)"
       },
-      "Knights and Titans§Knight Acheron": {
+      "Knight/Titan§Knight Acheron": {
         "assets": {
           "traits": [
             "Ability§Scout",
             "Ability§Outflank",
             "Ability§Flank Speed",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings",
@@ -2809,14 +2946,14 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Knight Castigator": {
+      "Knight/Titan§Knight Castigator": {
         "assets": {
           "traits": [
             "Ability§Outflank",
             "Ability§Scout",
             "Ability§Flank Speed",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings",
@@ -2868,14 +3005,14 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Knight Lancer": {
+      "Knight/Titan§Knight Lancer": {
         "assets": {
           "traits": [
             "Ability§Outflank",
             "Ability§Scout",
             "Ability§Flank Speed",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Gauntlet Shield",
+            "Wargear§Ion Gauntlet Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings"
@@ -2926,7 +3063,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Knight Moirax": {
+      "Knight/Titan§Knight Moirax": {
         "assets": {
           "traits": [
             "Reaction§Greuso Protocol",
@@ -3076,17 +3213,17 @@
           }
         }
       },
-      "Knights and Titans§Knight Questoris": {
+      "Knight/Titan§Knight Questoris": {
         "assets": {
           "traits": [
             "Ability§Outflank",
             "Ability§Scout",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings",
-            "Knights and Titans§Knight Questoris"
+            "Knight/Titan§Knight Questoris"
           ]
         },
         "keywords": {
@@ -3134,7 +3271,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Kytan Daemon Engine": {
+      "Knight/Titan§Kytan Daemon Engine": {
         "assets": {
           "traits": [
             "Ability§Flank Speed",
@@ -3144,7 +3281,7 @@
             "Ability§Malefic Aegis",
             "The Ætheric Dominion (X)§Heedless Slaughter",
             "Upgrade§Arm Mounted Kytan gatling cannon",
-            "Upgrade§Cleaver of slaughter"
+            "Melee Weapon§Cleaver of slaughter"
           ]
         },
         "keywords": {
@@ -3194,7 +3331,7 @@
         },
         "text": "Vehicle (Knight, Corrupted Engine)"
       },
-      "Knights and Titans§Mechanicum Acastus Knight Asterius": {
+      "Knight/Titan§Mechanicum Acastus Knight Asterius": {
         "assets": {
           "traits": [
             "Ability§Catastrophic Explosion",
@@ -3249,7 +3386,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Mechanicum Knight Atrapos": {
+      "Knight/Titan§Mechanicum Knight Atrapos": {
         "assets": {
           "traits": [
             "Ability§Night Vision",
@@ -3308,7 +3445,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Mechanicum Knight Magaera": {
+      "Knight/Titan§Mechanicum Knight Magaera": {
         "assets": {
           "traits": [
             "Ability§Night Vision",
@@ -3364,7 +3501,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Mechanicum Knight Styrix": {
+      "Knight/Titan§Mechanicum Knight Styrix": {
         "assets": {
           "traits": [
             "Ability§Night Vision",
@@ -3420,7 +3557,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Questoris Acastus Knight Asterius": {
+      "Knight/Titan§Questoris Acastus Knight Asterius": {
         "assets": {
           "traits": [
             "Ability§Outflank",
@@ -3429,7 +3566,7 @@
             "Ability§It Will Not Die",
             "Ability§Night Vision",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings"
@@ -3480,7 +3617,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Questoris Knight Atrapos": {
+      "Knight/Titan§Questoris Knight Atrapos": {
         "assets": {
           "traits": [
             "Ability§Outflank",
@@ -3489,7 +3626,7 @@
             "Ability§Flank Speed",
             "Ability§Catastrophic Destruction",
             "SelectionEntryGroup§Household Ranks",
-            "Upgrade§Ion Shield",
+            "Wargear§Ion Shield",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
             "SelectionEntryGroup§Dark Blessings",
@@ -3541,7 +3678,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Questoris Knight Magaera": {
+      "Knight/Titan§Questoris Knight Magaera": {
         "assets": {
           "traits": [
             "Ability§Outflank",
@@ -3600,7 +3737,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Questoris Knight Styrix": {
+      "Knight/Titan§Questoris Knight Styrix": {
         "assets": {
           "traits": [
             "Ability§Outflank",
@@ -3659,7 +3796,7 @@
         },
         "text": "Vehicle (Knight)"
       },
-      "Knights and Titans§Reaver Battle Titan": {
+      "Knight/Titan§Reaver Battle Titan": {
         "assets": {
           "traits": [
             "Ability§God-Engine",
@@ -3824,7 +3961,7 @@
           }
         }
       },
-      "Knights and Titans§Warbringer Nemesis Titan": {
+      "Knight/Titan§Warbringer Nemesis Titan": {
         "assets": {
           "traits": [
             "Ability§God-Engine",
@@ -4027,7 +4164,7 @@
           }
         }
       },
-      "Knights and Titans§Warhound Scout Titan": {
+      "Knight/Titan§Warhound Scout Titan": {
         "assets": {
           "traits": [
             "Ability§God-Engine",
@@ -4162,7 +4299,7 @@
         },
         "text": "Vehicle (Fast, Titan)"
       },
-      "Knights and Titans§Warlord Battle Titan": {
+      "Knight/Titan§Warlord Battle Titan": {
         "assets": {
           "traits": [
             "Ability§God-Engine",
@@ -4359,7 +4496,7 @@
         "assets": {
           "traits": [
             "Reaction§Advanced Reaction: Point Defence",
-            "Wargear§Decurion Defensor"
+            "Legion Decurions§Decurion Defensor"
           ]
         },
         "stats": {
@@ -4373,7 +4510,7 @@
           "traits": [
             "Reaction§Advanced Reaction: Locus Strike",
             "Wargear§Nuncio-Vox",
-            "Wargear§Decurion Locus"
+            "Legion Decurions§Decurion Locus"
           ]
         },
         "stats": {
@@ -4387,7 +4524,7 @@
           "traits": [
             "Ability§Precision Shots",
             "Wargear§Augury Scanner",
-            "Upgrade§Iliastus Assault Cannon",
+            "Ranged Weapon§Iliastus Assault Cannon",
             "Wargear§Decurion Sagittar"
           ]
         },
@@ -4400,8 +4537,8 @@
       "Legion Decurions§SoH Decurion Lanius": {
         "assets": {
           "traits": [
-            "Upgrade§Banestrike Bolt Cannon",
-            "Wargear§SoH Decurion Lanius"
+            "Ranged Weapon§Banestrike Bolt Cannon",
+            "Legion Decurions§SoH Decurion Lanius"
           ]
         },
         "stats": {
@@ -4661,7 +4798,7 @@
         "assets": {
           "traits": [
             "Wargear§Augury Scanner",
-            "SelectionEntry§Cognis-Signum"
+            "Wargear§Cognis-signum"
           ]
         },
         "keywords": {
@@ -4823,7 +4960,7 @@
         "assets": {
           "traits": [
             "Wargear§Augury Scanner",
-            "SelectionEntry§Cognis-Signum",
+            "Wargear§Cognis-signum",
             "Wargear§Nuncio-Vox",
             "Wargear§Vox Disruptor Array"
           ]
@@ -4882,7 +5019,7 @@
           "traits": [
             "Ability§Adamantium Will",
             "Ability§Stubborn",
-            "Upgrade§Terranic Greatsword"
+            "Melee Weapon§Terranic Greatsword"
           ]
         },
         "stats": {
@@ -7806,8 +7943,8 @@
             },
             "Ability§Shred",
             "Ability§Unwieldy",
-            "Upgrade§Flamer",
-            "Upgrade§Meltagun"
+            "Ranged Weapon§Flamer",
+            "Ranged Weapon§Meltagun"
           ]
         },
         "stats": {
@@ -8064,9 +8201,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Meridian Swords (Grasp the Rainbow Serpent)",
-            "Upgrade§Meridian Swords (Hands Cut the Clouds)",
-            "Upgrade§Meridian Swords (Raptor Spreads its Wings)",
+            "Melee Weapon§Meridian Swords (Grasp the Rainbow Serpent)",
+            "Melee Weapon§Meridian Swords (Hands Cut the Clouds)",
+            "Melee Weapon§Meridian Swords (Raptor Spreads its Wings)",
             "Ability§Instant Death",
             "Ability§Two-handed"
           ]
@@ -8087,9 +8224,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Meridian Swords (Grasp the Rainbow Serpent)",
-            "Upgrade§Meridian Swords (Hands Cut the Clouds)",
-            "Upgrade§Meridian Swords (Raptor Spreads its Wings)",
+            "Melee Weapon§Meridian Swords (Grasp the Rainbow Serpent)",
+            "Melee Weapon§Meridian Swords (Hands Cut the Clouds)",
+            "Melee Weapon§Meridian Swords (Raptor Spreads its Wings)",
             {
               "item": "Ability§Murderous Strike",
               "stats": {
@@ -8117,9 +8254,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Meridian Swords (Grasp the Rainbow Serpent)",
-            "Upgrade§Meridian Swords (Hands Cut the Clouds)",
-            "Upgrade§Meridian Swords (Raptor Spreads its Wings)",
+            "Melee Weapon§Meridian Swords (Grasp the Rainbow Serpent)",
+            "Melee Weapon§Meridian Swords (Hands Cut the Clouds)",
+            "Melee Weapon§Meridian Swords (Raptor Spreads its Wings)",
             {
               "item": "Ability§Rampage",
               "stats": {
@@ -8989,7 +9126,7 @@
       "Melee Weapon§Regent Blade": {
         "assets": {
           "traits": [
-            "Ability§Brute Armaments",
+            "Melee Weapon§Brute Armaments",
             "Ability§Two-handed"
           ]
         },
@@ -9058,8 +9195,8 @@
       "Melee Weapon§Scyllax Combat Array - Dismember": {
         "assets": {
           "traits": [
-            "Upgrade§Scyllax Combat Array - Dismember",
-            "Upgrade§Scyllax Combat Array - Standard",
+            "Melee Weapon§Scyllax Combat Array - Dismember",
+            "Melee Weapon§Scyllax Combat Array - Standard",
             "Ability§Cumbersome",
             "Ability§Unwieldy"
           ]
@@ -9077,8 +9214,8 @@
       "Melee Weapon§Scyllax Combat Array - Standard": {
         "assets": {
           "traits": [
-            "Upgrade§Scyllax Combat Array - Dismember",
-            "Upgrade§Scyllax Combat Array - Standard",
+            "Melee Weapon§Scyllax Combat Array - Dismember",
+            "Melee Weapon§Scyllax Combat Array - Standard",
             "Ability§Shred"
           ]
         },
@@ -9813,8 +9950,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§The Axe of Castigation (Overhead Strike)",
-            "Upgrade§The Axe of Castigation (Sweeping Strike)",
+            "Melee Weapon§The Axe of Castigation (Overhead Strike)",
+            "Melee Weapon§The Axe of Castigation (Sweeping Strike)",
             "Ability§Master-crafted",
             "Ability§Two-handed",
             "Ability§Unwieldy"
@@ -9836,8 +9973,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§The Axe of Castigation (Overhead Strike)",
-            "Upgrade§The Axe of Castigation (Sweeping Strike)",
+            "Melee Weapon§The Axe of Castigation (Overhead Strike)",
+            "Melee Weapon§The Axe of Castigation (Sweeping Strike)",
             "Ability§Master-crafted",
             {
               "item": "Ability§Reaping Blow",
@@ -10785,8 +10922,8 @@
         "assets": {
           "traits": [
             "Ability§Instant Death",
-            "Upgrade§Volkite incinerator (Melee)",
-            "Upgrade§Volkite incinerator (Ranged)"
+            "Melee Weapon§Volkite incinerator (Melee)",
+            "Ranged Weapon§Volkite incinerator (Ranged)"
           ]
         },
         "stats": {
@@ -11087,8 +11224,8 @@
             "Ability§Fearless",
             "Melee Weapon§Close Combat Weapon",
             "Ranged Weapon§Needle Pistol",
-            "Upgrade§Auto-gurney",
-            "Upgrade§Void Armour"
+            "Wargear§Auto-gurney",
+            "Wargear§Void Armour"
           ]
         },
         "keywords": {
@@ -11277,8 +11414,8 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Wargear§Power Armour",
-            "Upgrade§Anaktis Blade",
-            "Upgrade§The Panoply of Flame"
+            "Melee Weapon§Anaktis Blade",
+            "Wargear§The Panoply of Flame"
           ]
         },
         "keywords": {
@@ -11353,7 +11490,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Wargear§Narthecium",
-            "Unit§Apothecary"
+            "Model§Apothecary"
           ]
         },
         "keywords": {
@@ -12187,7 +12324,7 @@
             "Ability§Move Through Cover",
             "Ability§Rage",
             "Ability§Stubborn",
-            "Upgrade§Ionic Deflector",
+            "Wargear§Ionic Deflector",
             "Upgrade§Phaeton Autocannon"
           ]
         },
@@ -12267,9 +12404,9 @@
             "Ability§Move Through Cover",
             "Ability§Rage",
             "Ability§Stubborn",
-            "Upgrade§Ionic Deflector",
-            "Upgrade§Reaper Chainblade",
-            "Upgrade§Thermal Lance"
+            "Wargear§Ionic Deflector",
+            "Melee Weapon§Reaper Chainblade",
+            "Ranged Weapon§Thermal Lance"
           ]
         },
         "keywords": {
@@ -12608,7 +12745,7 @@
             "Ability§Retinue",
             "Ability§Master of the Legion",
             "Ability§Honour the Legion",
-            "Upgrade§Rime-shard"
+            "Melee Weapon§Rime-shard"
           ]
         },
         "keywords": {
@@ -12857,7 +12994,7 @@
           "traits": [
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Auto-medicus",
+            "Wargear§Auto-medicus",
             "Upgrade§Close-order Unit"
           ]
         },
@@ -13019,7 +13156,7 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Laspistol",
-            "Upgrade§Detcon Unit"
+            "Wargear§Detcon Unit"
           ]
         },
         "keywords": {
@@ -13422,7 +13559,7 @@
             "Ability§Hammer of Wrath",
             "Ability§Traitor",
             "Ability§Æthereal Invulnerability",
-            "Upgrade§Brute Armaments"
+            "Melee Weapon§Brute Armaments"
           ]
         },
         "keywords": {
@@ -13527,7 +13664,7 @@
             "Ability§Hammer of Wrath",
             "Ability§Traitor",
             "Ability§Æthereal Invulnerability",
-            "Upgrade§Regent Blade",
+            "Melee Weapon§Regent Blade",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
             "Model§Bound Daemon Attendant"
           ]
@@ -13623,7 +13760,7 @@
             "Ability§Outflank",
             "Ability§Power of the Machine Spirit",
             "Wargear§Flare Shield",
-            "Upgrade§Twin Lastrum Bolt Cannon"
+            "Ranged Weapon§Twin Lastrum Bolt Cannon"
           ]
         },
         "keywords": {
@@ -14819,9 +14956,9 @@
             "Psychic Weapon§Aetheric Lightning",
             "Upgrade§Minor Combi-Weapon - Alchem Flamer",
             "Psychic Power§Shielded by Hate",
-            "Upgrade§The Revenant’s Aegis",
+            "Wargear§The Revenant’s Aegis",
             "Ranged Weapon§Disintegrator Pistol",
-            "Upgrade§Death’s Tally"
+            "Melee Weapon§Death’s Tally"
           ]
         },
         "keywords": {
@@ -15234,8 +15371,8 @@
             "Ability§Support Squad",
             "Ability§Traitor",
             "Wargear§Refractor Field",
-            "Upgrade§Davinite blade",
-            "Upgrade§Excoricare",
+            "Melee Weapon§Davinite blade",
+            "Ranged Weapon§Excoricare",
             "Psychic Power§Psychic Discipline: Delphos Serpentis"
           ]
         },
@@ -16613,8 +16750,7 @@
         "assets": {
           "traits": [
             "Ability§Fear",
-            "Ability§Fear",
-            "Unit§Destroyer Sergeant"
+            "Model§Destroyer Sergeant"
           ]
         },
         "keywords": {
@@ -17286,7 +17422,7 @@
             "Wargear§Atomantic Deflector",
             "Upgrade§Paragon of Metal",
             "Wargear§Searchlights",
-            "Upgrade§Graviton Hammer",
+            "Weapon§Graviton Hammer",
             "Upgrade§Missile Launcher with Frag, Krak and Ignis Missiles"
           ]
         },
@@ -17381,7 +17517,7 @@
           "traits": [
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -17597,8 +17733,8 @@
             "Ability§Master of the Legion",
             "Wargear§Nuncio-Vox",
             "Upgrade§Warlord",
-            "Unit§Erasmus Golg",
-            "Upgrade§Extricator"
+            "Model§Erasmus Golg",
+            "Melee Weapon§Extricator"
           ]
         },
         "keywords": {
@@ -17762,7 +17898,7 @@
             "Ranged Weapon§Laspistol",
             "Wargear§Refractor Field",
             "Upgrade§Psychic Discipline: Navis Astrologis",
-            "Upgrade§Ætherlabe Staff"
+            "Wargear§Ætherlabe Staff"
           ]
         },
         "keywords": {
@@ -17817,7 +17953,7 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -18142,8 +18278,8 @@
             "Melee Weapon§Meltabombs",
             "Ranged Weapon§Phosphex Bomb",
             "Wargear§Rad Grenades",
-            "Upgrade§The Axe of Castigation",
-            "Upgrade§The Dreadbringer’s Plate",
+            "Melee Weapon§The Axe of Castigation",
+            "Wargear§The Dreadbringer’s Plate",
             "Ability§Master of the Legion",
             "Ability§Retinue",
             "Upgrade§Warlord"
@@ -18239,7 +18375,7 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -18715,9 +18851,9 @@
             "Ability§Outflank",
             "Wargear§Power Armour",
             "Wargear§Shroud Bombs",
-            "Upgrade§Calibanite charge-blade",
+            "Melee Weapon§Calibanite charge-blade",
             "Ability§Shrouded",
-            "Upgrade§Needle Pistol"
+            "Ranged Weapon§Needle Pistol"
           ]
         },
         "keywords": {
@@ -18770,7 +18906,7 @@
             "Wargear§Krak Grenades",
             "Wargear§Power Armour",
             "Wargear§Refractor Field",
-            "Upgrade§Red Jaqa"
+            "Melee Weapon§Red Jaqa"
           ]
         },
         "keywords": {
@@ -18822,7 +18958,7 @@
             "Ability§Feel No Pain",
             "Ability§Hammer of Wrath",
             "Ability§Rampage",
-            "Upgrade§Tooth & Claw"
+            "Melee Weapon§Tooth & Claw"
           ]
         },
         "keywords": {
@@ -18869,7 +19005,7 @@
       "Model§Fulmentarus Decurion": {
         "assets": {
           "traits": [
-            "SelectionEntry§Combi-Bolter",
+            "Ranged Weapon§Combi-bolter",
             "Melee Weapon§Power Dagger",
             "Ranged Weapon§Venom Spheres"
           ]
@@ -19000,7 +19136,7 @@
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Ability§Retinue",
-            "Upgrade§Fleshripper"
+            "Melee Weapon§Fleshripper"
           ]
         },
         "keywords": {
@@ -19055,7 +19191,7 @@
             "Ability§Feel No Pain",
             "Ability§Hammer of Wrath",
             "Ability§Rampage",
-            "Upgrade§Tooth & Claw"
+            "Melee Weapon§Tooth & Claw"
           ]
         },
         "keywords": {
@@ -20329,7 +20465,7 @@
             "Ranged Weapon§Kheres Assault Cannon",
             "Melee Weapon§Gravis Power Fist",
             "Wargear§Atomantic Deflector",
-            "SelectionEntry§Combi-Bolter"
+            "Ranged Weapon§Combi-bolter"
           ]
         },
         "keywords": {
@@ -20791,7 +20927,7 @@
       "Model§Huscarl": {
         "assets": {
           "traits": [
-            "Unit§Huscarl"
+            "Model§Huscarl"
           ]
         },
         "keywords": {
@@ -21741,8 +21877,8 @@
             "Ability§Relentless",
             "Wargear§Cyber-Familiar",
             "Ranged Weapon§Volkite Charger",
-            "Upgrade§Argonikos",
-            "Upgrade§Manipulator Array",
+            "Melee Weapon§Argonikos",
+            "Melee Weapon§Manipulator Array",
             "Wargear§Armis Panoptikos",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
@@ -22063,7 +22199,7 @@
             "Wargear§Rad Grenades",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
-            "Upgrade§Saiphan shard-axe"
+            "Melee Weapon§Saiphan shard-axe"
           ]
         },
         "keywords": {
@@ -22286,7 +22422,6 @@
             "Ability§Relentless",
             "Ability§Stubborn",
             "Ability§Traitor",
-            "Ability§Master of the Legion",
             "Ranged Weapon§Volkite Serpenta",
             "Melee Weapon§Meltabombs",
             "Wargear§Frag Grenades",
@@ -22294,7 +22429,7 @@
             "Wargear§Power Armour",
             "Upgrade§Warlord",
             "Ability§Retinue",
-            "Upgrade§Revenant",
+            "Melee Weapon§Revenant",
             "Upgrade§The Bloody Aegis"
           ]
         },
@@ -22358,7 +22493,7 @@
             "Melee Weapon§Servo-Arm",
             "Ranged Weapon§Volkite Charger",
             "Upgrade§Warlord",
-            "Upgrade§Aegeas"
+            "Melee Weapon§Aegeas"
           ]
         },
         "keywords": {
@@ -23362,7 +23497,7 @@
       "Model§Legion Chosen": {
         "assets": {
           "traits": [
-            "Unit§Legion Chosen"
+            "Model§Legion Chosen"
           ]
         },
         "keywords": {
@@ -25359,7 +25494,7 @@
       "Model§Legion Scout": {
         "assets": {
           "traits": [
-            "Unit§Scout"
+            "Ability§Scout"
           ]
         },
         "keywords": {
@@ -27173,7 +27308,7 @@
       "Model§Legion Standard Bearer": {
         "assets": {
           "traits": [
-            "Unit§Legion Standard Bearer",
+            "Model§Legion Standard Bearer",
             "Upgrade§Legion Standard"
           ]
         },
@@ -28631,7 +28766,7 @@
             "Wargear§Mantle of the Elder Drake",
             "Ability§Master of the Legion",
             "Ability§Retinue",
-            "Upgrade§Darkstar Falling"
+            "Melee Weapon§Darkstar Falling"
           ]
         },
         "keywords": {
@@ -28687,9 +28822,9 @@
             "Ability§Loyalist",
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
-            "Upgrade§Subjugator",
-            "Upgrade§The Tyrant’s Regalia",
-            "Upgrade§Incineratus"
+            "Melee Weapon§Subjugator",
+            "Wargear§The Tyrant’s Regalia",
+            "Ranged Weapon§Incineratus"
           ]
         },
         "keywords": {
@@ -28750,7 +28885,7 @@
             "Wargear§Frag Grenades",
             "Ranged Weapon§Phosphex Bomb",
             "Ability§Master of the Legion",
-            "Upgrade§Defiant"
+            "Melee Weapon§Defiant"
           ]
         },
         "keywords": {
@@ -29388,7 +29523,7 @@
             "Wargear§Shroud Bombs",
             "Wargear§Power Armour",
             "Wargear§Refractor Field",
-            "Upgrade§Fulcrim Hand Cannon"
+            "Wargear§Fulcrim Hand Cannon"
           ]
         },
         "keywords": {
@@ -29761,8 +29896,8 @@
             "SelectionEntryGroup§Warlord Traits",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Nostraman Flay-whip",
-            "Upgrade§The Devil’s Due"
+            "Melee Weapon§Nostraman Flay-whip",
+            "Melee Weapon§The Devil’s Due"
           ]
         },
         "keywords": {
@@ -29820,8 +29955,8 @@
             "Wargear§Krak Grenades",
             "Wargear§Refractor Field",
             "Upgrade§Warlord",
-            "Upgrade§Graviton Gauntlet",
-            "Unit§Nârik Dreygur",
+            "Melee Weapon§Graviton Gauntlet",
+            "Model§Nârik Dreygur",
             "Wargear§Cortex Designator",
             "Wargear§The Revenant’s Pawn"
           ]
@@ -29873,7 +30008,7 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Bolt Pistol",
-            "Upgrade§Mortifier Bolter"
+            "Ranged Weapon§Mortifier bolter"
           ]
         },
         "keywords": {
@@ -30853,8 +30988,8 @@
             "Ranged Weapon§Bolt Pistol",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Voidsheen Cloak",
-            "Upgrade§Vratine Armour"
+            "Wargear§Voidsheen Cloak",
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -30906,8 +31041,8 @@
             "Ranged Weapon§Bolt Pistol",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Voidsheen Cloak",
-            "Upgrade§Vratine Armour"
+            "Wargear§Voidsheen Cloak",
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -30993,7 +31128,7 @@
             "Wargear§Combat Shield",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Blade of Judgement"
+            "Melee Weapon§Blade of Judgement"
           ]
         },
         "keywords": {
@@ -31335,7 +31470,6 @@
       "Model§Order Cenobite": {
         "assets": {
           "traits": [
-            "Melee Weapon§Power Dagger",
             "Melee Weapon§Power Dagger"
           ]
         },
@@ -31794,8 +31928,6 @@
         "assets": {
           "traits": [
             "SelectionEntryGroup§Debased Augments (Unit Character)",
-            "SelectionEntryGroup§Debased Augments (Unit Character)",
-            "SelectionEntryGroup§Surgical Augment (Unit Character)",
             "SelectionEntryGroup§Surgical Augment (Unit Character)",
             "Melee Weapon§Power Dagger"
           ]
@@ -32492,7 +32624,7 @@
           "traits": [
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -32915,7 +33047,7 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -33051,7 +33183,7 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -33573,12 +33705,9 @@
         "assets": {
           "traits": [
             "Melee Weapon§Meltabombs",
-            "Melee Weapon§Meltabombs",
-            "Melee Weapon§Power Dagger",
             "Melee Weapon§Power Dagger",
             "Ranged Weapon§Venom Spheres",
-            "Ranged Weapon§Venom Spheres",
-            "Unit§Reaver Chieftain"
+            "Model§Reaver Chieftain"
           ]
         },
         "keywords": {
@@ -34167,7 +34296,7 @@
             "Ability§Bulky",
             "Ability§Traitor",
             "Ability§Hammer of Wrath",
-            "Upgrade§Behemoth Blade",
+            "Melee Weapon§Behemoth Blade",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)"
           ]
         },
@@ -34359,8 +34488,8 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Spectra Cloaks",
-            "Upgrade§Vratine Armour"
+            "Wargear§Spectra Cloaks",
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -34416,8 +34545,8 @@
             "Ability§Stubborn",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Spectra Cloaks",
-            "Upgrade§Vratine Armour"
+            "Wargear§Spectra Cloaks",
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -34706,7 +34835,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Kyropatris Field Generator",
             "Upgrade§Warlord",
-            "Upgrade§Titanshard Armour"
+            "Wargear§Titanshard Armour"
           ]
         },
         "keywords": {
@@ -35326,7 +35455,7 @@
             "Wargear§Refractor Field",
             "Wargear§Warhawk Jump Pack",
             "Ranged Weapon§Bolt Pistol",
-            "Upgrade§The Liberator"
+            "Melee Weapon§The Liberator"
           ]
         },
         "keywords": {
@@ -35382,7 +35511,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Iron Halo",
             "Wargear§Krak Grenades",
-            "Upgrade§Albian power gladius",
+            "Melee Weapon§Albian power gladius",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
             "Ability§Retinue"
@@ -35600,8 +35729,8 @@
             "Ranged Weapon§Bolt Pistol",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Nightfall pattern strato-vox",
-            "Upgrade§Tolaedus",
+            "Wargear§Nightfall pattern strato-vox",
+            "Melee Weapon§Tolaedus",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
             "Ability§Retinue"
@@ -35657,7 +35786,7 @@
             "Ability§Outflank",
             "Ability§Relentless",
             "Ability§Stubborn",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -36033,12 +36162,8 @@
         "assets": {
           "traits": [
             "Ability§Feel No Pain",
-            "Ability§Feel No Pain",
-            "Ability§Hatred",
             "Ability§Hatred",
             "Ability§Stubborn",
-            "Ability§Stubborn",
-            "Ability§The Rite of Pure Thought",
             "Ability§The Rite of Pure Thought"
           ]
         },
@@ -36097,7 +36222,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Melee Weapon§Servo-Arm",
-            "Unit§Techmarine"
+            "Model§Techmarine"
           ]
         },
         "keywords": {
@@ -36939,7 +37064,7 @@
             "Ranged Weapon§Magna Combi-Weapon - Meltagun",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits",
-            "Upgrade§Tians'han"
+            "Melee Weapon§Tians'han"
           ]
         },
         "keywords": {
@@ -36995,7 +37120,7 @@
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Ability§Master of the Legion",
-            "Upgrade§The Culling Blade"
+            "Melee Weapon§The Culling Blade"
           ]
         },
         "keywords": {
@@ -37046,9 +37171,9 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Upgrade§Echoes of Fate",
-            "Upgrade§Paragon Bolter",
-            "Upgrade§Polaris",
-            "Upgrade§The Aegis Argentum"
+            "Ranged Weapon§Paragon Bolter",
+            "Melee Weapon§Polaris",
+            "Wargear§The Aegis Argentum"
           ]
         },
         "keywords": {
@@ -37490,7 +37615,7 @@
       "Model§Veletarii Prime": {
         "assets": {
           "traits": [
-            "Unit§Veletarii Prime"
+            "Model§Veletarii Prime"
           ]
         },
         "keywords": {
@@ -37589,9 +37714,9 @@
             "Wargear§Frag Grenades",
             "Melee Weapon§Meltabombs",
             "Melee Weapon§Close Combat Weapon",
-            "Upgrade§The Axe Serpentis",
-            "Upgrade§Panoply of the Void",
-            "Upgrade§Banestrike Fusilade"
+            "Melee Weapon§The Axe Serpentis",
+            "Wargear§Panoply of the Void",
+            "Ranged Weapon§Banestrike Fusilade"
           ]
         },
         "keywords": {
@@ -37642,7 +37767,7 @@
           "traits": [
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Vratine Armour"
+            "Wargear§Vratine Armour"
           ]
         },
         "keywords": {
@@ -37837,7 +37962,7 @@
             "Wargear§Atomantic Deflector",
             "Ranged Weapon§Havoc Launcher",
             "Upgrade§Paragon of Metal",
-            "Upgrade§Stratos Thrusters"
+            "Wargear§Stratos Thrusters"
           ]
         },
         "keywords": {
@@ -37981,8 +38106,8 @@
             "Wargear§Dragonscale Shield",
             "Upgrade§Warlord",
             "Ability§Prophet of the Flame",
-            "Upgrade§Ignatus",
-            "Upgrade§The Burning Halo"
+            "Melee Weapon§Ignatus",
+            "Wargear§The Burning Halo"
           ]
         },
         "keywords": {
@@ -38028,17 +38153,17 @@
           }
         }
       },
-      "Orders of High Techno-arcana§Archimandrite": {},
-      "Orders of High Techno-arcana§Cybernetica": {
+      "Order of High Techno-arcana§Archimandrite": {},
+      "Order of High Techno-arcana§Cybernetica": {
         "assets": {
           "traits": [
             "Ability§Patris Cybernetica"
           ]
         }
       },
-      "Orders of High Techno-arcana§Lacyraemarta": {},
-      "Orders of High Techno-arcana§Macrotek": {},
-      "Orders of High Techno-arcana§Malagra": {
+      "Order of High Techno-arcana§Lacyraemarta": {},
+      "Order of High Techno-arcana§Macrotek": {},
+      "Order of High Techno-arcana§Malagra": {
         "assets": {
           "traits": [
             "Ability§Monster Hunter",
@@ -38047,7 +38172,7 @@
           ]
         }
       },
-      "Orders of High Techno-arcana§Myrmidax": {
+      "Order of High Techno-arcana§Myrmidax": {
         "assets": {
           "traits": [
             "Ability§Bulky",
@@ -38055,7 +38180,7 @@
           ]
         }
       },
-      "Orders of High Techno-arcana§Reductor": {},
+      "Order of High Techno-arcana§Reductor": {},
       "Prosperine Arcana§Ætheric Guidance": {
         "text": "When a unit that includes a Psyker with this power makes a Shooting Attack, the controlling player may make a Psychic check for the Psyker with this power before any rolls To Hit are made.\n\nIf the Psychic check is successful then until that Shooting Attack is resolved, attacks made by this unit have the Breaching (6+) special rule. If the Psychic check is failed then the unit suffers Perils of the Warp and receives 1 additional wound when it does so."
       },
@@ -39509,12 +39634,11 @@
       "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
-            "Ability§Twin-linked",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
@@ -39533,10 +39657,10 @@
       "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
             {
               "item": "Ability§Breaching",
               "stats": {
@@ -39545,8 +39669,7 @@
                 }
               }
             },
-            "Ability§Neutron-flux",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ability§Neutron-flux"
           ]
         },
         "stats": {
@@ -39565,10 +39688,10 @@
       "Ranged Weapon§Arcus Missile Launcher - Neutron-flux Warheads": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
             {
               "item": "Ability§Breaching",
               "stats": {
@@ -39578,8 +39701,7 @@
               }
             },
             "Ability§Neutron-flux",
-            "Ability§Twin-linked",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
@@ -39598,14 +39720,13 @@
       "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
             "Ability§Blast",
             "Ability§Ignores Cover",
-            "Ability§Pinning",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ability§Pinning"
           ]
         },
         "stats": {
@@ -39624,14 +39745,13 @@
       "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads 2": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
             "Ability§Blast",
             "Ability§Ignores Cover",
-            "Ability§Pinning",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ability§Pinning"
           ]
         },
         "stats": {
@@ -39650,13 +39770,12 @@
       "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads": {
         "assets": {
           "traits": [
-            "Upgrade§Arcus Missile Launcher - Arcus Warheads",
-            "Upgrade§Arcus Missile Launcher - Neutron-Flux Warheads",
-            "Upgrade§Arcus Missile Launcher - Pyrax Warheads",
-            "Upgrade§Arcus Missile Launcher - Skyspear Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Arcus Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Neutron-Flux Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Pyrax Warheads",
+            "Ranged Weapon§Arcus Missile Launcher - Skyspear Warheads",
             "Ability§Skyfire",
-            "Ability§Twin-linked",
-            "Upgrade§Arcus Missile Launcher - Neutron-flux Warheads"
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
@@ -41323,8 +41442,8 @@
       "Ranged Weapon§Fellblade Accelerator Autocannon - AE Shell": {
         "assets": {
           "traits": [
-            "Upgrade§Fellblade Accelerator Autocannon - AE Shell",
-            "Upgrade§Fellblade Accelerator Autocannon - HE shell",
+            "Ranged Weapon§Fellblade Accelerator Autocannon - AE Shell",
+            "Ranged Weapon§Fellblade Accelerator Autocannon - HE Shell",
             {
               "item": "Ability§Armourbane",
               "stats": {
@@ -41360,8 +41479,8 @@
       "Ranged Weapon§Fellblade Accelerator Autocannon - HE Shell": {
         "assets": {
           "traits": [
-            "Upgrade§Fellblade Accelerator Autocannon - AE Shell",
-            "Upgrade§Fellblade Accelerator Autocannon - HE shell",
+            "Ranged Weapon§Fellblade Accelerator Autocannon - AE Shell",
+            "Ranged Weapon§Fellblade Accelerator Autocannon - HE Shell",
             "Ability§Blast"
           ]
         },
@@ -42796,8 +42915,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Hellfire Plasma Cannonade (Maximal Fire)",
-            "Upgrade§Hellfire Plasma Cannonade (Sustained Fire)",
+            "Ranged Weapon§Hellfire Plasma Cannonade (Maximal Fire)",
+            "Ranged Weapon§Hellfire Plasma Cannonade (Sustained Fire)",
             "Ability§Blast",
             "Ability§Gets Hot",
             {
@@ -42829,8 +42948,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Hellfire Plasma Cannonade (Maximal Fire)",
-            "Upgrade§Hellfire Plasma Cannonade (Sustained Fire)",
+            "Ranged Weapon§Hellfire Plasma Cannonade (Maximal Fire)",
+            "Ranged Weapon§Hellfire Plasma Cannonade (Sustained Fire)",
             {
               "item": "Ability§Breaching",
               "stats": {
@@ -43602,9 +43721,9 @@
       "Ranged Weapon§Kratos Battlecannon - AP Shells": {
         "assets": {
           "traits": [
-            "Upgrade§Kratos Battlecannon - AP Shells",
-            "Upgrade§Kratos Battlecannon - Flashburn Shells",
-            "Upgrade§Kratos Battlecannon - HE Shells",
+            "Ranged Weapon§Kratos Battlecannon - AP Shells",
+            "Ranged Weapon§Kratos Battlecannon - Flashburn Shells",
+            "Ranged Weapon§Kratos Battlecannon - HE Shells",
             "Ability§Sunder"
           ]
         },
@@ -43626,9 +43745,9 @@
       "Ranged Weapon§Kratos Battlecannon - Flashburn Shells": {
         "assets": {
           "traits": [
-            "Upgrade§Kratos Battlecannon - AP Shells",
-            "Upgrade§Kratos Battlecannon - Flashburn Shells",
-            "Upgrade§Kratos Battlecannon - HE Shells",
+            "Ranged Weapon§Kratos Battlecannon - AP Shells",
+            "Ranged Weapon§Kratos Battlecannon - Flashburn Shells",
+            "Ranged Weapon§Kratos Battlecannon - HE Shells",
             {
               "item": "Ability§Armourbane",
               "stats": {
@@ -43659,9 +43778,9 @@
       "Ranged Weapon§Kratos Battlecannon - HE Shells": {
         "assets": {
           "traits": [
-            "Upgrade§Kratos Battlecannon - AP Shells",
-            "Upgrade§Kratos Battlecannon - Flashburn Shells",
-            "Upgrade§Kratos Battlecannon - HE Shells",
+            "Ranged Weapon§Kratos Battlecannon - AP Shells",
+            "Ranged Weapon§Kratos Battlecannon - Flashburn Shells",
+            "Ranged Weapon§Kratos Battlecannon - HE Shells",
             "Ability§Blast",
             "Ability§Pinning"
           ]
@@ -44814,9 +44933,9 @@
       "Ranged Weapon§Missile Launcher - Ignis": {
         "assets": {
           "traits": [
-            "Upgrade§Missile Launcher (Flak)",
-            "Upgrade§Missile Launcher (Frag)",
-            "Upgrade§Missile Launcher (Krak)"
+            "Ranged Weapon§Missile Launcher (Flak)",
+            "Ranged Weapon§Missile Launcher (Frag)",
+            "Ranged Weapon§Missile Launcher (Krak)"
           ]
         },
         "stats": {
@@ -44838,9 +44957,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Missile Launcher (Flak)",
-            "Upgrade§Missile Launcher (Frag)",
-            "Upgrade§Missile Launcher (Krak)",
+            "Ranged Weapon§Missile Launcher (Flak)",
+            "Ranged Weapon§Missile Launcher (Frag)",
+            "Ranged Weapon§Missile Launcher (Krak)",
             "Ability§Skyfire"
           ]
         },
@@ -44863,8 +44982,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Missile Launcher (Flak)",
-            "Upgrade§Missile Launcher (Frag)",
+            "Ranged Weapon§Missile Launcher (Flak)",
+            "Ranged Weapon§Missile Launcher (Frag)",
             "Ability§Blast",
             "Ability§Pinning"
           ]
@@ -44891,9 +45010,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Missile Launcher (Flak)",
-            "Upgrade§Missile Launcher (Frag)",
-            "Upgrade§Missile Launcher (Krak)"
+            "Ranged Weapon§Missile Launcher (Flak)",
+            "Ranged Weapon§Missile Launcher (Frag)",
+            "Ranged Weapon§Missile Launcher (Krak)"
           ]
         },
         "stats": {
@@ -45186,8 +45305,8 @@
       "Ranged Weapon§Needlespine Blaster": {
         "assets": {
           "traits": [
-            "Upgrade§Bolt Blaster",
-            "Upgrade§Needlespine Blaster",
+            "Ranged Weapon§Bolt Blaster",
+            "Ranged Weapon§Needlespine Blaster",
             "Ability§Pinning",
             {
               "item": "Ability§Poisoned",
@@ -45422,8 +45541,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Omega Plasma Array (Maximal Fire)",
-            "Upgrade§Omega Plasma Array (Sustained Fire)",
+            "Ranged Weapon§Omega Plasma Array (Maximal Fire)",
+            "Ranged Weapon§Omega Plasma Array (Sustained Fire)",
             "Ability§Gets Hot",
             "Ability§Plasma Burn",
             {
@@ -45456,8 +45575,8 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Omega Plasma Array (Maximal Fire)",
-            "Upgrade§Omega Plasma Array (Sustained Fire)",
+            "Ranged Weapon§Omega Plasma Array (Maximal Fire)",
+            "Ranged Weapon§Omega Plasma Array (Sustained Fire)",
             {
               "item": "Ability§Breaching",
               "stats": {
@@ -46175,9 +46294,6 @@
             "Ability§Blast",
             "Ability§Pinning",
             "Ability§Rending",
-            "Ability§Barrage",
-            "Ability§Blast",
-            "Ability§Pinning",
             {
               "item": "Ability§Rending",
               "stats": {
@@ -49595,8 +49711,8 @@
         "assets": {
           "traits": [
             "Ability§Deflagrate",
-            "Upgrade§Volkite incinerator (Melee)",
-            "Upgrade§Volkite incinerator (Ranged)"
+            "Melee Weapon§Volkite incinerator (Melee)",
+            "Ranged Weapon§Volkite incinerator (Ranged)"
           ]
         },
         "stats": {
@@ -49714,9 +49830,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Vratine Grenade Launcher (Frag)",
-            "Upgrade§Vratine Grenade Launcher (Krak)",
-            "Upgrade§Vratine Grenade Launcher Psky-out",
+            "Ranged Weapon§Vratine Grenade Launcher (Frag)",
+            "Ranged Weapon§Vratine Grenade Launcher (Krak)",
+            "Ranged Weapon§Vratine Grenade Launcher Psky-out",
             "Ability§Blast",
             "Ability§Pinning"
           ]
@@ -49740,9 +49856,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Vratine Grenade Launcher (Frag)",
-            "Upgrade§Vratine Grenade Launcher (Krak)",
-            "Upgrade§Vratine Grenade Launcher Psky-out"
+            "Ranged Weapon§Vratine Grenade Launcher (Frag)",
+            "Ranged Weapon§Vratine Grenade Launcher (Krak)",
+            "Ranged Weapon§Vratine Grenade Launcher Psky-out"
           ]
         },
         "stats": {
@@ -49763,9 +49879,9 @@
       "Ranged Weapon§Vratine Grenade Launcher Psky-out": {
         "assets": {
           "traits": [
-            "Upgrade§Vratine Grenade Launcher (Frag)",
-            "Upgrade§Vratine Grenade Launcher (Krak)",
-            "Upgrade§Vratine Grenade Launcher Psky-out",
+            "Ranged Weapon§Vratine Grenade Launcher (Frag)",
+            "Ranged Weapon§Vratine Grenade Launcher (Krak)",
+            "Ranged Weapon§Vratine Grenade Launcher Psky-out",
             "Ability§Blast",
             "Ability§Psy-shock"
           ]
@@ -49794,9 +49910,9 @@
       "Ranged Weapon§Vratine Missile Launcher - Psyk-out": {
         "assets": {
           "traits": [
-            "Upgrade§Vratine Missile Launcher (Frag)",
-            "Upgrade§Vratine Missile Launcher (Krak)",
-            "Upgrade§Vratine Missile Launcher - Psyk-out"
+            "Ranged Weapon§Vratine Missile Launcher (Frag)",
+            "Ranged Weapon§Vratine Missile Launcher (Krak)",
+            "Ranged Weapon§Vratine Missile Launcher - Psyk-out"
           ]
         },
         "stats": {
@@ -49818,9 +49934,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Vratine Missile Launcher (Frag)",
-            "Upgrade§Vratine Missile Launcher (Krak)",
-            "Upgrade§Vratine Missile Launcher - Psyk-out"
+            "Ranged Weapon§Vratine Missile Launcher (Frag)",
+            "Ranged Weapon§Vratine Missile Launcher (Krak)",
+            "Ranged Weapon§Vratine Missile Launcher - Psyk-out"
           ]
         },
         "stats": {
@@ -49842,9 +49958,9 @@
         },
         "assets": {
           "traits": [
-            "Upgrade§Vratine Missile Launcher (Frag)",
-            "Upgrade§Vratine Missile Launcher (Krak)",
-            "Upgrade§Vratine Missile Launcher - Psyk-out"
+            "Ranged Weapon§Vratine Missile Launcher (Frag)",
+            "Ranged Weapon§Vratine Missile Launcher (Krak)",
+            "Ranged Weapon§Vratine Missile Launcher - Psyk-out"
           ]
         },
         "stats": {
@@ -50237,9 +50353,10 @@
       },
       "Roster§Roster": {
         "allowed": {
-          "classifications": [
-            "Detachment",
-            "Stratagem"
+          "classifications": [],
+          "items": [
+            "Detachment§Allied Detachment",
+            "Detachment§Lords of War Detachment"
           ]
         },
         "aspects": {
@@ -50253,53 +50370,14 @@
         },
         "assets": {
           "traits": [
-            "In-game Stratagems§In-game Stratagems"
+            "Detachment§Primary Detachment"
           ]
         },
         "constraints": {
-          "any": [
-            "Ordinary",
-            "Pre-battle"
-          ],
-          "none": [
-            "Model Strat"
-          ]
+          "any": [],
+          "none": []
         },
         "rules": {
-          "addOrderOfBattle": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "traits"
-                  ]
-                ],
-                "value": "Order of Battle§Order of Battle"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Narrative"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass",
-            "order": 1
-          },
           "allowUnitsForOpen": {
             "actions": [
               {
@@ -50346,586 +50424,6 @@
             "evaluate": "OR",
             "failState": "pass",
             "order": 1
-          },
-          "Arks of Omen armies must be battle-forged": {
-            "evals": [
-              {
-                "actionable": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mission",
-                    "value"
-                  ]
-                ],
-                "value": "Arks of Omen"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle-forged",
-                    "value"
-                  ]
-                ],
-                "value": "✓"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error",
-            "order": 4
-          },
-          "battle-forged": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle-forged",
-                    "value"
-                  ]
-                ],
-                "value": "✓"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Command Points",
-                    "visibility"
-                  ]
-                ],
-                "value": "normal"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "max": 0,
-                "not": false,
-                "operator": "SUM",
-                "paths": [
-                  [
-                    "{self}",
-                    "assets",
-                    "templateClass",
-                    "Unit",
-                    "quantity"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass",
-            "order": 2
-          },
-          "calculateCommandPoints": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Command Points",
-                    "value"
-                  ]
-                ],
-                "value": [
-                  "{self}",
-                  "tracked",
-                  "startingCP"
-                ]
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "value"
-                  ]
-                ],
-                "value": "-"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass",
-            "order": 2
-          },
-          "matchedArks": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "ranks"
-                  ]
-                ],
-                "value": "Onslaught"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "ranks"
-                  ]
-                ],
-                "value": "Combat Patrol"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "constraints",
-                    "any"
-                  ]
-                ],
-                "value": "Ordinary"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "allowed",
-                    "classifications"
-                  ]
-                ],
-                "value": "Detachment"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "allowed",
-                    "items"
-                  ]
-                ],
-                "value": "Detachment§Patrol Detachment"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "allowed",
-                    "items"
-                  ]
-                ],
-                "value": "Detachment§Super-Heavy Auxiliary Detachment"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "traits"
-                  ]
-                ],
-                "value": "Detachment§Arks of Omen Detachment"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "max"
-                  ]
-                ],
-                "value": 2
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Command Points",
-                    "value"
-                  ]
-                ],
-                "value": 6
-              },
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Warlord Trait",
-                    "max"
-                  ]
-                ],
-                "value": -1
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mission",
-                    "value"
-                  ]
-                ],
-                "value": "Arks of Omen"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 4
-          },
-          "matchedCombatPatrol": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Aircraft",
-                    "max"
-                  ]
-                ],
-                "value": 1
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Matched"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "value"
-                  ]
-                ],
-                "value": "Combat Patrol"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 5
-          },
-          "matchedIncursion": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Aircraft",
-                    "max"
-                  ]
-                ],
-                "value": 1
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Matched"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "value"
-                  ]
-                ],
-                "value": "Incursion"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 5
-          },
-          "matchedMission": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mission",
-                    "value"
-                  ]
-                ],
-                "value": "-"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mission",
-                    "visibility"
-                  ]
-                ],
-                "value": "hidden"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Faction Group",
-                    "visibility"
-                  ]
-                ],
-                "value": "normal"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Matched"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 3
-          },
-          "matchedOnslaught": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Aircraft",
-                    "max"
-                  ]
-                ],
-                "value": 3
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Matched"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "value"
-                  ]
-                ],
-                "value": "Incursion"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 5
-          },
-          "matchedStrikeForce": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Aircraft",
-                    "max"
-                  ]
-                ],
-                "value": 2
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Matched"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Battle Size",
-                    "value"
-                  ]
-                ],
-                "value": "Strike Force"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 5
-          },
-          "modifyCommandPoints": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Command Points",
-                    "value"
-                  ]
-                ],
-                "value": [
-                  "{self}",
-                  "rules",
-                  "modifyCommandPoints",
-                  "evals",
-                  "0",
-                  "result",
-                  "integer"
-                ]
-              }
-            ],
-            "evals": [
-              {
-                "actionable": false,
-                "equation": {
-                  "operator": "T*O",
-                  "value": -1
-                },
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "Command Cost"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass",
-            "order": 7
           },
           "setMaxes": {
             "actions": [
@@ -50984,150 +50482,6 @@
             "evaluate": "OR",
             "failState": "pass",
             "order": 1
-          },
-          "useCrusade": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Crusade Pts",
-                    "visibility"
-                  ]
-                ],
-                "value": "always"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Faction Group",
-                    "visibility"
-                  ]
-                ],
-                "value": "normal"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Play",
-                    "value"
-                  ]
-                ],
-                "value": "Narrative"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass"
-          },
-          "usePoints": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Power Level",
-                    "visibility"
-                  ]
-                ],
-                "value": "hidden"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Power Level",
-                    "max"
-                  ]
-                ],
-                "value": null
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mode",
-                    "value"
-                  ]
-                ],
-                "value": "Points"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass"
-          },
-          "usePowerLevel": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Points",
-                    "visibility"
-                  ]
-                ],
-                "value": "hidden"
-              },
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Points",
-                    "max"
-                  ]
-                ],
-                "value": null
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Mode",
-                    "value"
-                  ]
-                ],
-                "value": "Power Level"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass"
           }
         },
         "stats": {
@@ -51336,7 +50690,7 @@
         "assets": {
           "traits": [
             "Ability§Deflagrate",
-            "Upgrade§Elemental Eruption"
+            "Ranged Weapon§Elemental Eruption"
           ]
         }
       },
@@ -51444,10 +50798,10 @@
             "Ability§Loyalist",
             "Ability§Legio Custodes",
             "Melee Weapon§Meltabombs",
-            "Upgrade§Misericord",
-            "Upgrade§Auric Demi-plate",
-            "Upgrade§Gyrfalcon Jetbike",
-            "Upgrade§Solarite Power Lance"
+            "Melee Weapon§Misericord",
+            "Wargear§Auric Demi-plate",
+            "Wargear§Gyrfalcon Jetbike",
+            "Melee Weapon§Solarite Power Lance"
           ]
         },
         "keywords": {
@@ -51484,7 +50838,7 @@
             "Wargear§Krak Grenades",
             "Upgrade§Master-crafted Asphyx Bolt Pistol",
             "Upgrade§Psychic Powers",
-            "Upgrade§The Corvidaean Sceptre",
+            "Ranged Weapon§The Corvidaean Sceptre",
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Ability§Master of the Legion"
@@ -51608,9 +50962,9 @@
             "Ability§Master of the Legion",
             "Ranged Weapon§Venom Spheres",
             "Upgrade§Warlord",
-            "Upgrade§The Hydra’s Spite",
-            "Upgrade§The Pale Spear",
-            "Upgrade§The Pythian Scales"
+            "Ranged Weapon§The Hydra’s Spite",
+            "Melee Weapon§The Pale Spear",
+            "Wargear§The Pythian Scales"
           ]
         },
         "keywords": {
@@ -51703,9 +51057,9 @@
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Ranged Weapon§Gorefather & Gorechild",
-            "Upgrade§The Armour of Mars",
-            "Upgrade§The Butcher’s Nails",
-            "Upgrade§The Spite Furnace"
+            "Wargear§The Armour of Mars",
+            "Wargear§The Butcher’s Nails",
+            "Ranged Weapon§The Spite Furnace"
           ]
         },
         "keywords": {
@@ -51808,7 +51162,7 @@
             "Wargear§Mechanicum Protectiva",
             "Wargear§Cortex Controller",
             "Wargear§Cyber-Familiar",
-            "Upgrade§The Vodian Sceptre",
+            "Melee Weapon§The Vodian Sceptre",
             "Warlord Trait§Forbidden Protocols"
           ]
         },
@@ -51876,13 +51230,12 @@
             "Ranged Weapon§Graviton Gun",
             "Wargear§Cortex Controller",
             "Melee Weapon§Machinator Array",
-            "Upgrade§Mechanicum Protectiva",
+            "Wargear§Mechanicum Protectiva",
             "Upgrade§Artificia Machina",
             "Upgrade§Ephemera Incursus",
             "Upgrade§Warlord",
             "Warlord Trait§Cruel Taskmaster",
-            "Upgrade§Djinn-skein",
-            "Warlord Trait§Cruel Taskmaster"
+            "Wargear§Djinn-skein"
           ]
         },
         "keywords": {
@@ -52089,7 +51442,7 @@
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Upgrade§Two Daemonic Talons",
-            "Upgrade§Umbral Pinions"
+            "Wargear§Umbral Pinions"
           ]
         },
         "keywords": {
@@ -52343,7 +51696,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -52740,7 +52093,7 @@
             "The Ætheric Dominion (X)§Heedless Slaughter",
             "Warlord Trait§Warlord Trait: Skull Keeper",
             "Upgrade§The Armaments of Ka’bandha",
-            "Upgrade§Incarnadine Wings"
+            "Wargear§Incarnadine Wings"
           ]
         },
         "keywords": {
@@ -52809,7 +52162,7 @@
             "Upgrade§Warlord",
             "Upgrade§Samus, Ka’bandha & Cor'bax Warlord stuff",
             "The Ætheric Dominion (X)§Encroaching Ruin",
-            "Upgrade§Blades of Samus",
+            "Melee Weapon§Blades of Samus",
             "Warlord Trait§Warlord Trait: The End and the Death"
           ]
         },
@@ -52879,7 +52232,7 @@
             "SelectionEntry§Death Cloud Projector",
             "Wargear§Grenade Harness",
             "Wargear§Rad Grenades",
-            "Upgrade§Lakrimae",
+            "Melee Weapon§Lakrimae",
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Ability§Master of the Legion"
@@ -52963,8 +52316,8 @@
             "Melee Weapon§Machinator Array",
             "Melee Weapon§Meltabombs",
             "SelectionEntryGroup§Warlord Traits",
-            "Upgrade§Master-crafted Power Axe",
-            "Upgrade§Master-crafted Bolt Pistol"
+            "Melee Weapon§Master-crafted Power Axe",
+            "Ranged Weapon§Master-Crafted bolt pistol"
           ]
         },
         "keywords": {
@@ -53033,8 +52386,7 @@
             "Wargear§Sonic Shriekers",
             "Upgrade§Warlord",
             "Unit§Captain Lucius",
-            "Upgrade§Captain Lucius",
-            "Upgrade§Nineteen"
+            "Melee Weapon§Nineteen"
           ]
         },
         "keywords": {
@@ -53117,8 +52469,8 @@
             "Ranged Weapon§Bolt Pistol",
             "Ability§Retinue",
             "Upgrade§Warlord",
-            "Upgrade§Charnabal broadsword",
-            "Upgrade§Master-crafted Nemesis bolter"
+            "Melee Weapon§Charnabal broadsword",
+            "Ranged Weapon§Master-crafted Nemesis bolter"
           ]
         },
         "keywords": {
@@ -53175,7 +52527,7 @@
       "Unit§Cargo-8 Hauler Squadron": {
         "assets": {
           "traits": [
-            "Model§Cargo-8 Hauler"
+            "Vehicle§Cargo-8 Hauler"
           ]
         },
         "keywords": {
@@ -53197,7 +52549,7 @@
       "Unit§Carnodon Strike Squadron": {
         "assets": {
           "traits": [
-            "Model§Solar Auxilia Carnodon"
+            "Vehicle§Solar Auxilia Carnodon"
           ]
         },
         "keywords": {
@@ -53251,7 +52603,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Automata",
@@ -53327,7 +52679,7 @@
             "Ability§Legiones Consularis",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Consul Additional Wargear and Options",
-            "Model§Legion Centurion"
+            "Unit§Legion Centurion"
           ]
         },
         "keywords": {
@@ -53363,7 +52715,7 @@
             "Upgrade§Warlord",
             "SelectionEntryGroup§Consul Additional Wargear and Options",
             "Ability§Legiones Consularis",
-            "Model§Legion Tartaros Centurion"
+            "Unit§Legion Tartaros Centurion"
           ]
         },
         "keywords": {
@@ -53398,7 +52750,7 @@
             "Ability§Retinue",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Upgrade§The Encarmine Warblade"
+            "Melee Weapon§The Encarmine Warblade"
           ]
         },
         "keywords": {
@@ -53735,10 +53087,10 @@
             "Ability§Scout",
             "Ability§Support Squad",
             "Ability§Loyalist",
-            "Upgrade§Panoply Of The Assassin",
-            "Upgrade§Nemesil Blade",
-            "Upgrade§Needlespine Blaster",
-            "Upgrade§Decapitation Strike"
+            "Wargear§Panoply Of The Assassin",
+            "Melee Weapon§Nemesil Blade",
+            "Ranged Weapon§Needlespine Blaster",
+            "Melee Weapon§Decapitation Strike"
           ]
         },
         "keywords": {
@@ -53799,10 +53151,10 @@
             "Ability§Scout",
             "Ability§Support Squad",
             "Ability§Loyalist",
-            "Upgrade§Panoply Of The Assassin",
-            "Upgrade§Polymorphine",
-            "Upgrade§Neural Shredder",
-            "Upgrade§Phase Sword"
+            "Wargear§Panoply Of The Assassin",
+            "Wargear§Polymorphine",
+            "Ranged Weapon§Neural Shredder",
+            "Ranged Weapon§Phase Sword"
           ]
         },
         "keywords": {
@@ -53865,11 +53217,11 @@
             "Ability§Loyalist",
             "Ability§Fear",
             "Ability§Adamantium Will",
-            "Upgrade§Panoply Of The Assassin",
+            "Wargear§Panoply Of The Assassin",
             "Wargear§Psyk-out Granades",
-            "Upgrade§Life Drain",
-            "Upgrade§Animus Speculum",
-            "Upgrade§Etherium"
+            "Melee Weapon§Life Drain",
+            "Ranged Weapon§Animus Speculum",
+            "Wargear§Etherium"
           ]
         },
         "keywords": {
@@ -53901,10 +53253,10 @@
             "Ability§Support Squad",
             "Ability§Loyalist",
             "Ability§Counter-Attack",
-            "Upgrade§Panoply Of The Assassin",
+            "Wargear§Panoply Of The Assassin",
             "Melee Weapon§Meltabombs",
             "Melee Weapon§Power Sword",
-            "Upgrade§Neuro-Gauntlet",
+            "Melee Weapon§Neuro-Gauntlet",
             "Ability§Fleshbane",
             "Upgrade§Executioner Pistol"
           ]
@@ -53969,10 +53321,10 @@
             "Ability§Loyalist",
             "Ranged Weapon§Laspistol",
             "Wargear§Vox Disruptor Array",
-            "Upgrade§Panoply Of The Assassin",
-            "Upgrade§Auspectre",
-            "Upgrade§Sympatic Dataspikes",
-            "Upgrade§Autotomic Servo-limbs"
+            "Wargear§Panoply Of The Assassin",
+            "Wargear§Auspectre",
+            "Melee Weapon§Sympatic Dataspikes",
+            "Wargear§Autotomic Servo-limbs"
           ]
         },
         "keywords": {
@@ -54033,10 +53385,10 @@
             "Ability§Scout",
             "Ability§Support Squad",
             "Ability§Loyalist",
-            "Upgrade§Panoply Of The Assassin",
-            "Upgrade§Hookfang",
-            "Upgrade§Toxin Ejector",
-            "Upgrade§Poison Globes"
+            "Wargear§Panoply Of The Assassin",
+            "Melee Weapon§Hookfang",
+            "Ranged Weapon§Toxin Ejector",
+            "Wargear§Poison Globes"
           ]
         },
         "keywords": {
@@ -54097,10 +53449,10 @@
             "Ability§Scout",
             "Ability§Support Squad",
             "Ability§Loyalist",
-            "Upgrade§Panoply Of The Assassin",
-            "Upgrade§Exitus Rifle",
-            "Upgrade§Exitus Pistol",
-            "Upgrade§Trajector Auspex Array"
+            "Wargear§Panoply Of The Assassin",
+            "Ranged Weapon§Exitus Rifle",
+            "Ranged Weapon§Exitus Pistol",
+            "Wargear§Trajector Auspex Array"
           ]
         },
         "keywords": {
@@ -54167,7 +53519,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "SelectionEntryGroup§Provenance Options",
-            "Model§Militia Lieutenant",
+            "Unit§Militia Lieutenant",
             "Model§Militia Bodyguard"
           ]
         },
@@ -54285,7 +53637,7 @@
             "Wargear§Krak Grenades",
             "Melee Weapon§Meltabombs",
             "Wargear§Refractor Field",
-            "Upgrade§Void Armour",
+            "Wargear§Void Armour",
             "Upgrade§Fear (Feral Cohort)",
             "Model§Auxilia Companion"
           ]
@@ -54303,10 +53655,10 @@
             "Ability§Counter-Attack",
             "Ability§Loyalist",
             "Ability§Legio Custodes",
-            "Upgrade§Teleport Transponder Array",
+            "Wargear§Teleport Transponder Array",
             "Upgrade§Warlord",
-            "Upgrade§Arae-shrike",
-            "Upgrade§Misericord",
+            "Wargear§Arae-shrike",
+            "Melee Weapon§Misericord",
             "Melee Weapon§Meltabombs",
             "Wargear§Frag Grenades",
             "Wargear§The Armour of Reason",
@@ -54383,7 +53735,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -54400,8 +53752,7 @@
         "assets": {
           "traits": [
             "Wargear§Atomantic Deflector",
-            "Ability§Dreadnought Talon",
-            "Wargear§Atomantic Deflector"
+            "Ability§Dreadnought Talon"
           ]
         },
         "keywords": {
@@ -54409,7 +53760,7 @@
             "Dreadnought"
           ],
           "Role": [
-            "Elite"
+            "Elites"
           ]
         },
         "stats": {
@@ -54910,7 +54261,7 @@
             "Ability§Loyalist",
             "Wargear§Atomantic Deflector",
             "Upgrade§Galatus Warblade with in-built Twin-linked Infernus Incinerator",
-            "Upgrade§Gravis Praesidium Shield"
+            "Wargear§Gravis Praesidium Shield"
           ]
         },
         "keywords": {
@@ -55084,13 +54435,13 @@
             "Ability§Dreadnought Talon",
             "SelectionEntryGroup§Prosperine Arcana",
             "Wargear§Atomantic Deflector",
-            "Upgrade§Gravis Force Blade",
+            "Melee Weapon§Gravis Force Blade",
             "Upgrade§Minor Arcana"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Dreadnought",
@@ -55278,7 +54629,7 @@
         "assets": {
           "traits": [
             "Ability§Legiones Astartes (Thousand Sons)",
-            "Model§Contemptor-Osiron Dreadnought",
+            "Unit§Contemptor-Osiron Dreadnought",
             "Upgrade§Contemptor-Osiron Magus Upgrade"
           ]
         },
@@ -55309,7 +54660,7 @@
             "Ranged Weapon§Psychic Discipline: Biomancy",
             "Model§Cor’bax Utterblight",
             "Warlord Trait§Warlord Trait: Lord of Decay",
-            "Upgrade§Noxious Maw"
+            "Melee Weapon§Noxious Maw"
           ]
         },
         "keywords": {
@@ -55346,7 +54697,7 @@
             "Ranged Weapon§Bolter",
             "Ability§Retinue",
             "Upgrade§Warlord",
-            "Upgrade§Armour of the Forest and the Mantle of the Champion",
+            "Wargear§Armour of the Forest and the Mantle of the Champion",
             "Upgrade§The Blade"
           ]
         },
@@ -55399,10 +54750,10 @@
             "Ability§Deep Strike",
             "Ability§Hit & Run",
             "Wargear§Frag Grenades",
-            "Upgrade§The Korvidine Pinions",
-            "Upgrade§The Panoply of the Raven Guard",
-            "Upgrade§The Sable Armour",
-            "Upgrade§Wrath & Justice",
+            "Wargear§The Korvidine Pinions",
+            "Melee Weapon§The Panoply of the Raven Guard",
+            "Wargear§The Sable Armour",
+            "Ranged Weapon§Wrath & Justice",
             "Ability§Loyalist",
             "Upgrade§Warlord",
             "Ability§Master of the Legion"
@@ -55464,7 +54815,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -55492,10 +54843,10 @@
             "Ability§Stubborn",
             "Ability§Loyalist",
             "SelectionEntryGroup§Dedicated Transport (Custodes)",
-            "Upgrade§Misericord",
+            "Melee Weapon§Misericord",
             "Melee Weapon§Meltabombs",
             "Wargear§Frag Grenades",
-            "Upgrade§Auric Warplate"
+            "Wargear§Auric Warplate"
           ]
         },
         "keywords": {
@@ -55528,9 +54879,9 @@
             "Wargear§Frag Grenades",
             "Melee Weapon§Meltabombs",
             "Upgrade§Warlord",
-            "Upgrade§Arae-shrike",
-            "Upgrade§Auric Battleplate",
-            "Upgrade§Misericord"
+            "Wargear§Arae-shrike",
+            "Wargear§Auric Battleplate",
+            "Melee Weapon§Misericord"
           ]
         },
         "keywords": {
@@ -55711,9 +55062,9 @@
             "Wargear§Frag Grenades",
             "Melee Weapon§Meltabombs",
             "Upgrade§Warlord",
-            "Upgrade§Arae-shrike",
-            "Upgrade§Auric Battleplate",
-            "Upgrade§Misericord"
+            "Wargear§Arae-shrike",
+            "Wargear§Auric Battleplate",
+            "Melee Weapon§Misericord"
           ]
         },
         "keywords": {
@@ -55901,10 +55252,10 @@
             "Ability§Bulky",
             "Ability§Deep Strike",
             "Wargear§Frag Grenades",
-            "Upgrade§Auric Demi-plate",
+            "Wargear§Auric Demi-plate",
             "Melee Weapon§Meltabombs",
-            "Upgrade§Misericord",
-            "Upgrade§Venatari Jump Harness"
+            "Melee Weapon§Misericord",
+            "Wargear§Venatari Jump Harness"
           ]
         },
         "keywords": {
@@ -55997,7 +55348,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -56023,7 +55374,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -56048,12 +55399,12 @@
             "Wargear§Krak Grenades",
             "Wargear§Artificer Armour",
             "Model§Deathsworn",
-            "Upgrade§Ymira Class Stasis Bombs"
+            "Wargear§Ymira Class Stasis Bombs"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -56272,13 +55623,13 @@
             "Wargear§Krak Grenades",
             "Wargear§Power Armour",
             "Wargear§Rad Grenades",
-            "Upgrade§Warhawk Jump Pack",
+            "Wargear§Warhawk Jump Pack",
             "Model§Destroyer Sergeant"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes"
@@ -56498,8 +55849,8 @@
             "Ability§Retinue",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Upgrade§Lament and Grief",
-            "Upgrade§The Spiritum Sanguis"
+            "Ranged Weapon§Lament and Grief",
+            "Melee Weapon§The Spiritum Sanguis"
           ]
         },
         "keywords": {
@@ -56588,7 +55939,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -56616,13 +55967,12 @@
             "Ability§Kharash",
             "Melee Weapon§Power Glaive",
             "Wargear§Tartaros Terminator Armour",
-            "Wargear§Legion Vexilla",
-            "Unit§Kharash"
+            "Wargear§Legion Vexilla"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -56643,8 +55993,8 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Wargear§Shroud Bombs",
-            "Model§Effrit Principal",
-            "Upgrade§Hydra’s Wail Disruption Array"
+            "Unit§Effrit Principal",
+            "Ranged Weapon§Hydra’s Wail Disruption Array"
           ]
         },
         "keywords": {
@@ -56788,7 +56138,7 @@
             "Ability§Hatred",
             "Ability§Loyalist",
             "Ability§Precision Shots",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Vigilance)",
             "Model§Eradicator Mistress"
           ]
@@ -56818,11 +56168,11 @@
         "assets": {
           "traits": [
             "Ability§It Will Not Die",
-            "Upgrade§Extinctor power claw",
-            "Upgrade§Manipulator Arm",
+            "Melee Weapon§Extinctor power claw",
+            "Melee Weapon§Manipulator Arm",
             "Ranged Weapon§Animatus Excindor (Cybertheurgic Weapon)",
             "Upgrade§Shackled Artificia -",
-            "Wargear Item§Internal Refractor Field"
+            "Wargear§Internal Refractor Field"
           ]
         },
         "keywords": {
@@ -56890,7 +56240,7 @@
             "Melee Weapon§Power Dagger",
             "Ranged Weapon§Venom Spheres",
             "Wargear§Shroud Bombs",
-            "Upgrade§The Instrument"
+            "Ability§The Instrument"
           ]
         },
         "keywords": {
@@ -56943,7 +56293,7 @@
         "assets": {
           "traits": [
             "Ability§Silent Sisterhood",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)",
             "Model§Expurgator Mistress"
           ]
@@ -56981,12 +56331,12 @@
             "Ability§Relentless",
             "Wargear§Cataphractii Terminator Armour",
             "Wargear§Grenade Harness",
-            "SelectionEntry§Combi-Bolter",
+            "Ranged Weapon§Combi-bolter",
             "Melee Weapon§Paragon Blade",
             "Ability§Retinue",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Upgrade§Cthonic power claw"
+            "Melee Weapon§Cthonic power claw"
           ]
         },
         "keywords": {
@@ -57186,7 +56536,7 @@
       "Unit§Fenrisian Wolf Pack": {
         "assets": {
           "traits": [
-            "Upgrade§Claws"
+            "Melee Weapon§Claws"
           ]
         },
         "keywords": {
@@ -57212,10 +56562,10 @@
             "Wargear§Grenade Harness",
             "Ranged Weapon§Heavy Flamer",
             "Melee Weapon§Servo-Arm",
-            "Upgrade§Forgebreaker",
+            "Melee Weapon§Forgebreaker",
             "Upgrade§Master-crafted Graviton Shredder",
             "Upgrade§Master-crafted Plasma Blaster",
-            "Upgrade§The Medusan Carapace",
+            "Wargear§The Medusan Carapace",
             "Upgrade§Warlord",
             "Ability§Master of the Legion"
           ]
@@ -57321,7 +56671,7 @@
         "assets": {
           "traits": [
             "Ability§Silent Sisterhood",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)",
             "Model§Firebrand Mistress"
           ]
@@ -57380,7 +56730,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -57901,20 +57251,14 @@
             "Ability§Master of the Legion",
             "Ability§The Stage is Set",
             "Ability§Traitor",
-            "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Wargear§Frag Grenades",
             "Upgrade§Blades of the Phoenician",
             "Ability§Bulky",
             "Ability§Crusader",
             "Ability§Legiones Astartes (Emperor’s Children)",
-            "Ability§Master of the Legion",
             "Ability§Sudden Strike",
-            "Ability§Traitor",
-            "Ability§Master of the Legion",
-            "Wargear§Frag Grenades",
-            "Upgrade§Warlord",
-            "Upgrade§Firebrand"
+            "Ranged Weapon§Firebrand"
           ]
         },
         "keywords": {
@@ -58007,7 +57351,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -58094,7 +57438,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Wargear§Refractor Field",
-            "Upgrade§The Fell Hand",
+            "Melee Weapon§The Fell Hand",
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Ability§Master of the Legion"
@@ -58190,7 +57534,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -58206,7 +57550,7 @@
       "Unit§Gorgon Heavy Transporter": {
         "assets": {
           "traits": [
-            "Vehicle§Gorgon Heavy Transporter"
+            "Unit§Gorgon Heavy Transporter"
           ]
         },
         "keywords": {
@@ -58241,7 +57585,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -58322,7 +57666,7 @@
             "Ability§Hammer of Wrath",
             "Ability§Traitor",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
-            "Upgrade§Infernal Armaments",
+            "Melee Weapon§Infernal Armaments",
             "Model§Greater Beast"
           ]
         },
@@ -58742,12 +58086,12 @@
             "Ability§Hatred",
             "Ability§Fear",
             "Ability§Furious Charge",
-            "Upgrade§Carapace Armour",
+            "Wargear§Carapace Armour",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "SelectionEntryGroup§Provenance Options",
             "Model§Grenadier",
-            "Model§Grenadier Sergeant"
+            "Unit§Grenadier Sergeant"
           ]
         },
         "keywords": {
@@ -58823,7 +58167,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -58899,7 +58243,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -58928,7 +58272,7 @@
             "Ability§Furious Charge",
             "Ability§Hatred",
             "Ability§Slow and Purposeful",
-            "Upgrade§Flak Armour"
+            "Wargear§Flak Armour"
           ]
         },
         "keywords": {
@@ -59121,8 +58465,8 @@
           "traits": [
             "Wargear§Frag Grenades",
             "Melee Weapon§Meltabombs",
-            "Upgrade§Misericord",
-            "Upgrade§Auric Warplate",
+            "Melee Weapon§Misericord",
+            "Wargear§Auric Warplate",
             "SelectionEntryGroup§Dedicated Transport (Custodes)",
             "Unit§Hetaeron Guard"
           ]
@@ -59161,7 +58505,7 @@
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Ability§Retinue",
-            "Upgrade§Crux Malifica",
+            "Melee Weapon§Crux Malifica",
             "Upgrade§Psychic Powers",
             "Upgrade§Harbinger of Chaos"
           ]
@@ -59268,12 +58612,12 @@
         "assets": {
           "traits": [
             "Ability§Master of the Legion",
-            "SelectionEntry§Cognis-Signum",
+            "Wargear§Cognis-signum",
             "Wargear§Frag Grenades",
             "Upgrade§Warlord",
-            "Upgrade§The Serpent’s Scales",
-            "Upgrade§The Warmaster’s Talon",
-            "Upgrade§Worldbreaker"
+            "Wargear§The Serpent’s Scales",
+            "Weapon§The Warmaster’s Talon",
+            "Melee Weapon§Worldbreaker"
           ]
         },
         "keywords": {
@@ -59373,7 +58717,7 @@
             "Ranged Weapon§Heavy Bolter",
             "Wargear§Iron Halo",
             "Wargear§Tartaros Terminator Armour",
-            "Upgrade§Hearth-splitter",
+            "Melee Weapon§Hearth-splitter",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
             "Ability§Retinue"
@@ -59432,15 +58776,15 @@
             "Ability§Stubborn",
             "Ability§Traitor",
             "SelectionEntryGroup§Cybertheurgic Arcana",
-            "Orders of High Techno-arcana§Archimandrite",
+            "Order of High Techno-arcana§Archimandrite",
             "Wargear§Cortex Controller",
             "Ranged Weapon§Graviton Imploder",
             "Melee Weapon§Power Axe",
             "Melee Weapon§Servo-Arm",
             "Upgrade§Warlord",
-            "Upgrade§Haemonculite Cyber-corpus",
-            "Upgrade§Repulsion Shield",
-            "Upgrade§Twin-linked Maxima Bolter"
+            "Wargear§Haemonculite Cyber-corpus",
+            "Wargear§Repulsion Shield",
+            "Ranged Weapon§Twin-linked Maxima Bolter"
           ]
         },
         "keywords": {
@@ -59519,9 +58863,9 @@
             "Ability§Abomination",
             "Ability§Fear",
             "Ability§Scout",
-            "Upgrade§Wraithskin",
-            "Upgrade§Transmutative armaments",
-            "Upgrade§Boneshard spitter"
+            "Wargear§Wraithskin",
+            "Melee Weapon§Transmutative armaments",
+            "Ranged Weapon§Boneshard spitter"
           ]
         },
         "keywords": {
@@ -59589,7 +58933,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -59668,7 +59012,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -59697,12 +59041,12 @@
             "Ranged Weapon§Shrapnel Cannon",
             "Melee Weapon§Graviton Maul",
             "Model§Domitar-ferrum",
-            "Upgrade§Karceri Battle Shield"
+            "Wargear§Karceri Battle Shield"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Automata",
@@ -59849,9 +59193,9 @@
             "Wargear§Krak Grenades",
             "Wargear§Frag Grenades",
             "Wargear§Power Armour",
-            "Wargear Item§Ferrum Occularis",
+            "Wargear§Ferrum Occularis",
             "Model§Iron Havoc",
-            "Model§Iron Havoc Sgt"
+            "Unit§Iron Havoc Sgt"
           ]
         },
         "keywords": {
@@ -59883,9 +59227,9 @@
             "Ability§Retinue",
             "Wargear§Frag Grenades",
             "Upgrade§Sojutsu Pattern Voidbike",
-            "Upgrade§Storm’s Voice",
-            "Upgrade§The White Tiger Dao",
-            "Upgrade§The Wildfire Panoply"
+            "Ranged Weapon§Storm’s Voice",
+            "Melee Weapon§The White Tiger Dao",
+            "Wargear§The Wildfire Panoply"
           ]
         },
         "keywords": {
@@ -59972,8 +59316,8 @@
             "Wargear§Psyk-out Granades",
             "Upgrade§Warlord",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
-            "Upgrade§The Onyx Cloak",
-            "Upgrade§The Sword of Oblivion",
+            "Wargear§The Onyx Cloak",
+            "Melee Weapon§The Sword of Oblivion",
             "Ability§Silent Sisterhood"
           ]
         },
@@ -60084,7 +59428,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -60119,7 +59463,7 @@
             "The Ætheric Dominion (X)§Heedless Slaughter",
             "Model§Ka’bandha",
             "Warlord Trait§Warlord Trait: Skull Keeper",
-            "Upgrade§Incarnadine Wings",
+            "Wargear§Incarnadine Wings",
             "Upgrade§The Armaments of Ka’bandha"
           ]
         },
@@ -60155,7 +59499,7 @@
             "SelectionEntryGroup§Surgical Augment (Unit)",
             "Unit§Chora",
             "Model§Orchestrator",
-            "Upgrade§The Cacophony"
+            "Ranged Weapon§The Cacophony"
           ]
         },
         "keywords": {
@@ -60310,7 +59654,7 @@
             "Ability§Deep Strike",
             "Ability§Outflank",
             "Ability§Loyalist",
-            "Upgrade§Spectra Distort Shield",
+            "Wargear§Spectra Distort Shield",
             "Wargear§Smoke Launchers",
             "Vehicle§Kharon Pattern Acquistor"
           ]
@@ -60351,7 +59695,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -60380,7 +59724,7 @@
             "Wargear§Psyk-out Granades",
             "Upgrade§Warlord",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
-            "Upgrade§Voidscale Cloak",
+            "Wargear§Voidscale Cloak",
             "Ability§Silent Sisterhood"
           ]
         },
@@ -60611,7 +59955,7 @@
             "Wargear§Psyk-out Granades",
             "Upgrade§Warlord",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
-            "Upgrade§Voidscale Cloak",
+            "Wargear§Voidscale Cloak",
             "Ability§Silent Sisterhood"
           ]
         },
@@ -60820,7 +60164,7 @@
       "Unit§Knight Moirax Talon": {
         "assets": {
           "traits": [
-            "Knights and Titans§Knight Moirax"
+            "Knight/Titan§Knight Moirax"
           ]
         },
         "keywords": {
@@ -60868,7 +60212,7 @@
             "Upgrade§Mercy & Forgiveness",
             "Ability§Rending",
             "Psychic Power§Glimpse of Death",
-            "Upgrade§The Nightmare Mantle"
+            "Wargear§The Nightmare Mantle"
           ]
         },
         "keywords": {
@@ -60928,8 +60272,8 @@
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
             "Melee Weapon§Patriarch’s Claws",
-            "Upgrade§Digi-flamer",
-            "Upgrade§The Terminus Consolaris"
+            "Ranged Weapon§Digi-flamer",
+            "Wargear§The Terminus Consolaris"
           ]
         },
         "keywords": {
@@ -61035,7 +60379,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Land Raider Achilles"
+            "Vehicle§Land Raider Achilles"
           ]
         },
         "keywords": {
@@ -61058,7 +60402,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Land Raider Phobos"
+            "Vehicle§Land Raider Phobos"
           ]
         },
         "keywords": {
@@ -61079,7 +60423,7 @@
       "Unit§Legate Marshal": {
         "assets": {
           "traits": [
-            "Model§Solar Auxilia Legate Marshal"
+            "Unit§Solar Auxilia Legate Marshal"
           ]
         },
         "keywords": {
@@ -61107,7 +60451,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes"
@@ -61123,7 +60467,7 @@
             "Ability§Move Through Cover",
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Wargear§Smoke Launchers",
-            "Upgrade§Phosphex Shell (Morbus Bombard)",
+            "Ranged Weapon§Phosphex Shell (Morbus Bombard)",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Upgrade§Legiones Astartes (X)",
             "Vehicle§Arquitor"
@@ -61152,13 +60496,13 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Wargear§Power Armour",
-            "Upgrade§Warhawk Jump Pack",
+            "Wargear§Warhawk Jump Pack",
             "Model§Legion Assault Sergeant"
           ]
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -61269,7 +60613,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Basilisk"
+            "Vehicle§Basilisk"
           ]
         },
         "keywords": {
@@ -61304,7 +60648,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -63141,7 +62485,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -63726,7 +63070,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Macharius Heavy Tank",
+            "Vehicle§Macharius Heavy Tank",
             "Model§Additional Macharius Heavy Tank"
           ]
         },
@@ -63755,7 +63099,7 @@
             "Wargear§Smoke Launchers",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Vehicle§Macharius Omega Heavy Tank",
-            "Upgrade§Omega-pattern Plasma Blastgun"
+            "Ranged Weapon§Omega-pattern Plasma Blastgun"
           ]
         },
         "keywords": {
@@ -63780,7 +63124,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Malcador Assault Tank"
+            "Vehicle§Malcador Assault Tank"
           ]
         },
         "keywords": {
@@ -63830,7 +63174,7 @@
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Ranged Weapon§Kheres Assault Cannon",
             "Ranged Weapon§Gravis Autocannon Battery",
-            "Upgrade§Fragmentation Bomb",
+            "Melee Weapon§Fragmentation Bomb",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Vehicle§Marauder Destroyer"
           ]
@@ -63917,7 +63261,7 @@
           "traits": [
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Minotaur"
+            "Vehicle§Minotaur"
           ]
         },
         "keywords": {
@@ -63955,7 +63299,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -63979,7 +63323,7 @@
             "Ability§Relentless",
             "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
-            "Upgrade§Spatha Combat Bike",
+            "Wargear§Spatha Combat Bike",
             "Wargear§Power Armour",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Model§Legion Outrider",
@@ -64761,7 +64105,7 @@
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Vehicle§Praetor Armoured Assault Transport",
-            "Upgrade§Praetor Launcher"
+            "Ranged Weapon§Praetor Launcher"
           ]
         },
         "keywords": {
@@ -64873,7 +64217,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Artillery",
@@ -64905,7 +64249,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -64997,7 +64341,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -65218,7 +64562,7 @@
             "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Wargear§Power Armour",
-            "Upgrade§Scimitar Jetbike",
+            "Wargear§Scimitar Jetbike",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Upgrade§Legiones Astartes (X)",
             "Model§Legion Sky-Hunter",
@@ -65386,7 +64730,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -65418,7 +64762,7 @@
         },
         "keywords": {
           "Role": [
-            "Troop"
+            "Troops"
           ],
           "Keywords": [
             "Infantry",
@@ -65443,7 +64787,7 @@
             "Ability§Relentless",
             "SelectionEntryGroup§Terminator Lightning Claws (Optional)",
             "Upgrade§Legiones Astartes (X)",
-            "Upgrade§Tartaros Terminator Armour"
+            "Wargear§Tartaros Terminator Armour"
           ]
         },
         "keywords": {
@@ -65838,7 +65182,7 @@
             "SelectionEntryGroup§Terminator Ranged Weapon",
             "Wargear§Grenade Harness",
             "Ability§Master of the Legion",
-            "Upgrade§Tartaros Terminator Armour"
+            "Wargear§Tartaros Terminator Armour"
           ]
         },
         "keywords": {
@@ -66122,7 +65466,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes"
@@ -66140,16 +65484,15 @@
             "Ability§Bulky",
             "Ability§Heart of the Legion",
             "Ability§Outflank",
-            "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
-            "Upgrade§Cataphractii Terminator Armour",
+            "Wargear§Cataphractii Terminator Armour",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Upgrade§Pride of the Legion Compulsory Troops"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -66175,16 +65518,15 @@
             "Ability§Relentless",
             "Ability§Heart of the Legion",
             "Ability§Outflank",
-            "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
-            "Upgrade§Tartaros Terminator Armour",
+            "Wargear§Tartaros Terminator Armour",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Upgrade§Pride of the Legion Compulsory Troops"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -66284,7 +65626,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -66334,10 +65676,10 @@
             "Ability§Counter-Attack",
             "Wargear§Frag Grenades",
             "Upgrade§Warlord",
-            "Upgrade§The Armour Elavagar",
-            "Upgrade§The Axe of Helwinter",
-            "Upgrade§The Sword of Balenight",
-            "Upgrade§Scornspitter"
+            "Wargear§The Armour Elavagar",
+            "Melee Weapon§The Axe of Helwinter",
+            "Ranged Weapon§The Sword of Balenight",
+            "Ranged Weapon§Scornspitter"
           ]
         },
         "keywords": {
@@ -66401,12 +65743,12 @@
             "Ability§Bulky",
             "Ability§Stubborn",
             "Wargear§Cataphractii Terminator Armour",
-            "Model§Harrower"
+            "Ability§Harrower"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -66650,7 +65992,7 @@
             "Ability§Furious Charge",
             "Ability§Feel No Pain",
             "Ability§Counter-Attack",
-            "Upgrade§Void Armour",
+            "Wargear§Void Armour",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Upgrade§Fear (Feral Cohort)",
@@ -66679,9 +66021,9 @@
             "Ability§Master of the Legion",
             "Wargear§Frag Grenades",
             "Upgrade§Warlord",
-            "Upgrade§The Leonine Panoply",
-            "Upgrade§The Fusil Actinaeus",
-            "Upgrade§Stasis Grenades"
+            "Wargear§The Leonine Panoply",
+            "Ranged Weapon§The Fusil Actinaeus",
+            "Wargear§Stasis Grenades"
           ]
         },
         "keywords": {
@@ -66773,7 +66115,7 @@
             "Ability§Retinue",
             "Upgrade§Warlord",
             "Upgrade§Glory Aeterna",
-            "Upgrade§Death Scream"
+            "Ranged Weapon§Death Scream"
           ]
         },
         "keywords": {
@@ -66852,7 +66194,7 @@
       "Unit§Macharius Heavy Tank Squadron": {
         "assets": {
           "traits": [
-            "Model§Macharius Heavy Tank"
+            "Vehicle§Macharius Heavy Tank"
           ]
         },
         "keywords": {
@@ -66882,9 +66224,9 @@
             "Wargear§Iron Halo",
             "Wargear§Krak Grenades",
             "Upgrade§Psychic powers",
-            "Upgrade§The Armour of Shades",
-            "Upgrade§The Reliquary of Dust (Melee)",
-            "Upgrade§The Reliquary of Dust (Ranged)",
+            "Wargear§The Armour of Shades",
+            "Melee Weapon§The Reliquary of Dust (Melee)",
+            "Ranged Weapon§The Reliquary of Dust (Ranged)",
             "Ability§Legiones Astartes (Thousand Sons)",
             "Upgrade§Warlord",
             "Ability§Retinue",
@@ -66946,9 +66288,9 @@
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Upgrade§Arch-Sorcerer",
-            "Upgrade§Psyfire serpenta",
-            "Upgrade§The Blade of Ahn-nunurta",
-            "Upgrade§The Horned Raiment"
+            "Ranged Weapon§Psyfire serpenta",
+            "Melee Weapon§The Blade of Ahn-nunurta",
+            "Wargear§The Horned Raiment"
           ]
         },
         "keywords": {
@@ -67140,8 +66482,7 @@
             "Melee Weapon§Power Sword",
             "SelectionEntry§Legion Standard",
             "Upgrade§Warlord",
-            "Ability§Retinue",
-            "Ability§Master of the Legion"
+            "Ability§Retinue"
           ]
         },
         "keywords": {
@@ -67198,8 +66539,8 @@
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Ability§Master of the Legion",
-            "Upgrade§Regalia of the Shattered Sceptre",
-            "Upgrade§The Death of Worlds"
+            "Wargear§Regalia of the Shattered Sceptre",
+            "Melee Weapon§The Death of Worlds"
           ]
         },
         "keywords": {
@@ -67340,7 +66681,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -67370,7 +66711,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Corrupted",
@@ -67900,7 +67241,7 @@
       "Unit§Minotaur Battery": {
         "assets": {
           "traits": [
-            "Model§Minotaur"
+            "Vehicle§Minotaur"
           ]
         },
         "keywords": {
@@ -67935,7 +67276,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -67982,7 +67323,7 @@
             "Ability§Chosen Warriors",
             "Ability§Preferred Enemy",
             "Wargear§Cataphractii Terminator Armour",
-            "Model§Augmentor",
+            "Unit§Augmentor",
             "Model§Morlock"
           ]
         },
@@ -68014,9 +67355,9 @@
             "Ability§Legiones Astartes (Death Guard)",
             "Wargear§Frag Grenades",
             "Ranged Weapon§Phosphex Bomb",
-            "Upgrade§Silence",
-            "Upgrade§The Barbaran Plate",
-            "Upgrade§The Lantern",
+            "Melee Weapon§Silence",
+            "Wargear§The Barbaran Plate",
+            "Ranged Weapon§The Lantern",
             "Ability§Master of the Legion",
             "Upgrade§Warlord"
           ]
@@ -68268,7 +67609,7 @@
             "Wargear§Frag Grenades",
             "Model§Myrmidon Secutor",
             "Model§Secutor Lord",
-            "Upgrade§Myrmidon Axe"
+            "Melee Weapon§Myrmidon Axe"
           ]
         },
         "keywords": {
@@ -68294,9 +67635,9 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Ranged Weapon§Bolt Pistol",
-            "Upgrade§Paragon Bolter",
-            "Upgrade§Libertas",
-            "Upgrade§The Aquila Imperator"
+            "Ranged Weapon§Paragon Bolter",
+            "Melee Weapon§Libertas",
+            "Wargear§The Aquila Imperator"
           ]
         },
         "keywords": {
@@ -68388,7 +67729,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -68417,7 +67758,7 @@
             "Ability§Support Squad",
             "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
-            "Upgrade§Cataphractii Terminator Armour",
+            "Wargear§Cataphractii Terminator Armour",
             "Upgrade§Legiones Astartes (X)",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Model§Nullificator",
@@ -68474,7 +67815,7 @@
             "Ability§Loyalist",
             "Ability§Precision Strikes",
             "Ability§Stubborn",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
             "Model§Oblivion Knight Mistress",
             "Model§Oblivion Knight"
@@ -68555,7 +67896,7 @@
       "Unit§One Companion may upgrade to Adjutant": {
         "assets": {
           "traits": [
-            "Upgrade§Void Armour"
+            "Wargear§Void Armour"
           ]
         },
         "keywords": {
@@ -68819,7 +68160,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -68869,11 +68210,11 @@
             "Ability§Master of Automata",
             "Wargear§Cortex Controller",
             "Wargear§Frag Grenades",
-            "Upgrade§The Logos Array",
+            "Weapon§The Logos Array",
             "Wargear§The Logos",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Upgrade§Forgebreaker Desecrated"
+            "Melee Weapon§Forgebreaker Desecrated"
           ]
         },
         "keywords": {
@@ -68971,7 +68312,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -68997,7 +68338,7 @@
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Legion Praetor"
+            "Unit§Legion Praetor"
           ]
         },
         "keywords": {
@@ -69041,7 +68382,7 @@
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Legion Cataphractii Praetor"
+            "Unit§Legion Cataphractii Praetor"
           ]
         },
         "keywords": {
@@ -69063,7 +68404,7 @@
             "Ability§Legiones Hereticus (Emperor’s Children)",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Hexagrammaton Choice",
-            "Model§Legion Tartaros Praetor"
+            "Unit§Legion Tartaros Praetor"
           ]
         },
         "keywords": {
@@ -69130,7 +68471,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -69152,7 +68493,7 @@
       "Unit§Predator Squadron (Dragonbreath Cannon - Covenant of Fire)": {
         "assets": {
           "traits": [
-            "Model§Predator"
+            "Vehicle§Predator"
           ]
         },
         "keywords": {
@@ -69203,7 +68544,7 @@
             "Ability§Stubborn",
             "Ability§Loyalist",
             "Ability§Hatred",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Vigilance)",
             "Model§Prosecutor Mistress"
           ]
@@ -69234,7 +68575,7 @@
         "assets": {
           "traits": [
             "Ability§Silent Sisterhood",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
             "Model§Pursuer",
             "Model§Pursuer Mistress"
@@ -69272,7 +68613,7 @@
             "Melee Weapon§Meltabombs",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Basic Close Combat Weapon",
+            "Melee Weapon§Basic Close Combat Weapon",
             "Upgrade§Pyroclast Flame Projector",
             "Model§Pyroclast",
             "Model§Pyroclast Warden"
@@ -69280,7 +68621,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -69388,7 +68729,7 @@
         "assets": {
           "traits": [
             "Ability§Silent Sisterhood",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)"
           ]
         },
@@ -69428,7 +68769,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -69573,7 +68914,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -69605,9 +68946,8 @@
             "Ability§Fear",
             "Ability§Furious Charge",
             "Wargear§Frag Grenades",
-            "Upgrade§Flak Armour",
+            "Wargear§Flak Armour",
             "SelectionEntryGroup§Provenance Options",
-            "Model§Scout",
             "Model§Scout Sergeant"
           ]
         },
@@ -69637,12 +68977,12 @@
             "Ability§Hatred",
             "Ability§Ravening Madmen",
             "Wargear§Cataphractii Terminator Armour",
-            "Model§Devoured"
+            "Unit§Devoured"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -69707,7 +69047,7 @@
             "SelectionEntry§Legion Standard",
             "Upgrade§Warlord",
             "Ability§Retinue",
-            "Upgrade§Phaethon"
+            "Melee Weapon§Phaethon"
           ]
         },
         "keywords": {
@@ -69758,13 +69098,13 @@
           "traits": [
             "Ability§Adamantium Will",
             "Unit§Robute Gulliman",
-            "SelectionEntry§Cognis-Signum",
+            "Wargear§Cognis-signum",
             "Wargear§Frag Grenades",
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Upgrade§The Armour of Reason",
             "Upgrade§The Gladius Incandor and the Hand of Dominion",
-            "Upgrade§The Arbitrator"
+            "Ranged Weapon§The Arbitrator"
           ]
         },
         "keywords": {
@@ -69829,9 +69169,9 @@
             "Upgrade§Warlord",
             "Wargear§Frag Grenades",
             "Ability§Master of the Legion",
-            "Upgrade§Storm’s Teeth",
-            "Upgrade§The Auric Armour",
-            "Upgrade§The Voice of Terra"
+            "Melee Weapon§Storm’s Teeth",
+            "Wargear§The Auric Armour",
+            "Ranged Weapon§The Voice of Terra"
           ]
         },
         "keywords": {
@@ -69913,7 +69253,7 @@
             "Ability§Traitor",
             "Ability§Hammer of Wrath",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
-            "Upgrade§Ætheric Flight"
+            "Wargear§Ætheric Flight"
           ]
         },
         "keywords": {
@@ -70019,7 +69359,6 @@
             "Ability§It Will Not Die",
             "Ability§Traitor",
             "Ability§Bulky",
-            "Ability§Hammer of Wrath",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
             "Model§Ruinstorm Behemoth"
           ]
@@ -70278,7 +69617,7 @@
             "Ability§Traitor",
             "Ability§Hammer of Wrath",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
-            "Upgrade§Immaterial Wings",
+            "Wargear§Immaterial Wings",
             "Model§Daemon Harrier"
           ]
         },
@@ -70334,7 +69673,7 @@
             "Ability§Æthereal Invulnerability",
             "Ability§Hammer of Wrath",
             "SelectionEntryGroup§The Ætheric Dominion (Unit)",
-            "Upgrade§Infernal Armaments",
+            "Melee Weapon§Infernal Armaments",
             "Upgrade§Warlord",
             "SelectionEntryGroup§Warlord Traits (Ruinstorm Daemons)",
             "Model§Hierarch"
@@ -70674,10 +70013,10 @@
             "Ability§Legio Custodes",
             "Ability§Chosen Warriors",
             "SelectionEntryGroup§Dedicated Transport (Custodes)",
-            "Upgrade§Misericord",
+            "Melee Weapon§Misericord",
             "Melee Weapon§Meltabombs",
             "Wargear§Frag Grenades",
-            "Upgrade§Auric Warplate"
+            "Wargear§Auric Warplate"
           ]
         },
         "keywords": {
@@ -70716,7 +70055,7 @@
             "Upgrade§Samus, Ka’bandha & Cor'bax Warlord stuff",
             "Upgrade§Warlord",
             "Model§Samus",
-            "Upgrade§Blades of Samus",
+            "Melee Weapon§Blades of Samus",
             "Warlord Trait§Warlord Trait: The End and the Death"
           ]
         },
@@ -70898,7 +70237,7 @@
             "Wargear§Power Armour",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Model§Sanctifier Sergeant"
+            "Unit§Sanctifier Sergeant"
           ]
         },
         "keywords": {
@@ -70921,7 +70260,7 @@
         "assets": {
           "traits": [
             "Ability§Silent Sisterhood",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Vigilance)",
             "Model§Sanctioner Mistress",
             "Model§Sanctioner"
@@ -70957,8 +70296,8 @@
             "Wargear§Frag Grenades",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Upgrade§The Regalia Resplendant",
-            "Upgrade§Infernus"
+            "Wargear§The Regalia Resplendant",
+            "Ranged Weapon§Infernus"
           ]
         },
         "keywords": {
@@ -71098,7 +70437,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Legiones Astartes",
@@ -71122,10 +70461,10 @@
             "Ability§Relentless",
             "Ability§Loyalist",
             "SelectionEntryGroup§Dedicated Transport (Custodes)",
-            "Upgrade§Auric Warplate",
+            "Wargear§Auric Warplate",
             "Wargear§Frag Grenades",
             "Melee Weapon§Meltabombs",
-            "Upgrade§Misericord"
+            "Melee Weapon§Misericord"
           ]
         },
         "keywords": {
@@ -71184,7 +70523,7 @@
             "Upgrade§Warlord",
             "Ability§Retinue",
             "Upgrade§Psychic Powers",
-            "Upgrade§Night’s Whisper",
+            "Melee Weapon§Night’s Whisper",
             "Ability§Sworn Loyalty"
           ]
         },
@@ -71246,8 +70585,8 @@
             "Wargear§Frag Grenades",
             "Wargear§Iron Halo",
             "Wargear§Krak Grenades",
-            "Upgrade§Master-crafted bolt pistol",
-            "Upgrade§The Black Sword"
+            "Ranged Weapon§Master-Crafted bolt pistol",
+            "Melee Weapon§The Black Sword"
           ]
         },
         "keywords": {
@@ -71314,8 +70653,8 @@
             "Wargear§Krak Grenades",
             "Wargear§Psyk-out Granades",
             "Upgrade§Warlord",
-            "Upgrade§Distort Field",
-            "Upgrade§Erinyes Jetbike",
+            "Wargear§Distort Field",
+            "Wargear§Erinyes Jetbike",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)",
             "Ability§Silent Sisterhood"
           ]
@@ -71560,11 +70899,11 @@
             "Wargear§Krak Grenades",
             "Wargear§Psyk-out Granades",
             "Upgrade§Warlord",
-            "Upgrade§Distort Field",
-            "Upgrade§Excrutia Armatus",
+            "Wargear§Distort Field",
+            "Wargear§Excrutia Armatus",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)",
-            "Upgrade§Spectra Cloaks",
-            "Upgrade§Voidscale Cloak",
+            "Wargear§Spectra Cloaks",
+            "Wargear§Voidscale Cloak",
             "Ability§Silent Sisterhood"
           ]
         },
@@ -71933,7 +71272,7 @@
             "Ability§Stubborn",
             "Ability§Furious Charge",
             "Ability§Counter-Attack",
-            "Upgrade§Void Armour",
+            "Wargear§Void Armour",
             "Wargear§Krak Grenades",
             "Wargear§Frag Grenades",
             "Upgrade§Fear (Feral Cohort)",
@@ -72314,7 +71653,7 @@
             "Ability§Counter-Attack",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Upgrade§Void Armour",
+            "Wargear§Void Armour",
             "Upgrade§Fear (Feral Cohort)",
             "Model§Auxilia Sergeant"
           ]
@@ -72426,7 +71765,6 @@
             "Wargear§Power Armour",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Ranged Weapon§Twin-linked Bolter",
-            "SelectionEntryGroup§Hexagrammaton Choice",
             "Model§Legion Spatha Attack Bike"
           ]
         },
@@ -72451,10 +71789,10 @@
           "traits": [
             "Ability§Silent Sisterhood",
             "Upgrade§Silent Sisterhood (Chamber of Judgement)",
-            "Upgrade§Erinyes Jetbike",
+            "Wargear§Erinyes Jetbike",
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
-            "Unit§Subjugator",
+            "Melee Weapon§Subjugator",
             "Model§Subjugator Mistress"
           ]
         },
@@ -72604,9 +71942,9 @@
             "Ability§Move Through Cover",
             "Ability§Hammer of Wrath",
             "Ability§Loyalist",
-            "Upgrade§Arae-shrike",
+            "Wargear§Arae-shrike",
             "Wargear§Atomantic Deflector",
-            "Upgrade§Spiculus Bolt Launcher"
+            "Ranged Weapon§Spiculus Bolt Launcher"
           ]
         },
         "keywords": {
@@ -72667,13 +72005,13 @@
             "Wargear§Frag Grenades",
             "Wargear§Krak Grenades",
             "Upgrade§Deepstike (Hammerfall Strike Force)",
-            "Model§Champion",
+            "Legiones Consularis§Champion",
             "Model§Brethren"
           ]
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -72699,7 +72037,7 @@
             "Ability§Support Squad",
             "Ability§Outflank",
             "Ability§Legiones Hereticus (Emperor’s Children)",
-            "Upgrade§Indomitus Terminator Armour",
+            "Wargear§Indomitus Terminator Armour",
             "SelectionEntryGroup§Hexagrammaton Choice",
             "Upgrade§Legiones Astartes (X)",
             "Upgrade§Pride of the Legion Compulsory Troops"
@@ -72738,7 +72076,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -72759,10 +72097,10 @@
       "Unit§Thallax Cohort": {
         "assets": {
           "traits": [
-            "Upgrade§Lorica Thallax",
-            "Upgrade§Incunabulan Jet Pack",
+            "Wargear§Lorica Thallax",
+            "Wargear§Incunabulan Jet Pack",
             "Wargear§Frag Grenades",
-            "Upgrade§Lightning Gun",
+            "Ranged Weapon§Lightning Gun",
             "Melee Weapon§Meltabombs",
             "Melee Weapon§Close Combat Weapon",
             "Model§Thallax"
@@ -72814,7 +72152,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Infantry",
@@ -73067,7 +72405,7 @@
             "Ability§Relentless",
             "Ability§Legiones Astartes (Iron Warriors)",
             "Wargear§Cataphractii Terminator Armour",
-            "Upgrade§Tyrant Rocket Launcher"
+            "Ranged Weapon§Tyrant Rocket Launcher"
           ]
         },
         "keywords": {
@@ -73097,7 +72435,7 @@
             "Wargear§Frag Grenades",
             "Wargear§Lorica Thallax",
             "Wargear§Utan Jump Booster",
-            "SelectionEntry§Volkite Incinerator",
+            "Weapon§Volkite incinerator",
             "Model§Ursarax"
           ]
         },
@@ -73132,7 +72470,7 @@
         },
         "keywords": {
           "Role": [
-            "Elite"
+            "Elites"
           ],
           "Keywords": [
             "Heavy",
@@ -73308,7 +72646,7 @@
             "Ability§Hatred",
             "Ability§Loyalist",
             "Ability§Stubborn",
-            "Unit§Kharon Pattern Acquistor",
+            "Vehicle§Kharon Pattern Acquistor",
             "Upgrade§Silent Sisterhood (Chamber of Obivion)",
             "Model§Vigilator Mistress"
           ]
@@ -73362,9 +72700,9 @@
             "Ranged Weapon§Dragon’s Breath Heavy Flamer",
             "Upgrade§Warlord",
             "Ability§Master of the Legion",
-            "Wargear Item§The Draken Scale",
-            "Upgrade§Dawnbringer",
-            "Upgrade§The Furnace’s Heart"
+            "Wargear§The Draken Scale",
+            "Melee Weapon§Dawnbringer",
+            "Ranged Weapon§The Furnace’s Heart"
           ]
         },
         "keywords": {
@@ -73446,7 +72784,7 @@
             "Ability§Master of the Legion",
             "Upgrade§Warlord",
             "Upgrade§Psychic Powers",
-            "Upgrade§The Azurda Char'is"
+            "Melee Weapon§The Azurda Char'is"
           ]
         },
         "keywords": {
@@ -73564,7 +72902,7 @@
       "Upgrade§Anima Malefica": {
         "assets": {
           "traits": [
-            "Upgrade§Amthea Excrusis (Cybertheurgic Weapon)",
+            "Ranged Weapon§Amthea Excrusis (Cybertheurgic Weapon)",
             "Upgrade§Animatus Malevolence (Cybertheurgic Rite)"
           ]
         }
@@ -73640,14 +72978,14 @@
         "assets": {
           "traits": [
             "Psychic Power§Cybernetica Exortus (Cybertheurgic Rite)",
-            "Upgrade§Mordeo Cogita (Cybertheurgic Weapon)"
+            "Ranged Weapon§Mordeo Cogita (Cybertheurgic Weapon)"
           ]
         }
       },
       "Upgrade§Artificia Machina": {
         "assets": {
           "traits": [
-            "Upgrade§Animatus Excindor (Cybertheurgic Weapon)",
+            "Ranged Weapon§Animatus Excindor (Cybertheurgic Weapon)",
             "Psychic Power§Animatus Integro (Cybertheurgic Rite)"
           ]
         }
@@ -73655,7 +72993,7 @@
       "Upgrade§Artificia Reductor": {
         "assets": {
           "traits": [
-            "Upgrade§Manos Ruinus (Cybertheurgic Weapon)",
+            "Melee Weapon§Manos Ruinus (Cybertheurgic Weapon)",
             "Psychic Power§Porta Fractis (Cybertheurgic Rite)"
           ]
         }
@@ -73757,9 +73095,9 @@
       "Upgrade§Charnabal Weapon": {
         "assets": {
           "traits": [
-            "Upgrade§Charnabal Glaive",
-            "Upgrade§Charnabal Sabre",
-            "Upgrade§Charnabal Tabar"
+            "Melee Weapon§Charnabal Glaive",
+            "Melee Weapon§Charnabal Sabre",
+            "Melee Weapon§Charnabal Tabar"
           ]
         }
       },
@@ -73860,7 +73198,7 @@
       "Upgrade§Ephemera Incursus": {
         "assets": {
           "traits": [
-            "Upgrade§Ephemera Exocluo (Cybertheurgic Weapon)",
+            "Ranged Weapon§Ephemera Exocluo (Cybertheurgic Weapon)",
             "Psychic Power§Ephemera Perfidiae (Cybertheurgic Rite)"
           ]
         }
@@ -73868,7 +73206,7 @@
       "Upgrade§Ephemera Lacyraemarta": {
         "assets": {
           "traits": [
-            "Upgrade§Ephemera Excrusis (Cybertheurgic Weapon)",
+            "Melee Weapon§Ephemera Excrusis (Cybertheurgic Weapon)",
             "Psychic Power§Ephemera Instigare (Cybertheurgic Rite)"
           ]
         }
@@ -73926,8 +73264,8 @@
       "Upgrade§Galatus Warblade with in-built Twin-linked Infernus Incinerator": {
         "assets": {
           "traits": [
-            "Upgrade§Galatus Warblade",
-            "Upgrade§Twin-linked Infernus Incinerator"
+            "Melee Weapon§Galatus Warblade",
+            "Ranged Weapon§Twin-linked Infernus Incinerator"
           ]
         }
       },
@@ -73961,7 +73299,7 @@
       "Upgrade§IM - Krios Tank Squadron": {
         "assets": {
           "traits": [
-            "Upgrade§Militia Krios"
+            "Unit§Militia Krios"
           ]
         },
         "keywords": {
@@ -74027,8 +73365,8 @@
       "Upgrade§Lasrifle with Bayonet": {
         "assets": {
           "traits": [
-            "Upgrade§Bayonet",
-            "Upgrade§Lasrifle"
+            "Melee Weapon§Bayonet",
+            "Ranged Weapon§Lasrifle"
           ]
         }
       },
@@ -74210,8 +73548,8 @@
       "Upgrade§Missile Launcher w/Frag & Krak Missiles": {
         "assets": {
           "traits": [
-            "Upgrade§Missile Launcher (Frag)",
-            "Upgrade§Missile Launcher (Krak)"
+            "Ranged Weapon§Missile Launcher (Frag)",
+            "Ranged Weapon§Missile Launcher (Krak)"
           ]
         }
       },
@@ -74447,8 +73785,8 @@
       "Upgrade§Telemon Cestus and in-built Proteus Plasma Projectors": {
         "assets": {
           "traits": [
-            "Upgrade§Proteus Plasma Projectors",
-            "Upgrade§Telemon Cestus"
+            "Ranged Weapon§Proteus Plasma Projectors",
+            "Melee Weapon§Telemon Cestus"
           ]
         }
       },
@@ -74656,9 +73994,9 @@
       "Upgrade§Whirlwind missile launcher": {
         "assets": {
           "traits": [
-            "Upgrade§Icarios AA missile",
-            "Upgrade§Talonis HE missile",
-            "Upgrade§Thermios AP missile"
+            "Ranged Weapon§Icarios AA missile",
+            "Ranged Weapon§Talonis HE missile",
+            "Ranged Weapon§Thermios AP missile"
           ]
         }
       },
@@ -74722,8 +74060,8 @@
             "Ability§Deep Strike",
             "Ability§Loyalist",
             "Ability§Power of the Machine Spirit",
-            "Upgrade§Arae-shrike",
-            "Upgrade§Eclipse Shield"
+            "Wargear§Arae-shrike",
+            "Wargear§Eclipse Shield"
           ]
         },
         "keywords": {
@@ -75255,7 +74593,6 @@
             "Ranged Weapon§Demolisher Cannon",
             "Ranged Weapon§Lascannon",
             "Wargear§Smoke Launchers",
-            "Ranged Weapon§Twin-linked Heavy Bolter",
             "Ranged Weapon§Twin-linked Heavy Bolter"
           ]
         },
@@ -76069,8 +75406,8 @@
             "Ability§Deep Strike",
             "Ability§Outflank",
             "Ability§Loyalist",
-            "Upgrade§Twin Lastrum Bolt Cannon",
-            "Upgrade§Twin-Linked Arachnus Blaze Cannon",
+            "Ranged Weapon§Twin Lastrum Bolt Cannon",
+            "Ranged Weapon§Twin-Linked Arachnus Blaze Cannon",
             "Wargear§Flare Shield"
           ]
         },
@@ -78823,13 +78160,6 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Heavy Stubber",
-            "Ranged Weapon§Heavy Stubber",
-            "Wargear§Smoke Launchers",
-            "Ranged Weapon§Heavy Stubber",
-            "Ranged Weapon§Heavy Stubber",
-            "Wargear§Smoke Launchers",
-            "Ranged Weapon§Heavy Stubber",
-            "Ranged Weapon§Heavy Stubber",
             "Wargear§Smoke Launchers"
           ]
         },
@@ -80525,9 +79855,6 @@
           "traits": [
             "Ability§Open Crew Compartment",
             "Ranged Weapon§Earthshaker cannon",
-            "Wargear§Smoke Launchers",
-            "Ability§Open Crew Compartment",
-            "Ranged Weapon§Earthshaker cannon",
             "Wargear§Smoke Launchers"
           ]
         },
@@ -80614,7 +79941,7 @@
             "Ability§Reinforced Structure",
             "Ability§Subterranean Assault",
             "Upgrade§Centreline Mounted Terrebrax Rocket Battery",
-            "Upgrade§Aktaeus Class Seismic Excavator Macro-Drill"
+            "Wargear§Aktaeus Class Seismic Excavator Macro-Drill"
           ]
         },
         "keywords": {
@@ -80658,9 +79985,8 @@
             "Ability§Reactor Meltdown",
             "Ability§Reinforced Structure",
             "Ranged Weapon§Volkite Culverin",
-            "Ranged Weapon§Volkite Culverin",
-            "Upgrade§Ordinatus Dispersion Shield",
-            "Upgrade§Sonic Destructor"
+            "Wargear§Ordinatus Dispersion Shield",
+            "Ranged Weapon§Sonic Destructor"
           ]
         },
         "keywords": {
@@ -80769,10 +80095,10 @@
             "Ability§Loyalist",
             "Ability§Power of the Machine Spirit",
             "Ability§Transport Bay",
-            "Upgrade§Arachnus Heavy Blaze Cannon",
-            "Upgrade§Eclipse Shield",
-            "Upgrade§Spiculus Heavy Bolt Launchers",
-            "Upgrade§Twin Lastrum Bolt Cannon"
+            "Ranged Weapon§Arachnus Heavy Blaze Cannon",
+            "Wargear§Eclipse Shield",
+            "Ranged Weapon§Spiculus Heavy Bolt Launchers",
+            "Ranged Weapon§Twin Lastrum Bolt Cannon"
           ]
         },
         "keywords": {
@@ -83601,7 +82927,6 @@
           "traits": [
             "Ranged Weapon§Lascannon",
             "Wargear§Smoke Launchers",
-            "Ranged Weapon§Twin-linked Heavy Bolter",
             "Ranged Weapon§Twin-linked Heavy Bolter"
           ]
         },
@@ -83655,7 +82980,6 @@
             "Ranged Weapon§Hellhammer cannon",
             "Ranged Weapon§Lascannon",
             "Wargear§Smoke Launchers",
-            "Ranged Weapon§Twin-linked Heavy Bolter",
             "Ranged Weapon§Twin-linked Heavy Bolter"
           ]
         },
@@ -83706,9 +83030,6 @@
             "Wargear§Smoke Launchers",
             "Ranged Weapon§Twin-linked Heavy Bolter",
             "Ranged Weapon§Lascannon",
-            "Ranged Weapon§Twin-linked Heavy Bolter",
-            "Ranged Weapon§Lascannon",
-            "Ranged Weapon§Twin-linked Heavy Bolter",
             "Ranged Weapon§Volcano Cannon"
           ]
         },
@@ -83857,7 +83178,7 @@
         "assets": {
           "traits": [
             "Wargear§Galvanic Traction Drive",
-            "Upgrade§Shock Ram",
+            "Melee Weapon§Shock Ram",
             "Wargear§Flare Shield",
             "Vehicle§Triaros Armoured Conveyor"
           ]
@@ -84185,7 +83506,7 @@
         "assets": {
           "traits": [
             "Ability§Ignore Crew Shaken and Stunned (Hammer of Olympia)",
-            "SelectionEntry§Combi-Bolter",
+            "Ranged Weapon§Combi-bolter",
             "Wargear§Smoke Launchers"
           ]
         },
@@ -85076,7 +84397,7 @@
           "traits": [
             "Ability§Firing Protocols",
             "Ability§Hammer of Wrath",
-            "Upgrade§Scatterbolt Launcher"
+            "Ranged Weapon§Scatterbolt Launcher"
           ]
         },
         "text": "A model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn."
