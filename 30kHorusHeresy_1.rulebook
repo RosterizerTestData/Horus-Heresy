@@ -1,0 +1,1014 @@
+{
+  "name": "30kHorusHeresy",
+  "revision": "1.0.0",
+  "game": "Warhammer 30k Horus Heresy",
+  "genre": "sci-fi",
+  "publisher": "Games Workshop",
+  "url": "https://warhammer40000.com/",
+  "notes": "This rulebook is provided for the purposes of testing Rosterizer and is not intended for distribution.",
+  "wip": true,
+  "dependencies": [],
+  "rulebook": {
+    "assetTaxonomy": {
+      "Ability": {
+        "aspects": {
+          "Visibility": "active"
+        },
+        "rules": {
+          "Error in this Ability’s text": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "ERROR"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          },
+          "putXInName": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "append": ")",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ],
+                "prepend": " (",
+                "value": [
+                  "{self}",
+                  "stats",
+                  "x",
+                  "value"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "x",
+                    "processed",
+                    "format",
+                    "current"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 100
+          }
+        },
+        "stats": {
+          "x": {
+            "statType": "numeric",
+            "value": 0
+          }
+        }
+      },
+      "Cohort Doctrine": {},
+      "Construct": {
+        "aspects": {
+          "Group Includes": true,
+          "Group Traits": true,
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Role": [],
+          "Source": [],
+          "Tags": [
+            "Units"
+          ],
+          "Faction": []
+        },
+        "stats": {
+          "Base": {
+            "statOrder": 3,
+            "statType": "term",
+            "value": null,
+            "visibility": "active"
+          },
+          "BS": {
+            "format": "{v}+",
+            "group": "Stats",
+            "groupOrder": 1,
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Capacity": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Front": {
+            "format": "",
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "HP": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "M": {
+            "format": "{v}″",
+            "group": "Stats",
+            "groupOrder": 1,
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Rear": {
+            "format": "",
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Side": {
+            "format": "",
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          }
+        }
+      },
+      "Consul Additional Wargear and Option": {},
+      "Dark Blessing": {},
+      "Detachment": {
+        "allowed": {
+          "classifications": [
+            "Unit",
+            "Vehicle"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Unique": true
+        },
+        "stats": {
+          "Elites": {
+            "icons": [
+              "pirate-flag"
+            ],
+            "statOrder": 3,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "active"
+          },
+          "Fast Attack": {
+            "icons": [
+              "power-lightning"
+            ],
+            "statOrder": 4,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "active"
+          },
+          "Fortification": {
+            "icons": [
+              "military-fort"
+            ],
+            "statOrder": 6,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "normal"
+          },
+          "Heavy Support": {
+            "icons": [
+              "mine-explosion"
+            ],
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "active"
+          },
+          "HQ": {
+            "icons": [
+              "harry-potter-skull"
+            ],
+            "statOrder": 1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "active"
+          },
+          "Lords of War": {
+            "icons": [
+              "mailed-fist"
+            ],
+            "statType": "numeric",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Primarch": {
+            "icons": [
+              "crowned-skull"
+            ],
+            "statOrder": 6,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "normal"
+          },
+          "Troops": {
+            "icons": [
+              "triangle-target"
+            ],
+            "statOrder": 2,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "active"
+          }
+        }
+      },
+      "Fortification": {
+        "templateClass": "Construct"
+      },
+      "Hexagrammaton Choice": {},
+      "Household Rank": {},
+      "Knight/Titan": {},
+      "Legion": {},
+      "Legion Decurions": {},
+      "Legiones Consularis": {},
+      "Melee Weapon": {
+        "stats": {
+          "Range": {
+            "format": "{v}",
+            "statType": "term",
+            "value": "Melee"
+          }
+        },
+        "templateClass": "Weapon"
+      },
+      "Model": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "rules": {
+          "hideWarlordOption": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tracked",
+                    "Warlord"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "value"
+                  ]
+                ],
+                "value": "✓"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "group": "Stats",
+            "statOrder": 8,
+            "statType": "term",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Base": {
+            "statType": "term",
+            "value": null,
+            "visibility": "active"
+          },
+          "BS": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "I": {
+            "group": "Stats",
+            "statOrder": 7,
+            "statType": "term",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Ld": {
+            "group": "Stats",
+            "statOrder": 9,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "M": {
+            "format": "{t}″",
+            "group": "Stats",
+            "statOrder": 1,
+            "statType": "term",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Points": {
+            "format": "{v}",
+            "group": "Cost",
+            "groupOrder": -1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          },
+          "S": {
+            "group": "Stats",
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Sv": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 10,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "T": {
+            "group": "Stats",
+            "statOrder": 5,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "W": {
+            "group": "Stats",
+            "statOrder": 6,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "WS": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          }
+        }
+      },
+      "Order of High Techno-arcana": {},
+      "Prosperine Arcana": {},
+      "Provenance Options": {},
+      "Provenances of War": {},
+      "Psychic Fortitude": {},
+      "Psychic Power": {
+        "aspects": {
+          "Lock Qty": true,
+          "Unique": true,
+          "Visibility": "active"
+        }
+      },
+      "Psychic Weapon": {},
+      "Ranged Weapon": {
+        "templateClass": "Weapon"
+      },
+      "Reaction": {},
+      "Rites of War": {},
+      "Stratagem": {},
+      "The Ætheric Dominion (X)": {},
+      "Unit": {
+        "allowed": {
+          "classifications": []
+        },
+        "aspects": {
+          "Group By": "Role",
+          "Group Includes": true,
+          "Group Traits": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Type": "conceptual"
+        },
+        "constraints": {
+          "any": [
+            "Model Strat"
+          ]
+        },
+        "keywords": {
+          "Role": [],
+          "Source": [],
+          "Tags": [
+            "Units"
+          ],
+          "Faction": []
+        },
+        "removed": {
+          "stats": {}
+        },
+        "rules": {
+          "Error in this Unit’s text": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "ERROR"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          },
+          "hideWarlordOption": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "disallowed",
+                    "classifications"
+                  ]
+                ],
+                "value": "Warlord Trait"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": false,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tracked",
+                    "Warlord"
+                  ]
+                ]
+              },
+              {
+                "actionable": false,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "value"
+                  ]
+                ],
+                "value": "✓"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ],
+                "value": true
+              },
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tally",
+                    "Model"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 25
+          },
+          "Incorrect number of models.": {
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              },
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "model",
+                    "value"
+                  ]
+                ]
+              },
+              {
+                "max": [
+                  "{self}",
+                  "stats",
+                  "{0string}",
+                  "max"
+                ],
+                "min": [
+                  "{self}",
+                  "stats",
+                  "{0string}",
+                  "min"
+                ],
+                "not": false,
+                "operator": "SUM",
+                "paths": [
+                  [
+                    "{self}",
+                    "assets",
+                    "item",
+                    "{1string}",
+                    "quantity"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "error",
+            "order": 12
+          },
+          "Too many of this unit type in the army.": {
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "max": [
+                  "{roster}",
+                  "tracked",
+                  "ruleOf"
+                ],
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Play",
+                    "value"
+                  ]
+                ],
+                "value": "Matched"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "error"
+          },
+          "warlordTrait": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "allowed",
+                    "classifications"
+                  ]
+                ],
+                "value": "Warlord Trait"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "value"
+                  ]
+                ],
+                "value": "✓"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Character"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Tags"
+                  ]
+                ],
+                "value": "Named"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "group": "Stats",
+            "statOrder": 8,
+            "statType": "term",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Base": {
+            "statType": "term",
+            "value": null,
+            "visibility": "active"
+          },
+          "BS": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "I": {
+            "group": "Stats",
+            "statOrder": 7,
+            "statType": "term",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Ld": {
+            "group": "Stats",
+            "statOrder": 9,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "M": {
+            "format": "{t}″",
+            "group": "Stats",
+            "statOrder": 1,
+            "statType": "term",
+            "value": null,
+            "visibility": "normal"
+          },
+          "Points": {
+            "format": "{v}",
+            "group": "Cost",
+            "groupOrder": -1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          },
+          "S": {
+            "group": "Stats",
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Sv": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 10,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "T": {
+            "group": "Stats",
+            "statOrder": 5,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "W": {
+            "group": "Stats",
+            "statOrder": 6,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "WS": {
+            "format": "{v}+",
+            "group": "Stats",
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          }
+        }
+      },
+      "Upgrade": {
+        "stats": {
+          "Points": {
+            "dynamic": false,
+            "format": "+{v}",
+            "statType": "numeric",
+            "tracked": true,
+            "visibility": "normal"
+          }
+        }
+      },
+      "Vehicle": {
+        "templateClass": "Construct"
+      },
+      "Wargear": {
+        "aspects": {
+          "Visibility": "always"
+        },
+        "rules": {
+          "add keyword": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "{parent}",
+                    "keywords",
+                    "General"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "designation"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "{parent}",
+                    "keywords",
+                    "General"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "designation"
+                ]
+              },
+              {
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "keyword?",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 12
+          }
+        },
+        "stats": {
+          "keyword?": {
+            "ranks": {
+              "0": {
+                "order": 0
+              },
+              "1": {
+                "order": 1
+              }
+            },
+            "statType": "rank",
+            "value": 0,
+            "visibility": "hidden"
+          }
+        }
+      },
+      "Warlord Trait": {
+        "aspects": {
+          "Lock Qty": true,
+          "Unique": true
+        }
+      },
+      "Weapon": {
+        "aspects": {
+          "Visibility": "always"
+        },
+        "stats": {
+          "AP": {
+            "dynamic": false,
+            "statOrder": 4,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "always"
+          },
+          "Points": {
+            "format": "+{v}",
+            "group": "Cost",
+            "groupOrder": -1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          },
+          "Range": {
+            "format": "{v}″",
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": null,
+            "visibility": "always"
+          },
+          "Str": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "always"
+          }
+        }
+      }
+    },
+    "assetCatalog": {},
+    "gameModes": {},
+    "theme": {}
+  }
+}
