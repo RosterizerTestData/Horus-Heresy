@@ -1,6 +1,6 @@
 {
   "name": "30k Horus Heresy 2",
-  "revision": "2.0.2",
+  "revision": "2.0.3",
   "game": "Warhammer 30k Horus Heresy",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -51140,7 +51140,7 @@
           }
         }
       },
-      "Primarch§Horus Lupercal": {
+      "Primarch§Horus Ascended": {
         "assets": {
           "traits": [
             "Ability§Master of the Legion",
@@ -51163,10 +51163,41 @@
           ]
         },
         "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 8
+          },
           "Points": {
-            "value": 600
+            "value": 400
+          },
+          "S": {
+            "value": 8
+          },
+          "Save": {
+            "value": 2
+          },
+          "T": {
+            "value": 8
+          },
+          "W": {
+            "value": 8
+          },
+          "WS": {
+            "value": 8
           }
-        }
+        },
+        "text": "Primarch (Unique, Corrupted)"
       },
       "Primarch§Jaghatai Khan": {
         "assets": {
@@ -51642,6 +51673,41 @@
             "Legiones Astartes",
             "Ultramarines"
           ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 6
+          },
+          "I": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 10
+          },
+          "Move": {
+            "value": 8
+          },
+          "Points": {
+            "value": 465
+          },
+          "S": {
+            "value": 6
+          },
+          "Save": {
+            "value": 2
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 6
+          },
+          "WS": {
+            "value": 7
+          }
         }
       },
       "Primarch§Rogal Dorn": {
@@ -68855,60 +68921,6 @@
         }
       },
       "Unit§Hetaeron Guard": {},
-      "Unit§Horus Ascended": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Feel No Pain",
-            "Ability§Rage",
-            "Ability§Deep Strike"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Legiones Astartes",
-            "Unaligned"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "BS": {
-            "value": 6
-          },
-          "I": {
-            "value": 6
-          },
-          "Ld": {
-            "value": 10
-          },
-          "Move": {
-            "value": 8
-          },
-          "Points": {
-            "value": 400
-          },
-          "S": {
-            "value": 8
-          },
-          "Save": {
-            "value": 2
-          },
-          "T": {
-            "value": 8
-          },
-          "W": {
-            "value": 8
-          },
-          "WS": {
-            "value": 8
-          }
-        },
-        "text": "Primarch (Unique, Corrupted)"
-      },
       "Unit§Hunter": {
         "assets": {
           "traits": [
