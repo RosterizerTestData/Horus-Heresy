@@ -1,5 +1,5 @@
 {
-  "name": "30kHorusHeresy",
+  "name": "30k Horus Heresy 1",
   "revision": "1.0.0",
   "game": "Warhammer 30k Horus Heresy",
   "genre": "sci-fi",
@@ -1007,7 +1007,18 @@
         }
       }
     },
-    "assetCatalog": {},
+    "assetCatalog": {"Roster§Roster": {
+      "aspects": {
+        "Collapse": true,
+        "Describe": true,
+        "Label": "Army",
+        "Lock Qty": true,
+        "Rename": true,
+        "Type": "conceptual",
+        "Unique": true
+      },
+      "text": "Hey! Hey there! This rulebook has zero data. If you want to volunteer to help out, [join our discord!](https://discord.gg/U5HPyHzJJr) 🙂"
+}},
     "gameModes": {},
     "theme": {}
   }

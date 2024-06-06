@@ -4,8 +4,31 @@ let titleCase = function(sentence){
 }
 
 const fileList = [
-  '30kHorusHeresy_Core.rulebook'
+  '30kHorusHeresy_2e.rulebook'
 ];
+const factionList = [
+  "Emperor’s Children",
+  "Iron Warriors",
+  "White Scars",
+  "Space Wolves",
+  "Imperial Fists",
+  "Night Lords",
+  "Blood Angels",
+  "Iron Hands",
+  "World Eaters",
+  "Ultramarines",
+  "Death Guard",
+  "Thousand Sons",
+  "Sons of Horus",
+  "Word Bearers",
+  "Salamanders",
+  "Raven Guard",
+  "Alpha Legion",
+  "Mechanicum",
+  "Imperial Army",
+  "Dark Angels"
+]
+const classList = ['Unit','Vehicle','Fortification','HQ','Primarch','Fast Attack','Elites','Troops','Heavy Support','Lords of War','Knight/Titan']
 async function processFiles() {
   for (const file of fileList) {
     try {
@@ -30,22 +53,18 @@ async function processFiles() {
       });
 
       let removalList = new Set();
-      let classList = new Set();
       Object.keys(rulebook.rulebook.assetCatalog).forEach(itemKey => {
         let [itemClass, itemDesignation] = itemKey.split('§');
         let item = rulebook.rulebook.assetCatalog[itemKey];
 
-        // dedup traits
-        if(item.assets?.traits){
-          item.assets.traits = [...new Set(item.assets.traits)];
-        }
-
-        // add missing classes
-        classList.add(itemClass);
+        item.assets?.traits?.forEach(subTrait => {
+          let traitKey = typeof subTrait === 'string' ? subTrait : subTrait.item;
+          let trait = rulebook.rulebook.assetCatalog[traitKey];
+          if(!trait){
+            rulebook.rulebook.assetCatalog[traitKey] = {};
+          }
+        });
         
-      });
-      classList.forEach(itemClass => {
-        rulebook.rulebook.assetTaxonomy[itemClass] = rulebook.rulebook.assetTaxonomy[itemClass] || {};
       });
 
       removalList.forEach(itemKey => {
