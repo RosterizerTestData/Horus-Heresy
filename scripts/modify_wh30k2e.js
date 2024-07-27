@@ -4,7 +4,7 @@ let titleCase = function(sentence){
 }
 
 const fileList = [
-  '30kHorusHeresy_2e.rulebook'
+  '30k_Horus_Heresy_2e.rulebook'
 ];
 const factionList = [
   "Emperor’s Children",
@@ -57,11 +57,12 @@ async function processFiles() {
         let [itemClass, itemDesignation] = itemKey.split('§');
         let item = rulebook.rulebook.assetCatalog[itemKey];
 
-        item.assets?.traits?.forEach(subTrait => {
-          let traitKey = typeof subTrait === 'string' ? subTrait : subTrait.item;
-          let trait = rulebook.rulebook.assetCatalog[traitKey];
-          if(!trait){
-            rulebook.rulebook.assetCatalog[traitKey] = {};
+        Object.keys(item.stats || {}).forEach(statKey => {
+          let stat = item.stats[statKey];
+          if(stat.ranks && !stat.hasOwnProperty('value')){
+            let lowestRank = Object.keys(stat.ranks)[0];
+            stat.value = lowestRank;
+            stat.dynamic = true;
           }
         });
         
