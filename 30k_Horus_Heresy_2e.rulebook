@@ -1,10 +1,10 @@
 {
-  "name": "30k Horus Heresy 2",
-  "revision": "2.0.3",
+  "name": "30k Horus Heresy 2nd Edition",
+  "revision": "2.1.0",
   "game": "Warhammer 30k Horus Heresy",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
-  "url": "https://warhammer40000.com/",
+  "url": "https://thehorusheresy.com/",
   "notes": "This rulebook is provided for the purposes of testing Rosterizer and is not intended for distribution.",
   "wip": true,
   "dependencies": [],
@@ -13,76 +13,6 @@
       "Ability": {
         "aspects": {
           "Visibility": "active"
-        },
-        "rules": {
-          "Error in this Ability’s text": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "text"
-                  ]
-                ],
-                "value": "ERROR"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          },
-          "putXInName": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "append": ")",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "designation"
-                  ]
-                ],
-                "prepend": " (",
-                "value": [
-                  "{self}",
-                  "stats",
-                  "x",
-                  "value"
-                ]
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "min": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "x",
-                    "processed",
-                    "format",
-                    "current"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 100
-          }
-        },
-        "stats": {
-          "x": {
-            "statType": "numeric",
-            "value": 0
-          }
         }
       },
       "Cohort Doctrine": {},
@@ -179,35 +109,7 @@
           "Unique": true
         },
         "constraints": {
-          "any": [
-            "Unaligned"
-          ]
-        },
-        "rules": {
-          "allowFaction": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "constraints",
-                    "any"
-                  ]
-                ],
-                "value": [
-                  "{self}",
-                  "stats",
-                  "Faction",
-                  "value"
-                ]
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
+          "any": []
         },
         "stats": {
           "Elites": {
@@ -220,77 +122,6 @@
             "tracked": true,
             "value": null,
             "visibility": "active"
-          },
-          "Faction": {
-            "dynamic": true,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Emperor’s Children": {
-                "order": 1
-              },
-              "Iron Warriors": {
-                "order": 2
-              },
-              "White Scars": {
-                "order": 3
-              },
-              "Space Wolves": {
-                "order": 4
-              },
-              "Imperial Fists": {
-                "order": 5
-              },
-              "Night Lords": {
-                "order": 6
-              },
-              "Blood Angels": {
-                "order": 7
-              },
-              "Iron Hands": {
-                "order": 8
-              },
-              "World Eaters": {
-                "order": 9
-              },
-              "Ultramarines": {
-                "order": 10
-              },
-              "Death Guard": {
-                "order": 11
-              },
-              "Thousand Sons": {
-                "order": 12
-              },
-              "Sons of Horus": {
-                "order": 13
-              },
-              "Word Bearers": {
-                "order": 14
-              },
-              "Salamanders": {
-                "order": 15
-              },
-              "Raven Guard": {
-                "order": 16
-              },
-              "Alpha Legion": {
-                "order": 17
-              },
-              "Mechanicum": {
-                "order": 18
-              },
-              "Imperial Army": {
-                "order": 19
-              },
-              "Dark Angels": {
-                "order": 20
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
           },
           "Fast Attack": {
             "group": "Force Org",
@@ -375,6 +206,14 @@
       "Fast Attack": {
         "templateClass": "Unit"
       },
+      "Forces of the Emperor": {
+        "keywords": {
+          "Allegiance": [
+            "Loyalist"
+          ]
+        }
+      },
+      "Forces of the Omnissiah": {},
       "Fortification": {
         "templateClass": "Construct"
       },
@@ -395,8 +234,103 @@
         },
         "templateClass": "Unit"
       },
-      "Legion": {},
+      "Legio Custodes": {
+        "constraints": {
+          "all": [],
+          "any": [
+            "Legio Custodes"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Legio Custodes"
+          ]
+        },
+        "removed": {
+          "rules": {
+            "hideWarlordOption": {},
+            "Incorrect number of models.": {}
+          }
+        },
+        "rules": {
+          "HideWarlordOption": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Warlord",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Character"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Primarch"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Warlord": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "tracking": {
+                  "Warlord": 1
+                }
+              }
+            },
+            "statOrder": 20,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          }
+        },
+        "templateClass": "Unit"
+      },
       "Legion Decurions": {},
+      "Legiones Astartes": {
+        "keywords": {
+          "Allegiance": []
+        }
+      },
       "Legiones Consularis": {},
       "Lords of War": {
         "aspects": {
@@ -406,6 +340,9 @@
       },
       "Melee Weapon": {
         "stats": {
+          "AP": {
+            "statType": "term"
+          },
           "Range": {
             "format": "{v}",
             "statType": "term",
@@ -416,7 +353,13 @@
       },
       "Model": {
         "aspects": {
+          "Collapse": true,
+          "Group Traits": true,
           "Type": "game piece"
+        },
+        "keywords": {
+          "Role": [],
+          "Faction": []
         },
         "rules": {
           "hideWarlordOption": {
@@ -495,7 +438,6 @@
             "visibility": "active"
           },
           "BS": {
-            "format": "{v}+",
             "group": "Stats",
             "statOrder": 3,
             "statType": "numeric",
@@ -562,7 +504,6 @@
             "visibility": "normal"
           },
           "WS": {
-            "format": "{v}+",
             "group": "Stats",
             "statOrder": 2,
             "statType": "numeric",
@@ -613,9 +554,7 @@
           "Type": "conceptual"
         },
         "constraints": {
-          "any": [
-            "Model Strat"
-          ]
+          "any": []
         },
         "keywords": {
           "Role": [],
@@ -647,6 +586,41 @@
             ],
             "evaluate": "AND",
             "failState": "error"
+          },
+          "HideModelCountIfCharacter": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Models",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Character"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
           },
           "hideWarlordOption": {
             "actions": [
@@ -918,6 +892,20 @@
                   ]
                 ],
                 "value": "Named"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Legio Custodes"
               }
             ],
             "evaluate": "AND",
@@ -938,7 +926,6 @@
             "visibility": "active"
           },
           "BS": {
-            "format": "{v}+",
             "group": "Stats",
             "statOrder": 3,
             "statType": "numeric",
@@ -965,6 +952,15 @@
             "statOrder": 1,
             "statType": "term",
             "value": null,
+            "visibility": "normal"
+          },
+          "Models": {
+            "dynamic": true,
+            "increment": {
+              "value": 1
+            },
+            "statType": "numeric",
+            "value": 0,
             "visibility": "normal"
           },
           "Points": {
@@ -1005,7 +1001,6 @@
             "visibility": "normal"
           },
           "WS": {
-            "format": "{v}+",
             "group": "Stats",
             "statOrder": 2,
             "statType": "numeric",
@@ -1102,6 +1097,13 @@
             "statType": "rank",
             "value": 0,
             "visibility": "hidden"
+          },
+          "Points": {
+            "format": "+{v}",
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "normal"
           }
         }
       },
@@ -1117,10 +1119,8 @@
         },
         "stats": {
           "AP": {
-            "dynamic": false,
             "statOrder": 4,
             "statType": "numeric",
-            "tracked": true,
             "value": null,
             "visibility": "always"
           },
@@ -1141,8 +1141,7 @@
           },
           "Str": {
             "statOrder": 3,
-            "statType": "numeric",
-            "tracked": true,
+            "statType": "term",
             "value": null,
             "visibility": "always"
           }
@@ -1774,7 +1773,10 @@
         "text": "Any friendly unit made up entirely of models with the Infantry or Cavalry Unit Type which is not Pinned or Falling Back and does not include any models with this special rule gains a +1 modifier to their Leadership Characteristic (to a maximum of 9) while it has at least one model within 6″ of a friendly unit that includes one or more models with this special rule."
       },
       "Ability§Loyalist": {
-        "text": "A model with thisspecial rule may only be included in an army that has the Loyalist Allegiance."
+        "keywords": {
+          "Faction": []
+        },
+        "text": "A model with this special rule may only be included in an army that has the Loyalist Allegiance."
       },
       "Ability§Macro-extinction Targeting Protocols": {},
       "Ability§Malefic Aegis": {
@@ -2648,21 +2650,97 @@
       },
       "Detachment§Primary Detachment": {
         "allowed": {
-          "classifications": [
-            "HQ",
-            "Troops",
-            "Elites",
-            "Fast Attack",
-            "Heavy Support",
-            "Fortification",
-            "Primarch"
-          ]
+          "classifications": []
         },
         "removed": {
           "allowed": {
             "classifications": [
               "Primarch"
             ]
+          },
+          "constraints": {
+            "any": [
+              "Unaligned"
+            ]
+          }
+        },
+        "rules": {
+          "LegioCustodesUnitsAvailability": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "allowed",
+                    "classifications"
+                  ]
+                ],
+                "value": "Legio Custodes"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "constraints",
+                    "any"
+                  ]
+                ],
+                "value": "Legio Custodes"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Sub-Faction",
+                    "value"
+                  ]
+                ],
+                "value": "Legio Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "Forces of the Emperor"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "Loyalist"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         },
         "stats": {
@@ -2752,8 +2830,8 @@
             "Infantry"
           ],
           "Faction": [
-            "Liber Imperium",
-            "Custodes"
+            "Custodes",
+            "Liber Imperium"
           ]
         },
         "stats": {
@@ -5844,6 +5922,36 @@
           }
         }
       },
+      "Forces of the Emperor§Legio Custodes": {
+        "aspects": {
+          "Collapse": true
+        },
+        "keywords": {
+          "Allegiance": []
+        },
+        "removed": {
+          "keywords": {
+            "Allegiance": []
+          }
+        }
+      },
+      "Forces of the Emperor§Sisters of Silence": {
+        "keywords": {
+          "Allegiance": [
+            "Loyalist"
+          ]
+        }
+      },
+      "Forces of the Emperor§Solar Auxilia": {
+        "keywords": {
+          "Allegiance": [
+            "Loyalist"
+          ]
+        }
+      },
+      "Forces of the Omnissiah§Questoris Household": {},
+      "Forces of the Omnissiah§Taghmata Omnissiah": {},
+      "Forces of the Omnissiah§Titan Legions": {},
       "Fortification§Aquila Strongpoint": {
         "keywords": {
           "Faction": [
@@ -8760,379 +8868,6 @@
           },
           "T": {
             "value": 4
-          },
-          "W": {
-            "value": 4
-          },
-          "WS": {
-            "value": 7
-          }
-        }
-      },
-      "HQ§Custodian Shield Captain": {
-        "assets": {
-          "traits": [
-            "Ability§Bulky",
-            "Ability§Legio Custodes",
-            "Ability§Loyalist",
-            "Ability§Relentless",
-            "Ability§Stubborn",
-            "Wargear§Frag Grenades",
-            "Melee Weapon§Meltabombs",
-            "Upgrade§Warlord",
-            "Wargear§Arae-shrike",
-            "Wargear§Auric Battleplate",
-            "Melee Weapon§Misericord"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Character",
-            "Infantry",
-            "Skirmish"
-          ],
-          "Faction": [
-            "Unaligned"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "BS": {
-            "value": 5
-          },
-          "Can take any of the following": {
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Archaeotech Pistol": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Archaeotech Pistol"
-                  }
-                ]
-              },
-              "Praesidium Shield": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Wargear§Praesidium Shield"
-                  }
-                ]
-              }
-            },
-            "statType": "rank"
-          },
-          "I": {
-            "value": 5
-          },
-          "Ld": {
-            "value": 10
-          },
-          "Move": {
-            "value": 8
-          },
-          "Points": {
-            "value": 200
-          },
-          "S": {
-            "value": 5
-          },
-          "Save": {
-            "value": 2
-          },
-          "Shield Captain Weapon": {
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Guardian Spear": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Guardian Spear"
-                  }
-                ]
-              },
-              "Pyrithite Spear": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Pyrithite Spear"
-                  }
-                ]
-              },
-              "Adrasite Spear": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Adrasite Spear"
-                  }
-                ]
-              },
-              "Sentinel Warblade": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Sentinel Warblade"
-                  }
-                ]
-              },
-              "Paragon Blade": {
-                "order": 5,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Paragon Blade"
-                  }
-                ]
-              },
-              "Meridian Swords": {
-                "order": 6,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Meridian Swords"
-                  }
-                ]
-              },
-              "Solarite Power Gauntlet": {
-                "order": 7,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Solarite Power Gauntlet"
-                  }
-                ]
-              },
-              "Solarite Power Talon": {
-                "order": 8,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Solarite Power Talon"
-                  }
-                ]
-              },
-              "Two Solarite Power Talons": {
-                "order": 9,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Two Solarite Power Talons"
-                  }
-                ]
-              },
-              "Paragon Glaive": {
-                "order": 10,
-                "traits": [
-                  {
-                    "trait": "Weapon§Paragon Glaive"
-                  }
-                ]
-              },
-              "Guardian Axe": {
-                "order": 11,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Guardian Axe"
-                  }
-                ]
-              }
-            },
-            "statType": "rank"
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 3
-          },
-          "WS": {
-            "value": 6
-          }
-        }
-      },
-      "HQ§Custodian Tribune": {
-        "assets": {
-          "traits": [
-            "Ability§Bulky",
-            "Ability§Eternal Warrior",
-            "Ability§Fearless",
-            "Ability§Legio Custodes",
-            "Ability§Loyalist",
-            "Ability§Relentless",
-            "Wargear§Frag Grenades",
-            "Melee Weapon§Meltabombs",
-            "Upgrade§Warlord",
-            "Wargear§Arae-shrike",
-            "Wargear§Auric Battleplate",
-            "Melee Weapon§Misericord"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Character",
-            "Infantry",
-            "Skirmish"
-          ],
-          "Faction": [
-            "Unaligned"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "BS": {
-            "value": 5
-          },
-          "Can take any of the following": {
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Archaeotech Pistol": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Archaeotech Pistol"
-                  }
-                ]
-              },
-              "Praesidium Shield": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Wargear§Praesidium Shield"
-                  }
-                ]
-              },
-              "Teleport Transponder Array": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Wargear§Teleport Transponder Array"
-                  }
-                ]
-              }
-            },
-            "statType": "rank"
-          },
-          "I": {
-            "value": 5
-          },
-          "Ld": {
-            "value": 10
-          },
-          "Move": {
-            "value": 8
-          },
-          "Points": {
-            "value": 300
-          },
-          "S": {
-            "value": 5
-          },
-          "Save": {
-            "value": 2
-          },
-          "T": {
-            "value": 5
-          },
-          "Tribune Weapon": {
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Guardian Spear": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Guardian Spear"
-                  }
-                ]
-              },
-              "Pyrithite Spear": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Pyrithite Spear"
-                  }
-                ]
-              },
-              "Adrasite Spear": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Adrasite Spear"
-                  }
-                ]
-              },
-              "Sentinel Warblade": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Sentinel Warblade"
-                  }
-                ]
-              },
-              "Paragon Blade": {
-                "order": 5,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Paragon Blade"
-                  }
-                ]
-              },
-              "Meridian Swords": {
-                "order": 6,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Meridian Swords"
-                  }
-                ]
-              },
-              "Solarite Power Gauntlet": {
-                "order": 7,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Solarite Power Gauntlet"
-                  }
-                ]
-              },
-              "Solarite Power Talon": {
-                "order": 8,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Solarite Power Talon"
-                  }
-                ]
-              },
-              "Two Solarite Power Talons": {
-                "order": 9,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Two Solarite Power Talons"
-                  }
-                ]
-              },
-              "Paragon Glaive": {
-                "order": 10,
-                "traits": [
-                  {
-                    "trait": "Weapon§Paragon Glaive"
-                  }
-                ]
-              },
-              "Guardian Axe": {
-                "order": 11,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Guardian Axe"
-                  }
-                ]
-              }
-            },
-            "statType": "rank"
           },
           "W": {
             "value": 4
@@ -16729,6 +16464,1381 @@
           }
         }
       },
+      "Legio Custodes§Custodian Guard Squad": {
+        "allowed": {
+          "items": [
+            "Model§Custodian Guard",
+            "Model§Coronus Grav-Carrier"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Bulky",
+            "Ability§Chosen Warriors",
+            "Ability§Legio Custodes",
+            "Ability§Relentless",
+            "Ability§Stubborn",
+            "Ability§Loyalist",
+            "Melee Weapon§Misericord",
+            "Melee Weapon§Meltabombs",
+            "Wargear§Frag Grenades",
+            "Wargear§Auric Warplate"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Unit",
+            "Legio Custodes"
+          ],
+          "Faction": [
+            "Liber Imperium",
+            "Custodes"
+          ],
+          "Role": [
+            "Troops"
+          ]
+        },
+        "removed": {
+          "constraints": {
+            "any": [
+              "Model Strat",
+              "Legio Custodes"
+            ]
+          },
+          "rules": {
+            "Too many of this unit type in the army.": {}
+          }
+        },
+        "rules": {
+          "GuardianAxeModelAllocation": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "traits",
+                    "item",
+                    "Model§Custodian Guard",
+                    "quantity"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              },
+              {
+                "actionType": "add",
+                "iterations": [
+                  "{self}",
+                  "stats",
+                  "Guardian Axes",
+                  "value"
+                ],
+                "paths": [
+                  [
+                    "{self}",
+                    "traits"
+                  ]
+                ],
+                "value": "Model§Custodian Guard"
+              },
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Models",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "stats",
+                  "Guardian Axes",
+                  "value"
+                ]
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "traits",
+                    "item",
+                    "Model§Custodian Guard",
+                    "stats",
+                    [
+                      "Equipment",
+                      "Custodian Guard Weapon"
+                    ],
+                    "value"
+                  ]
+                ],
+                "value": "Guardian Axe"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "equation": {
+                  "operator": "T*O",
+                  "value": 1
+                },
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Guardian Axes",
+                    "value"
+                  ]
+                ],
+                "value": 0
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "ModelCount": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Models",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tally",
+                    "Custodian Guard"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "Weapon count and model count do not match!": {
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "SUM",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Guardian Spears",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "stats",
+                    "Pyrithite Spears",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "stats",
+                    "Adrasite Spears",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "stats",
+                    "Guardian Axes",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "stats",
+                  "Models",
+                  "value"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "A": {
+            "value": "4"
+          },
+          "Adrasite Spears": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 50,
+            "increment": {
+              "value": 1
+            },
+            "max": 10,
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Base": {
+            "statOrder": 11
+          },
+          "BS": {
+            "value": 5
+          },
+          "Guardian Axes": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 50,
+            "increment": {
+              "value": 1
+            },
+            "max": 10,
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "Guardian Spears": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 50,
+            "increment": {
+              "value": 1
+            },
+            "max": 10,
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 3,
+            "visibility": "normal"
+          },
+          "I": {
+            "value": "5"
+          },
+          "Ld": {
+            "value": 9
+          },
+          "M": {
+            "value": "8"
+          },
+          "Models": {
+            "increment": {},
+            "ranks": {
+              "3": {
+                "order": 0
+              },
+              "4": {
+                "order": 1,
+                "tracking": {
+                  "Points": 45
+                }
+              },
+              "5": {
+                "order": 2,
+                "tracking": {
+                  "Points": 90
+                }
+              },
+              "6": {
+                "order": 3,
+                "tracking": {
+                  "Points": 135
+                }
+              },
+              "7": {
+                "order": 4,
+                "tracking": {
+                  "Points": 180
+                }
+              },
+              "8": {
+                "order": 5,
+                "tracking": {
+                  "Points": 225
+                }
+              },
+              "9": {
+                "order": 6,
+                "tracking": {
+                  "Points": 270
+                }
+              },
+              "10": {
+                "order": 7,
+                "tracking": {
+                  "Points": 315
+                }
+              }
+            },
+            "statOrder": 12,
+            "statType": "rank",
+            "value": "3"
+          },
+          "Points": {
+            "value": 150
+          },
+          "Pyrithite Spears": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 50,
+            "increment": {
+              "value": 1
+            },
+            "max": 10,
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "S": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      "Legio Custodes§Custodian Shield Captain": {
+        "assets": {
+          "traits": [
+            "Ability§Bulky",
+            "Ability§Legio Custodes",
+            "Ability§Loyalist",
+            "Ability§Relentless",
+            "Ability§Stubborn",
+            "Wargear§Frag Grenades",
+            "Melee Weapon§Meltabombs",
+            "Wargear§Arae-shrike",
+            "Wargear§Auric Battleplate",
+            "Melee Weapon§Misericord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Infantry",
+            "Skirmish"
+          ],
+          "Faction": [],
+          "Role": [
+            "HQ"
+          ]
+        },
+        "rules": {
+          "FilterWeaponsWhenShieldSelected": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Guardian Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Guardian Axe"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Paragon Glaive"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Two Solarite Power Talons"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Adrasite Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Pyrithite Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Shield Captain Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Meridian Swords"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Can take any of the following",
+                    "value"
+                  ]
+                ],
+                "value": "Praesidium Shield"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 5
+          },
+          "Can take any of the following": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Archaeotech Pistol": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Ranged Weapon§Archaeotech Pistol",
+                      "stats": {
+                        "Points": {
+                          "value": 5
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "Praesidium Shield": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Wargear§Praesidium Shield"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "M": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Points": {
+            "value": 200
+          },
+          "S": {
+            "value": 5
+          },
+          "Shield Captain Weapon": {
+            "dynamic": true,
+            "ranks": {
+              "Guardian Spear": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": {
+                      "assets": {
+                        "traits": [
+                          {
+                            "item": "Melee Weapon§Guardian Spear (Melee)",
+                            "stats": {
+                              "AP": {
+                                "value": 2
+                              },
+                              "Str": {
+                                "value": 1
+                              }
+                            }
+                          },
+                          "Ranged Weapon§Guardian Spear (Shooting)"
+                        ]
+                      },
+                      "item": "Weapon§Guardian Spear"
+                    }
+                  }
+                ]
+              },
+              "Pyrithite Spear": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Weapon§Pyrithite Spear"
+                  }
+                ]
+              },
+              "Adrasite Spear": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Weapon§Adrasite Spear"
+                  }
+                ]
+              },
+              "Sentinel Warblade": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Weapon§Sentinel Warblade"
+                  }
+                ]
+              },
+              "Paragon Blade": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Melee Weapon§Paragon Blade",
+                      "stats": {
+                        "Points": {
+                          "value": 25
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "Meridian Swords": {
+                "order": 5,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Meridian Swords"
+                  }
+                ]
+              },
+              "Solarite Power Gauntlet": {
+                "order": 6,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Melee Weapon§Solarite Power Gauntlet",
+                      "stats": {
+                        "Points": {
+                          "value": 30
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "Solarite Power Talon": {
+                "order": 7,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Melee Weapon§Solarite Power Talon",
+                      "stats": {
+                        "Points": {
+                          "value": 10
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "Two Solarite Power Talons": {
+                "order": 8,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Two Solarite Power Talons"
+                  }
+                ]
+              },
+              "Paragon Glaive": {
+                "order": 9,
+                "traits": [
+                  {
+                    "trait": "Weapon§Paragon Glaive"
+                  }
+                ]
+              },
+              "Guardian Axe": {
+                "order": 10,
+                "traits": [
+                  {
+                    "trait": {
+                      "assets": {
+                        "traits": [
+                          {
+                            "item": "Melee Weapon§Guardian Axe (Melee)",
+                            "stats": {
+                              "AP": {
+                                "value": 2
+                              },
+                              "Range": {
+                                "value": "Melee"
+                              },
+                              "Str": {
+                                "value": 3
+                              }
+                            }
+                          },
+                          "Ranged Weapon§Guardian Axe (Shooting)"
+                        ]
+                      },
+                      "item": "Weapon§Guardian Axe"
+                    }
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Guardian Spear",
+            "visibility": "normal"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "WS": {
+            "value": 6
+          }
+        }
+      },
+      "Legio Custodes§Custodian Tribune": {
+        "assets": {
+          "traits": [
+            "Ability§Bulky",
+            "Ability§Eternal Warrior",
+            "Ability§Fearless",
+            "Ability§Legio Custodes",
+            "Ability§Loyalist",
+            "Ability§Relentless",
+            "Wargear§Frag Grenades",
+            "Melee Weapon§Meltabombs",
+            "Wargear§Arae-shrike",
+            "Wargear§Auric Battleplate",
+            "Melee Weapon§Misericord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Character",
+            "Infantry",
+            "Skirmish"
+          ],
+          "Faction": [],
+          "Role": [
+            "HQ"
+          ]
+        },
+        "rules": {
+          "FilterWeaponsWhenShieldSelected": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Guardian Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Guardian Axe"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Paragon Glaive"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Two Solarite Power Talons"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Adrasite Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Pyrithite Spear"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Tribune Weapon",
+                    "ranks"
+                  ]
+                ],
+                "value": "Meridian Swords"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    [
+                      "Can take any of the following",
+                      "Praesidium Shield"
+                    ],
+                    "value"
+                  ]
+                ],
+                "value": "✓"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "Archaeotech Pistol": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Ranged Weapon§Archaeotech Pistol",
+                      "stats": {
+                        "Points": {
+                          "value": 5
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Base": {
+            "statOrder": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 10
+          },
+          "M": {
+            "value": "8"
+          },
+          "Points": {
+            "value": 300
+          },
+          "Praesidium Shield": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Wargear§Praesidium Shield"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "S": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "Teleport Transponder Array": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Wargear§Teleport Transponder Array"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Tribune Weapon": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Guardian Spear": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Weapon§Guardian Spear"
+                  }
+                ]
+              },
+              "Pyrithite Spear": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Weapon§Pyrithite Spear"
+                  }
+                ]
+              },
+              "Adrasite Spear": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Weapon§Adrasite Spear"
+                  }
+                ]
+              },
+              "Sentinel Warblade": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Weapon§Sentinel Warblade"
+                  }
+                ]
+              },
+              "Paragon Blade": {
+                "order": 5,
+                "traits": [
+                  {
+                    "trait": {
+                      "item": "Melee Weapon§Paragon Blade",
+                      "stats": {
+                        "Points": {
+                          "value": 25
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "Meridian Swords": {
+                "order": 6,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Meridian Swords"
+                  }
+                ]
+              },
+              "Solarite Power Gauntlet": {
+                "order": 7,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Solarite Power Gauntlet"
+                  }
+                ]
+              },
+              "Solarite Power Talon": {
+                "order": 8,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Solarite Power Talon"
+                  }
+                ]
+              },
+              "Two Solarite Power Talons": {
+                "order": 9,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Two Solarite Power Talons"
+                  }
+                ]
+              },
+              "Paragon Glaive": {
+                "order": 10,
+                "traits": [
+                  {
+                    "trait": "Weapon§Paragon Glaive"
+                  }
+                ]
+              },
+              "Guardian Axe": {
+                "order": 11,
+                "traits": [
+                  {
+                    "trait": "Weapon§Guardian Axe"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "W": {
+            "value": 4
+          },
+          "WS": {
+            "value": 7
+          }
+        }
+      },
+      "Legio Custodes§Sentinel Guard Squad": {
+        "allowed": {
+          "items": [
+            "Model§Sentinel Guard",
+            "Model§Coronus Grav-Carrier"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Stubborn",
+            "Ability§Bulky",
+            "Ability§Legio Custodes",
+            "Ability§Chosen Warriors",
+            "Ability§Relentless",
+            "Ability§Loyalist",
+            "Wargear§Auric Warplate",
+            "Wargear§Frag Grenades",
+            "Melee Weapon§Meltabombs",
+            "Melee Weapon§Misericord"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Unit",
+            "Legio Custodes"
+          ],
+          "Faction": [
+            "Liber Imperium",
+            "Custodes"
+          ],
+          "Role": [
+            "Troops"
+          ]
+        },
+        "removed": {
+          "constraints": {
+            "any": [
+              "Legio Custodes"
+            ]
+          }
+        },
+        "rules": {
+          "applyVexilla": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "traits",
+                    "item",
+                    "Model§Sentinel Guard",
+                    "quantity"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              },
+              {
+                "actionType": "add",
+                "iterations": [
+                  "{self}",
+                  "stats",
+                  "Vexilla",
+                  "value"
+                ],
+                "paths": [
+                  [
+                    "{self}",
+                    "traits"
+                  ]
+                ],
+                "value": "Model§Sentinel Guard"
+              },
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Models",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "traits",
+                    "item",
+                    "Model§Sentinel Guard",
+                    "stats",
+                    "Equipment",
+                    "value"
+                  ]
+                ],
+                "value": "Magisterium Vexilla"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "equation": {
+                  "operator": "T*O",
+                  "value": -1
+                },
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Vexilla",
+                    "value"
+                  ]
+                ],
+                "value": 0
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "value": "4"
+          },
+          "BS": {
+            "value": 5
+          },
+          "I": {
+            "value": "5"
+          },
+          "Ld": {
+            "value": 9
+          },
+          "M": {
+            "value": 8
+          },
+          "Models": {
+            "increment": {},
+            "ranks": {
+              "3": {
+                "order": 0,
+                "tracking": {
+                  "Points": 0
+                }
+              },
+              "4": {
+                "order": 1,
+                "tracking": {
+                  "Points": 45
+                }
+              },
+              "5": {
+                "order": 2,
+                "tracking": {
+                  "Points": 90
+                }
+              },
+              "6": {
+                "order": 3,
+                "tracking": {
+                  "Points": 135
+                }
+              },
+              "7": {
+                "order": 4,
+                "tracking": {
+                  "Points": 180
+                }
+              },
+              "8": {
+                "order": 5,
+                "tracking": {
+                  "Points": 225
+                }
+              },
+              "9": {
+                "order": 6,
+                "tracking": {
+                  "Points": 270
+                }
+              },
+              "10": {
+                "order": 7,
+                "tracking": {
+                  "Points": 315
+                }
+              }
+            },
+            "statType": "rank",
+            "value": "3"
+          },
+          "Points": {
+            "value": 150
+          },
+          "S": {
+            "value": 5
+          },
+          "Sentinel Weapon": {
+            "dynamic": true,
+            "ranks": {
+              "Sentinel Warblade": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Weapon§Sentinel Warblade"
+                  }
+                ]
+              },
+              "Solarite Power Talon": {
+                "order": 1,
+                "tracking": {
+                  "Points": 10
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Solarite Power Talon"
+                  }
+                ]
+              },
+              "Solarite Power Gauntlet": {
+                "order": 2,
+                "tracking": {
+                  "Points": 30
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Solarite Power Gauntlet"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Sentinel Warblade",
+            "visibility": "normal"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "Vexilla": {
+            "dynamic": true,
+            "increment": {
+              "value": 1
+            },
+            "max": 1,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
       "Legion Decurions§Decurion Defensor": {
         "assets": {
           "traits": [
@@ -16781,7 +17891,7 @@
           }
         }
       },
-      "Legion§I: Dark Angels": {
+      "Legiones Astartes§I: Dark Angels": {
         "assets": {
           "traits": [
             "Reaction§I: Dark Angels Advanced Reaction",
@@ -16791,10 +17901,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§III: Emperor’s Children": {
+      "Legiones Astartes§III: Emperor’s Children": {
         "assets": {
           "traits": [
             "Reaction§Emperor’s Children Advanced Reaction",
@@ -16804,23 +17917,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§III: Emperor’s Children (Legion Hereticus)": {
-        "assets": {
-          "traits": [
-            "Reaction§Emperor’s Children Advanced Reaction (Legions Hereticus)",
-            "Ability§Legiones Hereticus (Emperor’s Children)"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Legiones Hereticus"
-          ]
-        }
-      },
-      "Legion§IV: Iron Warriors": {
+      "Legiones Astartes§IV: Iron Warriors": {
         "assets": {
           "traits": [
             "Reaction§Iron Warriors Advanced Reaction",
@@ -16830,10 +17933,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§IX: Blood Angels": {
+      "Legiones Astartes§IX: Blood Angels": {
         "assets": {
           "traits": [
             "Reaction§Blood Angels Advanced Reaction",
@@ -16843,10 +17949,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§V: White Scars": {
+      "Legiones Astartes§V: White Scars": {
         "assets": {
           "traits": [
             "Reaction§White Scars Advanced Reaction",
@@ -16856,10 +17965,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§VI: Space Wolves": {
+      "Legiones Astartes§VI: Space Wolves": {
         "assets": {
           "traits": [
             "Reaction§Space Wolves Advanced Reaction",
@@ -16869,10 +17981,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§VII: Imperial Fists": {
+      "Legiones Astartes§VII: Imperial Fists": {
         "assets": {
           "traits": [
             "Reaction§Imperial Fists Advanced Reaction",
@@ -16882,10 +17997,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§VIII: Night Lords": {
+      "Legiones Astartes§VIII: Night Lords": {
         "assets": {
           "traits": [
             "Reaction§Night Lords Advanced Reaction",
@@ -16895,10 +18013,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§X: Iron Hands": {
+      "Legiones Astartes§X: Iron Hands": {
         "assets": {
           "traits": [
             "Reaction§Iron Hands Advanced Reaction",
@@ -16908,10 +18029,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§XII: World Eaters": {
+      "Legiones Astartes§XII: World Eaters": {
         "assets": {
           "traits": [
             "Reaction§World Eaters Advanced Reaction",
@@ -16921,10 +18045,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§XIII: Ultramarines": {
+      "Legiones Astartes§XIII: Ultramarines": {
         "assets": {
           "traits": [
             "Reaction§Ultramarines Advanced Reaction",
@@ -16934,10 +18061,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§XIV: Death Guard": {
+      "Legiones Astartes§XIV: Death Guard": {
         "assets": {
           "traits": [
             "Reaction§Death Guard Advanced Reaction",
@@ -16947,10 +18077,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§XIX: Raven Guard": {
+      "Legiones Astartes§XIX: Raven Guard": {
         "assets": {
           "traits": [
             "Reaction§Raven Guard Advanced Reaction",
@@ -16960,10 +18093,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§XV: Thousand Sons": {
+      "Legiones Astartes§XV: Thousand Sons": {
         "assets": {
           "traits": [
             "Reaction§Thousand Sons Advanced Reaction",
@@ -16973,10 +18109,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§XVI: Sons of Horus": {
+      "Legiones Astartes§XVI: Sons of Horus": {
         "assets": {
           "traits": [
             "Reaction§Sons of Horus Advanced Reaction",
@@ -16986,10 +18125,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§XVII: Word Bearers": {
+      "Legiones Astartes§XVII: Word Bearers": {
         "assets": {
           "traits": [
             "Reaction§Word Bearers Advanced Reaction",
@@ -16999,10 +18141,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
-      "Legion§XVIII: Salamanders": {
+      "Legiones Astartes§XVIII: Salamanders": {
         "assets": {
           "traits": [
             "Reaction§Salamanders Advanced Reaction",
@@ -17012,10 +18157,13 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Loyalist"
           ]
         }
       },
-      "Legion§XX: Alpha Legion": {
+      "Legiones Astartes§XX: Alpha Legion": {
         "assets": {
           "traits": [
             "Reaction§Alpha Legion Advanced Reaction",
@@ -17025,6 +18173,9 @@
         "keywords": {
           "Keywords": [
             "Legiones Astartes"
+          ],
+          "Allegiance": [
+            "Traitor"
           ]
         }
       },
@@ -18055,6 +19206,40 @@
           }
         },
         "text": "Melee, Rending (6+), Achean Force"
+      },
+      "Melee Weapon§Adrasite Spear (Melee)": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Reaping Blow",
+              "stats": {
+                "x": {
+                  "value": 1
+                }
+              }
+            },
+            "Ability§Two-handed"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "Str": {
+            "format": "+{v}",
+            "value": 1
+          },
+          "Type": {
+            "value": "Assault 1, Instant Death, Armourbane (Ranged), Gets Hot"
+          }
+        },
+        "text": "Melee, Two-handed, Reaping Blow (1)"
       },
       "Melee Weapon§Advex-mors Greatsword": {
         "assets": {
@@ -20117,6 +21302,65 @@
         },
         "text": "Melee, Reaping blow (1), Two-handed"
       },
+      "Melee Weapon§Guardian Axe (Melee)": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Two-handed",
+            "Ability§Unwieldy"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "Str": {
+            "format": "+{v}",
+            "value": 3
+          },
+          "Type": {
+            "value": "Assault 2, Shred"
+          }
+        },
+        "text": "Melee, Two-handed, Unwieldy"
+      },
+      "Melee Weapon§Guardian Spear (Melee)": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Reaping Blow",
+              "stats": {
+                "x": {
+                  "value": 1
+                }
+              }
+            },
+            "Ability§Shred",
+            "Ability§Two-handed"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "Str": {
+            "format": "+{v}",
+            "value": 1
+          }
+        },
+        "text": "Melee, Two-handed, Reaping Blow (1)"
+      },
       "Melee Weapon§Hammerhand": {
         "stats": {
           "AP": {
@@ -20897,6 +22141,7 @@
             "value": 2
           },
           "Str": {
+            "format": "+{v}",
             "value": 1
           }
         },
@@ -21199,6 +22444,7 @@
             "value": 2
           },
           "Str": {
+            "format": "+{v}",
             "value": 1
           }
         },
@@ -21235,6 +22481,7 @@
             "value": 2
           },
           "Str": {
+            "format": "+{v}",
             "value": 1
           }
         },
@@ -21674,7 +22921,7 @@
         },
         "text": "Melee, Two-handed. Deflagerate"
       },
-      "Melee Weapon§Pyrithire Spear (Melee)": {
+      "Melee Weapon§Pyrithite Spear (Melee)": {
         "aspects": {
           "Label": "Melee"
         },
@@ -21682,7 +22929,9 @@
           "AP": {
             "value": 2
           },
+          "Points": {},
           "Str": {
+            "format": "+{v}",
             "value": 1
           }
         },
@@ -21878,6 +23127,28 @@
           }
         }
       },
+      "Melee Weapon§Sentinel Warblade (Melee)": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "Str": {
+            "value": 0
+          },
+          "Type": {
+            "value": "Assault 2, Shred"
+          }
+        }
+      },
       "Melee Weapon§Servo-Arm": {
         "assets": {
           "traits": [
@@ -22026,13 +23297,17 @@
           "AP": {
             "value": 1
           },
+          "Points": {
+            "value": 30
+          },
           "Str": {
             "value": 10
           },
           "Type": {
             "value": "Melee, Unwieldy"
           }
-        }
+        },
+        "text": "Melee, Unwieldy"
       },
       "Melee Weapon§Solarite Power Lance": {
         "assets": {
@@ -22079,13 +23354,17 @@
           "AP": {
             "value": 2
           },
+          "Points": {
+            "value": 10
+          },
           "Str": {
             "value": 5
           },
           "Type": {
             "value": "Melee, Shred"
           }
-        }
+        },
+        "text": "Melee, Shred"
       },
       "Melee Weapon§Sovereign Armaments": {
         "assets": {
@@ -23537,6 +24816,31 @@
           }
         },
         "text": "Melee, Specialist Weapon, Rending (4+), Duellist’s Edge (1)"
+      },
+      "Melee Weapon§Two Solarite Power Talons": {
+        "assets": {
+          "traits": [
+            "Ability§Shred"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": 2
+          },
+          "Points": {
+            "value": 15
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "Str": {
+            "value": 5
+          },
+          "Type": {
+            "value": "Melee, Shred"
+          }
+        },
+        "text": "Melee, Shred"
       },
       "Melee Weapon§Viridian Blade": {
         "stats": {
@@ -27453,6 +28757,106 @@
           }
         }
       },
+      "Model§Coronus Grav-Carrier": {
+        "aspects": {
+          "Group Traits": true,
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Legio Custodes",
+            "Ability§Power of the Machine Spirit",
+            "Ability§Deep Strike",
+            "Ability§Outflank",
+            "Ability§Loyalist",
+            "Ranged Weapon§Twin Lastrum Bolt Cannon",
+            "Ranged Weapon§Twin-Linked Arachnus Blaze Cannon",
+            "Wargear§Flare Shield"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Liber Imperium",
+            "Custodes"
+          ],
+          "Keywords": [
+            "Antigrav",
+            "Transport",
+            "Vehicle"
+          ],
+          "Role": [
+            "Dedicated Transport"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "WS": {},
+            "S": {},
+            "T": {},
+            "W": {},
+            "I": {},
+            "A": {},
+            "Ld": {},
+            "Sv": {},
+            "Models": {}
+          }
+        },
+        "stats": {
+          "Base": {
+            "statOrder": 10
+          },
+          "BS": {
+            "value": 5
+          },
+          "FA": {
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 13,
+            "visibility": "normal"
+          },
+          "HP": {
+            "group": "Stats",
+            "groupOrder": 5,
+            "statOrder": 6,
+            "statType": "numeric",
+            "value": 5,
+            "visibility": "normal"
+          },
+          "M": {
+            "value": "16"
+          },
+          "Points": {
+            "value": 180
+          },
+          "RA": {
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 10,
+            "visibility": "normal"
+          },
+          "SA": {
+            "group": "Armour",
+            "groupOrder": 2,
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 12,
+            "visibility": "normal"
+          },
+          "Transport Capacity": {
+            "group": "Capacity",
+            "groupOrder": 3,
+            "statOrder": 10,
+            "statType": "numeric",
+            "value": 18,
+            "visibility": "normal"
+          }
+        },
+        "text": "Vehicle (Transport, Antigrav)"
+      },
       "Model§Crimson Exemplar": {
         "assets": {
           "traits": [
@@ -27617,6 +29021,182 @@
           },
           "W": {
             "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      "Model§Custodian Guard": {
+        "aspects": {
+          "Group Traits": true,
+          "Rename": true
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Melee Weapon§Misericord",
+            "Wargear§Auric Warplate",
+            "Wargear§Frag Grenades",
+            "Melee Weapon§Meltabombs",
+            "Ability§Legio Custodes",
+            "Ability§Bulky",
+            "Ability§Chosen Warriors",
+            "Ability§Stubborn",
+            "Ability§Loyalist",
+            "Ability§Relentless"
+          ]
+        },
+        "keywords": {
+          "Role": [
+            "Troops"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": "4"
+          },
+          "BS": {
+            "value": 5
+          },
+          "Custodian Guard Weapon": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Guardian Spear": {
+                "order": 1,
+                "tracking": {},
+                "traits": [
+                  {
+                    "trait": "Weapon§Guardian Spear"
+                  }
+                ]
+              },
+              "Guardian Axe": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Weapon§Guardian Axe"
+                  }
+                ]
+              },
+              "Adrasite Spear": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Weapon§Adrasite Spear"
+                  }
+                ]
+              },
+              "Pyrithite Spear": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Weapon§Pyrithite Spear"
+                  }
+                ]
+              },
+              "Magisterium Vexilla & Power Sword": {
+                "order": 5,
+                "tracking": {
+                  "Points": 15
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  },
+                  {
+                    "trait": "Melee Weapon§Power Sword"
+                  }
+                ]
+              },
+              "Magisterium Vexilla & Power Axe": {
+                "order": 6,
+                "tracking": {
+                  "Points": 15
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  },
+                  {
+                    "trait": "Melee Weapon§Power Axe"
+                  }
+                ]
+              },
+              "Magisterium Vexilla & Power Maul": {
+                "order": 7,
+                "tracking": {
+                  "Points": 15
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  },
+                  {
+                    "trait": "Melee Weapon§Power Maul"
+                  }
+                ]
+              },
+              "Magisterium Vexilla & Power Lance": {
+                "order": 8,
+                "tracking": {
+                  "Points": 15
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  },
+                  {
+                    "trait": "Melee Weapon§Power Lance"
+                  }
+                ]
+              },
+              "Magisterium Vexilla & Sentinel Warblade": {
+                "order": 9,
+                "tracking": {
+                  "Points": 20
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  },
+                  {
+                    "trait": "Weapon§Sentinel Warblade"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Guardian Spear",
+            "visibility": "normal"
+          },
+          "I": {
+            "value": "5"
+          },
+          "Ld": {
+            "value": 9
+          },
+          "M": {
+            "value": "8"
+          },
+          "Points": {
+            "value": 0,
+            "visibility": "always"
+          },
+          "S": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
           },
           "WS": {
             "value": 5
@@ -47918,6 +49498,89 @@
           }
         }
       },
+      "Model§Sentinel Guard": {
+        "assets": {
+          "traits": [
+            "Ability§Legio Custodes",
+            "Ability§Bulky",
+            "Ability§Chosen Warriors",
+            "Ability§Relentless",
+            "Ability§Stubborn",
+            "Ability§Loyalist"
+          ]
+        },
+        "keywords": {
+          "Role": [
+            "Troops"
+          ],
+          "Keywords": [
+            "Legio Custodes"
+          ],
+          "Faction": [
+            "Legio Custodes"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": "4"
+          },
+          "BS": {
+            "value": 5
+          },
+          "Equipment": {
+            "dynamic": true,
+            "ranks": {
+              "Praesidium Shield": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Wargear§Praesidium Shield"
+                  }
+                ]
+              },
+              "Magisterium Vexilla": {
+                "order": 1,
+                "tracking": {
+                  "Points": 10
+                },
+                "traits": [
+                  {
+                    "trait": "Wargear§Magisterium Vexilla"
+                  }
+                ]
+              }
+            },
+            "statOrder": 100,
+            "statType": "rank",
+            "value": "Praesidium Shield",
+            "visibility": "normal"
+          },
+          "I": {
+            "value": "5"
+          },
+          "Ld": {
+            "value": 9
+          },
+          "M": {
+            "value": "8"
+          },
+          "S": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
       "Model§Servo-Automata": {
         "assets": {
           "traits": [
@@ -52418,50 +54081,6 @@
           }
         }
       },
-      "Ranged Weapon§Adrasite Spear": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Adrasite Spear (Melee)",
-            "Ranged Weapon§Adrasite Spear (Shooting)"
-          ]
-        }
-      },
-      "Ranged Weapon§Adrasite Spear (Melee)": {
-        "aspects": {
-          "Label": "Melee"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Armourbane",
-            "Ability§Gets Hot",
-            "Ability§Instant Death",
-            {
-              "item": "Ability§Reaping Blow",
-              "stats": {
-                "x": {
-                  "value": 1
-                }
-              }
-            },
-            "Ability§Two-handed"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 3
-          },
-          "Range": {
-            "value": 12
-          },
-          "Str": {
-            "value": 5
-          },
-          "Type": {
-            "value": "Assault 1, Instant Death, Armourbane (Ranged), Gets Hot"
-          }
-        },
-        "text": "Melee, Two-handed, Reaping Blow (1)"
-      },
       "Ranged Weapon§Adrasite Spear (Shooting)": {
         "aspects": {
           "Label": "Shooting"
@@ -56169,41 +57788,6 @@
           }
         }
       },
-      "Ranged Weapon§Guardian Axe": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Guardian Axe (Melee)",
-            "Ranged Weapon§Guardian Axe (Shooting)"
-          ]
-        }
-      },
-      "Ranged Weapon§Guardian Axe (Melee)": {
-        "aspects": {
-          "Label": "Melee"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Shred",
-            "Ability§Two-handed",
-            "Ability§Unwieldy"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 4
-          },
-          "Range": {
-            "value": 18
-          },
-          "Str": {
-            "value": 4
-          },
-          "Type": {
-            "value": "Assault 2, Shred"
-          }
-        },
-        "text": "Melee, Two-handed, Unwieldy"
-      },
       "Ranged Weapon§Guardian Axe (Shooting)": {
         "aspects": {
           "Label": "Shooting"
@@ -56230,48 +57814,6 @@
           }
         },
         "text": "Assault 2, Shred"
-      },
-      "Ranged Weapon§Guardian Spear": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Guardian Spear (Melee)",
-            "Ranged Weapon§Guardian Spear (Shooting)"
-          ]
-        }
-      },
-      "Ranged Weapon§Guardian Spear (Melee)": {
-        "aspects": {
-          "Label": "Melee"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Reaping Blow",
-              "stats": {
-                "x": {
-                  "value": 1
-                }
-              }
-            },
-            "Ability§Shred",
-            "Ability§Two-handed"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 4
-          },
-          "Range": {
-            "value": 18
-          },
-          "Str": {
-            "value": 4
-          },
-          "Type": {
-            "value": "Assault 2, Shred"
-          }
-        },
-        "text": "Melee, Two-handed, Reaping Blow (1)"
       },
       "Ranged Weapon§Guardian Spear (Shooting)": {
         "aspects": {
@@ -59295,6 +60837,22 @@
         },
         "text": "Assault 2, Shred"
       },
+      "Ranged Weapon§Paragon Glaive": {
+        "stats": {
+          "AP": {
+            "value": 4
+          },
+          "Points": {
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "Str": {
+            "value": 5
+          }
+        }
+      },
       "Ranged Weapon§Paragon Glaive (Shooting)": {
         "aspects": {
           "Label": "Shooting"
@@ -60211,13 +61769,13 @@
         },
         "text": "Heavy 18, Pinning, Shell Shock (1)"
       },
-      "Ranged Weapon§Pyrithire Spear (Shooting)": {
+      "Ranged Weapon§Pyrithite Spear (Shooting)": {
         "aspects": {
           "Label": "Shooting"
         },
         "stats": {
           "AP": {
-            "value": 1
+            "value": 2
           },
           "Range": {
             "value": 6
@@ -60227,31 +61785,6 @@
           }
         },
         "text": "Assault 1, Armourbane (Melta)"
-      },
-      "Ranged Weapon§Pyrithite Spear": {
-        "assets": {
-          "traits": [
-            "Ability§Armourbane",
-            "Ability§Reaping Blow",
-            "Ability§Two-handed",
-            "Melee Weapon§Pyrithire Spear (Melee)",
-            "Ranged Weapon§Pyrithire Spear (Shooting)"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 1
-          },
-          "Range": {
-            "value": 6
-          },
-          "Str": {
-            "value": 8
-          },
-          "Type": {
-            "value": "Assault 1, Armourbane (Melta)"
-          }
-        }
       },
       "Ranged Weapon§Pyroclast Flame Projector - Dispersed": {
         "assets": {
@@ -60707,38 +62240,6 @@
           }
         },
         "text": "Heavy 1, Barrage, Large Blast (5″), Rocket Barrage"
-      },
-      "Ranged Weapon§Sentinel Warblade": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Sentinel Warblade (Melee)",
-            "Ranged Weapon§Sentinel Warblade (Shooting)"
-          ]
-        }
-      },
-      "Ranged Weapon§Sentinel Warblade (Melee)": {
-        "aspects": {
-          "Label": "Melee"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Shred"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 4
-          },
-          "Range": {
-            "value": 18
-          },
-          "Str": {
-            "value": 4
-          },
-          "Type": {
-            "value": "Assault 2, Shred"
-          }
-        }
       },
       "Ranged Weapon§Sentinel Warblade (Shooting)": {
         "aspects": {
@@ -62942,27 +64443,6 @@
           }
         }
       },
-      "Ranged Weapon§Two Solarite Power Talons": {
-        "assets": {
-          "traits": [
-            "Ability§Shred"
-          ]
-        },
-        "stats": {
-          "AP": {
-            "value": 2
-          },
-          "Range": {
-            "value": "-"
-          },
-          "Str": {
-            "value": 5
-          },
-          "Type": {
-            "value": "Melee, Shred"
-          }
-        }
-      },
       "Ranged Weapon§Tyrant Rocket Launcher": {
         "assets": {
           "traits": [
@@ -63957,6 +65437,10 @@
           "any": [],
           "none": []
         },
+        "keywords": {
+          "Allegiance": [],
+          "Keywords": []
+        },
         "rules": {
           "allowUnitsForOpen": {
             "actions": [
@@ -64005,7 +65489,7 @@
             "failState": "pass",
             "order": 1
           },
-          "setMaxes": {
+          "EmptyFactionSelectionsUponChanges": {
             "actions": [
               {
                 "actionType": "set",
@@ -64014,15 +65498,95 @@
                   [
                     "{self}",
                     "stats",
-                    "Power Level",
-                    "max"
+                    "Major Faction",
+                    "value"
                   ]
                 ],
-                "value": [
-                  "{self}",
-                  "tracked",
-                  "maxPowerLevel"
-                ]
+                "value": "-"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 21
+          },
+          "EmptySubFactionSelectionsUponChanges": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "stats",
+                    "Sub-Faction",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "stats",
+                    "Mechanicum Sub-Faction",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 20
+          },
+          "FoESub-FactionVisibility": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Sub-Faction",
+                    "value"
+                  ]
+                ],
+                "value": "-"
               },
               {
                 "actionType": "set",
@@ -64031,37 +65595,506 @@
                   [
                     "{self}",
                     "stats",
-                    "Points",
-                    "max"
+                    "Sub-Faction",
+                    "visibility"
                   ]
                 ],
-                "value": [
-                  "{self}",
-                  "tracked",
-                  "maxPoints"
-                ]
-              },
+                "value": "hidden"
+              }
+            ],
+            "evals": [
               {
-                "actionType": "set",
-                "iterations": 1,
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
                 "paths": [
                   [
                     "{self}",
                     "stats",
-                    "Detachment",
-                    "max"
+                    "Allegiance",
+                    "value"
                   ]
                 ],
-                "value": [
-                  "{self}",
-                  "tracked",
-                  "maxDetachments"
-                ]
+                "value": "Loyalist"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "Forces of the Emperor"
               }
             ],
             "evaluate": "OR",
+            "failState": "pass"
+          },
+          "HideMajorFaction": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass"
+          },
+          "LegionVisibility": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "Legiones Astartes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass"
+          },
+          "LimitLoyalistFactionsIfTraitor": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "ranks"
+                  ]
+                ],
+                "value": "Forces of the Emperor"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "I: Dark Angels"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "V: White Scars"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "VI: Space Wolves"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "VII: Imperial Fists"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "IX: Blood Angels"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "X: Iron Hands"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XIII: Ultramarines"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XVIII: Salamanders"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XIX: Raven Guard"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "note": "Name wouldn't change, so this is actually a rule limiting the loyalist faction if traitor allegiance is chosen.",
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "Loyalist"
+              }
+            ],
+            "evaluate": "AND",
             "failState": "pass",
-            "order": 1
+            "order": 50
+          },
+          "LimitTraitorFactionsIfLoyalist": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "III: Emperor's Children"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "IV: Iron Warriors"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "VIII: Night Lords"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XII: World Eaters"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XIV: Death Guard"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XV: Thousand Sons"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XVI: Sons of Horus"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XVII: Word Bearers"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legion",
+                    "ranks"
+                  ]
+                ],
+                "value": "XX: Alpha Legion"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "note": "Name wouldn't change, so this is actually a rule limiting the loyalist faction if traitor allegiance is chosen.",
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Allegiance",
+                    "value"
+                  ]
+                ],
+                "value": "Traitor"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 50
+          },
+          "MechanicumSub-FactionVisibility": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Mechanicum Sub-Faction",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Mechanicum Sub-Faction",
+                    "visibility"
+                  ]
+                ],
+                "value": "hidden"
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Major Faction",
+                    "value"
+                  ]
+                ],
+                "value": "Forces of the Omnissiah"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass"
           }
         },
         "stats": {
@@ -64088,6 +66121,7 @@
                 ]
               }
             },
+            "statOrder": 4,
             "statType": "rank",
             "value": "-",
             "visibility": "normal"
@@ -64149,10 +66183,222 @@
                 }
               }
             },
-            "statOrder": 3,
+            "statOrder": 2,
             "statType": "rank",
-            "tracked": false,
             "value": "Strike Force",
+            "visibility": "normal"
+          },
+          "Legion": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "I: Dark Angels": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§I: Dark Angels"
+                  }
+                ]
+              },
+              "III: Emperor's Children": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§III: Emperor’s Children"
+                  }
+                ]
+              },
+              "IV: Iron Warriors": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§IV: Iron Warriors"
+                  }
+                ]
+              },
+              "V: White Scars": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§V: White Scars"
+                  }
+                ]
+              },
+              "VI: Space Wolves": {
+                "order": 5,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§VI: Space Wolves"
+                  }
+                ]
+              },
+              "VII: Imperial Fists": {
+                "order": 6,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§VII: Imperial Fists"
+                  }
+                ]
+              },
+              "VIII: Night Lords": {
+                "order": 7,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§VIII: Night Lords"
+                  }
+                ]
+              },
+              "IX: Blood Angels": {
+                "order": 8,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§IX: Blood Angels"
+                  }
+                ]
+              },
+              "X: Iron Hands": {
+                "order": 9,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§X: Iron Hands"
+                  }
+                ]
+              },
+              "XII: World Eaters": {
+                "order": 10,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XII: World Eaters"
+                  }
+                ]
+              },
+              "XIII: Ultramarines": {
+                "order": 11,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XIII: Ultramarines"
+                  }
+                ]
+              },
+              "XIV: Death Guard": {
+                "order": 12,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XIV: Death Guard"
+                  }
+                ]
+              },
+              "XV: Thousand Sons": {
+                "order": 13,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XV: Thousand Sons"
+                  }
+                ]
+              },
+              "XVI: Sons of Horus": {
+                "order": 14,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XVI: Sons of Horus"
+                  }
+                ]
+              },
+              "XVII: Word Bearers": {
+                "order": 15,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XVII: Word Bearers"
+                  }
+                ]
+              },
+              "XVIII: Salamanders": {
+                "order": 16,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XVIII: Salamanders"
+                  }
+                ]
+              },
+              "XIX: Raven Guard": {
+                "order": 17,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XIX: Raven Guard"
+                  }
+                ]
+              },
+              "XX: Alpha Legion": {
+                "order": 18,
+                "traits": [
+                  {
+                    "trait": "Legiones Astartes§XX: Alpha Legion"
+                  }
+                ]
+              }
+            },
+            "statOrder": 6,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Major Faction": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Legiones Astartes": {
+                "order": 1
+              },
+              "Forces of the Emperor": {
+                "order": 2
+              },
+              "Forces of the Omnissiah": {
+                "order": 3
+              }
+            },
+            "statOrder": 5,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Mechanicum Sub-Faction": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Taghmata Omnissiah": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Forces of the Omnissiah§Taghmata Omnissiah"
+                  }
+                ]
+              },
+              "Questoris Household": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Forces of the Omnissiah§Questoris Household"
+                  }
+                ]
+              },
+              "Titan Legions": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Forces of the Omnissiah§Titan Legions"
+                  }
+                ]
+              }
+            },
+            "statOrder": 6,
+            "statType": "rank",
+            "value": "-",
             "visibility": "normal"
           },
           "Play": {
@@ -64168,9 +66414,8 @@
                 "order": 2
               }
             },
-            "statOrder": 4,
+            "statOrder": 3,
             "statType": "rank",
-            "tracked": false,
             "value": "Matched",
             "visibility": "normal"
           },
@@ -64183,6 +66428,50 @@
             "tracked": true,
             "value": 0,
             "visibility": "normal"
+          },
+          "Sub-Faction": {
+            "dynamic": true,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Legio Custodes": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Forces of the Emperor§Legio Custodes"
+                  }
+                ]
+              },
+              "Sisters of Silence": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Forces of the Emperor§Sisters of Silence"
+                  }
+                ]
+              },
+              "Solar Auxilia": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Forces of the Emperor§Solar Auxilia"
+                  }
+                ]
+              }
+            },
+            "statOrder": 6,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Warlord": {
+            "max": 1,
+            "min": 1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
           },
           "Warlord Trait": {
             "dynamic": false,
@@ -64365,97 +66654,6 @@
           }
         },
         "text": "One Access Point on each side of the hull and one at the rear."
-      },
-      "Troops§Coronus Grav-carrier": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Legio Custodes",
-            "Ability§Power of the Machine Spirit",
-            "Ability§Deep Strike",
-            "Ability§Outflank",
-            "Ability§Loyalist",
-            "Ranged Weapon§Twin Lastrum Bolt Cannon",
-            "Ranged Weapon§Twin-Linked Arachnus Blaze Cannon",
-            "Wargear§Flare Shield"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Liber Imperium",
-            "Custodes"
-          ],
-          "Keywords": [
-            "Unit",
-            "Legio Custodes",
-            "Vehicle",
-            "Transport"
-          ]
-        },
-        "stats": {
-          "BS": {
-            "value": 5
-          },
-          "Front": {
-            "value": 13
-          },
-          "HP": {
-            "value": 5
-          },
-          "Move": {
-            "value": 16
-          },
-          "Points": {
-            "value": 180
-          },
-          "Rear": {
-            "value": 10
-          },
-          "Side": {
-            "value": 12
-          },
-          "Transport Capacity": {
-            "value": 18
-          }
-        },
-        "text": "Vehicle (Transport, Antigrav)"
-      },
-      "Troops§Custodian Guard Squad": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Bulky",
-            "Ability§Chosen Warriors",
-            "Ability§Legio Custodes",
-            "Ability§Relentless",
-            "Ability§Stubborn",
-            "Ability§Loyalist",
-            "Ability§Dedicated Transport (Custodes)",
-            "Melee Weapon§Misericord",
-            "Melee Weapon§Meltabombs",
-            "Wargear§Frag Grenades",
-            "Wargear§Auric Warplate"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Unit",
-            "Legio Custodes"
-          ],
-          "Faction": [
-            "Liber Imperium",
-            "Custodes"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        }
       },
       "Troops§Dracosan Armoured Transport": {
         "aspects": {
@@ -64939,41 +67137,6 @@
         "stats": {
           "Points": {
             "value": 25
-          }
-        }
-      },
-      "Troops§Sentinel Guard Squad": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Stubborn",
-            "Ability§Bulky",
-            "Ability§Legio Custodes",
-            "Ability§Chosen Warriors",
-            "Ability§Relentless",
-            "Ability§Loyalist",
-            "Ability§Dedicated Transport (Custodes)",
-            "Wargear§Auric Warplate",
-            "Wargear§Frag Grenades",
-            "Melee Weapon§Meltabombs",
-            "Melee Weapon§Misericord"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Unit",
-            "Legio Custodes"
-          ],
-          "Faction": [
-            "Liber Imperium",
-            "Custodes"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 15
           }
         }
       },
@@ -84742,6 +86905,11 @@
             "Ability§Deep Strike"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 125
+          }
+        },
         "text": "A model with a teleport transponder array gains the Deep Strike special rule. In addition, the controlling player of a Detachment with the Legio Custodes Sub-faction that includes one or more models with a teleport transponder array may select up to three units for each model with a teleport transponder array that is part of that Detachment, the selected units must each include no more than five models, before being joined by any models with the Independent Character special rule, and all models in the selected units must have the Legio Custodes special rule and Infantry Unit Type. All models in the selected units gain the Deep Strike special rule and must be assigned to a Deep Strike Assault."
       },
       "Wargear§The Aegis Argentum": {
@@ -85050,6 +87218,19 @@
       "Warlord Trait§Warlord Trait: Lord of Decay": {},
       "Warlord Trait§Warlord Trait: Skull Keeper": {},
       "Warlord Trait§Warlord Trait: The End and the Death": {},
+      "Weapon§Adrasite Spear": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Adrasite Spear (Melee)",
+            "Ranged Weapon§Adrasite Spear (Shooting)"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        }
+      },
       "Weapon§Arc Lance": {
         "assets": {
           "traits": [
@@ -85082,6 +87263,22 @@
           ]
         }
       },
+      "Weapon§Guardian Axe": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Guardian Axe (Melee)",
+            "Ranged Weapon§Guardian Axe (Shooting)"
+          ]
+        }
+      },
+      "Weapon§Guardian Spear": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Guardian Spear (Melee)",
+            "Ranged Weapon§Guardian Spear (Shooting)"
+          ]
+        }
+      },
       "Weapon§Las-Impulsor": {
         "assets": {
           "traits": [
@@ -85104,13 +87301,37 @@
             "Ranged Weapon§Paragon Glaive (Shooting)",
             "Melee Weapon§Paragon Glaive (Melee)"
           ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
         }
       },
-      "Weapon§Pyrithire Spear": {
+      "Weapon§Pyrithite Spear": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Pyrithire Spear (Shooting)",
-            "Melee Weapon§Pyrithire Spear (Melee)"
+            "Melee Weapon§Pyrithite Spear (Melee)",
+            "Ranged Weapon§Pyrithite Spear (Shooting)"
+          ]
+        },
+        "stats": {
+          "AP": {},
+          "Points": {
+            "value": 15
+          },
+          "Range": {},
+          "Str": {},
+          "Type": {
+            "value": "Assault 1, Armourbane (Melta)"
+          }
+        }
+      },
+      "Weapon§Sentinel Warblade": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Sentinel Warblade (Melee)",
+            "Ranged Weapon§Sentinel Warblade (Shooting)"
           ]
         }
       },
